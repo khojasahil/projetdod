@@ -48,7 +48,7 @@ Une ligne de `STR_REPORT` représente **une version du rapport**. Une correction
 
 ## Les vues à utiliser en réunion
 
-Le fichier principal contient neuf pages. Les domaines Définitions et Identité sont réunis sur une même page pour montrer leurs liens.
+Le fichier principal contient dix pages : neuf vues métier et une grande page du modèle complet. Les domaines Définitions et Identité sont réunis sur une même vue métier pour montrer leurs liens.
 
 | Page | Image à ouvrir ou à insérer dans une présentation |
 |---|---|
@@ -61,13 +61,22 @@ Le fichier principal contient neuf pages. Les domaines Définitions et Identité
 | 7 | [Rôles](diagrams/images/07-roles.png) |
 | 8 | [Comptes et monnaie virtuelle](diagrams/images/08-comptes.png) |
 | 9 | [Audit et suivi des envois](diagrams/images/09-audit.png) |
+| 10 | [Modèle complet : les neuf domaines, les 34 tables et leurs 365 colonnes](diagrams/images/10-modele-complet.png) |
 
 Les images et les pages draw.io partagent la même composition. Les cartes montrent une sélection de colonnes pour faciliter la lecture. `0..N` signifie « aucun, un ou plusieurs ». Les clés, les obligations et les liens non affichés sont détaillés dans la documentation de construction.
+
+### Voir tout le modèle sur une seule page
+
+L’onglet **« Le modèle complet — domaines, tables et colonnes »** réunit les 34 tables, leurs 365 colonnes, les types logiques et les repères PK/FK. Les 77 références sont indiquées au bas des cartes, y compris les liens entre domaines. Des notes expliquent les points à retenir : la personne et son rôle, les versions et les tentatives d’envoi, ou encore le rattachement d’un compte à une action.
+
+[Ouvrir directement la page complète dans draw.io](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD.drawio#%7B%22pageId%22%3A%22page9%22%7D) · [Image PNG](diagrams/images/10-modele-complet.png) · [Image vectorielle SVG](diagrams/images/10-modele-complet.svg)
+
+Cette planche est faite pour être parcourue en zoomant. Les vues métier précédentes restent les plus adaptées à une présentation projetée.
 
 ## Reproduire le modèle
 
 - [Guide draw.io](docs/GUIDE_DRAWIO.md) : ouvrir, modifier ou redessiner les vues.
-- [Fichier principal — neuf vues métier](diagrams/CANAFE_DOD.drawio).
+- [Fichier principal — neuf vues métier et une vue complète](diagrams/CANAFE_DOD.drawio).
 - [Annexe draw.io — les 34 tables avec toutes leurs colonnes](diagrams/CANAFE_DOD_DETAIL.drawio).
 - [Dictionnaire](docs/DICTIONNAIRE.md) : les 365 colonnes, leur utilité, leurs règles et leurs références Swagger.
 - [Registre des relations](docs/RELATIONS.md) : les liens et leurs cardinalités, pour tracer les connecteurs.

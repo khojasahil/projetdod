@@ -159,30 +159,33 @@ def export_page(p,mx,index,png=True):
     svg=ET.Element('svg',xmlns='http://www.w3.org/2000/svg',width=str(p.w),height=str(p.h),viewBox=f'0 0 {p.w} {p.h}')
     ET.SubElement(svg,'title').text=p.title
     # Raster plus SVG : chaque texte provient des mêmes lignes calculées.
-    im=Image.new('RGB',(p.w*2,p.h*2),BG);draw=ImageDraw.Draw(im)
+    scale=1 if p.slug=='10-modele-complet' else 2
+    im=Image.new('RGB',(p.w*scale,p.h*scale),BG);draw=ImageDraw.Draw(im)
     def paint_shape(i):
         x,y,w,h=i['x'],i['y'],i['w'],i['h']
         if i['kind']=='rect':
             ET.SubElement(svg,'rect',x=str(x),y=str(y),width=str(w),height=str(h),rx=str(i['radius']),fill=i['fill'],stroke=i['stroke'],attrib={'stroke-width':'1'})
-            draw.rounded_rectangle((x*2,y*2,(x+w)*2,(y+h)*2),radius=i['radius']*2,fill=i['fill'],outline=i['stroke'],width=2)
+            draw.rounded_rectangle((x*scale,y*scale,(x+w)*scale,(y+h)*scale),radius=i['radius']*scale,fill=i['fill'],outline=i['stroke'],width=scale)
             style=f"rounded={int(bool(i['radius']))};arcSize=8;fillColor={i['fill']};strokeColor={i['stroke']};"
             val=''
         else:
             size=i['size'];lh=size+7
             for j,line in enumerate(i['value'].split('\n')):
                 txt=ET.SubElement(svg,'text',x=str(x),y=str(y+size+j*lh),fill=i['color'],attrib={'font-family':'Arial, sans-serif','font-size':str(size),'font-weight':'700' if i['bold'] else '400'});txt.text=line
-                draw.text((x*2,(y+j*lh)*2),line,font=font(size*2,i['bold']),fill=i['color'])
+                draw.text((x*scale,(y+j*lh)*scale),line,font=font(size*scale,i['bold']),fill=i['color'])
             style=f"text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize={size};fontColor={i['color']};fontStyle={1 if i['bold'] else 0};"
             val='<div style="line-height:'+str(lh)+'px">'+html.escape(i['value']).replace('\n','<br>')+'</div>'
         c=ET.SubElement(root,'mxCell',id=i['id'],value=val,style=style,vertex='1',parent='1');ET.SubElement(c,'mxGeometry',x=str(x),y=str(y),width=str(w),height=str(h),attrib={'as':'geometry'})
     # Fond, puis liens, puis cartes et textes : les relations ne traversent pas les libellés.
     paint_shape(p.items[0])
+    for i in p.items[1:]:
+        if i.get('backdrop'):paint_shape(i)
     for j,e in enumerate(p.edges):
         pts=e['points'];path='M '+' L '.join(f'{x},{y}' for x,y in pts)
         ET.SubElement(svg,'path',d=path,fill='none',stroke='#8BA0B6',attrib={'stroke-width':'2'})
-        draw.line([(x*2,y*2) for x,y in pts],fill='#8BA0B6',width=4)
+        draw.line([(x*scale,y*scale) for x,y in pts],fill='#8BA0B6',width=2*scale)
         a,b=pts[-2:];angle=math.atan2(b[1]-a[1],b[0]-a[0]);tri=[b,(b[0]-10*math.cos(angle-.4),b[1]-10*math.sin(angle-.4)),(b[0]-10*math.cos(angle+.4),b[1]-10*math.sin(angle+.4))]
-        ET.SubElement(svg,'polygon',points=' '.join(f'{x},{y}' for x,y in tri),fill='#8BA0B6');draw.polygon([(x*2,y*2) for x,y in tri],fill='#8BA0B6')
+        ET.SubElement(svg,'polygon',points=' '.join(f'{x},{y}' for x,y in tri),fill='#8BA0B6');draw.polygon([(x*scale,y*scale) for x,y in tri],fill='#8BA0B6')
         anchor={'bottom':(0.5,1),'top':(0.5,0),'left':(0,0.5),'right':(1,0.5)};sx,sy=anchor[e['start']];ex,ey=anchor[e['end']]
         c=ET.SubElement(root,'mxCell',id='edge'+str(j),value='',edge='1',parent='1',source=e['a'],target=e['b'],style=f'edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX={sx};exitY={sy};entryX={ex};entryY={ey};')
         g=ET.SubElement(c,'mxGeometry',relative='1',attrib={'as':'geometry'});arr=ET.SubElement(g,'Array',attrib={'as':'points'})
@@ -194,14 +197,18 @@ def export_page(p,mx,index,png=True):
             lines=wrap(e['label'],250,14);tw=max(font(14).getlength(s) for s in lines)+14;th=len(lines)*21+6
             ii=dict(kind='rect',id='edge-label-bg'+str(j),x=cx-tw/2,y=cy-th/2,w=tw,h=th,fill=BG,stroke=BG,radius=3);paint_shape(ii)
             paint_shape(dict(kind='text',id='edge-label'+str(j),value='\n'.join(lines),x=cx-tw/2+7,y=cy-th/2+2,w=tw-14,h=th,size=14,color=MUTED,bold=False))
-    for i in p.items[1:]:paint_shape(i)
+    for i in p.items[1:]:
+        if not i.get('backdrop'):paint_shape(i)
     if png:
         d=ROOT/'diagrams/images';d.mkdir(parents=True,exist_ok=True)
         ET.indent(svg);(d/(p.slug+'.svg')).write_text(ET.tostring(svg,encoding='unicode')+'\n',encoding='utf-8')
         im.save(d/(p.slug+'.png'),optimize=True)
 
 def main():
-    scenes();mx=ET.Element('mxfile',host='app.diagrams.net',version='24.7.17')
+    scenes()
+    from complete_view import build
+    PAGES.append(build(Page,M,T,wrap,font))
+    mx=ET.Element('mxfile',host='app.diagrams.net',version='24.7.17')
     for i,p in enumerate(PAGES):export_page(p,mx,i)
     ET.indent(mx);(ROOT/'diagrams/CANAFE_DOD.drawio').write_text(ET.tostring(mx,encoding='unicode')+'\n',encoding='utf-8')
     # Annexe de construction : toutes les colonnes, une table par page.
@@ -221,7 +228,7 @@ def main():
         p.note('rules','Points à vérifier',rulestext,1040,430+refheight,512,rulesheight)
         export_page(p,full,i,False)
     ET.indent(full);(ROOT/'diagrams/CANAFE_DOD_DETAIL.drawio').write_text(ET.tostring(full,encoding='unicode')+'\n',encoding='utf-8')
-    (ROOT/'model/presentation.json').write_text(json.dumps([{'slug':p.slug,'title':p.title,'width':p.w,'height':p.h,'items':p.items,'edges':p.edges,'tables':list(p.cards)} for p in PAGES],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print('9 vues métier, 9 images PNG et SVG, 34 pages de détail.')
+    (ROOT/'model/presentation.json').write_text(json.dumps([{'slug':p.slug,'title':p.title,'width':p.w,'height':p.h,'items':p.items,'edges':p.edges,'tables':list(p.cards),'raster_scale':1 if p.slug=='10-modele-complet' else 2,**({'all_columns':p.overview_columns,'all_relations':p.overview_relations} if hasattr(p,'overview_columns') else {})} for p in PAGES],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print('9 vues métier + 1 vue complète, 10 images PNG et SVG, 34 pages de détail.')
 
 if __name__=='__main__':main()

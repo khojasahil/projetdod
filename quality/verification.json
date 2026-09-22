@@ -5,7 +5,7 @@
   "domains": 9,
   "columns": 365,
   "diagram_pages": {
-    "CANAFE_DOD.drawio": 9,
+    "CANAFE_DOD.drawio": 10,
     "CANAFE_DOD_DETAIL.drawio": 34
   },
   "named_scalar_occurrences_expected": 486,
@@ -37,5 +37,11 @@
     "Couverture des propriétés nommées et des archives, pas des propriétés additionnelles indéfinies.",
     "Aucune base créée; contraintes logiques à implanter.",
     "La vérification de mise en page ne remplace pas la relecture visuelle."
-  ]
+  ],
+  "complete_page": {
+    "tables": 34,
+    "columns": 365,
+    "references": 77,
+    "all_columns_and_references_found_in_drawio": true
+  }
 }

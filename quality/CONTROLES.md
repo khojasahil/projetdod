@@ -7,13 +7,14 @@ Date : 22 septembre 2026.
 Le [résultat détaillé](verification.json) est généré par `tools/verify.py`, indépendamment du parcours de génération des tables.
 
 - 34 tables, 365 colonnes et neuf domaines, avec les effectifs 4 / 4 / 2 / 2 / 7 / 3 / 5 / 3 / 4 demandés.
-- Neuf pages métier et une annexe de 34 pages, une par table avec toutes ses colonnes.
+- Neuf pages métier, une page du modèle complet et une annexe de 34 pages, une par table avec toutes ses colonnes.
+- La page complète contient exactement les 34 tables et les 365 colonnes du catalogue. Ses 77 références sont présentes, sans omission ni doublon. Les textes correspondants sont vérifiés dans le XML draw.io.
 - 486 occurrences scalaires documentées, variantes distinguées, sur les schémas retenus; toutes ont une correspondance. Parmi elles, 437 appartiennent au graphe de `STRReport`. Ces nombres comptent les usages et branches, pas seulement les noms de propriétés uniques.
 - 486 lignes de correspondance. Les colonnes internes, dont les indicateurs de présence, sont expliquées séparément dans le dictionnaire.
 - Toutes les cibles de relations existent. Les propriétés partagées et les regroupements volontaires, notamment les listes de monnaie virtuelle et les messages, sont contrôlés et documentés.
 - Toutes les tables contenant les données DOD sont rattachées à une version.
 - Empreinte du YAML officiel vérifiée.
-- XML draw.io, identifiants de formes, références des connecteurs et limites des pages vérifiés dans les deux fichiers. Les neuf images PNG ont les dimensions attendues; les textes des cartes restent dans leur cadre.
+- XML draw.io, identifiants de formes, références des connecteurs et limites des pages vérifiés dans les deux fichiers. Les dix images PNG ont les dimensions attendues; les textes des cartes restent dans leur cadre.
 - Les liens relatifs du README et des guides pointent vers des fichiers présents.
 - Exemples DOD v1 et v2, réponse individuelle et demande de suppression contrôlés localement.
 - Neuf scénarios invalides détectés : montant mal formé, données requises absentes, liste d’opérations vide, références inconnues ou incompatibles, `refId` dupliqué, adresse libre incomplète et champ supplémentaire interdit.
@@ -23,7 +24,9 @@ Le [résultat détaillé](verification.json) est généré par `tools/verify.py`
 
 Les neuf images métier ont été inspectées visuellement. Les légendes de relations des pages Rapport, Rôles et Audit ont été ajustées pour rester visibles entre les cartes. Les images et les pages draw.io sont produites à partir de la même composition.
 
-La vérification structurelle couvre les 43 pages des deux fichiers. La présentation utilise des pages de travail sans découpage papier. Une impression A4 nécessitera une mise en page adaptée; les PNG sont destinés à une consultation à l’écran et à l’insertion dans des présentations.
+La nouvelle planche complète a été inspectée dans son ensemble, puis à l’échelle de lecture sur les domaines Rapport et Rôles. Les colonnes, références et légendes restent lisibles en zoomant. Les neuf pages métier existantes sont conservées.
+
+La vérification structurelle couvre les 44 pages des deux fichiers. La présentation utilise des pages de travail sans découpage papier. Une impression A4 nécessitera une mise en page adaptée; les PNG sont destinés à une consultation à l’écran et à l’insertion dans des présentations.
 
 Les deux fichiers publiés ont aussi été ouverts dans l’éditeur officiel diagrams.net. L’éditeur a reconnu les neuf pages métier et les 34 pages de l’annexe. La vue des domaines, la page des rôles et la fiche complète STR_REPORT ont été relues à l’écran. Le thème de l’éditeur peut adapter les couleurs, sans modifier la composition des cartes.
 

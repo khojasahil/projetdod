@@ -1,0 +1,727 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6580" height="7445" viewBox="0 0 6580 7445">
+  <title>Le modèle complet — domaines, tables et colonnes</title>
+  <rect stroke-width="1" x="0" y="0" width="6580" height="7445" rx="0" fill="#F3F6FA" stroke="#F3F6FA" />
+  <rect stroke-width="1" x="70" y="680" width="2080" height="1755" rx="16" fill="#EDF2F8" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="2250" y="680" width="2080" height="1881" rx="16" fill="#EDF2F8" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="4430" y="680" width="2080" height="1011" rx="16" fill="#EDF2F8" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="4430" y="1791" width="2080" height="893" rx="16" fill="#EDF2F8" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="4430" y="2784" width="2080" height="2981" rx="16" fill="#EDF2F8" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="70" y="2535" width="2080" height="2027" rx="16" fill="#EDF2F8" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="2250" y="2661" width="2080" height="2507" rx="16" fill="#EDF2F8" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="70" y="4662" width="2080" height="1671" rx="16" fill="#EDF2F8" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="2250" y="5268" width="2080" height="1997" rx="16" fill="#EDF2F8" stroke="#D8E2EC" />
+  <path stroke-width="2" d="M 1060,1253.0 L 1110.0,1253.0 L 1110.0,983.0 L 1160,983.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="1160,983.0 1150.789390059971,986.8941834230865 1150.789390059971,979.1058165769135" fill="#8BA0B6" />
+  <rect stroke-width="1" x="1090.0" y="1104.5" width="40.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1097.0" y="1120.5" fill="#5E7185">0..N</text>
+  <path stroke-width="2" d="M 110,1253.0 L 90,1253.0 L 90,1965.0 L 110,1965.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="110,1965.0 100.78939005997115,1968.8941834230866 100.78939005997115,1961.1058165769134" fill="#8BA0B6" />
+  <path stroke-width="2" d="M 1060,1965.0 L 1110.0,1965.0 L 1110.0,1996.0 L 1160,1996.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="1160,1996.0 1150.789390059971,1999.8941834230866 1150.789390059971,1992.1058165769134" fill="#8BA0B6" />
+  <rect stroke-width="1" x="1090.0" y="1967.0" width="40.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1097.0" y="1983.0" fill="#5E7185">0..N</text>
+  <path stroke-width="2" d="M 3240,998.0 L 3290.0,998.0 L 3290.0,1195.0 L 3340,1195.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="3340,1195.0 3330.789390059971,1198.8941834230866 3330.789390059971,1191.1058165769134" fill="#8BA0B6" />
+  <rect stroke-width="1" x="3271.0" y="1083.0" width="38.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="3278.0" y="1099.0" fill="#5E7185">0..1</text>
+  <path stroke-width="2" d="M 2290,998.0 L 2270,998.0 L 2270,2001.0 L 2290,2001.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="2290,2001.0 2280.789390059971,2004.8941834230866 2280.789390059971,1997.1058165769134" fill="#8BA0B6" />
+  <path stroke-width="2" d="M 4290,1195.0 L 4310,1195.0 L 4310,1941.0 L 4290,1941.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="4290,1941.0 4299.210609940029,1937.1058165769134 4299.210609940029,1944.8941834230866" fill="#8BA0B6" />
+  <path stroke-width="2" d="M 1060,2988.0 L 1110.0,2988.0 L 1110.0,3064.0 L 1160,3064.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="1160,3064.0 1150.789390059971,3067.8941834230864 1150.789390059971,3060.1058165769136" fill="#8BA0B6" />
+  <rect stroke-width="1" x="1090.0" y="3012.5" width="40.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1097.0" y="3028.5" fill="#5E7185">0..N</text>
+  <path stroke-width="2" d="M 110,2988.0 L 90,2988.0 L 90,3943.0 L 110,3943.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="110,3943.0 100.78939005997115,3946.8941834230864 100.78939005997115,3939.1058165769136" fill="#8BA0B6" />
+  <path stroke-width="2" d="M 3240,3176.0 L 3290.0,3176.0 L 3290.0,3116.0 L 3340,3116.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="3340,3116.0 3330.789390059971,3119.8941834230864 3330.789390059971,3112.1058165769136" fill="#8BA0B6" />
+  <rect stroke-width="1" x="3270.0" y="3132.5" width="40.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="3277.0" y="3148.5" fill="#5E7185">0..N</text>
+  <path stroke-width="2" d="M 1060,5147.0 L 1110.0,5147.0 L 1110.0,5027.0 L 1160,5027.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="1160,5027.0 1150.789390059971,5030.894183423086 1150.789390059971,5023.105816576914" fill="#8BA0B6" />
+  <rect stroke-width="1" x="1090.0" y="5073.5" width="40.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1097.0" y="5089.5" fill="#5E7185">0..N</text>
+  <path stroke-width="2" d="M 3240,5782.0 L 3290.0,5782.0 L 3290.0,5617.0 L 3340,5617.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="3340,5617.0 3330.789390059971,5620.894183423086 3330.789390059971,5613.105816576914" fill="#8BA0B6" />
+  <rect stroke-width="1" x="3271.0" y="5686.0" width="38.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="3278.0" y="5702.0" fill="#5E7185">0..1</text>
+  <path stroke-width="2" d="M 2290,5782.0 L 2270,5782.0 L 2270,6646.0 L 2290,6646.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="2290,6646.0 2280.789390059971,6649.894183423086 2280.789390059971,6642.105816576914" fill="#8BA0B6" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="48" y="42" fill="#5E7185">CANAFE / DOD–STR / MODÈLE DE DONNÉES</text>
+  <text font-family="Arial, sans-serif" font-size="36" font-weight="700" x="48" y="100" fill="#142B46">Le modèle complet — domaines, tables et colonnes</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="48" y="133" fill="#5E7185">34 tables · 365 colonnes · 77 références documentées · Une seule page à parcourir en zoomant.</text>
+  <text font-family="Arial, sans-serif" font-size="13" font-weight="400" x="48" y="7426" fill="#5E7185">PROJET DOD • Architecture reprise de projet-io | 10</text>
+  <rect stroke-width="1" x="70" y="185" width="2080" height="185" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="92" y="224" fill="#142B46">Comment parcourir cette page</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="92" y="257" fill="#24364B">À gauche : le rapport, les opérations et les comptes. Au centre : les fiches, les rôles et les envois. À droite : l’identité, l’entité et sa propriété. Chaque domaine garde sa couleur et ses noms de tables.</text>
+  <rect stroke-width="1" x="2250" y="185" width="2080" height="185" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="2272" y="224" fill="#142B46">Les repères à connaître</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="2272" y="257" fill="#24364B">PK identifie une ligne. FK retrouve une ligne liée. Sous chaque table, les références indiquent la clé et la table visée. Le nombre après | se lit depuis le parent : 0..1 ou 0..N lignes de la table courante.</text>
+  <rect stroke-width="1" x="4430" y="185" width="2080" height="185" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="4452" y="224" fill="#142B46">Le rapport reste le fil conducteur</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="4452" y="257" fill="#24364B">Chaque table porte str_report_id : tous ses renseignements appartiennent à une version précise. Les références vers les autres tables sont toujours contrôlées dans cette même version.</text>
+  <rect stroke-width="1" x="70" y="410" width="3170" height="175" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="92" y="449" fill="#142B46">Retrouver les liens sans perdre le fil</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="92" y="482" fill="#24364B">Les flèches montrent les liens de structure au sein des domaines. Les 77 références, y compris les liens entre domaines et vers REPORT, sont écrites au bas des cartes. STR_ est omis dans ces références pour alléger la lecture.</text>
+  <rect stroke-width="1" x="3340" y="410" width="3170" height="175" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="3362" y="449" fill="#142B46">Lire les champs avec leur contexte</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="3362" y="482" fill="#24364B">Les types sont logiques. Les colonnes applicables dépendent du type de définition et de l’action décrite. 0..N autorise une liste vide dans le stockage; les obligations avant envoi restent celles du dictionnaire et du Swagger.</text>
+  <text font-family="Arial, sans-serif" font-size="30" font-weight="700" x="110" y="735" fill="#2563EB">01 Rapport · 4 tables</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="110" y="774" fill="#24364B">Quel dossier transmet-on ?</text>
+  <rect stroke-width="1" x="110" y="812" width="950" height="882" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="110" y="812" width="7" height="882" rx="0" fill="#2563EB" stroke="#2563EB" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="134" y="853" fill="#142B46">Le rapport</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="883" fill="#2563EB">STR_REPORT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="134" y="925" fill="#24364B">str_report_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="955" fill="#24364B">previous_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="985" fill="#24364B">report_group_id : Identifiant</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1015" fill="#24364B">version_number : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1045" fill="#24364B">status : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1075" fill="#24364B">created_at : Date et heure</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1105" fill="#24364B">created_by : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1135" fill="#24364B">frozen_at : Date et heure</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1165" fill="#24364B">schema_sha256 : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1195" fill="#24364B">report_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1225" fill="#24364B">submit_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1255" fill="#24364B">activity_sector_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1285" fill="#24364B">reporting_entity_number : Nombre exact</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1315" fill="#24364B">submitting_re_number : Nombre exact</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1345" fill="#24364B">re_report_reference : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1375" fill="#24364B">re_contact_id : Nombre exact</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1405" fill="#24364B">ministerial_directive_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1435" fill="#24364B">suspicious_activity_desc : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1465" fill="#24364B">suspicion_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1495" fill="#24364B">pep_included_indicator : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1525" fill="#24364B">action_taken_desc : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1555" fill="#24364B">action_taken_present : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="1596" fill="#2563EB">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="134" y="1633" fill="#5E7185">previous_report_id → REPORT.str_report_id | 0..1</text>
+  <rect stroke-width="1" x="1160" y="812" width="950" height="342" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="1160" y="812" width="7" height="342" rx="0" fill="#2563EB" stroke="#2563EB" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="1184" y="853" fill="#142B46">Les projets associés</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="1184" y="883" fill="#2563EB">STR_PPP_PROJECT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="1184" y="925" fill="#24364B">ppp_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="955" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="985" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="1015" fill="#24364B">project_name_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="1184" y="1056" fill="#2563EB">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="1184" y="1093" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <rect stroke-width="1" x="110" y="1794" width="950" height="342" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="110" y="1794" width="7" height="342" rx="0" fill="#2563EB" stroke="#2563EB" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="134" y="1835" fill="#142B46">Les rapports liés</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="1865" fill="#2563EB">STR_RELATED_REPORT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="134" y="1907" fill="#24364B">related_report_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1937" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1967" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="1997" fill="#24364B">re_report_reference : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="2038" fill="#2563EB">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="134" y="2075" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <rect stroke-width="1" x="1160" y="1794" width="950" height="404" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="1160" y="1794" width="7" height="404" rx="0" fill="#2563EB" stroke="#2563EB" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="1184" y="1835" fill="#142B46">Les opérations liées</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="1184" y="1865" fill="#2563EB">STR_RELATED_REPORT_TXN_REF</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="1184" y="1907" fill="#24364B">id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="1937" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="1967" fill="#24364B">related_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="1997" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="2027" fill="#24364B">txn_reference : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="1184" y="2068" fill="#2563EB">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="1184" y="2105" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="1184" y="2137" fill="#5E7185">related_report_id → RELATED_REPORT.related_report_id | 0..N</text>
+  <rect stroke-width="1" x="110" y="2253" width="2000" height="150" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="132" y="2292" fill="#142B46">Le point de départ du dossier</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="132" y="2325" fill="#24364B">Le rapport rassemble le récit et les références. Une correction crée une nouvelle version dans le même groupe; les faits de la version précédente restent consultables.</text>
+  <text font-family="Arial, sans-serif" font-size="30" font-weight="700" x="2290" y="735" fill="#15803D">02 Définitions · 4 tables</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="2290" y="774" fill="#24364B">De qui parle-t-on ?</text>
+  <rect stroke-width="1" x="2290" y="812" width="950" height="372" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="2290" y="812" width="7" height="372" rx="0" fill="#15803D" stroke="#15803D" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="2314" y="853" fill="#142B46">Le point de référence</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="883" fill="#15803D">STR_DEFINITION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="2314" y="925" fill="#24364B">definition_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="955" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="985" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="1015" fill="#24364B">type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="1045" fill="#24364B">ref_id : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="1086" fill="#15803D">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="1123" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <rect stroke-width="1" x="3340" y="812" width="950" height="766" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="3340" y="812" width="7" height="766" rx="0" fill="#15803D" stroke="#15803D" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="3364" y="853" fill="#142B46">La personne</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="883" fill="#15803D">STR_PERSON</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="3364" y="925" fill="#24364B">person_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="955" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="985" fill="#24364B">definition_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1015" fill="#24364B">address_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1045" fill="#24364B">given_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1075" fill="#24364B">surname : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1105" fill="#24364B">other_name_initial : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1135" fill="#24364B">alias : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1165" fill="#24364B">telephone_number : Texte (20)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1195" fill="#24364B">extension_number : Texte (10)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1225" fill="#24364B">date_of_birth : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1255" fill="#24364B">country_of_residence_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1285" fill="#24364B">occupation : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1315" fill="#24364B">name_of_employer : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1345" fill="#24364B">address_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1375" fill="#24364B">country_of_citizenship_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="1416" fill="#15803D">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="1453" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="1485" fill="#5E7185">definition_id → DEFINITION.definition_id | 0..1</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="1517" fill="#5E7185">address_id → ADDRESS.address_id | 0..1</text>
+  <rect stroke-width="1" x="2290" y="1678" width="950" height="646" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="2290" y="1678" width="7" height="646" rx="0" fill="#15803D" stroke="#15803D" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="2314" y="1719" fill="#142B46">L’entité</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="1749" fill="#15803D">STR_ENTITY</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="2314" y="1791" fill="#24364B">entity_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="1821" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="1851" fill="#24364B">definition_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="1881" fill="#24364B">address_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="1911" fill="#24364B">name_of_entity : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="1941" fill="#24364B">telephone_number : Texte (20)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="1971" fill="#24364B">extension_number : Texte (10)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="2001" fill="#24364B">nature_of_principal_business : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="2031" fill="#24364B">address_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="2061" fill="#24364B">registration_incorporation_indicator : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="2091" fill="#24364B">structure_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="2121" fill="#24364B">structure_type_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="2162" fill="#15803D">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="2199" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="2231" fill="#5E7185">definition_id → DEFINITION.definition_id | 0..1</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="2263" fill="#5E7185">address_id → ADDRESS.address_id | 0..1</text>
+  <rect stroke-width="1" x="3340" y="1678" width="950" height="526" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="3340" y="1678" width="7" height="526" rx="0" fill="#15803D" stroke="#15803D" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="3364" y="1719" fill="#142B46">L’employeur</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="1749" fill="#15803D">STR_EMPLOYER_INFO</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="3364" y="1791" fill="#24364B">employer_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1821" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1851" fill="#24364B">person_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1881" fill="#24364B">address_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1911" fill="#24364B">name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1941" fill="#24364B">address_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="1971" fill="#24364B">telephone_number : Texte (20)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="2001" fill="#24364B">extension_number : Texte (10)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="2042" fill="#15803D">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="2079" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="2111" fill="#5E7185">person_id → PERSON.person_id | 0..1</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="2143" fill="#5E7185">address_id → ADDRESS.address_id | 0..1</text>
+  <rect stroke-width="1" x="2290" y="2379" width="2000" height="150" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="2312" y="2418" fill="#142B46">La fiche et son usage sont deux choses différentes</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="2312" y="2451" fill="#24364B">DEFINITION donne le repère. PERSON ou ENTITY décrit la fiche. Les rôles citent ce repère avec le type attendu. Une même personne réelle peut donc avoir plusieurs fiches déclaratives.</text>
+  <text font-family="Arial, sans-serif" font-size="30" font-weight="700" x="4470" y="735" fill="#B7791F">03 Identité · 2 tables</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="4470" y="774" fill="#24364B">Comment la décrire et l’identifier ?</text>
+  <rect stroke-width="1" x="4470" y="812" width="950" height="642" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="4470" y="812" width="7" height="642" rx="0" fill="#B7791F" stroke="#B7791F" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="4494" y="853" fill="#142B46">L’adresse</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="883" fill="#B7791F">STR_ADDRESS</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="4494" y="925" fill="#24364B">address_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="955" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="985" fill="#24364B">type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="1015" fill="#24364B">unit_number : Texte (10)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="1045" fill="#24364B">building_number : Texte (10)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="1075" fill="#24364B">street_address : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="1105" fill="#24364B">city : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="1135" fill="#24364B">district : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="1165" fill="#24364B">province_state_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="1195" fill="#24364B">province_state_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="1225" fill="#24364B">sub_province_sub_locality : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="1255" fill="#24364B">postal_zip_code : Texte (20)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="1285" fill="#24364B">country_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="1315" fill="#24364B">unstructured : Texte (500)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="1356" fill="#B7791F">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="1393" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <rect stroke-width="1" x="5520" y="812" width="950" height="554" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="5520" y="812" width="7" height="554" rx="0" fill="#B7791F" stroke="#B7791F" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="5544" y="853" fill="#142B46">Les pièces d’identité</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="5544" y="883" fill="#B7791F">STR_IDENTIFICATION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="5544" y="925" fill="#24364B">identification_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="955" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="985" fill="#24364B">definition_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="1015" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="1045" fill="#24364B">identifier_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="1075" fill="#24364B">identifier_type_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="1105" fill="#24364B">number : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="1135" fill="#24364B">jurisdiction_country_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="1165" fill="#24364B">jurisdiction_province_state_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="1195" fill="#24364B">jurisdiction_province_state_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="5544" y="1236" fill="#B7791F">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="1273" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="1305" fill="#5E7185">definition_id → DEFINITION.definition_id | 0..N</text>
+  <rect stroke-width="1" x="4470" y="1509" width="2000" height="150" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="4492" y="1548" fill="#142B46">Une adresse n’est pas une pièce d’identité</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="4492" y="1581" fill="#24364B">L’adresse décrit où se trouve la personne ou l’organisation. L’identification décrit le document utilisé pour l’identifier. Chaque adresse garde un seul propriétaire dans cette version du rapport.</text>
+  <text font-family="Arial, sans-serif" font-size="30" font-weight="700" x="4470" y="1846" fill="#0F766E">04 Entité · 2 tables</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="4470" y="1885" fill="#24364B">Comment l’organisation est-elle constituée ?</text>
+  <rect stroke-width="1" x="4470" y="1923" width="950" height="524" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="4470" y="1923" width="7" height="524" rx="0" fill="#0F766E" stroke="#0F766E" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="4494" y="1964" fill="#142B46">L’enregistrement</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="1994" fill="#0F766E">STR_REGISTRATION_INCORPORATION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="4494" y="2036" fill="#24364B">reg_inc_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="2066" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="2096" fill="#24364B">entity_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="2126" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="2156" fill="#24364B">type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="2186" fill="#24364B">number : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="2216" fill="#24364B">jurisdiction_country_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="2246" fill="#24364B">jurisdiction_province_state_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="2276" fill="#24364B">jurisdiction_province_state_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="2317" fill="#0F766E">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="2354" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="2386" fill="#5E7185">entity_id → ENTITY.entity_id | 0..N</text>
+  <rect stroke-width="1" x="5520" y="1923" width="950" height="464" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="5520" y="1923" width="7" height="464" rx="0" fill="#0F766E" stroke="#0F766E" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="5544" y="1964" fill="#142B46">Les personnes autorisées</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="5544" y="1994" fill="#0F766E">STR_AUTHORIZED_PERSON</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="5544" y="2036" fill="#24364B">auth_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="2066" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="2096" fill="#24364B">entity_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="2126" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="2156" fill="#24364B">surname : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="2186" fill="#24364B">given_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="2216" fill="#24364B">other_name_initial : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="5544" y="2257" fill="#0F766E">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="2294" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="2326" fill="#5E7185">entity_id → ENTITY.entity_id | 0..N</text>
+  <rect stroke-width="1" x="4470" y="2502" width="2000" height="150" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="4492" y="2541" fill="#142B46">Être autorisé à agir ne signifie pas être propriétaire</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="4492" y="2574" fill="#24364B">Ces deux tables complètent la fiche de l’entité : son enregistrement d’un côté, les personnes autorisées de l’autre. Les renseignements de direction et de propriété sont rangés dans le domaine suivant.</text>
+  <text font-family="Arial, sans-serif" font-size="30" font-weight="700" x="4470" y="2839" fill="#C24153">05 Bénéficiaires effectifs · 7 tables</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="4470" y="2878" fill="#24364B">Qui dirige ou détient l’entité ?</text>
+  <rect stroke-width="1" x="4470" y="2916" width="950" height="616" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="4470" y="2916" width="7" height="616" rx="0" fill="#C24153" stroke="#C24153" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="4494" y="2957" fill="#142B46">Les administrateurs</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="2987" fill="#C24153">STR_DIRECTOR</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="4494" y="3029" fill="#24364B">director_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3059" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3089" fill="#24364B">entity_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3119" fill="#24364B">address_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3149" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3179" fill="#24364B">surname : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3209" fill="#24364B">given_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3239" fill="#24364B">other_name_initial : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3269" fill="#24364B">address_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3299" fill="#24364B">telephone_number : Texte (20)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3329" fill="#24364B">extension_number : Texte (10)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="3370" fill="#C24153">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="3407" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="3439" fill="#5E7185">entity_id → ENTITY.entity_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="3471" fill="#5E7185">address_id → ADDRESS.address_id | 0..1</text>
+  <rect stroke-width="1" x="5520" y="2916" width="950" height="464" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="5520" y="2916" width="7" height="464" rx="0" fill="#C24153" stroke="#C24153" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="5544" y="2957" fill="#142B46">Les détenteurs d’actions</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="5544" y="2987" fill="#C24153">STR_SHARE_OWNER</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="5544" y="3029" fill="#24364B">share_owner_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3059" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3089" fill="#24364B">entity_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3119" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3149" fill="#24364B">surname : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3179" fill="#24364B">given_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3209" fill="#24364B">other_name_initial : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="5544" y="3250" fill="#C24153">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="3287" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="3319" fill="#5E7185">entity_id → ENTITY.entity_id | 0..N</text>
+  <rect stroke-width="1" x="4470" y="3632" width="950" height="616" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="4470" y="3632" width="7" height="616" rx="0" fill="#C24153" stroke="#C24153" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="4494" y="3673" fill="#142B46">Les fiduciaires</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="3703" fill="#C24153">STR_TRUSTEE</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="4494" y="3745" fill="#24364B">trustee_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3775" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3805" fill="#24364B">entity_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3835" fill="#24364B">address_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3865" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3895" fill="#24364B">surname : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3925" fill="#24364B">given_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3955" fill="#24364B">other_name_initial : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="3985" fill="#24364B">address_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4015" fill="#24364B">telephone_number : Texte (20)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4045" fill="#24364B">extension_number : Texte (10)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="4086" fill="#C24153">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="4123" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="4155" fill="#5E7185">entity_id → ENTITY.entity_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="4187" fill="#5E7185">address_id → ADDRESS.address_id | 0..1</text>
+  <rect stroke-width="1" x="5520" y="3632" width="950" height="616" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="5520" y="3632" width="7" height="616" rx="0" fill="#C24153" stroke="#C24153" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="5544" y="3673" fill="#142B46">Les constituants</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="5544" y="3703" fill="#C24153">STR_SETTLOR</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="5544" y="3745" fill="#24364B">settlor_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3775" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3805" fill="#24364B">entity_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3835" fill="#24364B">address_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3865" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3895" fill="#24364B">surname : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3925" fill="#24364B">given_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3955" fill="#24364B">other_name_initial : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="3985" fill="#24364B">address_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4015" fill="#24364B">telephone_number : Texte (20)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4045" fill="#24364B">extension_number : Texte (10)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="5544" y="4086" fill="#C24153">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="4123" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="4155" fill="#5E7185">entity_id → ENTITY.entity_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="4187" fill="#5E7185">address_id → ADDRESS.address_id | 0..1</text>
+  <rect stroke-width="1" x="4470" y="4348" width="950" height="616" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="4470" y="4348" width="7" height="616" rx="0" fill="#C24153" stroke="#C24153" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="4494" y="4389" fill="#142B46">Les détenteurs d’unités</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="4419" fill="#C24153">STR_TRUST_UNIT_OWNER</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="4494" y="4461" fill="#24364B">trust_unit_owner_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4491" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4521" fill="#24364B">entity_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4551" fill="#24364B">address_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4581" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4611" fill="#24364B">surname : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4641" fill="#24364B">given_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4671" fill="#24364B">other_name_initial : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4701" fill="#24364B">address_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4731" fill="#24364B">telephone_number : Texte (20)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="4761" fill="#24364B">extension_number : Texte (10)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="4802" fill="#C24153">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="4839" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="4871" fill="#5E7185">entity_id → ENTITY.entity_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="4903" fill="#5E7185">address_id → ADDRESS.address_id | 0..1</text>
+  <rect stroke-width="1" x="5520" y="4348" width="950" height="616" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="5520" y="4348" width="7" height="616" rx="0" fill="#C24153" stroke="#C24153" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="5544" y="4389" fill="#142B46">Les bénéficiaires de fiducie</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="5544" y="4419" fill="#C24153">STR_TRUST_BENEFICIARY</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="5544" y="4461" fill="#24364B">trust_beneficiary_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4491" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4521" fill="#24364B">entity_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4551" fill="#24364B">address_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4581" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4611" fill="#24364B">surname : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4641" fill="#24364B">given_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4671" fill="#24364B">other_name_initial : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4701" fill="#24364B">address_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4731" fill="#24364B">telephone_number : Texte (20)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="5544" y="4761" fill="#24364B">extension_number : Texte (10)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="5544" y="4802" fill="#C24153">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="4839" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="4871" fill="#5E7185">entity_id → ENTITY.entity_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="5544" y="4903" fill="#5E7185">address_id → ADDRESS.address_id | 0..1</text>
+  <rect stroke-width="1" x="4470" y="5064" width="950" height="464" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="4470" y="5064" width="7" height="464" rx="0" fill="#C24153" stroke="#C24153" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="4494" y="5105" fill="#142B46">Les autres propriétaires</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="5135" fill="#C24153">STR_OTHER_ENTITY_OWNER</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="4494" y="5177" fill="#24364B">other_entity_owner_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="5207" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="5237" fill="#24364B">entity_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="5267" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="5297" fill="#24364B">surname : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="5327" fill="#24364B">given_name : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="4494" y="5357" fill="#24364B">other_name_initial : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="4494" y="5398" fill="#C24153">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="5435" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="4494" y="5467" fill="#5E7185">entity_id → ENTITY.entity_id | 0..N</text>
+  <rect stroke-width="1" x="4470" y="5583" width="2000" height="150" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="4492" y="5622" fill="#142B46">Sept listes, une entité concernée</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="4492" y="5655" fill="#24364B">Ces renseignements appartiennent à une entité de type 6. Les noms sont décrits directement dans les listes du Swagger. Le bénéficiaire d’une fiducie n’est pas le bénéficiaire d’une opération.</text>
+  <text font-family="Arial, sans-serif" font-size="30" font-weight="700" x="110" y="2590" fill="#C76C12">06 Transactions · 3 tables</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="110" y="2629" fill="#24364B">Que s’est-il passé ?</text>
+  <rect stroke-width="1" x="110" y="2667" width="950" height="642" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="110" y="2667" width="7" height="642" rx="0" fill="#C76C12" stroke="#C76C12" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="134" y="2708" fill="#142B46">L’opération</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="2738" fill="#C76C12">STR_TRANSACTION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="134" y="2780" fill="#24364B">transaction_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="2810" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="2840" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="2870" fill="#24364B">re_location_id : Texte (30)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="2900" fill="#24364B">attempted_indicator : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="2930" fill="#24364B">reason_not_completed : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="2960" fill="#24364B">date_of_transaction : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="2990" fill="#24364B">time_of_transaction : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3020" fill="#24364B">method_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3050" fill="#24364B">method_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3080" fill="#24364B">date_of_posting : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3110" fill="#24364B">time_of_posting : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3140" fill="#24364B">re_txn_reference : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3170" fill="#24364B">purpose : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="3211" fill="#C76C12">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="134" y="3248" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <rect stroke-width="1" x="1160" y="2667" width="950" height="794" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="1160" y="2667" width="7" height="794" rx="0" fill="#C76C12" stroke="#C76C12" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="1184" y="2708" fill="#142B46">L’action initiale</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="1184" y="2738" fill="#C76C12">STR_STARTING_ACTION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="1184" y="2780" fill="#24364B">starting_action_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="2810" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="2840" fill="#24364B">transaction_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="2870" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="2900" fill="#24364B">direction : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="2930" fill="#24364B">fund_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="2960" fill="#24364B">fund_type_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="2990" fill="#24364B">amount : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="3020" fill="#24364B">currency_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="3050" fill="#24364B">vc_type_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="3080" fill="#24364B">vc_type_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="3110" fill="#24364B">exchange_rate : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="3140" fill="#24364B">reference_number : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="3170" fill="#24364B">ref_number_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="3200" fill="#24364B">account_status_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="3230" fill="#24364B">how_funds_obtained : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="3260" fill="#24364B">source_funds_indicator : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="3290" fill="#24364B">conductor_indicator : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="1184" y="3331" fill="#C76C12">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="1184" y="3368" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="1184" y="3400" fill="#5E7185">transaction_id → TRANSACTION.transaction_id | 0..N</text>
+  <rect stroke-width="1" x="110" y="3561" width="950" height="764" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="110" y="3561" width="7" height="764" rx="0" fill="#C76C12" stroke="#C76C12" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="134" y="3602" fill="#142B46">L’action finale</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="3632" fill="#C76C12">STR_COMPLETING_ACTION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="134" y="3674" fill="#24364B">completing_action_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3704" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3734" fill="#24364B">transaction_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3764" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3794" fill="#24364B">disposition_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3824" fill="#24364B">disposition_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3854" fill="#24364B">amount : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3884" fill="#24364B">currency_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3914" fill="#24364B">vc_type_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3944" fill="#24364B">vc_type_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="3974" fill="#24364B">exchange_rate : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="4004" fill="#24364B">value_in_cad : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="4034" fill="#24364B">reference_number : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="4064" fill="#24364B">ref_number_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="4094" fill="#24364B">account_status_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="4124" fill="#24364B">involvement_indicator : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="4154" fill="#24364B">beneficiary_indicator : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="4195" fill="#C76C12">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="134" y="4232" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="134" y="4264" fill="#5E7185">transaction_id → TRANSACTION.transaction_id | 0..N</text>
+  <rect stroke-width="1" x="110" y="4380" width="2000" height="150" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="132" y="4419" fill="#142B46">Lire le mouvement dans les deux sens</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="132" y="4452" fill="#24364B">L’opération donne le contexte. Ses actions décrivent ce qui amorce le mouvement et ce qui est fait des fonds à l’arrivée. Il peut y avoir plusieurs actions initiales et plusieurs actions finales.</text>
+  <text font-family="Arial, sans-serif" font-size="30" font-weight="700" x="2290" y="2716" fill="#7C3AED">07 Rôles · 5 tables</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="2290" y="2755" fill="#24364B">Qui fait quoi dans l’opération ?</text>
+  <rect stroke-width="1" x="2290" y="2793" width="950" height="766" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="2290" y="2793" width="7" height="766" rx="0" fill="#7C3AED" stroke="#7C3AED" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="2314" y="2834" fill="#142B46">L’exécutant</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="2864" fill="#7C3AED">STR_CONDUCTOR</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="2314" y="2906" fill="#24364B">conductor_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="2936" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="2966" fill="#24364B">starting_action_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="2996" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3026" fill="#24364B">type_code : Entier [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3056" fill="#24364B">ref_id : Texte [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3086" fill="#24364B">client_number : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3116" fill="#24364B">email_address : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3146" fill="#24364B">url : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3176" fill="#24364B">device_type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3206" fill="#24364B">device_type_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3236" fill="#24364B">username : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3266" fill="#24364B">device_id_number : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3296" fill="#24364B">ip_address : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3326" fill="#24364B">online_session_datetime : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3356" fill="#24364B">on_behalf_of_indicator : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="3397" fill="#7C3AED">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="3434" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="3466" fill="#5E7185">starting_action_id → STARTING_ACTION.starting_action_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="3498" fill="#5E7185">str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N</text>
+  <rect stroke-width="1" x="3340" y="2793" width="950" height="646" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="3340" y="2793" width="7" height="646" rx="0" fill="#7C3AED" stroke="#7C3AED" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="3364" y="2834" fill="#142B46">Le tiers représenté</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="2864" fill="#7C3AED">STR_ON_BEHALF_OF</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="3364" y="2906" fill="#24364B">obo_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="2936" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="2966" fill="#24364B">conductor_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="2996" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3026" fill="#24364B">type_code : Entier [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3056" fill="#24364B">ref_id : Texte [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3086" fill="#24364B">client_number : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3116" fill="#24364B">email_address : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3146" fill="#24364B">url : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3176" fill="#24364B">relationship_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3206" fill="#24364B">relationship_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3236" fill="#24364B">details_present : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="3277" fill="#7C3AED">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="3314" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="3346" fill="#5E7185">conductor_id → CONDUCTOR.conductor_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="3378" fill="#5E7185">str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N</text>
+  <rect stroke-width="1" x="2290" y="3659" width="950" height="586" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="2290" y="3659" width="7" height="586" rx="0" fill="#7C3AED" stroke="#7C3AED" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="2314" y="3700" fill="#142B46">La source des fonds</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="3730" fill="#7C3AED">STR_SOURCE_OF_FUNDS</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="2314" y="3772" fill="#24364B">source_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3802" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3832" fill="#24364B">starting_action_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3862" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3892" fill="#24364B">type_code : Entier [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3922" fill="#24364B">ref_id : Texte [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3952" fill="#24364B">account_number : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="3982" fill="#24364B">policy_number : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="4012" fill="#24364B">identifying_number : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="4042" fill="#24364B">details_present : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="4083" fill="#7C3AED">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="4120" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="4152" fill="#5E7185">starting_action_id → STARTING_ACTION.starting_action_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="4184" fill="#5E7185">str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N</text>
+  <rect stroke-width="1" x="3340" y="3659" width="950" height="586" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="3340" y="3659" width="7" height="586" rx="0" fill="#7C3AED" stroke="#7C3AED" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="3364" y="3700" fill="#142B46">La personne impliquée</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="3730" fill="#7C3AED">STR_INVOLVEMENT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="3364" y="3772" fill="#24364B">involvement_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3802" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3832" fill="#24364B">completing_action_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3862" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3892" fill="#24364B">type_code : Entier [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3922" fill="#24364B">ref_id : Texte [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3952" fill="#24364B">account_number : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="3982" fill="#24364B">identifying_number : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="4012" fill="#24364B">policy_number : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="4042" fill="#24364B">details_present : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="4083" fill="#7C3AED">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="4120" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="4152" fill="#5E7185">completing_action_id → COMPLETING_ACTION.completing_action_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="4184" fill="#5E7185">str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N</text>
+  <rect stroke-width="1" x="2290" y="4345" width="950" height="586" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="2290" y="4345" width="7" height="586" rx="0" fill="#7C3AED" stroke="#7C3AED" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="2314" y="4386" fill="#142B46">Le bénéficiaire de l’opération</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="4416" fill="#7C3AED">STR_BENEFICIARY</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="2314" y="4458" fill="#24364B">beneficiary_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="4488" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="4518" fill="#24364B">completing_action_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="4548" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="4578" fill="#24364B">type_code : Entier [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="4608" fill="#24364B">ref_id : Texte [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="4638" fill="#24364B">client_number : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="4668" fill="#24364B">username : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="4698" fill="#24364B">email_address : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="4728" fill="#24364B">details_present : Oui / non</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="4769" fill="#7C3AED">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="4806" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="4838" fill="#5E7185">completing_action_id → COMPLETING_ACTION.completing_action_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="4870" fill="#5E7185">str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N</text>
+  <rect stroke-width="1" x="2290" y="4986" width="2000" height="150" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="2312" y="5025" fill="#142B46">Camille agit pour la société A</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="2312" y="5058" fill="#24364B">Camille est l’exécutante; A est le tiers représenté. La source des fonds, le titulaire du compte et le bénéficiaire restent des renseignements distincts. On les décrit selon les faits connus.</text>
+  <text font-family="Arial, sans-serif" font-size="30" font-weight="700" x="110" y="4717" fill="#059669">08 Comptes · 3 tables</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="110" y="4756" fill="#24364B">Par quels comptes ou adresses les fonds passent-ils ?</text>
+  <rect stroke-width="1" x="110" y="4794" width="950" height="706" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="110" y="4794" width="7" height="706" rx="0" fill="#059669" stroke="#059669" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="134" y="4835" fill="#142B46">Le compte</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="4865" fill="#059669">STR_ACCOUNT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="134" y="4907" fill="#24364B">account_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="4937" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="4967" fill="#24364B">starting_action_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="4997" fill="#24364B">completing_action_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5027" fill="#24364B">fi_number : Texte (50)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5057" fill="#24364B">branch_number : Texte (50)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5087" fill="#24364B">number : Texte (100)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5117" fill="#24364B">type_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5147" fill="#24364B">type_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5177" fill="#24364B">currency_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5207" fill="#24364B">vc_type_code : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5237" fill="#24364B">vc_type_other : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5267" fill="#24364B">date_opened : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5297" fill="#24364B">date_closed : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="5338" fill="#059669">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="134" y="5375" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="134" y="5407" fill="#5E7185">starting_action_id → STARTING_ACTION.starting_action_id | 0..1</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="134" y="5439" fill="#5E7185">completing_action_id → COMPLETING_ACTION.completing_action_id | 0..1</text>
+  <rect stroke-width="1" x="1160" y="4794" width="950" height="466" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="1160" y="4794" width="7" height="466" rx="0" fill="#059669" stroke="#059669" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="1184" y="4835" fill="#142B46">Les titulaires</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="1184" y="4865" fill="#059669">STR_ACCOUNT_HOLDER</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="1184" y="4907" fill="#24364B">holder_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="4937" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="4967" fill="#24364B">account_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="4997" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="5027" fill="#24364B">type_code : Entier [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1184" y="5057" fill="#24364B">ref_id : Texte [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="1184" y="5098" fill="#059669">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="1184" y="5135" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="1184" y="5167" fill="#5E7185">account_id → ACCOUNT.account_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="1184" y="5199" fill="#5E7185">str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N</text>
+  <rect stroke-width="1" x="110" y="5600" width="950" height="496" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="110" y="5600" width="7" height="496" rx="0" fill="#059669" stroke="#059669" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="134" y="5641" fill="#142B46">La monnaie virtuelle</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="5671" fill="#059669">STR_VC_DATA</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="134" y="5713" fill="#24364B">vc_data_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5743" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5773" fill="#24364B">starting_action_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5803" fill="#24364B">completing_action_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5833" fill="#24364B">data_type : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5863" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="134" y="5893" fill="#24364B">value : Texte (200)</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="134" y="5934" fill="#059669">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="134" y="5971" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="134" y="6003" fill="#5E7185">starting_action_id → STARTING_ACTION.starting_action_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="134" y="6035" fill="#5E7185">completing_action_id → COMPLETING_ACTION.completing_action_id | 0..N</text>
+  <rect stroke-width="1" x="110" y="6151" width="2000" height="150" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="132" y="6190" fill="#142B46">Un compte reste lié à une action précise</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="132" y="6223" fill="#24364B">ACCOUNT et VC_DATA ont chacun deux clés d’action possibles. On en renseigne exactement une : initiale ou finale. Dans VC_DATA, data_type sépare les identifiants, les adresses émettrices et les adresses réceptrices.</text>
+  <text font-family="Arial, sans-serif" font-size="30" font-weight="700" x="2290" y="5323" fill="#64748B">09 Audit · 4 tables</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="2290" y="5362" fill="#24364B">Qu’a-t-on envoyé et quelle réponse a-t-on reçue ?</text>
+  <rect stroke-width="1" x="2290" y="5400" width="950" height="764" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="2290" y="5400" width="7" height="764" rx="0" fill="#64748B" stroke="#64748B" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="2314" y="5441" fill="#142B46">Le suivi de l’envoi</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="5471" fill="#64748B">STR_API_SUBMISSION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="2314" y="5513" fill="#24364B">submission_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5543" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5573" fill="#24364B">initial_submission_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5603" fill="#24364B">operation : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5633" fill="#24364B">environment : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5663" fill="#24364B">attempt_number : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5693" fill="#24364B">started_at : Date et heure</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5723" fill="#24364B">completed_at : Date et heure</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5753" fill="#24364B">http_status_code : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5783" fill="#24364B">transport_error : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5813" fill="#24364B">processing_status : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5843" fill="#24364B">external_report_uuid : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5873" fill="#24364B">api_response_body : Texte JSON</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5903" fill="#24364B">response_sha256 : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5933" fill="#24364B">bulk_reference : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5963" fill="#24364B">correlation_id : Identifiant</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="5993" fill="#24364B">file_name : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="6034" fill="#64748B">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="6071" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="6103" fill="#5E7185">initial_submission_id → API_SUBMISSION.submission_id | 0..N</text>
+  <rect stroke-width="1" x="3340" y="5400" width="950" height="434" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="3340" y="5400" width="7" height="434" rx="0" fill="#64748B" stroke="#64748B" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="3364" y="5441" fill="#142B46">Le contenu transmis</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="5471" fill="#64748B">STR_SUBMITTED_PAYLOAD</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="3364" y="5513" fill="#24364B">payload_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="5543" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="5573" fill="#24364B">submission_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="5603" fill="#24364B">payload_json : Texte JSON</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="5633" fill="#24364B">payload_hash_sha256 : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="5663" fill="#24364B">created_at : Date et heure</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="5704" fill="#64748B">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="5741" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="5773" fill="#5E7185">submission_id → API_SUBMISSION.submission_id | 0..1</text>
+  <rect stroke-width="1" x="2290" y="6264" width="950" height="764" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="2290" y="6264" width="7" height="764" rx="0" fill="#64748B" stroke="#64748B" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="2314" y="6305" fill="#142B46">Les messages de validation</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="6335" fill="#64748B">STR_VALIDATION_ERROR</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="2314" y="6377" fill="#24364B">error_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6407" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6437" fill="#24364B">submission_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6467" fill="#24364B">origin : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6497" fill="#24364B">message_type : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6527" fill="#24364B">severity : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6557" fill="#24364B">ack_report_reference : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6587" fill="#24364B">ack_ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6617" fill="#24364B">detected_at : Date et heure</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6647" fill="#24364B">ordinal : Entier</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6677" fill="#24364B">instance_path : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6707" fill="#24364B">rule_id : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6737" fill="#24364B">error_code : Nombre exact</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6767" fill="#24364B">message_en : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6797" fill="#24364B">message_fr : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6827" fill="#24364B">schema_path : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="2314" y="6857" fill="#24364B">keyword : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="2314" y="6898" fill="#64748B">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="6935" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="2314" y="6967" fill="#5E7185">submission_id → API_SUBMISSION.submission_id | 0..N</text>
+  <rect stroke-width="1" x="3340" y="6264" width="950" height="402" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="3340" y="6264" width="7" height="402" rx="0" fill="#64748B" stroke="#64748B" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="3364" y="6305" fill="#142B46">Le journal du dossier</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="6335" fill="#64748B">STR_AUDIT_EVENT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="3364" y="6377" fill="#24364B">event_id : Identifiant [PK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="6407" fill="#24364B">str_report_id : Identifiant [FK]</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="6437" fill="#24364B">event_type : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="6467" fill="#24364B">event_user : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="6497" fill="#24364B">event_timestamp : Date et heure</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="3364" y="6527" fill="#24364B">event_details : Texte</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" x="3364" y="6568" fill="#64748B">Références · lignes de cette table par parent</text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="400" x="3364" y="6605" fill="#5E7185">str_report_id → REPORT.str_report_id | 0..N</text>
+  <rect stroke-width="1" x="2290" y="7083" width="2000" height="150" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="2312" y="7122" fill="#142B46">Une tentative d’envoi n’est pas une nouvelle version</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="2312" y="7155" fill="#24364B">Le contenu transmis et la réponse restent archivés. Un nouvel essai du même contenu crée une tentative; une correction du contenu crée une version. Une réponse HTTP positive ne prouve pas, à elle seule, l’acceptation du rapport.</text>
+</svg>

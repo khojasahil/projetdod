@@ -4,10 +4,20 @@
 
 | Fichier | Usage |
 |---|---|
-| [CANAFE_DOD.drawio](../diagrams/CANAFE_DOD.drawio) | Neuf vues métier pour expliquer le modèle. Colonnes essentielles, liens sélectionnés et notes. |
+| [CANAFE_DOD.drawio](../diagrams/CANAFE_DOD.drawio) | Neuf vues métier, puis une dixième page avec les neuf domaines, les 34 tables et toutes leurs colonnes. |
 | [CANAFE_DOD_DETAIL.drawio](../diagrams/CANAFE_DOD_DETAIL.drawio) | Annexe de construction : une page par table, toutes les colonnes et leurs types logiques. |
 
 L’annexe contient 34 pages. Elle facilite la reprise des tables; le [registre des relations](RELATIONS.md) donne les liens complets à dessiner. Les vues métier n’affichent pas tous les liens vers REPORT, ni toutes les références de rôles, afin de garder les pages lisibles.
+
+## La page du modèle complet
+
+Le dixième onglet, **« Le modèle complet — domaines, tables et colonnes »**, rassemble les 365 colonnes avec leurs types et les repères PK/FK. Les neuf domaines sont disposés en trois parcours verticaux : rapport, transactions et comptes à gauche; définitions, rôles et audit au centre; identité, entité et bénéficiaires effectifs à droite.
+
+Zoomer sur le domaine à lire, puis se déplacer dans la page. Les notes de chaque domaine expliquent son rôle et les distinctions utiles. Sous chaque carte, toutes ses références sont indiquées sous la forme `clé → TABLE.clé | cardinalité`. Le nombre se lit depuis le parent : combien de lignes de la table courante peuvent lui être liées. Le préfixe STR_ est omis uniquement dans ces références.
+
+Les flèches montrent les liens de structure à l’intérieur des domaines. Les 77 références du catalogue figurent dans les cartes, y compris les liens entre domaines, les retours vers REPORT et les liens d’historique. Cette présentation permet de retrouver tous les rattachements sans traverser toute la planche avec chaque flèche.
+
+La page est un espace de travail grand format, à consulter en zoomant. Pour une réunion sur écran partagé, les neuf premières vues permettent de présenter chaque partie séparément.
 
 ## Ouvrir et modifier
 

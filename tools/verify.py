@@ -1,5 +1,6 @@
 """Vérifie la couverture source, les relations, les exemples et la géométrie."""
 from example_checks import *
+import html
 from PIL import Image
 
 MODEL=json.loads((ROOT/'model/model.json').read_text(encoding='utf-8'))
@@ -41,7 +42,7 @@ def main():
                 names={m['json_path'].split('.')[-1] for m in ms}
                 assert len(names)<=1,('collision de propriétés',t['name'],c['name'],names)
     page_counts={}
-    for filename,count in [('CANAFE_DOD.drawio',9),('CANAFE_DOD_DETAIL.drawio',34)]:
+    for filename,count in [('CANAFE_DOD.drawio',10),('CANAFE_DOD_DETAIL.drawio',34)]:
         pages=ET.parse(ROOT/'diagrams'/filename).findall('diagram');assert len(pages)==count
         seen=set();page_counts[filename]=len(pages)
         for page in pages:
@@ -54,9 +55,23 @@ def main():
                     g=c.find('mxGeometry');x,y,w,h=[float(g.get(k)) for k in ('x','y','width','height')]
                     assert x>=0 and y>=0 and w>0 and h>0 and x+w<=pw+1 and y+h<=ph+1,(filename,page.get('name'),c.get('id'),x,y,w,h,pw,ph)
         assert seen==set(tables)
-    scenes=json.loads((ROOT/'model/presentation.json').read_text(encoding='utf-8'));assert len(scenes)==9
+    scenes=json.loads((ROOT/'model/presentation.json').read_text(encoding='utf-8'));assert len(scenes)==10
+    complete=scenes[-1]
+    assert complete['slug']=='10-modele-complet'
+    assert set(complete['tables'])==set(tables) and len(complete['tables'])==34
+    assert complete['all_columns']=={n:list(t['columns']) for n,t in tables.items()}
+    assert sorted(complete['all_relations'])==list(range(len(MODEL['relationships'])))
+    fullpage=ET.parse(ROOT/'diagrams/CANAFE_DOD.drawio').findall('diagram')[-1]
+    fullcells={c.get('id'):c for c in fullpage.findall('.//mxCell')}
+    for n,t in tables.items():
+        for j,c in enumerate(t['columns']):
+            assert c+' :' in fullcells[n+'-field'+str(j)].get('value'),(n,c)
+    for i,r in enumerate(MODEL['relationships']):
+        val=html.unescape(fullcells[r['child']+'-ref'+str(i)].get('value'))
+        assert r['parent'].removeprefix('STR_') in val and r['cardinality'] in val
     for scene in scenes:
-        im=Image.open(ROOT/'diagrams/images'/(scene['slug']+'.png'));assert im.size==(scene['width']*2,scene['height']*2)
+        scale=scene['raster_scale']
+        im=Image.open(ROOT/'diagrams/images'/(scene['slug']+'.png'));assert im.size==(scene['width']*scale,scene['height']*scale)
         rects={x['id']:x for x in scene['items'] if x['kind']=='rect'}
         for i in scene['items']:
             if i['kind']!='text':continue
@@ -108,6 +123,7 @@ def main():
             if '://' in dest or dest.startswith('#'):continue
             assert (p.parent/dest.split('#')[0]).exists(),(p,dest)
     stats={'date':'2026-09-22','result':'PASS','tables':len(tables),'domains':9,'columns':sum(len(t['columns']) for t in tables.values()),'diagram_pages':page_counts,'named_scalar_occurrences_expected':len(expected),'named_scalar_occurrences_mapped':len(actual),'str_named_scalar_occurrences':len(set(leaves(SCHEMAS['STRReport'],'#/components/schemas/STRReport','$'))),'missing_fields':[],'source_hash_verified':True,'all_relationship_targets_exist':True,'all_children_scoped_to_report_version':True,'drawio_xml_geometry_and_connectors_verified':True,'negative_scenarios_detected':negative,'known_contract_ambiguities_confirmed':ambiguity+province,'limits':['Validation locale ciblée, pas un moteur OpenAPI complet.','Aucun essai d’acceptation CANAFE.','Couverture des propriétés nommées et des archives, pas des propriétés additionnelles indéfinies.','Aucune base créée; contraintes logiques à implanter.','La vérification de mise en page ne remplace pas la relecture visuelle.']}
+    stats['complete_page']={'tables':len(complete['tables']),'columns':sum(len(x) for x in complete['all_columns'].values()),'references':len(complete['all_relations']),'all_columns_and_references_found_in_drawio':True}
     dump('quality/verification.json',stats);print(json.dumps(stats,ensure_ascii=True,indent=2))
 
 if __name__=='__main__':main()
