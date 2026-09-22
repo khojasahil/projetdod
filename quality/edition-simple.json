@@ -1,0 +1,70 @@
+{
+  "original_unchanged": true,
+  "original_sha256": "9288621ac31c7b640b90d8182e53363db444699c0405d93db4dc42b9af685f41",
+  "file": "CANAFE_DOD_EDITION_SIMPLE.drawio",
+  "pages": [
+    {
+      "page": "Les neuf domaines du modèle",
+      "table_blocks": 0,
+      "objects_before": 51,
+      "objects_after": 14
+    },
+    {
+      "page": "Le rapport donne le contexte",
+      "table_blocks": 4,
+      "objects_before": 49,
+      "objects_after": 16
+    },
+    {
+      "page": "Une identité, plusieurs usages",
+      "table_blocks": 6,
+      "objects_before": 60,
+      "objects_after": 17
+    },
+    {
+      "page": "Ce que l’on sait de l’organisation",
+      "table_blocks": 3,
+      "objects_before": 36,
+      "objects_after": 12
+    },
+    {
+      "page": "Qui dirige ou détient l’entité ?",
+      "table_blocks": 7,
+      "objects_before": 60,
+      "objects_after": 13
+    },
+    {
+      "page": "Décrire le mouvement des fonds",
+      "table_blocks": 3,
+      "objects_before": 38,
+      "objects_after": 12
+    },
+    {
+      "page": "La même personne peut tenir plusieurs rôles",
+      "table_blocks": 5,
+      "objects_before": 49,
+      "objects_after": 15
+    },
+    {
+      "page": "Les comptes et la monnaie virtuelle",
+      "table_blocks": 3,
+      "objects_before": 39,
+      "objects_after": 11
+    },
+    {
+      "page": "Retrouver ce qui a été envoyé",
+      "table_blocks": 4,
+      "objects_before": 44,
+      "objects_after": 13
+    },
+    {
+      "page": "Le modèle complet — domaines, tables et colonnes",
+      "table_blocks": 34,
+      "objects_before": 712,
+      "objects_after": 98
+    }
+  ],
+  "all_365_columns_and_77_references_preserved": true,
+  "one_editable_shape_per_table": true,
+  "connectors_preserved": true
+}

@@ -1,0 +1,875 @@
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram id="page0" name="Les neuf domaines du modèle">
+    <mxGraphModel grid="0" guides="1" connect="1" page="0" pageWidth="1600" pageHeight="1100" background="#F3F6FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kicker" value="&lt;div style=&quot;line-height:21px&quot;&gt;CANAFE / DOD–STR / MODÈLE DE DONNÉES&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=14;fontColor=#5E7185;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="28" width="1300" height="21" />
+        </mxCell>
+        <mxCell id="title" value="&lt;div style=&quot;line-height:43px&quot;&gt;Les neuf domaines du modèle&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=36;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="64" width="1480" height="43" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div style=&quot;line-height:26px&quot;&gt;34 tables pour suivre une déclaration, des faits rapportés jusqu’à la réponse de CANAFE.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="114" width="1480" height="26" />
+        </mxCell>
+        <mxCell id="footer" value="&lt;div style=&quot;line-height:20px&quot;&gt;PROJET DOD • Architecture reprise de projet-io | 01&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1068" width="1480" height="20" />
+        </mxCell>
+        <mxCell id="domain0" value="&lt;div style=&quot;font-size:24px;color:#2563EB;font-weight:bold;line-height:31px;margin:0 0 7px 0;&quot;&gt;Rapport · 4 tables&lt;/div&gt;&lt;div style=&quot;font-size:17px;color:#142B46;font-weight:normal;line-height:24px;margin:0 0 21px 0;&quot;&gt;Quel dossier transmet-on ?&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:21px;&quot;&gt;REPORT&lt;br&gt;PPP_PROJECT&lt;br&gt;RELATED_REPORT&lt;br&gt;RELATED_REPORT_TXN_REF&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#2563EB;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="177" width="477" height="254" />
+        </mxCell>
+        <mxCell id="domain1" value="&lt;div style=&quot;font-size:24px;color:#15803D;font-weight:bold;line-height:31px;margin:0 0 7px 0;&quot;&gt;Définitions · 4 tables&lt;/div&gt;&lt;div style=&quot;font-size:17px;color:#142B46;font-weight:normal;line-height:24px;margin:0 0 21px 0;&quot;&gt;De qui parle-t-on ?&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:21px;&quot;&gt;DEFINITION&lt;br&gt;PERSON&lt;br&gt;ENTITY&lt;br&gt;EMPLOYER_INFO&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#15803D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="553" y="177" width="477" height="254" />
+        </mxCell>
+        <mxCell id="domain2" value="&lt;div style=&quot;font-size:24px;color:#B7791F;font-weight:bold;line-height:31px;margin:0 0 7px 0;&quot;&gt;Identité · 2 tables&lt;/div&gt;&lt;div style=&quot;font-size:17px;color:#142B46;font-weight:normal;line-height:24px;margin:0 0 21px 0;&quot;&gt;Comment la décrire et l’identifier ?&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:21px;&quot;&gt;ADDRESS&lt;br&gt;IDENTIFICATION&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#B7791F;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1058" y="177" width="477" height="254" />
+        </mxCell>
+        <mxCell id="domain3" value="&lt;div style=&quot;font-size:24px;color:#0F766E;font-weight:bold;line-height:31px;margin:0 0 7px 0;&quot;&gt;Entité · 2 tables&lt;/div&gt;&lt;div style=&quot;font-size:17px;color:#142B46;font-weight:normal;line-height:24px;margin:0 0 21px 0;&quot;&gt;Comment l’organisation est-elle constituée ?&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:21px;&quot;&gt;REGISTRATION_INCORPORATION&lt;br&gt;AUTHORIZED_PERSON&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#0F766E;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="457" width="477" height="254" />
+        </mxCell>
+        <mxCell id="domain4" value="&lt;div style=&quot;font-size:24px;color:#C24153;font-weight:bold;line-height:31px;margin:0 0 7px 0;&quot;&gt;Bénéficiaires effectifs · 7 tables&lt;/div&gt;&lt;div style=&quot;font-size:17px;color:#142B46;font-weight:normal;line-height:24px;margin:0 0 21px 0;&quot;&gt;Qui dirige ou détient l’entité ?&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:21px;&quot;&gt;DIRECTOR&lt;br&gt;SHARE_OWNER&lt;br&gt;TRUSTEE&lt;br&gt;SETTLOR&lt;br&gt;TRUST_UNIT_OWNER&lt;br&gt;TRUST_BENEFICIARY&lt;br&gt;OTHER_ENTITY_OWNER&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="553" y="457" width="477" height="254" />
+        </mxCell>
+        <mxCell id="domain5" value="&lt;div style=&quot;font-size:24px;color:#C76C12;font-weight:bold;line-height:31px;margin:0 0 7px 0;&quot;&gt;Transactions · 3 tables&lt;/div&gt;&lt;div style=&quot;font-size:17px;color:#142B46;font-weight:normal;line-height:24px;margin:0 0 21px 0;&quot;&gt;Que s’est-il passé ?&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:21px;&quot;&gt;TRANSACTION&lt;br&gt;STARTING_ACTION&lt;br&gt;COMPLETING_ACTION&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C76C12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1058" y="457" width="477" height="254" />
+        </mxCell>
+        <mxCell id="domain6" value="&lt;div style=&quot;font-size:24px;color:#7C3AED;font-weight:bold;line-height:31px;margin:0 0 7px 0;&quot;&gt;Rôles · 5 tables&lt;/div&gt;&lt;div style=&quot;font-size:17px;color:#142B46;font-weight:normal;line-height:24px;margin:0 0 21px 0;&quot;&gt;Qui fait quoi dans l’opération ?&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:21px;&quot;&gt;CONDUCTOR&lt;br&gt;ON_BEHALF_OF&lt;br&gt;SOURCE_OF_FUNDS&lt;br&gt;INVOLVEMENT&lt;br&gt;BENEFICIARY&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#7C3AED;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="737" width="477" height="254" />
+        </mxCell>
+        <mxCell id="domain7" value="&lt;div style=&quot;font-size:24px;color:#059669;font-weight:bold;line-height:31px;margin:0 0 7px 0;&quot;&gt;Comptes · 3 tables&lt;/div&gt;&lt;div style=&quot;font-size:17px;color:#142B46;font-weight:normal;line-height:24px;margin:0 0 21px 0;&quot;&gt;Par quels comptes ou adresses les fonds passent-ils ?&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:21px;&quot;&gt;ACCOUNT&lt;br&gt;ACCOUNT_HOLDER&lt;br&gt;VC_DATA&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#059669;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="553" y="737" width="477" height="254" />
+        </mxCell>
+        <mxCell id="domain8" value="&lt;div style=&quot;font-size:24px;color:#64748B;font-weight:bold;line-height:31px;margin:0 0 7px 0;&quot;&gt;Audit · 4 tables&lt;/div&gt;&lt;div style=&quot;font-size:17px;color:#142B46;font-weight:normal;line-height:24px;margin:0 0 21px 0;&quot;&gt;Qu’a-t-on envoyé et quelle réponse a-t-on reçue ?&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:21px;&quot;&gt;API_SUBMISSION&lt;br&gt;SUBMITTED_PAYLOAD&lt;br&gt;VALIDATION_ERROR&lt;br&gt;AUDIT_EVENT&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#64748B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1058" y="737" width="477" height="254" />
+        </mxCell>
+        <mxCell id="legend" value="&lt;div style=&quot;line-height:22px&quot;&gt;Préfixe STR_ commun à toutes les tables. Cette carte présente les domaines; les liens sont détaillés dans les pages suivantes.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1030" width="1490" height="22" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page1" name="Le rapport donne le contexte">
+    <mxGraphModel grid="0" guides="1" connect="1" page="0" pageWidth="1600" pageHeight="1100" background="#F3F6FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge0" value="" edge="1" parent="1" source="STR_REPORT" target="STR_PPP_PROJECT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="700" y="360" />
+              <mxPoint x="700" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg0" value="projets · 0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="672.0" y="291.5" width="96.0" height="27" />
+        </mxCell>
+        <mxCell id="edge1" value="" edge="1" parent="1" source="STR_REPORT" target="STR_RELATED_REPORT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="670" y="360" />
+              <mxPoint x="670" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg1" value="rapports liés · 0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="638.5" y="486.5" width="131.0" height="27" />
+        </mxCell>
+        <mxCell id="edge2" value="" edge="1" parent="1" source="STR_RELATED_REPORT" target="STR_RELATED_REPORT_TXN_REF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1165.0" y="802.5" />
+              <mxPoint x="1165.0" y="802.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg2" value="précise leurs opérations · 0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1062.5" y="767.75" width="205.0" height="27" />
+        </mxCell>
+        <mxCell id="kicker" value="&lt;div style=&quot;line-height:21px&quot;&gt;CANAFE / DOD–STR / MODÈLE DE DONNÉES&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=14;fontColor=#5E7185;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="28" width="1300" height="21" />
+        </mxCell>
+        <mxCell id="title" value="&lt;div style=&quot;line-height:43px&quot;&gt;Le rapport donne le contexte&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=36;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="64" width="1480" height="43" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div style=&quot;line-height:26px&quot;&gt;Domaine Rapport · 4 tables. Les liens vers d’autres déclarations ne créent pas de copies de leurs opérations.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="114" width="1480" height="26" />
+        </mxCell>
+        <mxCell id="footer" value="&lt;div style=&quot;line-height:20px&quot;&gt;PROJET DOD • Architecture reprise de projet-io | 02&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1068" width="1480" height="20" />
+        </mxCell>
+        <mxCell id="STR_REPORT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le rapport&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#2563EB;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_REPORT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;&lt;b&gt;str_report_id&lt;/b&gt;&lt;br&gt;report_group_id&lt;br&gt;version_number&lt;br&gt;re_report_reference&lt;br&gt;suspicious_activity_desc&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#2563EB;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="190" width="540" height="340" />
+        </mxCell>
+        <mxCell id="STR_PPP_PROJECT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les projets associés&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#2563EB;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_PPP_PROJECT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;&lt;b&gt;ppp_id&lt;/b&gt;&lt;br&gt;str_report_id&lt;br&gt;project_name_code&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#2563EB;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="830" y="185" width="670" height="240" />
+        </mxCell>
+        <mxCell id="STR_RELATED_REPORT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les rapports liés&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#2563EB;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_RELATED_REPORT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;&lt;b&gt;related_report_id&lt;/b&gt;&lt;br&gt;str_report_id&lt;br&gt;re_report_reference&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#2563EB;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="830" y="520" width="670" height="240" />
+        </mxCell>
+        <mxCell id="STR_RELATED_REPORT_TXN_REF" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les opérations liées&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#2563EB;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_RELATED_REPORT_TXN_REF&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;related_report_id&lt;br&gt;txn_reference&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#2563EB;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="830" y="845" width="670" height="180" />
+        </mxCell>
+        <mxCell id="version" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Une correction ne remplace pas le passé&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Une ligne de STR_REPORT représente une version. La version 2 garde le même report_group_id et pointe vers la version 1.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="620" width="540" height="190" />
+        </mxCell>
+        <mxCell id="story" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;À dire en réunion&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;« Le rapport rassemble les faits et les raisons du soupçon. Les autres domaines viennent préciser ce récit. »&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="844" width="540" height="180" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page2" name="Une identité, plusieurs usages">
+    <mxGraphModel grid="0" guides="1" connect="1" page="0" pageWidth="1600" pageHeight="1100" background="#F3F6FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge0" value="" edge="1" parent="1" source="STR_DEFINITION" target="STR_PERSON" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="800" y="452" />
+              <mxPoint x="280" y="452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg0" value="personne · types 1, 3 ou 5" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="449.5" y="438.5" width="181.0" height="27" />
+        </mxCell>
+        <mxCell id="edge1" value="" edge="1" parent="1" source="STR_DEFINITION" target="STR_ENTITY" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="800" y="452" />
+              <mxPoint x="1318" y="452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg1" value="entité · types 2, 4 ou 6" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="981.0" y="438.5" width="156.0" height="27" />
+        </mxCell>
+        <mxCell id="edge2" value="" edge="1" parent="1" source="STR_PERSON" target="STR_EMPLOYER_INFO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="280.5" y="793.5" />
+              <mxPoint x="280.5" y="793.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg2" value="employeur · type 5 seulement" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="179.0" y="761.75" width="203.0" height="27" />
+        </mxCell>
+        <mxCell id="kicker" value="&lt;div style=&quot;line-height:21px&quot;&gt;CANAFE / DOD–STR / MODÈLE DE DONNÉES&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=14;fontColor=#5E7185;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="28" width="1300" height="21" />
+        </mxCell>
+        <mxCell id="title" value="&lt;div style=&quot;line-height:43px&quot;&gt;Une identité, plusieurs usages&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=36;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="64" width="1480" height="43" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div style=&quot;line-height:26px&quot;&gt;Domaines Définitions et Identité · 6 tables. Un rôle cite une définition; il ne recopie pas toute la fiche.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="114" width="1480" height="26" />
+        </mxCell>
+        <mxCell id="footer" value="&lt;div style=&quot;line-height:20px&quot;&gt;PROJET DOD • Architecture reprise de projet-io | 03&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1068" width="1480" height="20" />
+        </mxCell>
+        <mxCell id="STR_DEFINITION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le point de référence&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#15803D;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_DEFINITION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;&lt;b&gt;definition_id&lt;/b&gt;&lt;br&gt;ref_id&lt;br&gt;type_code&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#15803D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="568" y="180" width="465" height="238" />
+        </mxCell>
+        <mxCell id="STR_PERSON" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;La personne&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#15803D;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_PERSON&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;&lt;b&gt;person_id&lt;/b&gt;&lt;br&gt;definition_id&lt;br&gt;surname&lt;br&gt;given_name&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#15803D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="492" width="465" height="265" />
+        </mxCell>
+        <mxCell id="STR_ENTITY" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’entité&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#15803D;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_ENTITY&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;&lt;b&gt;entity_id&lt;/b&gt;&lt;br&gt;definition_id&lt;br&gt;name_of_entity&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#15803D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1086" y="492" width="465" height="265" />
+        </mxCell>
+        <mxCell id="STR_EMPLOYER_INFO" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’employeur&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#15803D;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_EMPLOYER_INFO&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;person_id&lt;br&gt;name&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#15803D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="830" width="465" height="180" />
+        </mxCell>
+        <mxCell id="STR_ADDRESS" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’adresse&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#B7791F;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_ADDRESS&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;&lt;b&gt;address_id&lt;/b&gt;&lt;br&gt;type_code&lt;br&gt;city&lt;br&gt;country_code&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#B7791F;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="568" y="492" width="465" height="265" />
+        </mxCell>
+        <mxCell id="STR_IDENTIFICATION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les pièces d’identité&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#B7791F;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_IDENTIFICATION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;definition_id&lt;br&gt;identifier_type_code&lt;br&gt;number&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#B7791F;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1086" y="830" width="465" height="200" />
+        </mxCell>
+        <mxCell id="identity" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Comment lire les deux tables d’identité&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;ADDRESS porte une adresse liée à son propriétaire. IDENTIFICATION porte une pièce liée à la définition. Les liens détaillés figurent dans le dictionnaire.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="568" y="815" width="465" height="215" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page3" name="Ce que l’on sait de l’organisation">
+    <mxGraphModel grid="0" guides="1" connect="1" page="0" pageWidth="1600" pageHeight="1100" background="#F3F6FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge0" value="" edge="1" parent="1" source="STR_ENTITY" target="STR_REGISTRATION_INCORPORATION" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="800" y="500" />
+              <mxPoint x="405" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg0" value="enregistrements · 0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="524.5" y="486.5" width="156.0" height="27" />
+        </mxCell>
+        <mxCell id="edge1" value="" edge="1" parent="1" source="STR_ENTITY" target="STR_AUTHORIZED_PERSON" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="800" y="500" />
+              <mxPoint x="1194" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg1" value="personnes autorisées · 0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="902.0" y="486.5" width="190.0" height="27" />
+        </mxCell>
+        <mxCell id="kicker" value="&lt;div style=&quot;line-height:21px&quot;&gt;CANAFE / DOD–STR / MODÈLE DE DONNÉES&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=14;fontColor=#5E7185;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="28" width="1300" height="21" />
+        </mxCell>
+        <mxCell id="title" value="&lt;div style=&quot;line-height:43px&quot;&gt;Ce que l’on sait de l’organisation&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=36;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="64" width="1480" height="43" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div style=&quot;line-height:26px&quot;&gt;Domaine Entité · 2 tables, rattachées à ENTITY dans le domaine Définitions.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="114" width="1480" height="26" />
+        </mxCell>
+        <mxCell id="footer" value="&lt;div style=&quot;line-height:20px&quot;&gt;PROJET DOD • Architecture reprise de projet-io | 04&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1068" width="1480" height="20" />
+        </mxCell>
+        <mxCell id="STR_ENTITY" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’entité&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#15803D;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_ENTITY&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;&lt;b&gt;entity_id&lt;/b&gt;&lt;br&gt;name_of_entity&lt;br&gt;nature_of_principal_business&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#F5F7FA;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#15803D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="567" y="190" width="466" height="255" />
+        </mxCell>
+        <mxCell id="STR_REGISTRATION_INCORPORATION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’enregistrement&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#0F766E;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_REGISTRATION_INCORPORATION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;entity_id&lt;br&gt;type_code&lt;br&gt;number&lt;br&gt;jurisdiction_country_code&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#0F766E;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="565" width="715" height="290" />
+        </mxCell>
+        <mxCell id="STR_AUTHORIZED_PERSON" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les personnes autorisées&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#0F766E;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_AUTHORIZED_PERSON&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;entity_id&lt;br&gt;surname&lt;br&gt;given_name&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#0F766E;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="837" y="565" width="715" height="290" />
+        </mxCell>
+        <mxCell id="authorized" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Autorisation et propriété sont deux renseignements différents&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Une personne peut être autorisée à agir pour une entreprise sans en être propriétaire. Les propriétaires et les dirigeants sont présentés dans le domaine suivant.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="905" width="1504" height="140" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page4" name="Qui dirige ou détient l’entité ?">
+    <mxGraphModel grid="0" guides="1" connect="1" page="0" pageWidth="1600" pageHeight="1100" background="#F3F6FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kicker" value="&lt;div style=&quot;line-height:21px&quot;&gt;CANAFE / DOD–STR / MODÈLE DE DONNÉES&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=14;fontColor=#5E7185;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="28" width="1300" height="21" />
+        </mxCell>
+        <mxCell id="title" value="&lt;div style=&quot;line-height:43px&quot;&gt;Qui dirige ou détient l’entité ?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=36;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="64" width="1480" height="43" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div style=&quot;line-height:26px&quot;&gt;Domaine Bénéficiaires effectifs · 7 tables. Ces listes concernent les définitions d’entité de type 6.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="114" width="1480" height="26" />
+        </mxCell>
+        <mxCell id="footer" value="&lt;div style=&quot;line-height:20px&quot;&gt;PROJET DOD • Architecture reprise de projet-io | 05&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1068" width="1480" height="20" />
+        </mxCell>
+        <mxCell id="STR_DIRECTOR" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les administrateurs&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#C24153;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_DIRECTOR&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;entity_id&lt;br&gt;surname&lt;br&gt;given_name&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="228" width="352" height="280" />
+        </mxCell>
+        <mxCell id="STR_SHARE_OWNER" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les détenteurs d’actions&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#C24153;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_SHARE_OWNER&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;entity_id&lt;br&gt;surname&lt;br&gt;given_name&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="432" y="228" width="352" height="280" />
+        </mxCell>
+        <mxCell id="STR_TRUSTEE" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les fiduciaires&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#C24153;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_TRUSTEE&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;entity_id&lt;br&gt;surname&lt;br&gt;given_name&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="816" y="228" width="352" height="280" />
+        </mxCell>
+        <mxCell id="STR_SETTLOR" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les constituants&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#C24153;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_SETTLOR&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;entity_id&lt;br&gt;surname&lt;br&gt;given_name&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1200" y="228" width="352" height="280" />
+        </mxCell>
+        <mxCell id="STR_TRUST_UNIT_OWNER" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les détenteurs d’unités&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#C24153;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_TRUST_UNIT_OWNER&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;entity_id&lt;br&gt;surname&lt;br&gt;given_name&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="548" width="352" height="280" />
+        </mxCell>
+        <mxCell id="STR_TRUST_BENEFICIARY" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les bénéficiaires de fiducie&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#C24153;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_TRUST_BENEFICIARY&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;entity_id&lt;br&gt;surname&lt;br&gt;given_name&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="432" y="548" width="352" height="280" />
+        </mxCell>
+        <mxCell id="STR_OTHER_ENTITY_OWNER" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les autres propriétaires&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#C24153;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_OTHER_ENTITY_OWNER&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;entity_id&lt;br&gt;surname&lt;br&gt;given_name&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="816" y="548" width="352" height="280" />
+        </mxCell>
+        <mxCell id="same-parent" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Leur point commun&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Chaque ligne appartient à une seule ENTITY. Les noms ne sont pas des références vers DEFINITION dans ces listes.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1200" y="548" width="352" height="280" />
+        </mxCell>
+        <mxCell id="bo-note" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Ne pas confondre les bénéficiaires&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;TRUST_BENEFICIARY décrit une personne bénéficiaire d’une fiducie. BENEFICIARY, dans le domaine Rôles, décrit le bénéficiaire d’une opération.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="888" width="1504" height="150" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page5" name="Décrire le mouvement des fonds">
+    <mxGraphModel grid="0" guides="1" connect="1" page="0" pageWidth="1600" pageHeight="1100" background="#F3F6FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge0" value="" edge="1" parent="1" source="STR_TRANSACTION" target="STR_STARTING_ACTION" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="800" y="551" />
+              <mxPoint x="386" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg0" value="actions initiales · 0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="518.5" y="537.5" width="149.0" height="27" />
+        </mxCell>
+        <mxCell id="edge1" value="" edge="1" parent="1" source="STR_TRANSACTION" target="STR_COMPLETING_ACTION" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="800" y="551" />
+              <mxPoint x="1214" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg1" value="actions finales · 0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="935.5" y="537.5" width="143.0" height="27" />
+        </mxCell>
+        <mxCell id="kicker" value="&lt;div style=&quot;line-height:21px&quot;&gt;CANAFE / DOD–STR / MODÈLE DE DONNÉES&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=14;fontColor=#5E7185;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="28" width="1300" height="21" />
+        </mxCell>
+        <mxCell id="title" value="&lt;div style=&quot;line-height:43px&quot;&gt;Décrire le mouvement des fonds&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=36;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="64" width="1480" height="43" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div style=&quot;line-height:26px&quot;&gt;Domaine Transactions · 3 tables. Une opération peut avoir plusieurs actions initiales et plusieurs actions finales.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="114" width="1480" height="26" />
+        </mxCell>
+        <mxCell id="footer" value="&lt;div style=&quot;line-height:20px&quot;&gt;PROJET DOD • Architecture reprise de projet-io | 06&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1068" width="1480" height="20" />
+        </mxCell>
+        <mxCell id="STR_TRANSACTION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’opération&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#C76C12;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_TRANSACTION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;&lt;b&gt;transaction_id&lt;/b&gt;&lt;br&gt;re_txn_reference&lt;br&gt;date_of_transaction&lt;br&gt;attempted_indicator&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C76C12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="565" y="190" width="470" height="300" />
+        </mxCell>
+        <mxCell id="STR_STARTING_ACTION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’action initiale&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#C76C12;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_STARTING_ACTION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;transaction_id&lt;br&gt;direction&lt;br&gt;fund_type_code&lt;br&gt;amount&lt;br&gt;currency_code&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C76C12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="610" width="675" height="325" />
+        </mxCell>
+        <mxCell id="STR_COMPLETING_ACTION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’action finale&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#C76C12;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_COMPLETING_ACTION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;transaction_id&lt;br&gt;disposition_code&lt;br&gt;amount&lt;br&gt;currency_code&lt;br&gt;value_in_cad&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C76C12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="877" y="610" width="675" height="325" />
+        </mxCell>
+        <mxCell id="txn-example" value="&lt;div style=&quot;line-height:26px&quot;&gt;Exemple fictif : une opération de change commence par la remise de fonds et se termine par la remise de la devise achetée.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#142B46;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="995" width="1504" height="26" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page6" name="La même personne peut tenir plusieurs rôles">
+    <mxGraphModel grid="0" guides="1" connect="1" page="0" pageWidth="1600" pageHeight="1100" background="#F3F6FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge0" value="" edge="1" parent="1" source="STR_CONDUCTOR" target="STR_ON_BEHALF_OF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="799" y="530" />
+              <mxPoint x="1317" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg0" value="agit pour · 0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1003.5" y="516.5" width="109.0" height="27" />
+        </mxCell>
+        <mxCell id="kicker" value="&lt;div style=&quot;line-height:21px&quot;&gt;CANAFE / DOD–STR / MODÈLE DE DONNÉES&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=14;fontColor=#5E7185;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="28" width="1300" height="21" />
+        </mxCell>
+        <mxCell id="title" value="&lt;div style=&quot;line-height:43px&quot;&gt;La même personne peut tenir plusieurs rôles&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=36;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="64" width="1480" height="43" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div style=&quot;line-height:26px&quot;&gt;Domaine Rôles · 5 tables. Les informations personnelles restent dans les définitions; le rôle décrit la participation.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="114" width="1480" height="26" />
+        </mxCell>
+        <mxCell id="footer" value="&lt;div style=&quot;line-height:20px&quot;&gt;PROJET DOD • Architecture reprise de projet-io | 07&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1068" width="1480" height="20" />
+        </mxCell>
+        <mxCell id="STR_SOURCE_OF_FUNDS" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;La source des fonds&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#7C3AED;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_SOURCE_OF_FUNDS&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;starting_action_id&lt;br&gt;type_code&lt;br&gt;ref_id&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#7C3AED;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="210" width="466" height="268" />
+        </mxCell>
+        <mxCell id="STR_CONDUCTOR" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’exécutant&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#7C3AED;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_CONDUCTOR&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;starting_action_id&lt;br&gt;type_code&lt;br&gt;ref_id&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#7C3AED;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="566" y="210" width="466" height="268" />
+        </mxCell>
+        <mxCell id="STR_ON_BEHALF_OF" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le tiers représenté&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#7C3AED;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_ON_BEHALF_OF&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;conductor_id&lt;br&gt;type_code&lt;br&gt;ref_id&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#7C3AED;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1084" y="210" width="466" height="268" />
+        </mxCell>
+        <mxCell id="STR_INVOLVEMENT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;La personne impliquée&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#7C3AED;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_INVOLVEMENT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;completing_action_id&lt;br&gt;type_code&lt;br&gt;ref_id&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#7C3AED;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="620" width="466" height="268" />
+        </mxCell>
+        <mxCell id="STR_BENEFICIARY" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le bénéficiaire de l’opération&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#7C3AED;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_BENEFICIARY&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;completing_action_id&lt;br&gt;type_code&lt;br&gt;ref_id&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#7C3AED;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="566" y="620" width="466" height="268" />
+        </mxCell>
+        <mxCell id="role-example" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Un exemple pour l’expliquer&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Camille effectue le dépôt pour la société A : Camille est l’exécutante; A est le tiers représenté. La source des fonds est une information distincte.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1084" y="620" width="466" height="268" />
+        </mxCell>
+        <mxCell id="role-line1" value="&lt;div style=&quot;line-height:26px&quot;&gt;Rattachés à l’action initiale&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#C76C12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="177" width="1504" height="26" />
+        </mxCell>
+        <mxCell id="role-line2" value="&lt;div style=&quot;line-height:26px&quot;&gt;Rattachés à l’action finale&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#C76C12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="577" width="950" height="26" />
+        </mxCell>
+        <mxCell id="role-note" value="&lt;div style=&quot;line-height:27px&quot;&gt;ref_id retrouve la fiche. type_code précise le niveau de renseignement attendu pour ce rôle.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#142B46;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="974" width="1504" height="27" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page7" name="Les comptes et la monnaie virtuelle">
+    <mxGraphModel grid="0" guides="1" connect="1" page="0" pageWidth="1600" pageHeight="1100" background="#F3F6FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge0" value="" edge="1" parent="1" source="STR_ACCOUNT" target="STR_ACCOUNT_HOLDER" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="388.0" y="642.5" />
+              <mxPoint x="388.0" y="642.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg0" value="titulaires · 0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="335.0" y="585.25" width="106.0" height="27" />
+        </mxCell>
+        <mxCell id="kicker" value="&lt;div style=&quot;line-height:21px&quot;&gt;CANAFE / DOD–STR / MODÈLE DE DONNÉES&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=14;fontColor=#5E7185;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="28" width="1300" height="21" />
+        </mxCell>
+        <mxCell id="title" value="&lt;div style=&quot;line-height:43px&quot;&gt;Les comptes et la monnaie virtuelle&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=36;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="64" width="1480" height="43" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div style=&quot;line-height:26px&quot;&gt;Domaine Comptes · 3 tables. Les données décrivent une action précise, au moment de la déclaration.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="114" width="1480" height="26" />
+        </mxCell>
+        <mxCell id="footer" value="&lt;div style=&quot;line-height:20px&quot;&gt;PROJET DOD • Architecture reprise de projet-io | 08&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1068" width="1480" height="20" />
+        </mxCell>
+        <mxCell id="STR_ACCOUNT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le compte&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#059669;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_ACCOUNT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;&lt;b&gt;account_id&lt;/b&gt;&lt;br&gt;starting_action_id&lt;br&gt;completing_action_id&lt;br&gt;number&lt;br&gt;currency_code&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#059669;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="230" width="680" height="325" />
+        </mxCell>
+        <mxCell id="STR_ACCOUNT_HOLDER" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les titulaires&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#059669;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_ACCOUNT_HOLDER&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;account_id&lt;br&gt;type_code&lt;br&gt;ref_id&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#059669;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="730" width="680" height="240" />
+        </mxCell>
+        <mxCell id="STR_VC_DATA" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;La monnaie virtuelle&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#059669;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_VC_DATA&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;starting_action_id&lt;br&gt;completing_action_id&lt;br&gt;data_type&lt;br&gt;value&lt;br&gt;ordinal&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#059669;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="870" y="230" width="682" height="325" />
+        </mxCell>
+        <mxCell id="xor" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Un rattachement sans ambiguïté&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Un compte ou une donnée de monnaie virtuelle appartient soit à une action initiale, soit à une action finale. On renseigne une seule des deux clés.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="870" y="615" width="682" height="165" />
+        </mxCell>
+        <mxCell id="vc" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Trois types de données dans VC_DATA&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Un identifiant de transaction, une adresse émettrice ou une adresse réceptrice. data_type indique quelle liste reconstruire.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="870" y="815" width="682" height="155" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page8" name="Retrouver ce qui a été envoyé">
+    <mxGraphModel grid="0" guides="1" connect="1" page="0" pageWidth="1600" pageHeight="1100" background="#F3F6FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge0" value="" edge="1" parent="1" source="STR_API_SUBMISSION" target="STR_SUBMITTED_PAYLOAD" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="824.0" y="382.5" />
+              <mxPoint x="824.0" y="355.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg0" value="contenu · 0..1" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="773.0" y="368.5" width="102.0" height="27" />
+        </mxCell>
+        <mxCell id="edge1" value="" edge="1" parent="1" source="STR_API_SUBMISSION" target="STR_VALIDATION_ERROR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="393.0" y="625.0" />
+              <mxPoint x="393.0" y="625.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg1" value="messages reçus · 0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="314.5" y="571.5" width="157.0" height="27" />
+        </mxCell>
+        <mxCell id="kicker" value="&lt;div style=&quot;line-height:21px&quot;&gt;CANAFE / DOD–STR / MODÈLE DE DONNÉES&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=14;fontColor=#5E7185;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="28" width="1300" height="21" />
+        </mxCell>
+        <mxCell id="title" value="&lt;div style=&quot;line-height:43px&quot;&gt;Retrouver ce qui a été envoyé&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=36;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="64" width="1480" height="43" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div style=&quot;line-height:26px&quot;&gt;Domaine Audit · 4 tables. La version du rapport, le contenu transmis et la réponse restent reliés.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="114" width="1480" height="26" />
+        </mxCell>
+        <mxCell id="footer" value="&lt;div style=&quot;line-height:20px&quot;&gt;PROJET DOD • Architecture reprise de projet-io | 09&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1068" width="1480" height="20" />
+        </mxCell>
+        <mxCell id="STR_API_SUBMISSION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le suivi de l’envoi&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#64748B;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_API_SUBMISSION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;&lt;b&gt;submission_id&lt;/b&gt;&lt;br&gt;str_report_id&lt;br&gt;operation&lt;br&gt;http_status_code&lt;br&gt;processing_status&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#64748B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="220" width="690" height="325" />
+        </mxCell>
+        <mxCell id="STR_SUBMITTED_PAYLOAD" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le contenu transmis&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#64748B;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_SUBMITTED_PAYLOAD&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;submission_id&lt;br&gt;payload_json&lt;br&gt;payload_hash_sha256&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#64748B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="910" y="220" width="642" height="270" />
+        </mxCell>
+        <mxCell id="STR_VALIDATION_ERROR" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les messages de validation&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#64748B;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_VALIDATION_ERROR&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;submission_id&lt;br&gt;severity&lt;br&gt;instance_path&lt;br&gt;message_fr&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#64748B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="705" width="690" height="275" />
+        </mxCell>
+        <mxCell id="STR_AUDIT_EVENT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le journal du dossier&lt;/div&gt;&lt;div style=&quot;font-size:14px;color:#64748B;font-weight:bold;line-height:21px;margin:0 0 18px 0;&quot;&gt;STR_AUDIT_EVENT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:39px;&quot;&gt;str_report_id&lt;br&gt;event_type&lt;br&gt;event_user&lt;br&gt;event_timestamp&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#64748B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="910" y="705" width="642" height="275" />
+        </mxCell>
+        <mxCell id="audit-note" value="&lt;div style=&quot;line-height:27px&quot;&gt;Un nouvel essai d’envoi n’est pas une nouvelle version. Une correction du contenu, oui.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#142B46;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1020" width="1504" height="27" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page9" name="Le modèle complet — domaines, tables et colonnes">
+    <mxGraphModel grid="0" guides="1" connect="1" page="0" pageWidth="6580" pageHeight="7445" background="#F3F6FA">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zone-0" value="" style="rounded=1;arcSize=8;fillColor=#EDF2F8;strokeColor=#D8E2EC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="680" width="2080" height="1755" />
+        </mxCell>
+        <mxCell id="zone-1" value="" style="rounded=1;arcSize=8;fillColor=#EDF2F8;strokeColor=#D8E2EC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2250" y="680" width="2080" height="1881" />
+        </mxCell>
+        <mxCell id="zone-2" value="" style="rounded=1;arcSize=8;fillColor=#EDF2F8;strokeColor=#D8E2EC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4430" y="680" width="2080" height="1011" />
+        </mxCell>
+        <mxCell id="zone-3" value="" style="rounded=1;arcSize=8;fillColor=#EDF2F8;strokeColor=#D8E2EC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4430" y="1791" width="2080" height="893" />
+        </mxCell>
+        <mxCell id="zone-4" value="" style="rounded=1;arcSize=8;fillColor=#EDF2F8;strokeColor=#D8E2EC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4430" y="2784" width="2080" height="2981" />
+        </mxCell>
+        <mxCell id="zone-5" value="" style="rounded=1;arcSize=8;fillColor=#EDF2F8;strokeColor=#D8E2EC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="2535" width="2080" height="2027" />
+        </mxCell>
+        <mxCell id="zone-6" value="" style="rounded=1;arcSize=8;fillColor=#EDF2F8;strokeColor=#D8E2EC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2250" y="2661" width="2080" height="2507" />
+        </mxCell>
+        <mxCell id="zone-7" value="" style="rounded=1;arcSize=8;fillColor=#EDF2F8;strokeColor=#D8E2EC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="4662" width="2080" height="1671" />
+        </mxCell>
+        <mxCell id="zone-8" value="" style="rounded=1;arcSize=8;fillColor=#EDF2F8;strokeColor=#D8E2EC;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2250" y="5268" width="2080" height="1997" />
+        </mxCell>
+        <mxCell id="edge0" value="" edge="1" parent="1" source="STR_REPORT" target="STR_PPP_PROJECT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1110.0" y="1253.0" />
+              <mxPoint x="1110.0" y="983.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg0" value="0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1090.0" y="1104.5" width="40.0" height="27" />
+        </mxCell>
+        <mxCell id="edge1" value="" edge="1" parent="1" source="STR_REPORT" target="STR_RELATED_REPORT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="90" y="1253.0" />
+              <mxPoint x="90" y="1965.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" value="" edge="1" parent="1" source="STR_RELATED_REPORT" target="STR_RELATED_REPORT_TXN_REF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1110.0" y="1965.0" />
+              <mxPoint x="1110.0" y="1996.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg2" value="0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1090.0" y="1967.0" width="40.0" height="27" />
+        </mxCell>
+        <mxCell id="edge3" value="" edge="1" parent="1" source="STR_DEFINITION" target="STR_PERSON" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="3290.0" y="998.0" />
+              <mxPoint x="3290.0" y="1195.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg3" value="0..1" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="3271.0" y="1083.0" width="38.0" height="27" />
+        </mxCell>
+        <mxCell id="edge4" value="" edge="1" parent="1" source="STR_DEFINITION" target="STR_ENTITY" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="2270" y="998.0" />
+              <mxPoint x="2270" y="2001.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge5" value="" edge="1" parent="1" source="STR_PERSON" target="STR_EMPLOYER_INFO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=1;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="4310" y="1195.0" />
+              <mxPoint x="4310" y="1941.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge6" value="" edge="1" parent="1" source="STR_TRANSACTION" target="STR_STARTING_ACTION" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1110.0" y="2988.0" />
+              <mxPoint x="1110.0" y="3064.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg6" value="0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1090.0" y="3012.5" width="40.0" height="27" />
+        </mxCell>
+        <mxCell id="edge7" value="" edge="1" parent="1" source="STR_TRANSACTION" target="STR_COMPLETING_ACTION" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="90" y="2988.0" />
+              <mxPoint x="90" y="3943.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge8" value="" edge="1" parent="1" source="STR_CONDUCTOR" target="STR_ON_BEHALF_OF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="3290.0" y="3176.0" />
+              <mxPoint x="3290.0" y="3116.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg8" value="0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="3270.0" y="3132.5" width="40.0" height="27" />
+        </mxCell>
+        <mxCell id="edge9" value="" edge="1" parent="1" source="STR_ACCOUNT" target="STR_ACCOUNT_HOLDER" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1110.0" y="5147.0" />
+              <mxPoint x="1110.0" y="5027.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg9" value="0..N" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1090.0" y="5073.5" width="40.0" height="27" />
+        </mxCell>
+        <mxCell id="edge10" value="" edge="1" parent="1" source="STR_API_SUBMISSION" target="STR_SUBMITTED_PAYLOAD" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="3290.0" y="5782.0" />
+              <mxPoint x="3290.0" y="5617.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-label-bg10" value="0..1" style="rounded=1;arcSize=8;fillColor=#F3F6FA;strokeColor=#F3F6FA;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#5E7185;spacing=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="3271.0" y="5686.0" width="38.0" height="27" />
+        </mxCell>
+        <mxCell id="edge11" value="" edge="1" parent="1" source="STR_API_SUBMISSION" target="STR_VALIDATION_ERROR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8BA0B6;strokeWidth=2;endArrow=block;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="2270" y="5782.0" />
+              <mxPoint x="2270" y="6646.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kicker" value="&lt;div style=&quot;line-height:21px&quot;&gt;CANAFE / DOD–STR / MODÈLE DE DONNÉES&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=14;fontColor=#5E7185;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="28" width="1300" height="21" />
+        </mxCell>
+        <mxCell id="title" value="&lt;div style=&quot;line-height:43px&quot;&gt;Le modèle complet — domaines, tables et colonnes&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=36;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="64" width="1480" height="43" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div style=&quot;line-height:26px&quot;&gt;34 tables · 365 colonnes · 77 références documentées · Une seule page à parcourir en zoomant.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="114" width="1480" height="26" />
+        </mxCell>
+        <mxCell id="footer" value="&lt;div style=&quot;line-height:20px&quot;&gt;PROJET DOD • Architecture reprise de projet-io | 10&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#5E7185;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="7413" width="1480" height="20" />
+        </mxCell>
+        <mxCell id="read" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Comment parcourir cette page&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;À gauche : le rapport, les opérations et les comptes. Au centre : les fiches, les rôles et les envois. À droite : l’identité, l’entité et sa propriété. Chaque domaine garde sa couleur et ses noms de tables.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="185" width="2080" height="185" />
+        </mxCell>
+        <mxCell id="keys" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Les repères à connaître&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;PK identifie une ligne. FK retrouve une ligne liée. Sous chaque table, les références indiquent la clé et la table visée. Le nombre après | se lit depuis le parent : 0..1 ou 0..N lignes de la table courante.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2250" y="185" width="2080" height="185" />
+        </mxCell>
+        <mxCell id="history" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Le rapport reste le fil conducteur&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Chaque table porte str_report_id : tous ses renseignements appartiennent à une version précise. Les références vers les autres tables sont toujours contrôlées dans cette même version.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4430" y="185" width="2080" height="185" />
+        </mxCell>
+        <mxCell id="complete-links" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Retrouver les liens sans perdre le fil&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Les flèches montrent les liens de structure au sein des domaines. Les 77 références, y compris les liens entre domaines et vers REPORT, sont écrites au bas des cartes. STR_ est omis dans ces références pour alléger la lecture.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="410" width="3170" height="175" />
+        </mxCell>
+        <mxCell id="reading-codes" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Lire les champs avec leur contexte&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Les types sont logiques. Les colonnes applicables dépendent du type de définition et de l’action décrite. 0..N autorise une liste vide dans le stockage; les obligations avant envoi restent celles du dictionnaire et du Swagger.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="3340" y="410" width="3170" height="175" />
+        </mxCell>
+        <mxCell id="zone-title-0" value="&lt;div style=&quot;line-height:37px&quot;&gt;01 Rapport · 4 tables&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=30;fontColor=#2563EB;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="705" width="2000" height="37" />
+        </mxCell>
+        <mxCell id="zone-question-0" value="&lt;div style=&quot;line-height:26px&quot;&gt;Quel dossier transmet-on ?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#24364B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="755" width="2000" height="26" />
+        </mxCell>
+        <mxCell id="STR_REPORT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le rapport&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#2563EB;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_REPORT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;str_report_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;previous_report_id : Identifiant [FK]&lt;br&gt;report_group_id : Identifiant&lt;br&gt;version_number : Entier&lt;br&gt;status : Texte&lt;br&gt;created_at : Date et heure&lt;br&gt;created_by : Texte&lt;br&gt;frozen_at : Date et heure&lt;br&gt;schema_sha256 : Texte&lt;br&gt;report_type_code : Entier&lt;br&gt;submit_type_code : Entier&lt;br&gt;activity_sector_code : Entier&lt;br&gt;reporting_entity_number : Nombre exact&lt;br&gt;submitting_re_number : Nombre exact&lt;br&gt;re_report_reference : Texte&lt;br&gt;re_contact_id : Nombre exact&lt;br&gt;ministerial_directive_code : Texte&lt;br&gt;suspicious_activity_desc : Texte&lt;br&gt;suspicion_type_code : Entier&lt;br&gt;pep_included_indicator : Oui / non&lt;br&gt;action_taken_desc : Texte&lt;br&gt;action_taken_present : Oui / non&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#2563EB;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;previous_report_id → REPORT.str_report_id | 0..1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#2563EB;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="812" width="950" height="882" />
+        </mxCell>
+        <mxCell id="STR_PPP_PROJECT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les projets associés&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#2563EB;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_PPP_PROJECT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;ppp_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;project_name_code : Entier&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#2563EB;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#2563EB;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1160" y="812" width="950" height="342" />
+        </mxCell>
+        <mxCell id="STR_RELATED_REPORT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les rapports liés&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#2563EB;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_RELATED_REPORT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;related_report_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;re_report_reference : Texte&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#2563EB;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#2563EB;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="1794" width="950" height="342" />
+        </mxCell>
+        <mxCell id="STR_RELATED_REPORT_TXN_REF" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les opérations liées&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#2563EB;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_RELATED_REPORT_TXN_REF&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;related_report_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;txn_reference : Texte&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#2563EB;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;related_report_id → RELATED_REPORT.related_report_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#2563EB;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1160" y="1794" width="950" height="404" />
+        </mxCell>
+        <mxCell id="domain-note-0" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Le point de départ du dossier&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Le rapport rassemble le récit et les références. Une correction crée une nouvelle version dans le même groupe; les faits de la version précédente restent consultables.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="2253" width="2000" height="150" />
+        </mxCell>
+        <mxCell id="zone-title-1" value="&lt;div style=&quot;line-height:37px&quot;&gt;02 Définitions · 4 tables&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=30;fontColor=#15803D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="705" width="2000" height="37" />
+        </mxCell>
+        <mxCell id="zone-question-1" value="&lt;div style=&quot;line-height:26px&quot;&gt;De qui parle-t-on ?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#24364B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="755" width="2000" height="26" />
+        </mxCell>
+        <mxCell id="STR_DEFINITION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le point de référence&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#15803D;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_DEFINITION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;definition_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;type_code : Entier&lt;br&gt;ref_id : Texte&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#15803D;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#15803D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="812" width="950" height="372" />
+        </mxCell>
+        <mxCell id="STR_PERSON" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;La personne&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#15803D;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_PERSON&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;person_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;definition_id : Identifiant [FK]&lt;br&gt;address_id : Identifiant [FK]&lt;br&gt;given_name : Texte (100)&lt;br&gt;surname : Texte (100)&lt;br&gt;other_name_initial : Texte (100)&lt;br&gt;alias : Texte (100)&lt;br&gt;telephone_number : Texte (20)&lt;br&gt;extension_number : Texte (10)&lt;br&gt;date_of_birth : Texte&lt;br&gt;country_of_residence_code : Texte&lt;br&gt;occupation : Texte (200)&lt;br&gt;name_of_employer : Texte (100)&lt;br&gt;address_type_code : Entier&lt;br&gt;country_of_citizenship_code : Texte&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#15803D;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;definition_id → DEFINITION.definition_id | 0..1&lt;br&gt;address_id → ADDRESS.address_id | 0..1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#15803D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="3340" y="812" width="950" height="766" />
+        </mxCell>
+        <mxCell id="STR_ENTITY" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’entité&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#15803D;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_ENTITY&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;entity_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;definition_id : Identifiant [FK]&lt;br&gt;address_id : Identifiant [FK]&lt;br&gt;name_of_entity : Texte (100)&lt;br&gt;telephone_number : Texte (20)&lt;br&gt;extension_number : Texte (10)&lt;br&gt;nature_of_principal_business : Texte (200)&lt;br&gt;address_type_code : Entier&lt;br&gt;registration_incorporation_indicator : Oui / non&lt;br&gt;structure_type_code : Entier&lt;br&gt;structure_type_other : Texte (200)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#15803D;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;definition_id → DEFINITION.definition_id | 0..1&lt;br&gt;address_id → ADDRESS.address_id | 0..1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#15803D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="1678" width="950" height="646" />
+        </mxCell>
+        <mxCell id="STR_EMPLOYER_INFO" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’employeur&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#15803D;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_EMPLOYER_INFO&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;employer_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;person_id : Identifiant [FK]&lt;br&gt;address_id : Identifiant [FK]&lt;br&gt;name : Texte (100)&lt;br&gt;address_type_code : Entier&lt;br&gt;telephone_number : Texte (20)&lt;br&gt;extension_number : Texte (10)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#15803D;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;person_id → PERSON.person_id | 0..1&lt;br&gt;address_id → ADDRESS.address_id | 0..1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#15803D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="3340" y="1678" width="950" height="526" />
+        </mxCell>
+        <mxCell id="domain-note-1" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;La fiche et son usage sont deux choses différentes&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;DEFINITION donne le repère. PERSON ou ENTITY décrit la fiche. Les rôles citent ce repère avec le type attendu. Une même personne réelle peut donc avoir plusieurs fiches déclaratives.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="2379" width="2000" height="150" />
+        </mxCell>
+        <mxCell id="zone-title-2" value="&lt;div style=&quot;line-height:37px&quot;&gt;03 Identité · 2 tables&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=30;fontColor=#B7791F;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="705" width="2000" height="37" />
+        </mxCell>
+        <mxCell id="zone-question-2" value="&lt;div style=&quot;line-height:26px&quot;&gt;Comment la décrire et l’identifier ?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#24364B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="755" width="2000" height="26" />
+        </mxCell>
+        <mxCell id="STR_ADDRESS" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’adresse&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#B7791F;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_ADDRESS&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;address_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;type_code : Entier&lt;br&gt;unit_number : Texte (10)&lt;br&gt;building_number : Texte (10)&lt;br&gt;street_address : Texte (100)&lt;br&gt;city : Texte (100)&lt;br&gt;district : Texte (100)&lt;br&gt;province_state_code : Texte&lt;br&gt;province_state_name : Texte (100)&lt;br&gt;sub_province_sub_locality : Texte (100)&lt;br&gt;postal_zip_code : Texte (20)&lt;br&gt;country_code : Texte&lt;br&gt;unstructured : Texte (500)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#B7791F;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#B7791F;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="812" width="950" height="642" />
+        </mxCell>
+        <mxCell id="STR_IDENTIFICATION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les pièces d’identité&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#B7791F;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_IDENTIFICATION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;identification_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;definition_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;identifier_type_code : Entier&lt;br&gt;identifier_type_other : Texte (200)&lt;br&gt;number : Texte (100)&lt;br&gt;jurisdiction_country_code : Texte&lt;br&gt;jurisdiction_province_state_code : Texte&lt;br&gt;jurisdiction_province_state_name : Texte (100)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#B7791F;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;definition_id → DEFINITION.definition_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#B7791F;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="5520" y="812" width="950" height="554" />
+        </mxCell>
+        <mxCell id="domain-note-2" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Une adresse n’est pas une pièce d’identité&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;L’adresse décrit où se trouve la personne ou l’organisation. L’identification décrit le document utilisé pour l’identifier. Chaque adresse garde un seul propriétaire dans cette version du rapport.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="1509" width="2000" height="150" />
+        </mxCell>
+        <mxCell id="zone-title-3" value="&lt;div style=&quot;line-height:37px&quot;&gt;04 Entité · 2 tables&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=30;fontColor=#0F766E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="1816" width="2000" height="37" />
+        </mxCell>
+        <mxCell id="zone-question-3" value="&lt;div style=&quot;line-height:26px&quot;&gt;Comment l’organisation est-elle constituée ?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#24364B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="1866" width="2000" height="26" />
+        </mxCell>
+        <mxCell id="STR_REGISTRATION_INCORPORATION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’enregistrement&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#0F766E;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_REGISTRATION_INCORPORATION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;reg_inc_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;entity_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;type_code : Entier&lt;br&gt;number : Texte (100)&lt;br&gt;jurisdiction_country_code : Texte&lt;br&gt;jurisdiction_province_state_code : Texte&lt;br&gt;jurisdiction_province_state_name : Texte (100)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#0F766E;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;entity_id → ENTITY.entity_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#0F766E;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="1923" width="950" height="524" />
+        </mxCell>
+        <mxCell id="STR_AUTHORIZED_PERSON" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les personnes autorisées&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#0F766E;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_AUTHORIZED_PERSON&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;auth_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;entity_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;surname : Texte (100)&lt;br&gt;given_name : Texte (100)&lt;br&gt;other_name_initial : Texte (100)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#0F766E;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;entity_id → ENTITY.entity_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#0F766E;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="5520" y="1923" width="950" height="464" />
+        </mxCell>
+        <mxCell id="domain-note-3" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Être autorisé à agir ne signifie pas être propriétaire&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Ces deux tables complètent la fiche de l’entité : son enregistrement d’un côté, les personnes autorisées de l’autre. Les renseignements de direction et de propriété sont rangés dans le domaine suivant.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="2502" width="2000" height="150" />
+        </mxCell>
+        <mxCell id="zone-title-4" value="&lt;div style=&quot;line-height:37px&quot;&gt;05 Bénéficiaires effectifs · 7 tables&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=30;fontColor=#C24153;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="2809" width="2000" height="37" />
+        </mxCell>
+        <mxCell id="zone-question-4" value="&lt;div style=&quot;line-height:26px&quot;&gt;Qui dirige ou détient l’entité ?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#24364B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="2859" width="2000" height="26" />
+        </mxCell>
+        <mxCell id="STR_DIRECTOR" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les administrateurs&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_DIRECTOR&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;director_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;entity_id : Identifiant [FK]&lt;br&gt;address_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;surname : Texte (100)&lt;br&gt;given_name : Texte (100)&lt;br&gt;other_name_initial : Texte (100)&lt;br&gt;address_type_code : Entier&lt;br&gt;telephone_number : Texte (20)&lt;br&gt;extension_number : Texte (10)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;entity_id → ENTITY.entity_id | 0..N&lt;br&gt;address_id → ADDRESS.address_id | 0..1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="2916" width="950" height="616" />
+        </mxCell>
+        <mxCell id="STR_SHARE_OWNER" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les détenteurs d’actions&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_SHARE_OWNER&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;share_owner_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;entity_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;surname : Texte (100)&lt;br&gt;given_name : Texte (100)&lt;br&gt;other_name_initial : Texte (100)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;entity_id → ENTITY.entity_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="5520" y="2916" width="950" height="464" />
+        </mxCell>
+        <mxCell id="STR_TRUSTEE" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les fiduciaires&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_TRUSTEE&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;trustee_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;entity_id : Identifiant [FK]&lt;br&gt;address_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;surname : Texte (100)&lt;br&gt;given_name : Texte (100)&lt;br&gt;other_name_initial : Texte (100)&lt;br&gt;address_type_code : Entier&lt;br&gt;telephone_number : Texte (20)&lt;br&gt;extension_number : Texte (10)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;entity_id → ENTITY.entity_id | 0..N&lt;br&gt;address_id → ADDRESS.address_id | 0..1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="3632" width="950" height="616" />
+        </mxCell>
+        <mxCell id="STR_SETTLOR" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les constituants&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_SETTLOR&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;settlor_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;entity_id : Identifiant [FK]&lt;br&gt;address_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;surname : Texte (100)&lt;br&gt;given_name : Texte (100)&lt;br&gt;other_name_initial : Texte (100)&lt;br&gt;address_type_code : Entier&lt;br&gt;telephone_number : Texte (20)&lt;br&gt;extension_number : Texte (10)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;entity_id → ENTITY.entity_id | 0..N&lt;br&gt;address_id → ADDRESS.address_id | 0..1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="5520" y="3632" width="950" height="616" />
+        </mxCell>
+        <mxCell id="STR_TRUST_UNIT_OWNER" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les détenteurs d’unités&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_TRUST_UNIT_OWNER&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;trust_unit_owner_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;entity_id : Identifiant [FK]&lt;br&gt;address_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;surname : Texte (100)&lt;br&gt;given_name : Texte (100)&lt;br&gt;other_name_initial : Texte (100)&lt;br&gt;address_type_code : Entier&lt;br&gt;telephone_number : Texte (20)&lt;br&gt;extension_number : Texte (10)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;entity_id → ENTITY.entity_id | 0..N&lt;br&gt;address_id → ADDRESS.address_id | 0..1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="4348" width="950" height="616" />
+        </mxCell>
+        <mxCell id="STR_TRUST_BENEFICIARY" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les bénéficiaires de fiducie&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_TRUST_BENEFICIARY&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;trust_beneficiary_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;entity_id : Identifiant [FK]&lt;br&gt;address_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;surname : Texte (100)&lt;br&gt;given_name : Texte (100)&lt;br&gt;other_name_initial : Texte (100)&lt;br&gt;address_type_code : Entier&lt;br&gt;telephone_number : Texte (20)&lt;br&gt;extension_number : Texte (10)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;entity_id → ENTITY.entity_id | 0..N&lt;br&gt;address_id → ADDRESS.address_id | 0..1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="5520" y="4348" width="950" height="616" />
+        </mxCell>
+        <mxCell id="STR_OTHER_ENTITY_OWNER" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les autres propriétaires&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_OTHER_ENTITY_OWNER&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;other_entity_owner_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;entity_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;surname : Texte (100)&lt;br&gt;given_name : Texte (100)&lt;br&gt;other_name_initial : Texte (100)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C24153;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;entity_id → ENTITY.entity_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C24153;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="5064" width="950" height="464" />
+        </mxCell>
+        <mxCell id="domain-note-4" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Sept listes, une entité concernée&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Ces renseignements appartiennent à une entité de type 6. Les noms sont décrits directement dans les listes du Swagger. Le bénéficiaire d’une fiducie n’est pas le bénéficiaire d’une opération.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="4470" y="5583" width="2000" height="150" />
+        </mxCell>
+        <mxCell id="zone-title-5" value="&lt;div style=&quot;line-height:37px&quot;&gt;06 Transactions · 3 tables&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=30;fontColor=#C76C12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="2560" width="2000" height="37" />
+        </mxCell>
+        <mxCell id="zone-question-5" value="&lt;div style=&quot;line-height:26px&quot;&gt;Que s’est-il passé ?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#24364B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="2610" width="2000" height="26" />
+        </mxCell>
+        <mxCell id="STR_TRANSACTION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’opération&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C76C12;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_TRANSACTION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;transaction_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;re_location_id : Texte (30)&lt;br&gt;attempted_indicator : Oui / non&lt;br&gt;reason_not_completed : Texte (200)&lt;br&gt;date_of_transaction : Texte&lt;br&gt;time_of_transaction : Texte&lt;br&gt;method_code : Entier&lt;br&gt;method_other : Texte (200)&lt;br&gt;date_of_posting : Texte&lt;br&gt;time_of_posting : Texte&lt;br&gt;re_txn_reference : Texte&lt;br&gt;purpose : Texte (200)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C76C12;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C76C12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="2667" width="950" height="642" />
+        </mxCell>
+        <mxCell id="STR_STARTING_ACTION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’action initiale&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C76C12;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_STARTING_ACTION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;starting_action_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;transaction_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;direction : Entier&lt;br&gt;fund_type_code : Entier&lt;br&gt;fund_type_other : Texte (200)&lt;br&gt;amount : Texte&lt;br&gt;currency_code : Texte&lt;br&gt;vc_type_code : Texte&lt;br&gt;vc_type_other : Texte (200)&lt;br&gt;exchange_rate : Texte&lt;br&gt;reference_number : Texte (200)&lt;br&gt;ref_number_other : Texte (200)&lt;br&gt;account_status_code : Entier&lt;br&gt;how_funds_obtained : Texte (200)&lt;br&gt;source_funds_indicator : Oui / non&lt;br&gt;conductor_indicator : Oui / non&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C76C12;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;transaction_id → TRANSACTION.transaction_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C76C12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1160" y="2667" width="950" height="794" />
+        </mxCell>
+        <mxCell id="STR_COMPLETING_ACTION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’action finale&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C76C12;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_COMPLETING_ACTION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;completing_action_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;transaction_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;disposition_code : Entier&lt;br&gt;disposition_other : Texte (200)&lt;br&gt;amount : Texte&lt;br&gt;currency_code : Texte&lt;br&gt;vc_type_code : Texte&lt;br&gt;vc_type_other : Texte (200)&lt;br&gt;exchange_rate : Texte&lt;br&gt;value_in_cad : Texte&lt;br&gt;reference_number : Texte (200)&lt;br&gt;ref_number_other : Texte (200)&lt;br&gt;account_status_code : Entier&lt;br&gt;involvement_indicator : Oui / non&lt;br&gt;beneficiary_indicator : Oui / non&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#C76C12;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;transaction_id → TRANSACTION.transaction_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#C76C12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="3561" width="950" height="764" />
+        </mxCell>
+        <mxCell id="domain-note-5" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Lire le mouvement dans les deux sens&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;L’opération donne le contexte. Ses actions décrivent ce qui amorce le mouvement et ce qui est fait des fonds à l’arrivée. Il peut y avoir plusieurs actions initiales et plusieurs actions finales.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="4380" width="2000" height="150" />
+        </mxCell>
+        <mxCell id="zone-title-6" value="&lt;div style=&quot;line-height:37px&quot;&gt;07 Rôles · 5 tables&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=30;fontColor=#7C3AED;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="2686" width="2000" height="37" />
+        </mxCell>
+        <mxCell id="zone-question-6" value="&lt;div style=&quot;line-height:26px&quot;&gt;Qui fait quoi dans l’opération ?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#24364B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="2736" width="2000" height="26" />
+        </mxCell>
+        <mxCell id="STR_CONDUCTOR" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;L’exécutant&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#7C3AED;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_CONDUCTOR&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;conductor_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;starting_action_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;type_code : Entier [FK]&lt;br&gt;ref_id : Texte [FK]&lt;br&gt;client_number : Texte (100)&lt;br&gt;email_address : Texte (200)&lt;br&gt;url : Texte (200)&lt;br&gt;device_type_code : Entier&lt;br&gt;device_type_other : Texte (200)&lt;br&gt;username : Texte (100)&lt;br&gt;device_id_number : Texte (200)&lt;br&gt;ip_address : Texte (200)&lt;br&gt;online_session_datetime : Texte&lt;br&gt;on_behalf_of_indicator : Oui / non&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#7C3AED;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;starting_action_id → STARTING_ACTION.starting_action_id | 0..N&lt;br&gt;str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#7C3AED;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="2793" width="950" height="766" />
+        </mxCell>
+        <mxCell id="STR_ON_BEHALF_OF" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le tiers représenté&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#7C3AED;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_ON_BEHALF_OF&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;obo_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;conductor_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;type_code : Entier [FK]&lt;br&gt;ref_id : Texte [FK]&lt;br&gt;client_number : Texte (100)&lt;br&gt;email_address : Texte (200)&lt;br&gt;url : Texte (200)&lt;br&gt;relationship_code : Entier&lt;br&gt;relationship_other : Texte (200)&lt;br&gt;details_present : Oui / non&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#7C3AED;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;conductor_id → CONDUCTOR.conductor_id | 0..N&lt;br&gt;str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#7C3AED;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="3340" y="2793" width="950" height="646" />
+        </mxCell>
+        <mxCell id="STR_SOURCE_OF_FUNDS" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;La source des fonds&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#7C3AED;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_SOURCE_OF_FUNDS&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;source_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;starting_action_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;type_code : Entier [FK]&lt;br&gt;ref_id : Texte [FK]&lt;br&gt;account_number : Texte (200)&lt;br&gt;policy_number : Texte (100)&lt;br&gt;identifying_number : Texte (100)&lt;br&gt;details_present : Oui / non&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#7C3AED;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;starting_action_id → STARTING_ACTION.starting_action_id | 0..N&lt;br&gt;str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#7C3AED;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="3659" width="950" height="586" />
+        </mxCell>
+        <mxCell id="STR_INVOLVEMENT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;La personne impliquée&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#7C3AED;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_INVOLVEMENT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;involvement_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;completing_action_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;type_code : Entier [FK]&lt;br&gt;ref_id : Texte [FK]&lt;br&gt;account_number : Texte (200)&lt;br&gt;identifying_number : Texte (100)&lt;br&gt;policy_number : Texte (100)&lt;br&gt;details_present : Oui / non&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#7C3AED;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;completing_action_id → COMPLETING_ACTION.completing_action_id | 0..N&lt;br&gt;str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#7C3AED;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="3340" y="3659" width="950" height="586" />
+        </mxCell>
+        <mxCell id="STR_BENEFICIARY" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le bénéficiaire de l’opération&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#7C3AED;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_BENEFICIARY&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;beneficiary_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;completing_action_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;type_code : Entier [FK]&lt;br&gt;ref_id : Texte [FK]&lt;br&gt;client_number : Texte (100)&lt;br&gt;username : Texte (100)&lt;br&gt;email_address : Texte (200)&lt;br&gt;details_present : Oui / non&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#7C3AED;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;completing_action_id → COMPLETING_ACTION.completing_action_id | 0..N&lt;br&gt;str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#7C3AED;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="4345" width="950" height="586" />
+        </mxCell>
+        <mxCell id="domain-note-6" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Camille agit pour la société A&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Camille est l’exécutante; A est le tiers représenté. La source des fonds, le titulaire du compte et le bénéficiaire restent des renseignements distincts. On les décrit selon les faits connus.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="4986" width="2000" height="150" />
+        </mxCell>
+        <mxCell id="zone-title-7" value="&lt;div style=&quot;line-height:37px&quot;&gt;08 Comptes · 3 tables&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=30;fontColor=#059669;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="4687" width="2000" height="37" />
+        </mxCell>
+        <mxCell id="zone-question-7" value="&lt;div style=&quot;line-height:26px&quot;&gt;Par quels comptes ou adresses les fonds passent-ils ?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#24364B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="4737" width="2000" height="26" />
+        </mxCell>
+        <mxCell id="STR_ACCOUNT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le compte&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#059669;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_ACCOUNT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;account_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;starting_action_id : Identifiant [FK]&lt;br&gt;completing_action_id : Identifiant [FK]&lt;br&gt;fi_number : Texte (50)&lt;br&gt;branch_number : Texte (50)&lt;br&gt;number : Texte (100)&lt;br&gt;type_code : Entier&lt;br&gt;type_other : Texte (200)&lt;br&gt;currency_code : Texte&lt;br&gt;vc_type_code : Texte&lt;br&gt;vc_type_other : Texte (200)&lt;br&gt;date_opened : Texte&lt;br&gt;date_closed : Texte&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#059669;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;starting_action_id → STARTING_ACTION.starting_action_id | 0..1&lt;br&gt;completing_action_id → COMPLETING_ACTION.completing_action_id | 0..1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#059669;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="4794" width="950" height="706" />
+        </mxCell>
+        <mxCell id="STR_ACCOUNT_HOLDER" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les titulaires&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#059669;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_ACCOUNT_HOLDER&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;holder_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;account_id : Identifiant [FK]&lt;br&gt;ordinal : Entier&lt;br&gt;type_code : Entier [FK]&lt;br&gt;ref_id : Texte [FK]&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#059669;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;account_id → ACCOUNT.account_id | 0..N&lt;br&gt;str_report_id, type_code, ref_id → DEFINITION.str_report_id, type_code, ref_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#059669;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1160" y="4794" width="950" height="466" />
+        </mxCell>
+        <mxCell id="STR_VC_DATA" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;La monnaie virtuelle&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#059669;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_VC_DATA&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;vc_data_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;starting_action_id : Identifiant [FK]&lt;br&gt;completing_action_id : Identifiant [FK]&lt;br&gt;data_type : Texte&lt;br&gt;ordinal : Entier&lt;br&gt;value : Texte (200)&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#059669;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;starting_action_id → STARTING_ACTION.starting_action_id | 0..N&lt;br&gt;completing_action_id → COMPLETING_ACTION.completing_action_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#059669;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="5600" width="950" height="496" />
+        </mxCell>
+        <mxCell id="domain-note-7" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Un compte reste lié à une action précise&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;ACCOUNT et VC_DATA ont chacun deux clés d’action possibles. On en renseigne exactement une : initiale ou finale. Dans VC_DATA, data_type sépare les identifiants, les adresses émettrices et les adresses réceptrices.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="6151" width="2000" height="150" />
+        </mxCell>
+        <mxCell id="zone-title-8" value="&lt;div style=&quot;line-height:37px&quot;&gt;09 Audit · 4 tables&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=30;fontColor=#64748B;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="5293" width="2000" height="37" />
+        </mxCell>
+        <mxCell id="zone-question-8" value="&lt;div style=&quot;line-height:26px&quot;&gt;Qu’a-t-on envoyé et quelle réponse a-t-on reçue ?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#24364B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="5343" width="2000" height="26" />
+        </mxCell>
+        <mxCell id="STR_API_SUBMISSION" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le suivi de l’envoi&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#64748B;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_API_SUBMISSION&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;submission_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;initial_submission_id : Identifiant [FK]&lt;br&gt;operation : Texte&lt;br&gt;environment : Texte&lt;br&gt;attempt_number : Entier&lt;br&gt;started_at : Date et heure&lt;br&gt;completed_at : Date et heure&lt;br&gt;http_status_code : Entier&lt;br&gt;transport_error : Texte&lt;br&gt;processing_status : Texte&lt;br&gt;external_report_uuid : Texte&lt;br&gt;api_response_body : Texte JSON&lt;br&gt;response_sha256 : Texte&lt;br&gt;bulk_reference : Texte&lt;br&gt;correlation_id : Identifiant&lt;br&gt;file_name : Texte&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#64748B;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;initial_submission_id → API_SUBMISSION.submission_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#64748B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="5400" width="950" height="764" />
+        </mxCell>
+        <mxCell id="STR_SUBMITTED_PAYLOAD" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le contenu transmis&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#64748B;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_SUBMITTED_PAYLOAD&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;payload_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;submission_id : Identifiant [FK]&lt;br&gt;payload_json : Texte JSON&lt;br&gt;payload_hash_sha256 : Texte&lt;br&gt;created_at : Date et heure&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#64748B;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;submission_id → API_SUBMISSION.submission_id | 0..1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#64748B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="3340" y="5400" width="950" height="434" />
+        </mxCell>
+        <mxCell id="STR_VALIDATION_ERROR" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Les messages de validation&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#64748B;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_VALIDATION_ERROR&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;error_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;submission_id : Identifiant [FK]&lt;br&gt;origin : Texte&lt;br&gt;message_type : Texte&lt;br&gt;severity : Texte&lt;br&gt;ack_report_reference : Texte&lt;br&gt;ack_ordinal : Entier&lt;br&gt;detected_at : Date et heure&lt;br&gt;ordinal : Entier&lt;br&gt;instance_path : Texte&lt;br&gt;rule_id : Texte&lt;br&gt;error_code : Nombre exact&lt;br&gt;message_en : Texte&lt;br&gt;message_fr : Texte&lt;br&gt;schema_path : Texte&lt;br&gt;keyword : Texte&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#64748B;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;br&gt;submission_id → API_SUBMISSION.submission_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#64748B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="6264" width="950" height="764" />
+        </mxCell>
+        <mxCell id="STR_AUDIT_EVENT" value="&lt;div style=&quot;font-size:23px;color:#142B46;font-weight:bold;line-height:30px;margin:0 0 7px 0;&quot;&gt;Le journal du dossier&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#64748B;font-weight:bold;line-height:23px;margin:0 0 18px 0;&quot;&gt;STR_AUDIT_EVENT&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:30px;&quot;&gt;&lt;b&gt;event_id : Identifiant [PK]&lt;/b&gt;&lt;br&gt;str_report_id : Identifiant [FK]&lt;br&gt;event_type : Texte&lt;br&gt;event_user : Texte&lt;br&gt;event_timestamp : Date et heure&lt;br&gt;event_details : Texte&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;color:#64748B;font-weight:bold;line-height:23px;margin:0 0 14px 0;&quot;&gt;Références · lignes de cette table par parent&lt;/div&gt;&lt;div style=&quot;color:#5E7185;&quot;&gt;&lt;div style=&quot;font-size:16px;line-height:32px;&quot;&gt;str_report_id → REPORT.str_report_id | 0..N&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D8E2EC;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;strokeColor=#64748B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="3340" y="6264" width="950" height="402" />
+        </mxCell>
+        <mxCell id="domain-note-8" value="&lt;div style=&quot;font-size:21px;color:#142B46;font-weight:bold;line-height:28px;margin:0 0 8px 0;&quot;&gt;Une tentative d’envoi n’est pas une nouvelle version&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#24364B;font-weight:normal;line-height:25px;margin:0 0 0px 0;&quot;&gt;Le contenu transmis et la réponse restent archivés. Un nouvel essai du même contenu crée une tentative; une correction du contenu crée une version. Une réponse HTTP positive ne prouve pas, à elle seule, l’acceptation du rapport.&lt;/div&gt;" style="rounded=1;arcSize=8;fillColor=#EAF0F7;strokeColor=#EAF0F7;html=1;whiteSpace=wrap;overflow=visible;align=left;verticalAlign=top;spacing=0;spacingTop=17;spacingLeft=22;spacingRight=18;spacingBottom=15;fontFamily=Arial;fontSize=17;fontColor=#24364B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2290" y="7083" width="2000" height="150" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

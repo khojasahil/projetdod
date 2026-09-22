@@ -75,6 +75,7 @@ Cette planche est faite pour être parcourue en zoomant. Les vues métier préc�
 
 ## Reproduire le modèle
 
+- **[Version facile à modifier — CANAFE_DOD_EDITION_SIMPLE.drawio](diagrams/CANAFE_DOD_EDITION_SIMPLE.drawio)** : les mêmes dix pages, avec une seule forme et un texte multiligne par table. Un champ par ligne; les notes sont aussi des blocs uniques. [Mode d’emploi](docs/EDITION_SIMPLE.md).
 - [Guide draw.io](docs/GUIDE_DRAWIO.md) : ouvrir, modifier ou redessiner les vues.
 - [Fichier principal — neuf vues métier et une vue complète](diagrams/CANAFE_DOD.drawio).
 - [Annexe draw.io — les 34 tables avec toutes leurs colonnes](diagrams/CANAFE_DOD_DETAIL.drawio).
@@ -104,6 +105,7 @@ Python 3.10 ou plus récent et Pillow sont nécessaires. Depuis la racine du dé
 ```text
 python tools/generate.py
 python tools/verify.py
+python tools/simple_editing.py
 ```
 
 Les fichiers de référence sont le Swagger archivé, le catalogue `tools/build_model.py` et les compositions `tools/render_models.py`. La régénération ne modifie pas les guides rédigés ni le YAML officiel. Les polices Arial sont utilisées sous Windows; DejaVu Sans sert de repli sous Linux.
