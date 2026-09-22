@@ -25,6 +25,8 @@ Les neuf images métier ont été inspectées visuellement. Les légendes de rel
 
 La vérification structurelle couvre les 43 pages des deux fichiers. La présentation utilise des pages de travail sans découpage papier. Une impression A4 nécessitera une mise en page adaptée; les PNG sont destinés à une consultation à l’écran et à l’insertion dans des présentations.
 
+Les deux fichiers publiés ont aussi été ouverts dans l’éditeur officiel diagrams.net. L’éditeur a reconnu les neuf pages métier et les 34 pages de l’annexe. La vue des domaines, la page des rôles et la fiche complète STR_REPORT ont été relues à l’écran. Le thème de l’éditeur peut adapter les couleurs, sans modifier la composition des cartes.
+
 ## Portée de ces contrôles
 
 Le validateur local couvre les mots-clés utilisés par les exemples; il n’est pas un moteur OpenAPI général ni un test de certification CANAFE. Aucun appel de soumission n’a été réalisé. L’intégrité est spécifiée dans le modèle logique et devra être implantée puis testée dans le SGBD choisi.
