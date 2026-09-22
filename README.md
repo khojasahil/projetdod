@@ -16,6 +16,8 @@ Modèle relationnel pour conserver les données d’une déclaration d’opérat
 
 Le diagramme contient **61 tables et 679 colonnes**, réparties sur **20 pages**. Ce nombre inclut les identifiants, les liens entre tables, les colonnes de présence, les tables d’historique et les réponses API. Il ne représente pas 679 champs à fournir à CANAFE. Le [bilan des vérifications](quality/verification.json) donne les décomptes de couverture du contrat.
 
+[Ouvrir directement le modèle dans draw.io](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD.drawio) — le fichier peut également être téléchargé et ouvert localement.
+
 ## Traçabilité exploitable
 
 - [Champs et correspondances](traceability/fields.csv) : chemins JSON, table, colonne, JSON Pointer source, ligne du YAML, contraintes et variante applicable.
@@ -35,5 +37,7 @@ La source archivée dans [projet-io](https://github.com/khojasahil/projet-io/tre
 ## Vérification et limites
 
 Les vérifications locales contrôlent la couverture des propriétés nommées, les liens du modèle, les contraintes essentielles, les exemples fictifs et la structure du fichier draw.io. Aucun envoi n’a été effectué à CANAFE. L’acceptation métier par CANAFE doit être testée dans l’environnement approprié après implantation; elle ne se déduit pas de la seule validité du JSON.
+
+L’ouverture dans draw.io et un échantillon de vues ont également été vérifiés. Voir le [compte rendu des contrôles](quality/CONTROLES.md).
 
 Les seuls outils fournis régénèrent ou contrôlent les livrables : `python tools/generate.py`, puis `python tools/verify.py`. Ils ne créent aucune table et ne transmettent aucune déclaration. Python 3.10 ou supérieur, bibliothèque standard seulement. Le YAML original reste la référence; `source/openapi.json` en est une représentation d’analyse, avec les exemples de dates convertis en chaînes.
