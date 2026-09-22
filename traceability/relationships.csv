@@ -1,0 +1,71 @@
+﻿parent,child,fk,parent_key,cardinality,kind,same_version
+STR_REPORT,STR_VERSION,report_id,id,1 → 0..N,historique,False
+STR_SCHEMA_RELEASE,STR_VERSION,schema_release_id,id,1 → 0..N,historique,False
+STR_VERSION,STR_VERSION,previous_version_id,id,1 → 0..N,historique,False
+STR_DISPATCH,STR_DISPATCH_ITEM,parent_id,id,1 → 0..N,composition,False
+STR_VERSION,STR_DISPATCH_ITEM,version_id,id,1 → 0..N,soumission,False
+STR_DISPATCH,STR_API_EXCHANGE,parent_id,id,1 → 0..N,composition,False
+STR_ARTIFACT,STR_API_EXCHANGE,request_artifact_id,id,1 → 0..N,archive,False
+STR_ARTIFACT,STR_API_EXCHANGE,response_artifact_id,id,1 → 0..N,archive,False
+STR_VALIDATION_RESULT_ACK,STR_ACK_LINK,ack_id,id,1 → 0..1,rapprochement,False
+STR_DISPATCH_ITEM,STR_ACK_LINK,dispatch_item_id,id,1 → 0..N,rapprochement,False
+STR_VERSION,STR_AUDIT_EVENT,parent_id,id,1 → 0..N,composition,False
+STR_SCHEMA_RELEASE,STR_CODE_VALUE,parent_id,id,1 → 0..N,composition,False
+STR_VERSION,STR_PPP_PROJECT,parent_id,id,1 → 0..N,composition,True
+STR_VERSION,STR_RELATED_REPORT,parent_id,id,1 → 0..N,composition,True
+STR_RELATED_REPORT,STR_RELATED_TRANSACTION,parent_id,id,1 → 0..N,composition,True
+STR_VERSION,STR_DEFINITION,parent_id,id,1 → 0..N,composition,True
+STR_DEFINITION,STR_PERSON_NAME,id,id,1 → 0..1,composition,True
+STR_DEFINITION,STR_ENTITY_NAME,id,id,1 → 0..1,composition,True
+STR_DEFINITION,STR_PERSON_DETAILS,id,id,1 → 0..1,composition,True
+STR_PERSON_DETAILS,STR_PERSON_DETAILS_IDENTIFICATION,parent_id,id,1 → 0..N,composition,True
+STR_DEFINITION,STR_ENTITY_DETAILS,id,id,1 → 0..1,composition,True
+STR_ENTITY_DETAILS,STR_ENTITY_DETAILS_IDENTIFICATION,parent_id,id,1 → 0..N,composition,True
+STR_ENTITY_DETAILS,STR_ENTITY_DETAILS_AUTHORIZED_PERSON,parent_id,id,1 → 0..N,composition,True
+STR_ENTITY_DETAILS,STR_ENTITY_DETAILS_REGISTRATION,parent_id,id,1 → 0..N,composition,True
+STR_DEFINITION,STR_PERSON_EMPLOYER,id,id,1 → 0..1,composition,True
+STR_PERSON_EMPLOYER,STR_PERSON_EMPLOYER_IDENTIFICATION,parent_id,id,1 → 0..N,composition,True
+STR_DEFINITION,STR_ENTITY_OWNERSHIP,id,id,1 → 0..1,composition,True
+STR_ENTITY_OWNERSHIP,STR_ENTITY_OWNERSHIP_IDENTIFICATION,parent_id,id,1 → 0..N,composition,True
+STR_ENTITY_OWNERSHIP,STR_ENTITY_OWNERSHIP_AUTHORIZED_PERSON,parent_id,id,1 → 0..N,composition,True
+STR_ENTITY_OWNERSHIP,STR_ENTITY_OWNERSHIP_REGISTRATION,parent_id,id,1 → 0..N,composition,True
+STR_ENTITY_OWNERSHIP,STR_DIRECTOR,parent_id,id,1 → 0..N,composition,True
+STR_ENTITY_OWNERSHIP,STR_SHARE_OWNER,parent_id,id,1 → 0..N,composition,True
+STR_ENTITY_OWNERSHIP,STR_TRUSTEE,parent_id,id,1 → 0..N,composition,True
+STR_ENTITY_OWNERSHIP,STR_SETTLOR,parent_id,id,1 → 0..N,composition,True
+STR_ENTITY_OWNERSHIP,STR_TRUST_UNIT_OWNER,parent_id,id,1 → 0..N,composition,True
+STR_ENTITY_OWNERSHIP,STR_TRUST_BENEFICIARY,parent_id,id,1 → 0..N,composition,True
+STR_ENTITY_OWNERSHIP,STR_OTHER_ENTITY_OWNER,parent_id,id,1 → 0..N,composition,True
+STR_VERSION,STR_TRANSACTION,parent_id,id,1 → 0..N,composition,True
+STR_TRANSACTION,STR_STARTING_ACTION,parent_id,id,1 → 0..N,composition,True
+STR_STARTING_ACTION,STR_STARTING_ACTION_VC_TRANSACTION,parent_id,id,1 → 0..N,composition,True
+STR_STARTING_ACTION,STR_STARTING_ACTION_VC_SENDER,parent_id,id,1 → 0..N,composition,True
+STR_STARTING_ACTION,STR_STARTING_ACTION_VC_RECEIVER,parent_id,id,1 → 0..N,composition,True
+STR_STARTING_ACTION,STR_STARTING_ACTION_ACCOUNT,parent_id,id,1 → 0..1,composition,True
+STR_STARTING_ACTION_ACCOUNT,STR_STARTING_ACTION_ACCOUNT_HOLDER,parent_id,id,1 → 0..N,composition,True
+STR_STARTING_ACTION,STR_SOURCE_OF_FUNDS,parent_id,id,1 → 0..N,composition,True
+STR_STARTING_ACTION,STR_CONDUCTOR,parent_id,id,1 → 0..N,composition,True
+STR_CONDUCTOR,STR_ON_BEHALF_OF,parent_id,id,1 → 0..N,composition,True
+STR_TRANSACTION,STR_COMPLETING_ACTION,parent_id,id,1 → 0..N,composition,True
+STR_COMPLETING_ACTION,STR_COMPLETING_ACTION_VC_TRANSACTION,parent_id,id,1 → 0..N,composition,True
+STR_COMPLETING_ACTION,STR_COMPLETING_ACTION_VC_SENDER,parent_id,id,1 → 0..N,composition,True
+STR_COMPLETING_ACTION,STR_COMPLETING_ACTION_VC_RECEIVER,parent_id,id,1 → 0..N,composition,True
+STR_COMPLETING_ACTION,STR_COMPLETING_ACTION_ACCOUNT,parent_id,id,1 → 0..1,composition,True
+STR_COMPLETING_ACTION_ACCOUNT,STR_COMPLETING_ACTION_ACCOUNT_HOLDER,parent_id,id,1 → 0..N,composition,True
+STR_COMPLETING_ACTION,STR_INVOLVEMENT,parent_id,id,1 → 0..N,composition,True
+STR_COMPLETING_ACTION,STR_BENEFICIARY,parent_id,id,1 → 0..N,composition,True
+STR_API_EXCHANGE,STR_SUBMIT_RESPONSE,parent_id,id,1 → 0..1,composition,False
+STR_SUBMIT_RESPONSE,STR_SUBMIT_RESPONSE_MESSAGE,parent_id,id,1 → 0..N,composition,False
+STR_API_EXCHANGE,STR_VALIDATION_RESULT,parent_id,id,1 → 0..1,composition,False
+STR_VALIDATION_RESULT,STR_VALIDATION_RESULT_ACK,parent_id,id,1 → 0..N,composition,False
+STR_VALIDATION_RESULT_ACK,STR_VALIDATION_RESULT_ACK_MESSAGE,parent_id,id,1 → 0..N,composition,False
+STR_API_EXCHANGE,STR_API_ERROR,parent_id,id,1 → 0..1,composition,False
+STR_API_ERROR,STR_API_ERROR_MESSAGE,parent_id,id,1 → 0..N,composition,False
+STR_DISPATCH_ITEM,STR_DELETE_REQUEST,parent_id,id,1 → 0..1,composition,False
+STR_DEFINITION,STR_STARTING_ACTION_ACCOUNT_HOLDER,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
+STR_DEFINITION,STR_SOURCE_OF_FUNDS,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
+STR_DEFINITION,STR_CONDUCTOR,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
+STR_DEFINITION,STR_ON_BEHALF_OF,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
+STR_DEFINITION,STR_COMPLETING_ACTION_ACCOUNT_HOLDER,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
+STR_DEFINITION,STR_INVOLVEMENT,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
+STR_DEFINITION,STR_BENEFICIARY,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True

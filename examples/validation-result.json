@@ -1,0 +1,31 @@
+{
+  "reportingEntityBulkReference": "DEMO-LOT-001",
+  "processedDate": "2026-09-22T14:01:00-04:00",
+  "status": {
+    "code": 2001,
+    "en": "FICTITIOUS EXAMPLE",
+    "fr": "EXEMPLE FICTIF"
+  },
+  "acceptedWithWarningsCount": 1,
+  "acceptedNoWarningsCount": 0,
+  "rejectedCount": 0,
+  "totalCount": 1,
+  "acknowledgements": [
+    {
+      "reportingEntityReportReference": "DEMO-DOD-001",
+      "messageTypeCode": 2,
+      "validationMessages": [
+        {
+          "path": "/transactions/0",
+          "rule": "DEMO-NON-OFFICIELLE",
+          "error": {
+            "code": 999999,
+            "en": "FICTITIOUS WARNING",
+            "fr": "AVERTISSEMENT FICTIF"
+          },
+          "type": "warning"
+        }
+      ]
+    }
+  ]
+}

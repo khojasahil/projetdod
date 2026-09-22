@@ -1,0 +1,2 @@
+* text=auto eol=lf
+source/swaggerExternal.yaml -text whitespace=-blank-at-eol

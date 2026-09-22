@@ -1,0 +1,11 @@
+{
+  "retrieved_date": "2026-09-22",
+  "url": "https://www148.fintrac-canafe.canada.ca/reporting-ingest/api-doc-files/swaggerExternal.yaml",
+  "swagger_url": "https://www148.fintrac-canafe.canada.ca/swagger",
+  "sha256": "78a49aa716180d4b0a3049e76af3ae3b06a188c2bafb789b11d31ddc9edf17f0",
+  "openapi": "3.0.0",
+  "info_version": "1.0.0",
+  "prior_repository": "https://github.com/khojasahil/projet-io",
+  "prior_commit": "3af25c38efdd78e7d56edcdaf32f89f3ace38515",
+  "prior_source_identical": true
+}

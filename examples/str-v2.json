@@ -1,0 +1,206 @@
+{
+  "reportDetails": {
+    "reportTypeCode": 102,
+    "submitTypeCode": 2,
+    "activitySectorCode": 2,
+    "reportingEntityNumber": 1234567,
+    "submittingReportingEntityNumber": 1234567,
+    "reportingEntityReportReference": "DEMO-DOD-001",
+    "reportingEntityContactId": 1001
+  },
+  "detailsOfSuspicion": {
+    "descriptionOfSuspiciousActivity": "EXEMPLE FICTIF. Texte destiné uniquement à illustrer le stockage du récit et sa correction. Aucun dossier réel. Correction fictive v2 : détail complémentaire documenté.",
+    "suspicionTypeCode": 1,
+    "publicPrivatePartnershipProjectNameCodes": [],
+    "politicallyExposedPersonIncludedIndicator": false
+  },
+  "relatedReports": [],
+  "actionTaken": {
+    "description": "EXEMPLE FICTIF : examen interne documenté."
+  },
+  "definitions": [
+    {
+      "typeCode": 1,
+      "refId": "NOM-P1",
+      "givenName": "Camille",
+      "surname": "Exemple"
+    },
+    {
+      "typeCode": 2,
+      "refId": "NOM-E2",
+      "nameOfEntity": "Société Exemple Fictive"
+    },
+    {
+      "typeCode": 3,
+      "refId": "BEN-P3",
+      "givenName": "Alex",
+      "surname": "Fictif",
+      "addressTypeCode": 2,
+      "address": {
+        "typeCode": 2,
+        "countryCode": "CA",
+        "unstructured": "Adresse fictive pour démonstration uniquement"
+      },
+      "identifications": []
+    },
+    {
+      "typeCode": 4,
+      "refId": "BEN-E4",
+      "nameOfEntity": "Bénéficiaire Fictif Inc",
+      "identifications": [],
+      "registrationsIncorporations": [],
+      "authorizedPersons": []
+    },
+    {
+      "typeCode": 5,
+      "refId": "EXEC-P5",
+      "givenName": "Camille",
+      "surname": "Exemple",
+      "addressTypeCode": 1,
+      "address": {
+        "typeCode": 1,
+        "buildingNumber": "100",
+        "streetAddress": "Rue Exemple",
+        "city": "Montréal",
+        "provinceStateName": "Québec",
+        "postalZipCode": "H0H0H0",
+        "countryCode": "CA"
+      },
+      "identifications": [],
+      "employerInformation": {
+        "name": "Employeur Fictif",
+        "addressTypeCode": 2,
+        "address": {
+          "typeCode": 2,
+          "countryCode": "CA",
+          "unstructured": "Adresse fictive pour démonstration uniquement"
+        }
+      }
+    },
+    {
+      "typeCode": 6,
+      "refId": "TIERS-E6",
+      "nameOfEntity": "Tiers Fictif Inc",
+      "structureTypeCode": 1,
+      "identifications": [],
+      "authorizedPersons": [],
+      "registrationsIncorporations": [],
+      "directorsOfCorporation": [
+        {
+          "givenName": "Claude",
+          "surname": "Exemple",
+          "addressTypeCode": 1,
+          "address": {
+            "typeCode": 1,
+            "buildingNumber": "100",
+            "streetAddress": "Rue Exemple",
+            "city": "Montréal",
+            "provinceStateName": "Québec",
+            "postalZipCode": "H0H0H0",
+            "countryCode": "CA"
+          }
+        }
+      ],
+      "personsOwningSharesOfCorporation": [
+        {
+          "givenName": "Claude",
+          "surname": "Exemple"
+        }
+      ],
+      "trusteesOfTrust": [],
+      "settlorsOfTrust": [],
+      "personsOwningUnitsOfTrust": [],
+      "beneficiariesOfTrust": [],
+      "personsOwningEntityNotCorporationOrTrust": []
+    }
+  ],
+  "transactions": [
+    {
+      "reportingEntityLocationId": "DEMO-001",
+      "suspiciousTransactionDetails": {
+        "attemptedTransactionIndicator": false,
+        "dateOfTransaction": "2026-09-20",
+        "timeOfTransaction": "10:30:00-04:00",
+        "methodCode": 1,
+        "reportingEntityTransactionReference": "DEMO-TXN-001",
+        "purpose": "Démonstration fictive"
+      },
+      "startingActions": [
+        {
+          "details": {
+            "virtualCurrencyTransactionIds": [],
+            "sendingVirtualCurrencyAddresses": [],
+            "receivingVirtualCurrencyAddresses": [],
+            "direction": 1,
+            "fundAssetVirtualCurrencyTypeCode": 2,
+            "amount": "1250.00",
+            "currencyCode": "CAD",
+            "account": {
+              "financialInstitutionNumber": "000",
+              "branchNumber": "00000",
+              "number": "DEMO-COMPTE-001",
+              "typeCode": 1,
+              "holders": [
+                {
+                  "typeCode": 1,
+                  "refId": "NOM-P1"
+                }
+              ]
+            },
+            "conductorIndicator": true,
+            "sourcesOfFundsOrVirtualCurrencyIndicator": true
+          },
+          "sourcesOfFundsOrVirtualCurrency": [
+            {
+              "typeCode": 2,
+              "refId": "NOM-E2"
+            }
+          ],
+          "conductors": [
+            {
+              "typeCode": 5,
+              "refId": "EXEC-P5",
+              "details": {
+                "clientNumber": "DEMO-CLIENT",
+                "onBehalfOfIndicator": true
+              },
+              "onBehalfOfs": [
+                {
+                  "typeCode": 6,
+                  "refId": "TIERS-E6",
+                  "details": {
+                    "relationshipOfConductorCode": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "completingActions": [
+        {
+          "details": {
+            "virtualCurrencyTransactionIds": [],
+            "sendingVirtualCurrencyAddresses": [],
+            "receivingVirtualCurrencyAddresses": [],
+            "dispositionCode": 1,
+            "amount": "1250.00",
+            "currencyCode": "CAD",
+            "beneficiaryIndicator": true
+          },
+          "involvements": [],
+          "beneficiaries": [
+            {
+              "typeCode": 3,
+              "refId": "BEN-P3"
+            },
+            {
+              "typeCode": 4,
+              "refId": "BEN-E4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

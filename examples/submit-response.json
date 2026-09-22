@@ -1,0 +1,13 @@
+{
+  "code": 200,
+  "message": {
+    "en": "FICTITIOUS EXAMPLE",
+    "fr": "EXEMPLE FICTIF"
+  },
+  "payload": {
+    "externalReportUuid": "DEMO-EXTERNAL-ID-NOT-A-REAL-REPORT",
+    "reportingEntityReportReference": "DEMO-DOD-001",
+    "submitDateTime": "2026-09-22T14:00:00.000Z",
+    "validationMessages": []
+  }
+}

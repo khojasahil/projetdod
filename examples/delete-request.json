@@ -1,0 +1,10 @@
+{
+  "reportDetails": {
+    "reportTypeCode": 102,
+    "reportingEntityNumber": 1234567,
+    "submittingReportingEntityNumber": 1234567,
+    "reportingEntityReportReference": "DEMO-DOD-001",
+    "submitTypeCode": 5,
+    "reportSubmitReasonCode": 4
+  }
+}
