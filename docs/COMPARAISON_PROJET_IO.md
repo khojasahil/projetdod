@@ -1,23 +1,40 @@
-# Comparaison avec projet-io
+# Continuité avec le projet précédent
 
-Référence examinée : [projet-io au commit 3af25c3](https://github.com/khojasahil/projet-io/tree/3af25c38efdd78e7d56edcdaf32f89f3ace38515), notamment le README, le modèle V2 et le document complet V2. La copie YAML y est identique à la copie officielle récupérée le 22 septembre 2026.
+La base de comparaison est [projet-io](https://github.com/khojasahil/projet-io), au commit `3af25c38efdd78e7d56edcdaf32f89f3ace38515`. La présente architecture en reprend les **34 tables et les neuf domaines**, avec leurs noms techniques. La copie du Swagger du 22 septembre 2026 est identique, octet pour octet, à la source comparée dans ce projet.
 
-Le nouveau travail reprend la séparation fonctionnelle rapport / définitions / opérations / rôles / comptes / audit. Les changements ci-dessous répondent au besoin d’historique et rendent la traçabilité vérifiable.
+## Ce qui reste familier
 
-| Sujet | Constat dans le projet précédent | Décision dans projetdod |
-|---|---|---|
-| Historique | Rapport principal et tables d’audit; la photographie versionnée n’est pas l’agrégat central du modèle présenté. | Identité durable, versions explicites et envois distincts. Les références portent la version. |
-| Définitions | Tables personne et entité partagées entre plusieurs types. | Six sous-types correspondant exactement aux six branches `oneOf`, avec clé partagée. |
-| Propriétaires d’adresses et identifications | `owner_type` et `owner_id` sont décrits comme FK polymorphe. | Adresses intégrées au propriétaire; identifications par sous-type avec parent explicite. |
-| Comptes des actions | Compte partagé entre plusieurs catégories de parent. | Deux tables de comptes, avec leurs titulaires, pour des liens relationnels explicites. |
-| Monnaie virtuelle | Table générique `VC_DATA`. | Trois listes distinctes par famille d’action : transactions, adresses émettrices et réceptrices. |
-| Ordre et présence | Le rôle de l’ordre et la distinction absence / vide ne sont pas systématisés dans le modèle synthétique. | `ordinal` pour les listes; présence explicite pour les objets et listes facultatifs. |
-| Traçabilité | Chemins YAML fournis dans les tableaux. | Chemin JSON, JSON Pointer d’usage, cible résolue, ligne, contraintes, branche de variante et fichier source figé. |
-| `additionalProperties` | Présenté comme interdit partout dans le README. | Interdit uniquement où le mot-clé vaut `false`; les absences du mot-clé sont conservées. |
-| Secteurs d’activité | Le texte annonce 28 valeurs. | Le domaine contient 25 valeurs; 28 est une valeur maximale, pas un décompte. |
-| Soumissions | Journal de soumission et archive. | Enveloppe, éléments, appels, réponses successives et rapprochement des accusés; compatible avec suivi individuel et lots. |
-| Validation | Description des couches de validation. | Contrôles de couverture reproductibles et anomalies du Swagger explicitement documentées. |
+| Domaine | Tables conservées, préfixe STR_ omis |
+|---|---|
+| Rapport · 4 | REPORT, PPP_PROJECT, RELATED_REPORT, RELATED_REPORT_TXN_REF |
+| Définitions · 4 | DEFINITION, PERSON, ENTITY, EMPLOYER_INFO |
+| Identité · 2 | ADDRESS, IDENTIFICATION |
+| Entité · 2 | REGISTRATION_INCORPORATION, AUTHORIZED_PERSON |
+| Bénéficiaires effectifs · 7 | DIRECTOR, SHARE_OWNER, TRUSTEE, SETTLOR, TRUST_UNIT_OWNER, TRUST_BENEFICIARY, OTHER_ENTITY_OWNER |
+| Transactions · 3 | TRANSACTION, STARTING_ACTION, COMPLETING_ACTION |
+| Rôles · 5 | CONDUCTOR, ON_BEHALF_OF, SOURCE_OF_FUNDS, INVOLVEMENT, BENEFICIARY |
+| Comptes · 3 | ACCOUNT, ACCOUNT_HOLDER, VC_DATA |
+| Audit · 4 | API_SUBMISSION, SUBMITTED_PAYLOAD, VALIDATION_ERROR, AUDIT_EVENT |
 
-Le nombre de tables passe du modèle annoncé de 34 tables à 61 tables logiques, en incluant l’historique, les référentiels et les projections des réponses. Ce n’est pas une extension aux autres types de déclarations. Aucun script SQL n’est fourni, conformément au périmètre demandé.
+Le parcours de présentation reste le même : contexte du rapport, intervenants, opérations, puis suivi. Les tables PERSON et ENTITY continuent de réunir les champs applicables à leurs différentes variantes.
 
-Les détails d’implantation pourront regrouper certaines tables au prix de contraintes conditionnelles supplémentaires. Le modèle livré privilégie la lisibilité des propriétaires et l’intégrité de leurs références.
+## Ce qui est rendu explicite
+
+| Précision | Pourquoi elle est utile |
+|---|---|
+| Une ligne REPORT par version, un groupe stable | Retrouver le contenu exact avant et après une correction. |
+| `str_report_id` sur chaque enfant et contrôle des parents dans cette version | Empêcher qu’une correction utilise par erreur les données d’une autre version. |
+| Référence de rôle contrôlée par code et refId | Éviter de citer une fiche qui n’a pas le niveau de détail attendu. |
+| Une adresse avec un propriétaire défini | Savoir exactement à quelle fiche elle appartient. |
+| Une seule clé d’action pour ACCOUNT et VC_DATA | Éviter un rattachement ambigu entre le début et la fin d’une opération. |
+| Un rang pour les listes et des indicateurs de présence ciblés | Reconstruire les listes et distinguer un objet absent d’un objet vide. |
+| Un suivi par appel et des archives exactes | Séparer une correction de contenu d’un nouvel essai technique. |
+| Un chemin Swagger pour chaque champ nommé | Justifier les colonnes et retrouver la règle source. |
+
+Les précisions de clés et de contraintes ne constituent pas une migration prête à exécuter d’une base existante. Le dépôt livre le modèle logique révisé et permet de comparer les choix avant implantation.
+
+## Ce qui change dans les supports
+
+Les cartes portent un titre français avant le nom technique. Les vues de présentation affichent les colonnes essentielles et des notes courtes. Le dictionnaire et l’annexe draw.io gardent l’ensemble des colonnes. Le README contient les images et un parcours de lecture; un guide métier et des notes de réunion accompagnent les schémas.
+
+Pour expliquer cette reprise aux collègues : « Nous conservons la structure déjà présentée. Nous précisons les liens et l’historique, et nous avons ajouté des supports plus simples à lire. »

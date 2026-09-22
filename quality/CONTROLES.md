@@ -6,22 +6,24 @@ Date : 22 septembre 2026.
 
 Le [résultat détaillé](verification.json) est généré par `tools/verify.py`, indépendamment du parcours de génération des tables.
 
-- 61 tables, 679 colonnes et 20 pages draw.io.
+- 34 tables, 365 colonnes et neuf domaines, avec les effectifs 4 / 4 / 2 / 2 / 7 / 3 / 5 / 3 / 4 demandés.
+- Neuf pages métier et une annexe de 34 pages, une par table avec toutes ses colonnes.
 - 486 occurrences scalaires documentées, variantes distinguées, sur les schémas retenus; toutes ont une correspondance. Parmi elles, 437 appartiennent au graphe de `STRReport`. Ces nombres comptent les usages et branches, pas seulement les noms de propriétés uniques.
-- 516 lignes de correspondance en incluant les indicateurs techniques de présence.
-- Aucune cible de relation absente et aucune collision de propriétés JSON dans une même colonne.
+- 486 lignes de correspondance. Les colonnes internes, dont les indicateurs de présence, sont expliquées séparément dans le dictionnaire.
+- Toutes les cibles de relations existent. Les propriétés partagées et les regroupements volontaires, notamment les listes de monnaie virtuelle et les messages, sont contrôlés et documentés.
 - Toutes les tables contenant les données DOD sont rattachées à une version.
 - Empreinte du YAML officiel vérifiée.
-- XML draw.io, identifiants de formes et références des connecteurs vérifiés.
+- XML draw.io, identifiants de formes, références des connecteurs et limites des pages vérifiés dans les deux fichiers. Les neuf images PNG ont les dimensions attendues; les textes des cartes restent dans leur cadre.
+- Les liens relatifs du README et des guides pointent vers des fichiers présents.
 - Exemples DOD v1 et v2, réponse individuelle et demande de suppression contrôlés localement.
 - Neuf scénarios invalides détectés : montant mal formé, données requises absentes, liste d’opérations vide, références inconnues ou incompatibles, `refId` dupliqué, adresse libre incomplète et champ supplémentaire interdit.
 - Ambiguïtés `oneOf` des messages de validation et du code de province reproduites; elles restent documentées comme anomalies du contrat.
 
-## Ouverture dans draw.io
+## Relecture des supports
 
-Le fichier publié sur GitHub a été ouvert dans l’éditeur officiel diagrams.net au moyen de **Fichier → Ouvrir depuis → URL**. L’éditeur a reconnu les 20 pages et les noms des 61 tables. La vue d’ensemble et la page « Définitions — 3 », comprenant la table de personne/employeur la plus fournie, ont été inspectées visuellement, avec agrandissement pour la lecture des colonnes.
+Les neuf images métier ont été inspectées visuellement. Les légendes de relations des pages Rapport, Rôles et Audit ont été ajustées pour rester visibles entre les cartes. Les images et les pages draw.io sont produites à partir de la même composition.
 
-Le contrôle visuel est un échantillonnage; les 20 pages ont été vérifiées structurellement dans le XML. La présentation utilise des pages de travail sans découpage papier. Une impression sur A4 nécessitera une mise en page adaptée.
+La vérification structurelle couvre les 43 pages des deux fichiers. La présentation utilise des pages de travail sans découpage papier. Une impression A4 nécessitera une mise en page adaptée; les PNG sont destinés à une consultation à l’écran et à l’insertion dans des présentations.
 
 ## Portée de ces contrôles
 

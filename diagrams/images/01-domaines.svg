@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <title>Les neuf domaines du modèle</title>
+  <rect stroke-width="1" x="0" y="0" width="1600" height="1100" rx="0" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="48" y="42" fill="#5E7185">CANAFE / DOD–STR / MODÈLE DE DONNÉES</text>
+  <text font-family="Arial, sans-serif" font-size="36" font-weight="700" x="48" y="100" fill="#142B46">Les neuf domaines du modèle</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="48" y="133" fill="#5E7185">34 tables pour suivre une déclaration, des faits rapportés jusqu’à la réponse de CANAFE.</text>
+  <text font-family="Arial, sans-serif" font-size="13" font-weight="400" x="48" y="1081" fill="#5E7185">PROJET DOD • Architecture reprise de projet-io | 01</text>
+  <rect stroke-width="1" x="48" y="177" width="477" height="254" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="177" width="6" height="254" rx="0" fill="#2563EB" stroke="#2563EB" />
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="700" x="68" y="219" fill="#2563EB">Rapport · 4 tables</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="68" y="250" fill="#142B46">Quel dossier transmet-on ?</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="68" y="292" fill="#24364B">REPORT</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="68" y="313" fill="#24364B">PPP_PROJECT</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="68" y="334" fill="#24364B">RELATED_REPORT</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="68" y="355" fill="#24364B">RELATED_REPORT_TXN_REF</text>
+  <rect stroke-width="1" x="553" y="177" width="477" height="254" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="553" y="177" width="6" height="254" rx="0" fill="#15803D" stroke="#15803D" />
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="700" x="573" y="219" fill="#15803D">Définitions · 4 tables</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="573" y="250" fill="#142B46">De qui parle-t-on ?</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="292" fill="#24364B">DEFINITION</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="313" fill="#24364B">PERSON</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="334" fill="#24364B">ENTITY</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="355" fill="#24364B">EMPLOYER_INFO</text>
+  <rect stroke-width="1" x="1058" y="177" width="477" height="254" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="1058" y="177" width="6" height="254" rx="0" fill="#B7791F" stroke="#B7791F" />
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="700" x="1078" y="219" fill="#B7791F">Identité · 2 tables</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1078" y="250" fill="#142B46">Comment la décrire et l’identifier ?</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1078" y="292" fill="#24364B">ADDRESS</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1078" y="313" fill="#24364B">IDENTIFICATION</text>
+  <rect stroke-width="1" x="48" y="457" width="477" height="254" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="457" width="6" height="254" rx="0" fill="#0F766E" stroke="#0F766E" />
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="700" x="68" y="499" fill="#0F766E">Entité · 2 tables</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="68" y="530" fill="#142B46">Comment l’organisation est-elle constituée ?</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="68" y="572" fill="#24364B">REGISTRATION_INCORPORATION</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="68" y="593" fill="#24364B">AUTHORIZED_PERSON</text>
+  <rect stroke-width="1" x="553" y="457" width="477" height="254" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="553" y="457" width="6" height="254" rx="0" fill="#C24153" stroke="#C24153" />
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="700" x="573" y="499" fill="#C24153">Bénéficiaires effectifs · 7 tables</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="573" y="530" fill="#142B46">Qui dirige ou détient l’entité ?</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="572" fill="#24364B">DIRECTOR</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="593" fill="#24364B">SHARE_OWNER</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="614" fill="#24364B">TRUSTEE</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="635" fill="#24364B">SETTLOR</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="656" fill="#24364B">TRUST_UNIT_OWNER</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="677" fill="#24364B">TRUST_BENEFICIARY</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="698" fill="#24364B">OTHER_ENTITY_OWNER</text>
+  <rect stroke-width="1" x="1058" y="457" width="477" height="254" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="1058" y="457" width="6" height="254" rx="0" fill="#C76C12" stroke="#C76C12" />
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="700" x="1078" y="499" fill="#C76C12">Transactions · 3 tables</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1078" y="530" fill="#142B46">Que s’est-il passé ?</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1078" y="572" fill="#24364B">TRANSACTION</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1078" y="593" fill="#24364B">STARTING_ACTION</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1078" y="614" fill="#24364B">COMPLETING_ACTION</text>
+  <rect stroke-width="1" x="48" y="737" width="477" height="254" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="737" width="6" height="254" rx="0" fill="#7C3AED" stroke="#7C3AED" />
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="700" x="68" y="779" fill="#7C3AED">Rôles · 5 tables</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="68" y="810" fill="#142B46">Qui fait quoi dans l’opération ?</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="68" y="852" fill="#24364B">CONDUCTOR</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="68" y="873" fill="#24364B">ON_BEHALF_OF</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="68" y="894" fill="#24364B">SOURCE_OF_FUNDS</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="68" y="915" fill="#24364B">INVOLVEMENT</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="68" y="936" fill="#24364B">BENEFICIARY</text>
+  <rect stroke-width="1" x="553" y="737" width="477" height="254" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="553" y="737" width="6" height="254" rx="0" fill="#059669" stroke="#059669" />
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="700" x="573" y="779" fill="#059669">Comptes · 3 tables</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="573" y="810" fill="#142B46">Par quels comptes ou adresses les fonds passent-ils ?</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="852" fill="#24364B">ACCOUNT</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="873" fill="#24364B">ACCOUNT_HOLDER</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="573" y="894" fill="#24364B">VC_DATA</text>
+  <rect stroke-width="1" x="1058" y="737" width="477" height="254" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="1058" y="737" width="6" height="254" rx="0" fill="#64748B" stroke="#64748B" />
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="700" x="1078" y="779" fill="#64748B">Audit · 4 tables</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1078" y="810" fill="#142B46">Qu’a-t-on envoyé et quelle réponse a-t-on reçue ?</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1078" y="852" fill="#24364B">API_SUBMISSION</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1078" y="873" fill="#24364B">SUBMITTED_PAYLOAD</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1078" y="894" fill="#24364B">VALIDATION_ERROR</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1078" y="915" fill="#24364B">AUDIT_EVENT</text>
+  <text font-family="Arial, sans-serif" font-size="15" font-weight="400" x="48" y="1045" fill="#5E7185">Préfixe STR_ commun à toutes les tables. Cette carte présente les domaines; les liens sont détaillés dans les pages suivantes.</text>
+</svg>

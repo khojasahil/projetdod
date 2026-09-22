@@ -1,12 +1,12 @@
 # Domaines de codes
 
-Chaque domaine est identifié par son JSON Pointer, et non par le seul nom `typeCode`. Les codes restent attachés à STR_SCHEMA_RELEASE. Les descriptions ci-dessous sont celles du Swagger archivé.
+Les domaines sont ceux de la copie Swagger archivée. Ils ne constituent pas des tables supplémentaires.
 
 ## #/components/schemas/reportTypeCode
 
-Source : [ligne 5616](../source/swaggerExternal.yaml#L5616).
+[Source, ligne 5616](../source/swaggerExternal.yaml#L5616)
 
-Valeurs : `[14, 102, 106, 113, 145]`
+`[14, 102, 106, 113, 145]`
 
 * `14` - Large Virtual Currency Transaction Report (LVCTR) / Déclaration d'opérations importantes en monnaie virtuelle (DOIMV)
 * `102` - Suspicious transaction report (STR) / Décl. d'opérations douteuses (DOD)
@@ -17,9 +17,9 @@ Valeurs : `[14, 102, 106, 113, 145]`
 
 ## #/components/schemas/submitTypeCode
 
-Source : [ligne 5630](../source/swaggerExternal.yaml#L5630).
+[Source, ligne 5630](../source/swaggerExternal.yaml#L5630)
 
-Valeurs : `[1, 2, 5]`
+`[1, 2, 5]`
 
 * 1 - Submit / Soumettre
 * 2 - Update / Mise à jour
@@ -28,9 +28,9 @@ Valeurs : `[1, 2, 5]`
 
 ## #/components/schemas/activitySectorCode
 
-Source : [ligne 5643](../source/swaggerExternal.yaml#L5643).
+[Source, ligne 5643](../source/swaggerExternal.yaml#L5643)
 
-Valeurs : `[1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28]`
+`[1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28]`
 
 * `1` - Accountant / Comptable
 * `2` - Bank / Banque
@@ -61,18 +61,18 @@ Valeurs : `[1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
 
 ## #/components/schemas/ministerialDirectiveCode
 
-Source : [ligne 5766](../source/swaggerExternal.yaml#L5766).
+[Source, ligne 5766](../source/swaggerExternal.yaml#L5766)
 
-Valeurs : `["IR2020"]`
+`["IR2020"]`
 
 * `IR2020` - IR2020 / IR2020
 
 
 ## #/components/schemas/STRReport/properties/detailsOfSuspicion/properties/suspicionTypeCode
 
-Source : [ligne 1350](../source/swaggerExternal.yaml#L1350).
+[Source, ligne 1350](../source/swaggerExternal.yaml#L1350)
 
-Valeurs : `[1, 2, 3, 4, 5, 6, 7]`
+`[1, 2, 3, 4, 5, 6, 7]`
 
 * `1` - Money laundering / Blanchiment d'argent
 * `2` - Terrorist financing / Financement du terrorisme
@@ -85,9 +85,9 @@ Valeurs : `[1, 2, 3, 4, 5, 6, 7]`
 
 ## #/components/schemas/STRReport/properties/detailsOfSuspicion/properties/publicPrivatePartnershipProjectNameCodes/items
 
-Source : [ligne 1370](../source/swaggerExternal.yaml#L1370).
+[Source, ligne 1370](../source/swaggerExternal.yaml#L1370)
 
-Valeurs : `[1, 2, 3, 5, 6, 7, 8]`
+`[1, 2, 3, 5, 6, 7, 8]`
 
 * `1` - Project ANTON / Projet ANTON
 * `2` - Project ATHENA / Projet ATHENA
@@ -100,33 +100,33 @@ Valeurs : `[1, 2, 3, 5, 6, 7, 8]`
 
 ## #/components/schemas/PersonName/properties/typeCode
 
-Source : [ligne 5280](../source/swaggerExternal.yaml#L5280).
+[Source, ligne 5280](../source/swaggerExternal.yaml#L5280)
 
-Valeurs : `[1]`
+`[1]`
 
 
 
 ## #/components/schemas/EntityName/properties/typeCode
 
-Source : [ligne 5298](../source/swaggerExternal.yaml#L5298).
+[Source, ligne 5298](../source/swaggerExternal.yaml#L5298)
 
-Valeurs : `[2]`
+`[2]`
 
 
 
 ## #/components/schemas/PersonDetails/properties/typeCode
 
-Source : [ligne 5313](../source/swaggerExternal.yaml#L5313).
+[Source, ligne 5313](../source/swaggerExternal.yaml#L5313)
 
-Valeurs : `[3]`
+`[3]`
 
 
 
 ## #/components/schemas/CountryCode
 
-Source : [ligne 4583](../source/swaggerExternal.yaml#L4583).
+[Source, ligne 4583](../source/swaggerExternal.yaml#L4583)
 
-Valeurs : `["CA", "US", "AD", "AE", "AF", "AG", "AI", "AL", "AM", "AN", "AO", "AQ", "AR", "AS", "AT", "AU", "AW", "AX", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BL", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BV", "BW", "BY", "BZ", "CC", "CD", "CF", "CG", "CH", "CI", "CK", "CL", "CM", "CN", "CO", "CR", "CS", "CU", "CV", "CW", "CX", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "EH", "ER", "ES", "ET", "FI", "FJ", "FK", "FM", "FO", "FR", "FX", "GA", "GB", "GD", "GE", "GF", "GG", "GH", "GI", "GL", "GM", "GN", "GP", "GQ", "GR", "GS", "GT", "GU", "GW", "GY", "HK", "HM", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM", "IN", "IO", "IQ", "IR", "IS", "IT", "JE", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KP", "KR", "KW", "KY", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MF", "MG", "MH", "MK", "ML", "MM", "MN", "MO", "MP", "MQ", "MR", "MS", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NC", "NE", "NF", "NG", "NI", "NL", "NO", "NP", "NR", "NU", "NZ", "OM", "PA", "PE", "PF", "PG", "PH", "PK", "PL", "PM", "PN", "PR", "PS", "PT", "PW", "PY", "QA", "RE", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SD", "SE", "SG", "SH", "SI", "SJ", "SK", "SL", "SM", "SN", "SO", "SR", "SS", "ST", "SV", "SX", "SY", "SZ", "TC", "TD", "TF", "TG", "TH", "TJ", "TK", "TL", "TM", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "UM", "UY", "UZ", "VA", "VC", "VE", "VG", "VI", "VN", "VU", "WF", "WS", "YE", "YT", "ZA", "ZM", "ZW", "ZZ"]`
+`["CA", "US", "AD", "AE", "AF", "AG", "AI", "AL", "AM", "AN", "AO", "AQ", "AR", "AS", "AT", "AU", "AW", "AX", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BL", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BV", "BW", "BY", "BZ", "CC", "CD", "CF", "CG", "CH", "CI", "CK", "CL", "CM", "CN", "CO", "CR", "CS", "CU", "CV", "CW", "CX", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "EH", "ER", "ES", "ET", "FI", "FJ", "FK", "FM", "FO", "FR", "FX", "GA", "GB", "GD", "GE", "GF", "GG", "GH", "GI", "GL", "GM", "GN", "GP", "GQ", "GR", "GS", "GT", "GU", "GW", "GY", "HK", "HM", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM", "IN", "IO", "IQ", "IR", "IS", "IT", "JE", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KP", "KR", "KW", "KY", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MF", "MG", "MH", "MK", "ML", "MM", "MN", "MO", "MP", "MQ", "MR", "MS", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NC", "NE", "NF", "NG", "NI", "NL", "NO", "NP", "NR", "NU", "NZ", "OM", "PA", "PE", "PF", "PG", "PH", "PK", "PL", "PM", "PN", "PR", "PS", "PT", "PW", "PY", "QA", "RE", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SD", "SE", "SG", "SH", "SI", "SJ", "SK", "SL", "SM", "SN", "SO", "SR", "SS", "ST", "SV", "SX", "SY", "SZ", "TC", "TD", "TF", "TG", "TH", "TJ", "TK", "TL", "TM", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "UM", "UY", "UZ", "VA", "VC", "VE", "VG", "VI", "VN", "VU", "WF", "WS", "YE", "YT", "ZA", "ZM", "ZW", "ZZ"]`
 
 * `CA` - Canada / Canada
 * `US` - United States / États-Unis d'Amérique
@@ -385,9 +385,9 @@ Valeurs : `["CA", "US", "AD", "AE", "AF", "AG", "AI", "AL", "AM", "AN", "AO", "A
 
 ## #/components/schemas/addressTypeCode
 
-Source : [ligne 6504](../source/swaggerExternal.yaml#L6504).
+[Source, ligne 6504](../source/swaggerExternal.yaml#L6504)
 
-Valeurs : `[1, 2]`
+`[1, 2]`
 
 * `1` - Structured address / Adresse structurée
 * `2` - Unstructured address / Adresse non structurée
@@ -395,17 +395,17 @@ Valeurs : `[1, 2]`
 
 ## #/components/schemas/StructuredAddress/properties/typeCode
 
-Source : [ligne 5520](../source/swaggerExternal.yaml#L5520).
+[Source, ligne 5520](../source/swaggerExternal.yaml#L5520)
 
-Valeurs : `[1]`
+`[1]`
 
 type code for structured address / type de code pour adresse structurée
 
 ## #/components/schemas/ProvinceStateCode/oneOf/0
 
-Source : [ligne 2776](../source/swaggerExternal.yaml#L2776).
+[Source, ligne 2776](../source/swaggerExternal.yaml#L2776)
 
-Valeurs : `["AB", "BC", "MB", "NB", "NL", "NT", "NS", "NU", "ON", "PE", "QC", "SK", "YT"]`
+`["AB", "BC", "MB", "NB", "NL", "NT", "NS", "NU", "ON", "PE", "QC", "SK", "YT"]`
 
 * 'AB' - Alberta / Alberta
 * 'BC' - British Columbia / Colombie-Britannique
@@ -424,9 +424,9 @@ Valeurs : `["AB", "BC", "MB", "NB", "NL", "NT", "NS", "NU", "ON", "PE", "QC", "S
 
 ## #/components/schemas/ProvinceStateCode/oneOf/1
 
-Source : [ligne 2805](../source/swaggerExternal.yaml#L2805).
+[Source, ligne 2805](../source/swaggerExternal.yaml#L2805)
 
-Valeurs : `["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]`
+`["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]`
 
 * 'AL' - Alabama / Alabama
 * 'AK' - Alaska / Alaska
@@ -483,9 +483,9 @@ Valeurs : `["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "H
 
 ## #/components/schemas/ProvinceStateCode/oneOf/2
 
-Source : [ligne 2910](../source/swaggerExternal.yaml#L2910).
+[Source, ligne 2910](../source/swaggerExternal.yaml#L2910)
 
-Valeurs : `["AG", "BA", "BJ", "CE", "CI", "CH", "CU", "CL", "DF", "DO", "GU", "GR", "HL", "JL", "MX", "MC", "MR", "NA", "NL", "OA", "PB", "QU", "QR", "SL", "SI", "SO", "TB", "TA", "TL", "VC", "YU", "ZA"]`
+`["AG", "BA", "BJ", "CE", "CI", "CH", "CU", "CL", "DF", "DO", "GU", "GR", "HL", "JL", "MX", "MC", "MR", "NA", "NL", "OA", "PB", "QU", "QR", "SL", "SI", "SO", "TB", "TA", "TL", "VC", "YU", "ZA"]`
 
 * 'AG' - Aguascalientas / Aguascalientas
 * 'BA' - Baja, Calif. (North) / Baja, Calif. (Nord)
@@ -523,17 +523,17 @@ Valeurs : `["AG", "BA", "BJ", "CE", "CI", "CH", "CU", "CL", "DF", "DO", "GU", "G
 
 ## #/components/schemas/UnstructuredAddress/properties/typeCode
 
-Source : [ligne 5553](../source/swaggerExternal.yaml#L5553).
+[Source, ligne 5553](../source/swaggerExternal.yaml#L5553)
 
-Valeurs : `[2]`
+`[2]`
 
 type code for unstructured address / Type de code pour une adresse de format non structuré
 
 ## #/components/schemas/personIdentificationWithJurisdiction/properties/identifierTypeCode
 
-Source : [ligne 6315](../source/swaggerExternal.yaml#L6315).
+[Source, ligne 6315](../source/swaggerExternal.yaml#L6315)
 
-Valeurs : `[1, 2, 3, 4, 5, 14, 15, 27, 32, 33, 34, 35, 36, 37, 38, 39, 40]`
+`[1, 2, 3, 4, 5, 14, 15, 27, 32, 33, 34, 35, 36, 37, 38, 39, 40]`
 
 The option 27 (Social insurance number card) is not valid for LVCTR reports,  but is a valid option for all the other report types. / L'option 27 (Carte de numéro d'assurance sociale) n'est pas valide pour les déclarations LVCTR, mais constitue une option valide pour tous les autres types de déclarations.
 * `1` - Birth certificate / Certificat de naissance
@@ -557,17 +557,17 @@ The option 27 (Social insurance number card) is not valid for LVCTR reports,  bu
 
 ## #/components/schemas/EntityDetails/properties/typeCode
 
-Source : [ligne 5358](../source/swaggerExternal.yaml#L5358).
+[Source, ligne 5358](../source/swaggerExternal.yaml#L5358)
 
-Valeurs : `[4]`
+`[4]`
 
 optionTypeCode for entityDetails
 
 ## #/components/schemas/entityIdentificationWithJurisdiction/properties/identifierTypeCode
 
-Source : [ligne 6413](../source/swaggerExternal.yaml#L6413).
+[Source, ligne 6413](../source/swaggerExternal.yaml#L6413)
 
-Valeurs : `[1, 2, 3, 4, 5, 6, 7]`
+`[1, 2, 3, 4, 5, 6, 7]`
 
 * `1` - Articles of association / Acte d'association
 * `2` - Certificate of corporate status / Cert. de constitution en personne morale
@@ -580,9 +580,9 @@ Valeurs : `[1, 2, 3, 4, 5, 6, 7]`
 
 ## #/components/schemas/IncorporationRegistrationTypeCode
 
-Source : [ligne 6492](../source/swaggerExternal.yaml#L6492).
+[Source, ligne 6492](../source/swaggerExternal.yaml#L6492)
 
-Valeurs : `[1, 2, 4, 5]`
+`[1, 2, 4, 5]`
 
 * `1` - Registered / Enregistrée
 * `2` - Incorporated / Constituée
@@ -592,25 +592,25 @@ Valeurs : `[1, 2, 4, 5]`
 
 ## #/components/schemas/personAndEmployerDetails/properties/typeCode
 
-Source : [ligne 5776](../source/swaggerExternal.yaml#L5776).
+[Source, ligne 5776](../source/swaggerExternal.yaml#L5776)
 
-Valeurs : `[5]`
+`[5]`
 
 
 
 ## #/components/schemas/entityAndBeneficialOwnershipDetails/properties/typeCode
 
-Source : [ligne 5836](../source/swaggerExternal.yaml#L5836).
+[Source, ligne 5836](../source/swaggerExternal.yaml#L5836)
 
-Valeurs : `[6]`
+`[6]`
 
 
 
 ## #/components/schemas/entityAndBeneficialOwnershipDetails/properties/structureTypeCode
 
-Source : [ligne 5862](../source/swaggerExternal.yaml#L5862).
+[Source, ligne 5862](../source/swaggerExternal.yaml#L5862)
 
-Valeurs : `[1, 2, 3, 4]`
+`[1, 2, 3, 4]`
 
 * `1` - Corporation / Personne morale
 * `2` - Entity other than a corporation or trust / Entité autre qu'une pers. morale/fid.
@@ -620,9 +620,9 @@ Valeurs : `[1, 2, 3, 4]`
 
 ## #/components/schemas/STRReport/properties/transactions/items/properties/suspiciousTransactionDetails/properties/methodCode
 
-Source : [ligne 1444](../source/swaggerExternal.yaml#L1444).
+[Source, ligne 1444](../source/swaggerExternal.yaml#L1444)
 
-Valeurs : `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]`
+`[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]`
 
 * `1` - In person / En personne
 * `2` - Automated banking machine / Guichet automatique bancaire
@@ -640,9 +640,9 @@ Valeurs : `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]`
 
 ## #/components/schemas/STRReport/properties/transactions/items/properties/startingActions/items/properties/details/properties/direction
 
-Source : [ligne 1494](../source/swaggerExternal.yaml#L1494).
+[Source, ligne 1494](../source/swaggerExternal.yaml#L1494)
 
-Valeurs : `[1, 2]`
+`[1, 2]`
 
 * `1` - In / Entrée
 * `2` - Out / Sortie
@@ -650,9 +650,9 @@ Valeurs : `[1, 2]`
 
 ## #/components/schemas/STRReport/properties/transactions/items/properties/startingActions/items/properties/details/properties/fundAssetVirtualCurrencyTypeCode
 
-Source : [ligne 1502](../source/swaggerExternal.yaml#L1502).
+[Source, ligne 1502](../source/swaggerExternal.yaml#L1502)
 
-Valeurs : `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17]`
+`[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17]`
 
 When the direction is 1, the enum is defined as [1,2,3,4,5,6,8,9,10,11,12,13,14,16,17]. When the direction is 2, the enum is defined as [3,7,9,16,17].
 Lorsque la direction est 1, l'énumération est définie comme [1,2,3,4,5,6,8,9,10,11,12,13,14,16,17]. Lorsque la direction est 2, l'énumération est définie comme [3,7,9,16,17].
@@ -676,9 +676,9 @@ Lorsque la direction est 1, l'énumération est définie comme [1,2,3,4,5,6,8,9,
 
 ## #/components/schemas/CurrencyCode
 
-Source : [ligne 4057](../source/swaggerExternal.yaml#L4057).
+[Source, ligne 4057](../source/swaggerExternal.yaml#L4057)
 
-Valeurs : `["CAD", "USD", "ADP", "AED", "AFA", "AFN", "ALL", "AMD", "AOA", "AOK", "AON", "ARP", "ARS", "ATS", "AUD", "AWF", "AWG", "AZM", "AZN", "BAK", "BAM", "BBD", "BDT", "BEC", "BEF", "BEL", "BGL", "BGN", "BHD", "BIF", "BMD", "BND", "BOB", "BOP", "BOV", "BRC", "BRL", "BSD", "BTN", "BTR", "BUK", "BWP", "BYN", "BYR", "BZD", "CDF", "CDZ", "CHE", "CHF", "CHW", "CLF", "CLP", "CNY", "COP", "COU", "CRC", "CSD", "CSK", "CUC", "CUP", "CVE", "CYP", "CZK", "DDM", "DEM", "DJF", "DKK", "DOP", "DZD", "ECS", "EEK", "EGP", "ERN", "ESP", "ETB", "EUR", "FIM", "FJD", "FKP", "FRF", "GBP", "GEL", "GHC", "GHS", "GIP", "GMD", "GNF", "GNS", "GQE", "GRD", "GTQ", "GWP", "GYD", "HKD", "HNL", "HRK", "HTG", "HUF", "IDR", "IEP", "ILS", "INR", "IQD", "IRR", "ISK", "ITL", "JMD", "JOD", "JPY", "KES", "KGS", "KHR", "KMF", "KPW", "KRW", "KWD", "KYD", "KZT", "LAK", "LBP", "LKR", "LRD", "LSL", "LSM", "LTL", "LUF", "LVL", "LYD", "MAD", "MDL", "MGA", "MGF", "MKD", "MLF", "MMK", "MNT", "MOP", "MRO", "MRU", "MTL", "MTP", "MUR", "MVR", "MWK", "MXN", "MXP", "MXV", "MYR", "MZM", "MZN", "NAD", "NGN", "NIC", "NIO", "NLG", "NOK", "NPR", "NZD", "OMR", "PAB", "PEN", "PES", "PGK", "PHP", "PKR", "PLN", "PLZ", "PTE", "PYG", "QAR", "ROL", "RON", "RSD", "RUB", "RUR", "RWF", "SAR", "SBD", "SBL", "SCR", "SDD", "SDG", "SDP", "SEK", "SGD", "SHP", "SIT", "SKK", "SLE", "SLL", "SOS", "SRD", "SRG", "SSP", "STD", "STN", "SUR", "SVC", "SYP", "SZL", "THB", "TJR", "TJS", "TMM", "TMT", "TND", "TOP", "TPE", "TRL", "TRY", "TTD", "TWD", "TZS", "UAH", "UGS", "UGX", "USN", "USS", "UYI", "UYP", "UYU", "UYW", "UZS", "VEB", "VEF", "VES", "VND", "VUV", "WST", "XAF", "XAG", "XAU", "XBA", "XBB", "XBC", "XBD", "XBT", "XCD", "XCG", "XDR", "XEU", "XFO", "XFU", "XOF", "XPD", "XPF", "XPT", "XSU", "XXX", "YDD", "YER", "YUD", "YUM", "YUN", "ZAL", "ZAR", "ZMK", "ZMW", "ZWD", "ZWL", "ZZZ"]`
+`["CAD", "USD", "ADP", "AED", "AFA", "AFN", "ALL", "AMD", "AOA", "AOK", "AON", "ARP", "ARS", "ATS", "AUD", "AWF", "AWG", "AZM", "AZN", "BAK", "BAM", "BBD", "BDT", "BEC", "BEF", "BEL", "BGL", "BGN", "BHD", "BIF", "BMD", "BND", "BOB", "BOP", "BOV", "BRC", "BRL", "BSD", "BTN", "BTR", "BUK", "BWP", "BYN", "BYR", "BZD", "CDF", "CDZ", "CHE", "CHF", "CHW", "CLF", "CLP", "CNY", "COP", "COU", "CRC", "CSD", "CSK", "CUC", "CUP", "CVE", "CYP", "CZK", "DDM", "DEM", "DJF", "DKK", "DOP", "DZD", "ECS", "EEK", "EGP", "ERN", "ESP", "ETB", "EUR", "FIM", "FJD", "FKP", "FRF", "GBP", "GEL", "GHC", "GHS", "GIP", "GMD", "GNF", "GNS", "GQE", "GRD", "GTQ", "GWP", "GYD", "HKD", "HNL", "HRK", "HTG", "HUF", "IDR", "IEP", "ILS", "INR", "IQD", "IRR", "ISK", "ITL", "JMD", "JOD", "JPY", "KES", "KGS", "KHR", "KMF", "KPW", "KRW", "KWD", "KYD", "KZT", "LAK", "LBP", "LKR", "LRD", "LSL", "LSM", "LTL", "LUF", "LVL", "LYD", "MAD", "MDL", "MGA", "MGF", "MKD", "MLF", "MMK", "MNT", "MOP", "MRO", "MRU", "MTL", "MTP", "MUR", "MVR", "MWK", "MXN", "MXP", "MXV", "MYR", "MZM", "MZN", "NAD", "NGN", "NIC", "NIO", "NLG", "NOK", "NPR", "NZD", "OMR", "PAB", "PEN", "PES", "PGK", "PHP", "PKR", "PLN", "PLZ", "PTE", "PYG", "QAR", "ROL", "RON", "RSD", "RUB", "RUR", "RWF", "SAR", "SBD", "SBL", "SCR", "SDD", "SDG", "SDP", "SEK", "SGD", "SHP", "SIT", "SKK", "SLE", "SLL", "SOS", "SRD", "SRG", "SSP", "STD", "STN", "SUR", "SVC", "SYP", "SZL", "THB", "TJR", "TJS", "TMM", "TMT", "TND", "TOP", "TPE", "TRL", "TRY", "TTD", "TWD", "TZS", "UAH", "UGS", "UGX", "USN", "USS", "UYI", "UYP", "UYU", "UYW", "UZS", "VEB", "VEF", "VES", "VND", "VUV", "WST", "XAF", "XAG", "XAU", "XBA", "XBB", "XBC", "XBD", "XBT", "XCD", "XCG", "XDR", "XEU", "XFO", "XFU", "XOF", "XPD", "XPF", "XPT", "XSU", "XXX", "YDD", "YER", "YUD", "YUM", "YUN", "ZAL", "ZAR", "ZMK", "ZMW", "ZWD", "ZWL", "ZZZ"]`
 
 * `CAD` - Canadian Dollar / Dollar canadien
 * `USD` - United States Dollar / Dollar américain
@@ -945,9 +945,9 @@ Valeurs : `["CAD", "USD", "ADP", "AED", "AFA", "AFN", "ALL", "AMD", "AOA", "AOK"
 
 ## #/components/schemas/VirtualCurrencyCode
 
-Source : [ligne 2981](../source/swaggerExternal.yaml#L2981).
+[Source, ligne 2981](../source/swaggerExternal.yaml#L2981)
 
-Valeurs : `["1INCH", "AAVE", "ABBC", "ADA", "ADX", "AE", "AERGO", "AGI", "AGVC", "AIB", "AION", "AKRO", "ALGO", "AMO", "AMP", "AMPL", "ANC", "ANCT", "ANKR", "ANT", "AOA", "APL", "APM", "AR", "ARDR", "ARK", "ARPA", "ARRR", "AST", "ATOM", "ATT", "AUDIO", "AVA", "AVAX", "AXC", "AXEL", "AXS", "B2B", "BAL", "BAND", "BASIC", "BASID", "BAT", "BCD", "BCH", "BCN", "BCZERO", "BDCC", "BDX", "BEAM", "BEL", "BHAO", "BHD", "BHP", "BHT", "BICO", "BIGONE", "BIKI", "BLCT", "BLOCK", "BLZ", "BNANA", "BNB", "BNK", "BNT", "BOA", "BONO", "BORA", "BOT", "BOTX", "BPS", "BRC", "BRG", "BRZE", "BSV", "BTC", "BTC2", "BTCB", "BTG", "BTM", "BTMX", "BTRS", "BTS", "BTT", "BTU", "BUSD", "BWF", "BXK", "BZ", "BZRX", "C20", "CADC", "CAKE", "CCA", "CCXX", "CEL", "CELO", "CELR", "CENNZ", "CHR", "CHSB", "CHZ", "CIPHC", "CIX100", "CKB", "CND", "CNX", "COCOS", "COMP", "CON", "CORE", "COS", "COTI", "CRE", "CRO", "CRPT", "CRV", "CTC", "CTCN", "CTK", "CTSI", "CTXC", "CUSD", "CVA", "CVC", "CVNT", "CVT", "CVX", "DAC", "DAD", "DAG", "DAI", "DASH", "DATA", "DCR", "DCY", "DEC", "DENT", "DFI", "DGB", "DGD", "DGTX", "DIA", "DIP", "DIVI", "DMCH", "DMG", "DNA", "DNT", "DOGE", "DOT", "DREP", "DRGN", "DRS", "DTR", "DUSK", "DX", "ECOREAL", "EDC", "EGLD", "ELA", "ELF", "ELON", "EMC2", "ENG", "ENJ", "ENS", "EOS", "ERC20", "ERG", "ETC", "ETH", "ETN", "EUM", "EURS", "EVN", "EVR", "EWT", "FAB", "FARM", "FET", "FIL", "FLG", "FLM", "FLOW", "FNB", "FSN", "FST", "FTM", "FTT", "FUN", "FX", "FXC", "GALA", "GARD", "GAS", "GBYTE", "GLEEC", "GNO", "GNT", "GRIN", "GRN", "GRS", "GRT", "GT", "GUSD", "GXC", "HBAR", "HBTC", "HC", "HEDG", "HEX", "HIVE", "HMR", "HNC", "HNS", "HNT", "HOD", "HOT", "HPT", "HSN", "HT", "HUSD", "HXRO", "HYN", "ICH", "ICP", "ICX", "IDEX", "IGNIS", "IHF", "ILV", "IMX", "INB", "INJ", "INO", "INSTAR", "IOST", "IOTX", "IPX", "IQ", "IRIS", "IZE", "JST", "JUL", "JWL", "KAI", "KAN", "KAVA", "KBC", "KCASH", "KCS", "KDA", "KDAG", "KEEP", "KIN", "KLAY", "KMD", "KNC", "KP3R", "KRT", "KSM", "LA", "LAMB", "LBC", "LCX", "LEO", "LEVL", "LINK", "LOKI", "LOOM", "LPT", "LRC", "LRG", "LSK", "LTC", "LTO", "LUNA", "LVX", "MAID", "MANA", "MASS", "MATH", "MATIC", "MBL", "MBN", "MCO", "MDA", "MED", "MFT", "MIN", "MIOTA", "MKR", "MLK", "MLN", "MOF", "MONA", "MRPH", "MTA", "MTC", "MTL", "MTXLT", "MUSD", "MVL", "MWC", "MX", "MXC", "NANO", "NAS", "NEAR", "NEC", "NEO", "NEST", "NEX", "NEXO", "NEXXO", "NIM", "NKN", "NMR", "NOIA", "NPXS", "NRG", "NU", "NULS", "NUT", "NVT", "NWC", "NXM", "NXS", "NYE", "OCEAN", "OCTO", "OGN", "OKB", "OMG", "ONE", "ONOT", "ONT", "ORBS", "ORC", "ORN", "OTH", "OXT", "PAI", "PAX", "PAXG", "PCN", "PCX", "PERL", "PERP", "PHA", "PIVX", "PLC", "PLF", "PNK", "POLS", "POLY", "POWR", "PPT", "PROM", "PRQ", "PZM", "QASH", "QC", "QKC", "QNT", "QQQ", "QRK", "QRL", "QSP", "QTUM", "RCHAINREV", "RCN", "RDD", "RDN", "REN", "RENBTC", "REP", "REPO", "REQ", "REV", "RIF", "RING", "RKN", "RLC", "RNDR", "ROSE", "RPL", "RSR", "RUNE", "RVN", "S4F", "SAFE", "SAND", "SAPP", "SC", "SCC", "SCRT", "SEELE", "SERO", "SFP", "SHIB", "SHPING", "SHR", "SLS", "SNB", "SNL", "SNT", "SNTVT", "SNX", "SOL", "SOLO", "SOLVE", "SPND", "SRM", "STAKE", "STEEM", "STMX", "STORJ", "STP", "STPT", "STRAT", "STRONG", "STX", "SUKU", "SUN", "SUSD", "SUSHI", "SWAP", "SWINGBY", "SWTH", "SXP", "SYS", "TCAD", "TEL", "TFUEL", "THETA", "THR", "THX", "TITAN", "TMTG", "TNC", "TOMO", "TONIC", "TRAC", "TRAT", "TRB", "TROY", "TRUE", "TRX", "TSHP", "TT", "TTT", "TUSD", "TWT", "UBT", "ULT", "UMA", "UNI", "UNICOIN", "UNO", "UOS", "UQC", "USDC", "USDJ", "USDK", "USDN", "USDP", "USDT", "UST", "UTK", "VEST", "VET", "VGX", "VIDT", "VITAE", "VLX", "VRSC", "VSYS", "VTHO", "VVS", "WAN", "WAVES", "WAXP", "WBNB", "WBTC", "WET", "WICC", "WIN", "WIX", "WOM", "WRX", "WTC", "WXT", "XCM", "XDC", "XEC", "XEM", "XHV", "XIN", "XLM", "XLT", "XMR", "XNC", "XOR", "XPR", "XRP", "XSN", "XSR", "XT", "XTP", "XTZ", "XVG", "XVS", "XWC", "XYM", "XYO", "XZC", "YEP", "YF-DAI", "YFI", "YFII", "YFL", "YGG", "YUSRA", "ZAP", "ZB", "ZCN", "ZEC", "ZEN", "ZIL", "ZLW", "ZNN", "ZRX", "ZT", "ZYN"]`
+`["1INCH", "AAVE", "ABBC", "ADA", "ADX", "AE", "AERGO", "AGI", "AGVC", "AIB", "AION", "AKRO", "ALGO", "AMO", "AMP", "AMPL", "ANC", "ANCT", "ANKR", "ANT", "AOA", "APL", "APM", "AR", "ARDR", "ARK", "ARPA", "ARRR", "AST", "ATOM", "ATT", "AUDIO", "AVA", "AVAX", "AXC", "AXEL", "AXS", "B2B", "BAL", "BAND", "BASIC", "BASID", "BAT", "BCD", "BCH", "BCN", "BCZERO", "BDCC", "BDX", "BEAM", "BEL", "BHAO", "BHD", "BHP", "BHT", "BICO", "BIGONE", "BIKI", "BLCT", "BLOCK", "BLZ", "BNANA", "BNB", "BNK", "BNT", "BOA", "BONO", "BORA", "BOT", "BOTX", "BPS", "BRC", "BRG", "BRZE", "BSV", "BTC", "BTC2", "BTCB", "BTG", "BTM", "BTMX", "BTRS", "BTS", "BTT", "BTU", "BUSD", "BWF", "BXK", "BZ", "BZRX", "C20", "CADC", "CAKE", "CCA", "CCXX", "CEL", "CELO", "CELR", "CENNZ", "CHR", "CHSB", "CHZ", "CIPHC", "CIX100", "CKB", "CND", "CNX", "COCOS", "COMP", "CON", "CORE", "COS", "COTI", "CRE", "CRO", "CRPT", "CRV", "CTC", "CTCN", "CTK", "CTSI", "CTXC", "CUSD", "CVA", "CVC", "CVNT", "CVT", "CVX", "DAC", "DAD", "DAG", "DAI", "DASH", "DATA", "DCR", "DCY", "DEC", "DENT", "DFI", "DGB", "DGD", "DGTX", "DIA", "DIP", "DIVI", "DMCH", "DMG", "DNA", "DNT", "DOGE", "DOT", "DREP", "DRGN", "DRS", "DTR", "DUSK", "DX", "ECOREAL", "EDC", "EGLD", "ELA", "ELF", "ELON", "EMC2", "ENG", "ENJ", "ENS", "EOS", "ERC20", "ERG", "ETC", "ETH", "ETN", "EUM", "EURS", "EVN", "EVR", "EWT", "FAB", "FARM", "FET", "FIL", "FLG", "FLM", "FLOW", "FNB", "FSN", "FST", "FTM", "FTT", "FUN", "FX", "FXC", "GALA", "GARD", "GAS", "GBYTE", "GLEEC", "GNO", "GNT", "GRIN", "GRN", "GRS", "GRT", "GT", "GUSD", "GXC", "HBAR", "HBTC", "HC", "HEDG", "HEX", "HIVE", "HMR", "HNC", "HNS", "HNT", "HOD", "HOT", "HPT", "HSN", "HT", "HUSD", "HXRO", "HYN", "ICH", "ICP", "ICX", "IDEX", "IGNIS", "IHF", "ILV", "IMX", "INB", "INJ", "INO", "INSTAR", "IOST", "IOTX", "IPX", "IQ", "IRIS", "IZE", "JST", "JUL", "JWL", "KAI", "KAN", "KAVA", "KBC", "KCASH", "KCS", "KDA", "KDAG", "KEEP", "KIN", "KLAY", "KMD", "KNC", "KP3R", "KRT", "KSM", "LA", "LAMB", "LBC", "LCX", "LEO", "LEVL", "LINK", "LOKI", "LOOM", "LPT", "LRC", "LRG", "LSK", "LTC", "LTO", "LUNA", "LVX", "MAID", "MANA", "MASS", "MATH", "MATIC", "MBL", "MBN", "MCO", "MDA", "MED", "MFT", "MIN", "MIOTA", "MKR", "MLK", "MLN", "MOF", "MONA", "MRPH", "MTA", "MTC", "MTL", "MTXLT", "MUSD", "MVL", "MWC", "MX", "MXC", "NANO", "NAS", "NEAR", "NEC", "NEO", "NEST", "NEX", "NEXO", "NEXXO", "NIM", "NKN", "NMR", "NOIA", "NPXS", "NRG", "NU", "NULS", "NUT", "NVT", "NWC", "NXM", "NXS", "NYE", "OCEAN", "OCTO", "OGN", "OKB", "OMG", "ONE", "ONOT", "ONT", "ORBS", "ORC", "ORN", "OTH", "OXT", "PAI", "PAX", "PAXG", "PCN", "PCX", "PERL", "PERP", "PHA", "PIVX", "PLC", "PLF", "PNK", "POLS", "POLY", "POWR", "PPT", "PROM", "PRQ", "PZM", "QASH", "QC", "QKC", "QNT", "QQQ", "QRK", "QRL", "QSP", "QTUM", "RCHAINREV", "RCN", "RDD", "RDN", "REN", "RENBTC", "REP", "REPO", "REQ", "REV", "RIF", "RING", "RKN", "RLC", "RNDR", "ROSE", "RPL", "RSR", "RUNE", "RVN", "S4F", "SAFE", "SAND", "SAPP", "SC", "SCC", "SCRT", "SEELE", "SERO", "SFP", "SHIB", "SHPING", "SHR", "SLS", "SNB", "SNL", "SNT", "SNTVT", "SNX", "SOL", "SOLO", "SOLVE", "SPND", "SRM", "STAKE", "STEEM", "STMX", "STORJ", "STP", "STPT", "STRAT", "STRONG", "STX", "SUKU", "SUN", "SUSD", "SUSHI", "SWAP", "SWINGBY", "SWTH", "SXP", "SYS", "TCAD", "TEL", "TFUEL", "THETA", "THR", "THX", "TITAN", "TMTG", "TNC", "TOMO", "TONIC", "TRAC", "TRAT", "TRB", "TROY", "TRUE", "TRX", "TSHP", "TT", "TTT", "TUSD", "TWT", "UBT", "ULT", "UMA", "UNI", "UNICOIN", "UNO", "UOS", "UQC", "USDC", "USDJ", "USDK", "USDN", "USDP", "USDT", "UST", "UTK", "VEST", "VET", "VGX", "VIDT", "VITAE", "VLX", "VRSC", "VSYS", "VTHO", "VVS", "WAN", "WAVES", "WAXP", "WBNB", "WBTC", "WET", "WICC", "WIN", "WIX", "WOM", "WRX", "WTC", "WXT", "XCM", "XDC", "XEC", "XEM", "XHV", "XIN", "XLM", "XLT", "XMR", "XNC", "XOR", "XPR", "XRP", "XSN", "XSR", "XT", "XTP", "XTZ", "XVG", "XVS", "XWC", "XYM", "XYO", "XZC", "YEP", "YF-DAI", "YFI", "YFII", "YFL", "YGG", "YUSRA", "ZAP", "ZB", "ZCN", "ZEC", "ZEN", "ZIL", "ZLW", "ZNN", "ZRX", "ZT", "ZYN"]`
 
 * `1INCH` - 1inch Network (1INCH) / 1inch Network (1INCH)
 * `AAVE` - Aave (AAVE) / Aave (AAVE)
@@ -1489,9 +1489,9 @@ Valeurs : `["1INCH", "AAVE", "ABBC", "ADA", "ADX", "AE", "AERGO", "AGI", "AGVC",
 
 ## #/components/schemas/strAccount/properties/typeCode
 
-Source : [ligne 6155](../source/swaggerExternal.yaml#L6155).
+[Source, ligne 6155](../source/swaggerExternal.yaml#L6155)
 
-Valeurs : `[1, 2, 3, 4, 5]`
+`[1, 2, 3, 4, 5]`
 
 * `1` - Personal / Personnel
 * `2` - Business / Commercial
@@ -1502,9 +1502,9 @@ Valeurs : `[1, 2, 3, 4, 5]`
 
 ## #/components/schemas/definitionType12
 
-Source : [ligne 6512](../source/swaggerExternal.yaml#L6512).
+[Source, ligne 6512](../source/swaggerExternal.yaml#L6512)
 
-Valeurs : `[1, 2]`
+`[1, 2]`
 
 * `1` - Person name / Nom de la personne
 * `2` - Entity name / Nom de l'entité
@@ -1512,9 +1512,9 @@ Valeurs : `[1, 2]`
 
 ## #/components/schemas/accountStatusAtTimeOfTransaction
 
-Source : [ligne 6466](../source/swaggerExternal.yaml#L6466).
+[Source, ligne 6466](../source/swaggerExternal.yaml#L6466)
 
-Valeurs : `[1, 2, 3, 4]`
+`[1, 2, 3, 4]`
 
 * `1` - Active / Actif
 * `2` - Inactive / Inactif
@@ -1524,9 +1524,9 @@ Valeurs : `[1, 2, 3, 4]`
 
 ## #/components/schemas/definitionType56
 
-Source : [ligne 6528](../source/swaggerExternal.yaml#L6528).
+[Source, ligne 6528](../source/swaggerExternal.yaml#L6528)
 
-Valeurs : `[5, 6]`
+`[5, 6]`
 
 * `5` - Person and employer Details / Personne et employeur Détails
 * `6` - Entity and beneficial ownership details / Détails sur l'entité et la propriété réelle
@@ -1534,9 +1534,9 @@ Valeurs : `[5, 6]`
 
 ## #/components/schemas/typeOfDeviceCode
 
-Source : [ligne 6709](../source/swaggerExternal.yaml#L6709).
+[Source, ligne 6709](../source/swaggerExternal.yaml#L6709)
 
-Valeurs : `[1, 2, 3, 4]`
+`[1, 2, 3, 4]`
 
 * `1` - Computer/Laptop / Ordinateur ou portatif
 * `2` - Mobile phone / Téléphone mobile
@@ -1546,9 +1546,9 @@ Valeurs : `[1, 2, 3, 4]`
 
 ## #/components/schemas/relationshipOfConductorCodeWithVendor
 
-Source : [ligne 6751](../source/swaggerExternal.yaml#L6751).
+[Source, ligne 6751](../source/swaggerExternal.yaml#L6751)
 
-Valeurs : `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]`
+`[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]`
 
 * `1` - Accountant / Comptable
 * `2` - Agent / Agent
@@ -1568,9 +1568,9 @@ Valeurs : `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]`
 
 ## #/components/schemas/STRReport/properties/transactions/items/properties/completingActions/items/properties/details/properties/dispositionCode
 
-Source : [ligne 1685](../source/swaggerExternal.yaml#L1685).
+[Source, ligne 1685](../source/swaggerExternal.yaml#L1685)
 
-Valeurs : `[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]`
+`[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]`
 
 * `1` - Deposit to account / Dépôt au compte
 * `3` - Exchange to fiat currency / Échange en monnaie fiduciare
@@ -1604,9 +1604,9 @@ Valeurs : `[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20, 21, 22, 23, 
 
 ## #/components/schemas/definitionType34
 
-Source : [ligne 6520](../source/swaggerExternal.yaml#L6520).
+[Source, ligne 6520](../source/swaggerExternal.yaml#L6520)
 
-Valeurs : `[3, 4]`
+`[3, 4]`
 
 * `3` - Person details / Renseignements au sujet de la personne
 * `4` - Entity details / Renseignements au sujet de l'entité
@@ -1614,17 +1614,17 @@ Valeurs : `[3, 4]`
 
 ## #/components/schemas/ValidationMessage/properties/type
 
-Source : [ligne 5109](../source/swaggerExternal.yaml#L5109).
+[Source, ligne 5109](../source/swaggerExternal.yaml#L5109)
 
-Valeurs : `["reject", "warning"]`
+`["reject", "warning"]`
 
 
 
 ## #/components/schemas/Validations/properties/status/properties/code
 
-Source : [ligne 5125](../source/swaggerExternal.yaml#L5125).
+[Source, ligne 5125](../source/swaggerExternal.yaml#L5125)
 
-Valeurs : `[1000, 2001, 2101, 2102, 4000, 5000, 5004, 5005, 5011, 5012, 5013, 5014, 5015, 5016, 5017, 5018, 5019, 5020, 2021, 5022, 5023]`
+`[1000, 2001, 2101, 2102, 4000, 5000, 5004, 5005, 5011, 5012, 5013, 5014, 5015, 5016, 5017, 5018, 5019, 5020, 2021, 5022, 5023]`
 
 * 1000 - Success (All reports OK) / Réussi (Toutes les déclarations sont valides)
 * 2001 - Success with warnings (Some reports with warnings) / Réussi avec avertissements (Certaines déclarations ont des avertissements)
@@ -1651,9 +1651,9 @@ Valeurs : `[1000, 2001, 2101, 2102, 4000, 5000, 5004, 5005, 5011, 5012, 5013, 50
 
 ## #/components/schemas/Validations/properties/acknowledgements/items/properties/messageTypeCode
 
-Source : [ligne 5169](../source/swaggerExternal.yaml#L5169).
+[Source, ligne 5169](../source/swaggerExternal.yaml#L5169)
 
-Valeurs : `[1, 2]`
+`[1, 2]`
 
 * 1 - Schema validation message / Message de validation du schéma
 * 2 - Validation message / Message de validation
@@ -1661,9 +1661,9 @@ Valeurs : `[1, 2]`
 
 ## #/components/schemas/DeleteReport/properties/reportDetails/properties/reportSubmitReasonCode
 
-Source : [ligne 5217](../source/swaggerExternal.yaml#L5217).
+[Source, ligne 5217](../source/swaggerExternal.yaml#L5217)
 
-Valeurs : `[3, 4]`
+`[3, 4]`
 
 * 3 - Duplicate / Duplicata
 * 4 - Submitted in error / Soumis par erreur

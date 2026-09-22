@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <title>Décrire le mouvement des fonds</title>
+  <rect stroke-width="1" x="0" y="0" width="1600" height="1100" rx="0" fill="#F3F6FA" stroke="#F3F6FA" />
+  <path stroke-width="2" d="M 800.0,490 L 800,551 L 386,551 L 385.5,610" fill="none" stroke="#8BA0B6" />
+  <polygon points="385.5,610 381.68400962013794,600.7567204185527 389.47209680718424,600.822721157426" fill="#8BA0B6" />
+  <rect stroke-width="1" x="518.5" y="537.5" width="149.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="525.5" y="553.5" fill="#5E7185">actions initiales · 0..N</text>
+  <path stroke-width="2" d="M 800.0,490 L 800,551 L 1214,551 L 1214.5,610" fill="none" stroke="#8BA0B6" />
+  <polygon points="1214.5,610 1210.5279031928158,600.822721157426 1218.3159903798621,600.7567204185527" fill="#8BA0B6" />
+  <rect stroke-width="1" x="935.5" y="537.5" width="143.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="942.5" y="553.5" fill="#5E7185">actions finales · 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="48" y="42" fill="#5E7185">CANAFE / DOD–STR / MODÈLE DE DONNÉES</text>
+  <text font-family="Arial, sans-serif" font-size="36" font-weight="700" x="48" y="100" fill="#142B46">Décrire le mouvement des fonds</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="48" y="133" fill="#5E7185">Domaine Transactions · 3 tables. Une opération peut avoir plusieurs actions initiales et plusieurs actions finales.</text>
+  <text font-family="Arial, sans-serif" font-size="13" font-weight="400" x="48" y="1081" fill="#5E7185">PROJET DOD • Architecture reprise de projet-io | 06</text>
+  <rect stroke-width="1" x="565" y="190" width="470" height="300" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="565" y="190" width="7" height="300" rx="0" fill="#C76C12" stroke="#C76C12" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="587" y="230" fill="#142B46">L’opération</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="587" y="258" fill="#C76C12">STR_TRANSACTION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="587" y="300" fill="#24364B">transaction_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="587" y="339" fill="#24364B">re_txn_reference</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="587" y="378" fill="#24364B">date_of_transaction</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="587" y="417" fill="#24364B">attempted_indicator</text>
+  <rect stroke-width="1" x="48" y="610" width="675" height="325" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="610" width="7" height="325" rx="0" fill="#C76C12" stroke="#C76C12" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="70" y="650" fill="#142B46">L’action initiale</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="70" y="678" fill="#C76C12">STR_STARTING_ACTION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="720" fill="#24364B">transaction_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="759" fill="#24364B">direction</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="798" fill="#24364B">fund_type_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="837" fill="#24364B">amount</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="876" fill="#24364B">currency_code</text>
+  <rect stroke-width="1" x="877" y="610" width="675" height="325" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="877" y="610" width="7" height="325" rx="0" fill="#C76C12" stroke="#C76C12" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="899" y="650" fill="#142B46">L’action finale</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="899" y="678" fill="#C76C12">STR_COMPLETING_ACTION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="899" y="720" fill="#24364B">transaction_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="899" y="759" fill="#24364B">disposition_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="899" y="798" fill="#24364B">amount</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="899" y="837" fill="#24364B">currency_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="899" y="876" fill="#24364B">value_in_cad</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="48" y="1014" fill="#142B46">Exemple fictif : une opération de change commence par la remise de fonds et se termine par la remise de la devise achetée.</text>
+</svg>

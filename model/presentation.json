@@ -1,0 +1,5017 @@
+[
+  {
+    "slug": "01-domaines",
+    "title": "Les neuf domaines du modèle",
+    "width": 1600,
+    "height": 1100,
+    "items": [
+      {
+        "kind": "rect",
+        "id": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1600,
+        "h": 1100,
+        "fill": "#F3F6FA",
+        "stroke": "#F3F6FA",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "kicker",
+        "value": "CANAFE / DOD–STR / MODÈLE DE DONNÉES",
+        "x": 48,
+        "y": 28,
+        "w": 1300,
+        "h": 21,
+        "size": 14,
+        "color": "#5E7185",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "title",
+        "value": "Les neuf domaines du modèle",
+        "x": 48,
+        "y": 64,
+        "w": 1480,
+        "h": 43,
+        "size": 36,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "subtitle",
+        "value": "34 tables pour suivre une déclaration, des faits rapportés jusqu’à la réponse de CANAFE.",
+        "x": 48,
+        "y": 114,
+        "w": 1480,
+        "h": 26,
+        "size": 19,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "footer",
+        "value": "PROJET DOD • Architecture reprise de projet-io | 01",
+        "x": 48,
+        "y": 1068,
+        "w": 1480,
+        "h": 20,
+        "size": 13,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "domain0",
+        "x": 48,
+        "y": 177,
+        "w": 477,
+        "h": 254,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "stripe0",
+        "x": 48,
+        "y": 177,
+        "w": 6,
+        "h": 254,
+        "fill": "#2563EB",
+        "stroke": "#2563EB",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "domtitle0",
+        "value": "Rapport · 4 tables",
+        "x": 68,
+        "y": 195,
+        "w": 435,
+        "h": 31,
+        "size": 24,
+        "color": "#2563EB",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "question0",
+        "value": "Quel dossier transmet-on ?",
+        "x": 68,
+        "y": 233,
+        "w": 435,
+        "h": 24,
+        "size": 17,
+        "color": "#142B46",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "names0",
+        "value": "REPORT\nPPP_PROJECT\nRELATED_REPORT\nRELATED_REPORT_TXN_REF",
+        "x": 68,
+        "y": 278,
+        "w": 435,
+        "h": 84,
+        "size": 14,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "domain1",
+        "x": 553,
+        "y": 177,
+        "w": 477,
+        "h": 254,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "stripe1",
+        "x": 553,
+        "y": 177,
+        "w": 6,
+        "h": 254,
+        "fill": "#15803D",
+        "stroke": "#15803D",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "domtitle1",
+        "value": "Définitions · 4 tables",
+        "x": 573,
+        "y": 195,
+        "w": 435,
+        "h": 31,
+        "size": 24,
+        "color": "#15803D",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "question1",
+        "value": "De qui parle-t-on ?",
+        "x": 573,
+        "y": 233,
+        "w": 435,
+        "h": 24,
+        "size": 17,
+        "color": "#142B46",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "names1",
+        "value": "DEFINITION\nPERSON\nENTITY\nEMPLOYER_INFO",
+        "x": 573,
+        "y": 278,
+        "w": 435,
+        "h": 84,
+        "size": 14,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "domain2",
+        "x": 1058,
+        "y": 177,
+        "w": 477,
+        "h": 254,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "stripe2",
+        "x": 1058,
+        "y": 177,
+        "w": 6,
+        "h": 254,
+        "fill": "#B7791F",
+        "stroke": "#B7791F",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "domtitle2",
+        "value": "Identité · 2 tables",
+        "x": 1078,
+        "y": 195,
+        "w": 435,
+        "h": 31,
+        "size": 24,
+        "color": "#B7791F",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "question2",
+        "value": "Comment la décrire et l’identifier ?",
+        "x": 1078,
+        "y": 233,
+        "w": 435,
+        "h": 24,
+        "size": 17,
+        "color": "#142B46",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "names2",
+        "value": "ADDRESS\nIDENTIFICATION",
+        "x": 1078,
+        "y": 278,
+        "w": 435,
+        "h": 42,
+        "size": 14,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "domain3",
+        "x": 48,
+        "y": 457,
+        "w": 477,
+        "h": 254,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "stripe3",
+        "x": 48,
+        "y": 457,
+        "w": 6,
+        "h": 254,
+        "fill": "#0F766E",
+        "stroke": "#0F766E",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "domtitle3",
+        "value": "Entité · 2 tables",
+        "x": 68,
+        "y": 475,
+        "w": 435,
+        "h": 31,
+        "size": 24,
+        "color": "#0F766E",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "question3",
+        "value": "Comment l’organisation est-elle constituée ?",
+        "x": 68,
+        "y": 513,
+        "w": 435,
+        "h": 24,
+        "size": 17,
+        "color": "#142B46",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "names3",
+        "value": "REGISTRATION_INCORPORATION\nAUTHORIZED_PERSON",
+        "x": 68,
+        "y": 558,
+        "w": 435,
+        "h": 42,
+        "size": 14,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "domain4",
+        "x": 553,
+        "y": 457,
+        "w": 477,
+        "h": 254,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "stripe4",
+        "x": 553,
+        "y": 457,
+        "w": 6,
+        "h": 254,
+        "fill": "#C24153",
+        "stroke": "#C24153",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "domtitle4",
+        "value": "Bénéficiaires effectifs · 7 tables",
+        "x": 573,
+        "y": 475,
+        "w": 435,
+        "h": 31,
+        "size": 24,
+        "color": "#C24153",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "question4",
+        "value": "Qui dirige ou détient l’entité ?",
+        "x": 573,
+        "y": 513,
+        "w": 435,
+        "h": 24,
+        "size": 17,
+        "color": "#142B46",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "names4",
+        "value": "DIRECTOR\nSHARE_OWNER\nTRUSTEE\nSETTLOR\nTRUST_UNIT_OWNER\nTRUST_BENEFICIARY\nOTHER_ENTITY_OWNER",
+        "x": 573,
+        "y": 558,
+        "w": 435,
+        "h": 147,
+        "size": 14,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "domain5",
+        "x": 1058,
+        "y": 457,
+        "w": 477,
+        "h": 254,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "stripe5",
+        "x": 1058,
+        "y": 457,
+        "w": 6,
+        "h": 254,
+        "fill": "#C76C12",
+        "stroke": "#C76C12",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "domtitle5",
+        "value": "Transactions · 3 tables",
+        "x": 1078,
+        "y": 475,
+        "w": 435,
+        "h": 31,
+        "size": 24,
+        "color": "#C76C12",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "question5",
+        "value": "Que s’est-il passé ?",
+        "x": 1078,
+        "y": 513,
+        "w": 435,
+        "h": 24,
+        "size": 17,
+        "color": "#142B46",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "names5",
+        "value": "TRANSACTION\nSTARTING_ACTION\nCOMPLETING_ACTION",
+        "x": 1078,
+        "y": 558,
+        "w": 435,
+        "h": 63,
+        "size": 14,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "domain6",
+        "x": 48,
+        "y": 737,
+        "w": 477,
+        "h": 254,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "stripe6",
+        "x": 48,
+        "y": 737,
+        "w": 6,
+        "h": 254,
+        "fill": "#7C3AED",
+        "stroke": "#7C3AED",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "domtitle6",
+        "value": "Rôles · 5 tables",
+        "x": 68,
+        "y": 755,
+        "w": 435,
+        "h": 31,
+        "size": 24,
+        "color": "#7C3AED",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "question6",
+        "value": "Qui fait quoi dans l’opération ?",
+        "x": 68,
+        "y": 793,
+        "w": 435,
+        "h": 24,
+        "size": 17,
+        "color": "#142B46",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "names6",
+        "value": "CONDUCTOR\nON_BEHALF_OF\nSOURCE_OF_FUNDS\nINVOLVEMENT\nBENEFICIARY",
+        "x": 68,
+        "y": 838,
+        "w": 435,
+        "h": 105,
+        "size": 14,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "domain7",
+        "x": 553,
+        "y": 737,
+        "w": 477,
+        "h": 254,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "stripe7",
+        "x": 553,
+        "y": 737,
+        "w": 6,
+        "h": 254,
+        "fill": "#059669",
+        "stroke": "#059669",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "domtitle7",
+        "value": "Comptes · 3 tables",
+        "x": 573,
+        "y": 755,
+        "w": 435,
+        "h": 31,
+        "size": 24,
+        "color": "#059669",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "question7",
+        "value": "Par quels comptes ou adresses les fonds passent-ils ?",
+        "x": 573,
+        "y": 793,
+        "w": 435,
+        "h": 24,
+        "size": 17,
+        "color": "#142B46",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "names7",
+        "value": "ACCOUNT\nACCOUNT_HOLDER\nVC_DATA",
+        "x": 573,
+        "y": 838,
+        "w": 435,
+        "h": 63,
+        "size": 14,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "domain8",
+        "x": 1058,
+        "y": 737,
+        "w": 477,
+        "h": 254,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "stripe8",
+        "x": 1058,
+        "y": 737,
+        "w": 6,
+        "h": 254,
+        "fill": "#64748B",
+        "stroke": "#64748B",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "domtitle8",
+        "value": "Audit · 4 tables",
+        "x": 1078,
+        "y": 755,
+        "w": 435,
+        "h": 31,
+        "size": 24,
+        "color": "#64748B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "question8",
+        "value": "Qu’a-t-on envoyé et quelle réponse a-t-on reçue ?",
+        "x": 1078,
+        "y": 793,
+        "w": 435,
+        "h": 24,
+        "size": 17,
+        "color": "#142B46",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "names8",
+        "value": "API_SUBMISSION\nSUBMITTED_PAYLOAD\nVALIDATION_ERROR\nAUDIT_EVENT",
+        "x": 1078,
+        "y": 838,
+        "w": 435,
+        "h": 84,
+        "size": 14,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "legend",
+        "value": "Préfixe STR_ commun à toutes les tables. Cette carte présente les domaines; les liens sont détaillés dans les pages suivantes.",
+        "x": 48,
+        "y": 1030,
+        "w": 1490,
+        "h": 22,
+        "size": 15,
+        "color": "#5E7185",
+        "bold": false
+      }
+    ],
+    "edges": [],
+    "tables": []
+  },
+  {
+    "slug": "02-rapport",
+    "title": "Le rapport donne le contexte",
+    "width": 1600,
+    "height": 1100,
+    "items": [
+      {
+        "kind": "rect",
+        "id": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1600,
+        "h": 1100,
+        "fill": "#F3F6FA",
+        "stroke": "#F3F6FA",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "kicker",
+        "value": "CANAFE / DOD–STR / MODÈLE DE DONNÉES",
+        "x": 48,
+        "y": 28,
+        "w": 1300,
+        "h": 21,
+        "size": 14,
+        "color": "#5E7185",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "title",
+        "value": "Le rapport donne le contexte",
+        "x": 48,
+        "y": 64,
+        "w": 1480,
+        "h": 43,
+        "size": 36,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "subtitle",
+        "value": "Domaine Rapport · 4 tables. Les liens vers d’autres déclarations ne créent pas de copies de leurs opérations.",
+        "x": 48,
+        "y": 114,
+        "w": 1480,
+        "h": 26,
+        "size": 19,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "footer",
+        "value": "PROJET DOD • Architecture reprise de projet-io | 02",
+        "x": 48,
+        "y": 1068,
+        "w": 1480,
+        "h": 20,
+        "size": 13,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_REPORT",
+        "x": 48,
+        "y": 190,
+        "w": 540,
+        "h": 340,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_REPORT-bar",
+        "x": 48,
+        "y": 190,
+        "w": 7,
+        "h": 340,
+        "fill": "#2563EB",
+        "stroke": "#2563EB",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_REPORT-label",
+        "value": "Le rapport",
+        "x": 70,
+        "y": 207,
+        "w": 500,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_REPORT-name",
+        "value": "STR_REPORT",
+        "x": 70,
+        "y": 244,
+        "w": 502,
+        "h": 21,
+        "size": 14,
+        "color": "#2563EB",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_REPORT-field0",
+        "value": "str_report_id",
+        "x": 70,
+        "y": 283,
+        "w": 500,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_REPORT-field1",
+        "value": "report_group_id",
+        "x": 70,
+        "y": 322,
+        "w": 500,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_REPORT-field2",
+        "value": "version_number",
+        "x": 70,
+        "y": 361,
+        "w": 500,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_REPORT-field3",
+        "value": "re_report_reference",
+        "x": 70,
+        "y": 400,
+        "w": 500,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_REPORT-field4",
+        "value": "suspicious_activity_desc",
+        "x": 70,
+        "y": 439,
+        "w": 500,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_PPP_PROJECT",
+        "x": 830,
+        "y": 185,
+        "w": 670,
+        "h": 240,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_PPP_PROJECT-bar",
+        "x": 830,
+        "y": 185,
+        "w": 7,
+        "h": 240,
+        "fill": "#2563EB",
+        "stroke": "#2563EB",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_PPP_PROJECT-label",
+        "value": "Les projets associés",
+        "x": 852,
+        "y": 202,
+        "w": 630,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_PPP_PROJECT-name",
+        "value": "STR_PPP_PROJECT",
+        "x": 852,
+        "y": 239,
+        "w": 632,
+        "h": 21,
+        "size": 14,
+        "color": "#2563EB",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_PPP_PROJECT-field0",
+        "value": "ppp_id",
+        "x": 852,
+        "y": 278,
+        "w": 630,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_PPP_PROJECT-field1",
+        "value": "str_report_id",
+        "x": 852,
+        "y": 317,
+        "w": 630,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_PPP_PROJECT-field2",
+        "value": "project_name_code",
+        "x": 852,
+        "y": 356,
+        "w": 630,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_RELATED_REPORT",
+        "x": 830,
+        "y": 520,
+        "w": 670,
+        "h": 240,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_RELATED_REPORT-bar",
+        "x": 830,
+        "y": 520,
+        "w": 7,
+        "h": 240,
+        "fill": "#2563EB",
+        "stroke": "#2563EB",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_RELATED_REPORT-label",
+        "value": "Les rapports liés",
+        "x": 852,
+        "y": 537,
+        "w": 630,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_RELATED_REPORT-name",
+        "value": "STR_RELATED_REPORT",
+        "x": 852,
+        "y": 574,
+        "w": 632,
+        "h": 21,
+        "size": 14,
+        "color": "#2563EB",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_RELATED_REPORT-field0",
+        "value": "related_report_id",
+        "x": 852,
+        "y": 613,
+        "w": 630,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_RELATED_REPORT-field1",
+        "value": "str_report_id",
+        "x": 852,
+        "y": 652,
+        "w": 630,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_RELATED_REPORT-field2",
+        "value": "re_report_reference",
+        "x": 852,
+        "y": 691,
+        "w": 630,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_RELATED_REPORT_TXN_REF",
+        "x": 830,
+        "y": 845,
+        "w": 670,
+        "h": 180,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_RELATED_REPORT_TXN_REF-bar",
+        "x": 830,
+        "y": 845,
+        "w": 7,
+        "h": 180,
+        "fill": "#2563EB",
+        "stroke": "#2563EB",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_RELATED_REPORT_TXN_REF-label",
+        "value": "Les opérations liées",
+        "x": 852,
+        "y": 862,
+        "w": 630,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_RELATED_REPORT_TXN_REF-name",
+        "value": "STR_RELATED_REPORT_TXN_REF",
+        "x": 852,
+        "y": 899,
+        "w": 632,
+        "h": 21,
+        "size": 14,
+        "color": "#2563EB",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_RELATED_REPORT_TXN_REF-field0",
+        "value": "related_report_id",
+        "x": 852,
+        "y": 938,
+        "w": 630,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_RELATED_REPORT_TXN_REF-field1",
+        "value": "txn_reference",
+        "x": 852,
+        "y": 977,
+        "w": 630,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "version",
+        "x": 48,
+        "y": 620,
+        "w": 540,
+        "h": 190,
+        "fill": "#EAF0F7",
+        "stroke": "#EAF0F7",
+        "radius": 12
+      },
+      {
+        "kind": "text",
+        "id": "version-t",
+        "value": "Une correction ne remplace pas le passé",
+        "x": 70,
+        "y": 638,
+        "w": 496,
+        "h": 28,
+        "size": 21,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "version-b",
+        "value": "Une ligne de STR_REPORT représente une version. La\nversion 2 garde le même report_group_id et pointe vers la\nversion 1.",
+        "x": 70,
+        "y": 674,
+        "w": 496,
+        "h": 75,
+        "size": 18,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "story",
+        "x": 48,
+        "y": 844,
+        "w": 540,
+        "h": 180,
+        "fill": "#EAF0F7",
+        "stroke": "#EAF0F7",
+        "radius": 12
+      },
+      {
+        "kind": "text",
+        "id": "story-t",
+        "value": "À dire en réunion",
+        "x": 70,
+        "y": 862,
+        "w": 496,
+        "h": 28,
+        "size": 21,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "story-b",
+        "value": "« Le rapport rassemble les faits et les raisons du soupçon.\nLes autres domaines viennent préciser ce récit. »",
+        "x": 70,
+        "y": 898,
+        "w": 496,
+        "h": 50,
+        "size": 18,
+        "color": "#24364B",
+        "bold": false
+      }
+    ],
+    "edges": [
+      {
+        "a": "STR_REPORT",
+        "b": "STR_PPP_PROJECT",
+        "points": [
+          [
+            588,
+            360.0
+          ],
+          [
+            700,
+            360
+          ],
+          [
+            700,
+            305
+          ],
+          [
+            830,
+            305.0
+          ]
+        ],
+        "label": "projets · 0..N",
+        "start": "right",
+        "end": "left",
+        "label_at": [
+          720,
+          305
+        ]
+      },
+      {
+        "a": "STR_REPORT",
+        "b": "STR_RELATED_REPORT",
+        "points": [
+          [
+            588,
+            360.0
+          ],
+          [
+            670,
+            360
+          ],
+          [
+            670,
+            640
+          ],
+          [
+            830,
+            640.0
+          ]
+        ],
+        "label": "rapports liés · 0..N",
+        "start": "right",
+        "end": "left",
+        "label_at": [
+          704,
+          500
+        ]
+      },
+      {
+        "a": "STR_RELATED_REPORT",
+        "b": "STR_RELATED_REPORT_TXN_REF",
+        "points": [
+          [
+            1165.0,
+            760
+          ],
+          [
+            1165.0,
+            802.5
+          ],
+          [
+            1165.0,
+            802.5
+          ],
+          [
+            1165.0,
+            845
+          ]
+        ],
+        "label": "précise leurs opérations · 0..N",
+        "start": "bottom",
+        "end": "top",
+        "label_at": null
+      }
+    ],
+    "tables": [
+      "STR_REPORT",
+      "STR_PPP_PROJECT",
+      "STR_RELATED_REPORT",
+      "STR_RELATED_REPORT_TXN_REF"
+    ]
+  },
+  {
+    "slug": "03-personnes-identite",
+    "title": "Une identité, plusieurs usages",
+    "width": 1600,
+    "height": 1100,
+    "items": [
+      {
+        "kind": "rect",
+        "id": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1600,
+        "h": 1100,
+        "fill": "#F3F6FA",
+        "stroke": "#F3F6FA",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "kicker",
+        "value": "CANAFE / DOD–STR / MODÈLE DE DONNÉES",
+        "x": 48,
+        "y": 28,
+        "w": 1300,
+        "h": 21,
+        "size": 14,
+        "color": "#5E7185",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "title",
+        "value": "Une identité, plusieurs usages",
+        "x": 48,
+        "y": 64,
+        "w": 1480,
+        "h": 43,
+        "size": 36,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "subtitle",
+        "value": "Domaines Définitions et Identité · 6 tables. Un rôle cite une définition; il ne recopie pas toute la fiche.",
+        "x": 48,
+        "y": 114,
+        "w": 1480,
+        "h": 26,
+        "size": 19,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "footer",
+        "value": "PROJET DOD • Architecture reprise de projet-io | 03",
+        "x": 48,
+        "y": 1068,
+        "w": 1480,
+        "h": 20,
+        "size": 13,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_DEFINITION",
+        "x": 568,
+        "y": 180,
+        "w": 465,
+        "h": 238,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_DEFINITION-bar",
+        "x": 568,
+        "y": 180,
+        "w": 7,
+        "h": 238,
+        "fill": "#15803D",
+        "stroke": "#15803D",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_DEFINITION-label",
+        "value": "Le point de référence",
+        "x": 590,
+        "y": 197,
+        "w": 425,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_DEFINITION-name",
+        "value": "STR_DEFINITION",
+        "x": 590,
+        "y": 234,
+        "w": 427,
+        "h": 21,
+        "size": 14,
+        "color": "#15803D",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_DEFINITION-field0",
+        "value": "definition_id",
+        "x": 590,
+        "y": 273,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_DEFINITION-field1",
+        "value": "ref_id",
+        "x": 590,
+        "y": 312,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_DEFINITION-field2",
+        "value": "type_code",
+        "x": 590,
+        "y": 351,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_PERSON",
+        "x": 48,
+        "y": 492,
+        "w": 465,
+        "h": 265,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_PERSON-bar",
+        "x": 48,
+        "y": 492,
+        "w": 7,
+        "h": 265,
+        "fill": "#15803D",
+        "stroke": "#15803D",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_PERSON-label",
+        "value": "La personne",
+        "x": 70,
+        "y": 509,
+        "w": 425,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_PERSON-name",
+        "value": "STR_PERSON",
+        "x": 70,
+        "y": 546,
+        "w": 427,
+        "h": 21,
+        "size": 14,
+        "color": "#15803D",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_PERSON-field0",
+        "value": "person_id",
+        "x": 70,
+        "y": 585,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_PERSON-field1",
+        "value": "definition_id",
+        "x": 70,
+        "y": 624,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_PERSON-field2",
+        "value": "surname",
+        "x": 70,
+        "y": 663,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_PERSON-field3",
+        "value": "given_name",
+        "x": 70,
+        "y": 702,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ENTITY",
+        "x": 1086,
+        "y": 492,
+        "w": 465,
+        "h": 265,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ENTITY-bar",
+        "x": 1086,
+        "y": 492,
+        "w": 7,
+        "h": 265,
+        "fill": "#15803D",
+        "stroke": "#15803D",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_ENTITY-label",
+        "value": "L’entité",
+        "x": 1108,
+        "y": 509,
+        "w": 425,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ENTITY-name",
+        "value": "STR_ENTITY",
+        "x": 1108,
+        "y": 546,
+        "w": 427,
+        "h": 21,
+        "size": 14,
+        "color": "#15803D",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ENTITY-field0",
+        "value": "entity_id",
+        "x": 1108,
+        "y": 585,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ENTITY-field1",
+        "value": "definition_id",
+        "x": 1108,
+        "y": 624,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_ENTITY-field2",
+        "value": "name_of_entity",
+        "x": 1108,
+        "y": 663,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_EMPLOYER_INFO",
+        "x": 48,
+        "y": 830,
+        "w": 465,
+        "h": 180,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_EMPLOYER_INFO-bar",
+        "x": 48,
+        "y": 830,
+        "w": 7,
+        "h": 180,
+        "fill": "#15803D",
+        "stroke": "#15803D",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_EMPLOYER_INFO-label",
+        "value": "L’employeur",
+        "x": 70,
+        "y": 847,
+        "w": 425,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_EMPLOYER_INFO-name",
+        "value": "STR_EMPLOYER_INFO",
+        "x": 70,
+        "y": 884,
+        "w": 427,
+        "h": 21,
+        "size": 14,
+        "color": "#15803D",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_EMPLOYER_INFO-field0",
+        "value": "person_id",
+        "x": 70,
+        "y": 923,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_EMPLOYER_INFO-field1",
+        "value": "name",
+        "x": 70,
+        "y": 962,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ADDRESS",
+        "x": 568,
+        "y": 492,
+        "w": 465,
+        "h": 265,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ADDRESS-bar",
+        "x": 568,
+        "y": 492,
+        "w": 7,
+        "h": 265,
+        "fill": "#B7791F",
+        "stroke": "#B7791F",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_ADDRESS-label",
+        "value": "L’adresse",
+        "x": 590,
+        "y": 509,
+        "w": 425,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ADDRESS-name",
+        "value": "STR_ADDRESS",
+        "x": 590,
+        "y": 546,
+        "w": 427,
+        "h": 21,
+        "size": 14,
+        "color": "#B7791F",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ADDRESS-field0",
+        "value": "address_id",
+        "x": 590,
+        "y": 585,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ADDRESS-field1",
+        "value": "type_code",
+        "x": 590,
+        "y": 624,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_ADDRESS-field2",
+        "value": "city",
+        "x": 590,
+        "y": 663,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_ADDRESS-field3",
+        "value": "country_code",
+        "x": 590,
+        "y": 702,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_IDENTIFICATION",
+        "x": 1086,
+        "y": 830,
+        "w": 465,
+        "h": 200,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_IDENTIFICATION-bar",
+        "x": 1086,
+        "y": 830,
+        "w": 7,
+        "h": 200,
+        "fill": "#B7791F",
+        "stroke": "#B7791F",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_IDENTIFICATION-label",
+        "value": "Les pièces d’identité",
+        "x": 1108,
+        "y": 847,
+        "w": 425,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_IDENTIFICATION-name",
+        "value": "STR_IDENTIFICATION",
+        "x": 1108,
+        "y": 884,
+        "w": 427,
+        "h": 21,
+        "size": 14,
+        "color": "#B7791F",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_IDENTIFICATION-field0",
+        "value": "definition_id",
+        "x": 1108,
+        "y": 923,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_IDENTIFICATION-field1",
+        "value": "identifier_type_code",
+        "x": 1108,
+        "y": 962,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_IDENTIFICATION-field2",
+        "value": "number",
+        "x": 1108,
+        "y": 1001,
+        "w": 425,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "identity",
+        "x": 568,
+        "y": 815,
+        "w": 465,
+        "h": 215,
+        "fill": "#EAF0F7",
+        "stroke": "#EAF0F7",
+        "radius": 12
+      },
+      {
+        "kind": "text",
+        "id": "identity-t",
+        "value": "Comment lire les deux tables d’identité",
+        "x": 590,
+        "y": 833,
+        "w": 421,
+        "h": 28,
+        "size": 21,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "identity-b",
+        "value": "ADDRESS porte une adresse liée à son propriétaire.\nIDENTIFICATION porte une pièce liée à la définition.\nLes liens détaillés figurent dans le dictionnaire.",
+        "x": 590,
+        "y": 869,
+        "w": 421,
+        "h": 75,
+        "size": 18,
+        "color": "#24364B",
+        "bold": false
+      }
+    ],
+    "edges": [
+      {
+        "a": "STR_DEFINITION",
+        "b": "STR_PERSON",
+        "points": [
+          [
+            800.5,
+            418
+          ],
+          [
+            800,
+            452
+          ],
+          [
+            280,
+            452
+          ],
+          [
+            280.5,
+            492
+          ]
+        ],
+        "label": "personne · types 1, 3 ou 5",
+        "start": "bottom",
+        "end": "top",
+        "label_at": null
+      },
+      {
+        "a": "STR_DEFINITION",
+        "b": "STR_ENTITY",
+        "points": [
+          [
+            800.5,
+            418
+          ],
+          [
+            800,
+            452
+          ],
+          [
+            1318,
+            452
+          ],
+          [
+            1318.5,
+            492
+          ]
+        ],
+        "label": "entité · types 2, 4 ou 6",
+        "start": "bottom",
+        "end": "top",
+        "label_at": null
+      },
+      {
+        "a": "STR_PERSON",
+        "b": "STR_EMPLOYER_INFO",
+        "points": [
+          [
+            280.5,
+            757
+          ],
+          [
+            280.5,
+            793.5
+          ],
+          [
+            280.5,
+            793.5
+          ],
+          [
+            280.5,
+            830
+          ]
+        ],
+        "label": "employeur · type 5 seulement",
+        "start": "bottom",
+        "end": "top",
+        "label_at": null
+      }
+    ],
+    "tables": [
+      "STR_DEFINITION",
+      "STR_PERSON",
+      "STR_ENTITY",
+      "STR_EMPLOYER_INFO",
+      "STR_ADDRESS",
+      "STR_IDENTIFICATION"
+    ]
+  },
+  {
+    "slug": "04-entite",
+    "title": "Ce que l’on sait de l’organisation",
+    "width": 1600,
+    "height": 1100,
+    "items": [
+      {
+        "kind": "rect",
+        "id": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1600,
+        "h": 1100,
+        "fill": "#F3F6FA",
+        "stroke": "#F3F6FA",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "kicker",
+        "value": "CANAFE / DOD–STR / MODÈLE DE DONNÉES",
+        "x": 48,
+        "y": 28,
+        "w": 1300,
+        "h": 21,
+        "size": 14,
+        "color": "#5E7185",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "title",
+        "value": "Ce que l’on sait de l’organisation",
+        "x": 48,
+        "y": 64,
+        "w": 1480,
+        "h": 43,
+        "size": 36,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "subtitle",
+        "value": "Domaine Entité · 2 tables, rattachées à ENTITY dans le domaine Définitions.",
+        "x": 48,
+        "y": 114,
+        "w": 1480,
+        "h": 26,
+        "size": 19,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "footer",
+        "value": "PROJET DOD • Architecture reprise de projet-io | 04",
+        "x": 48,
+        "y": 1068,
+        "w": 1480,
+        "h": 20,
+        "size": 13,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ENTITY",
+        "x": 567,
+        "y": 190,
+        "w": 466,
+        "h": 255,
+        "fill": "#F5F7FA",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ENTITY-bar",
+        "x": 567,
+        "y": 190,
+        "w": 7,
+        "h": 255,
+        "fill": "#15803D",
+        "stroke": "#15803D",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_ENTITY-label",
+        "value": "L’entité",
+        "x": 589,
+        "y": 207,
+        "w": 426,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ENTITY-name",
+        "value": "STR_ENTITY",
+        "x": 589,
+        "y": 244,
+        "w": 428,
+        "h": 21,
+        "size": 14,
+        "color": "#15803D",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ENTITY-field0",
+        "value": "entity_id",
+        "x": 589,
+        "y": 283,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ENTITY-field1",
+        "value": "name_of_entity",
+        "x": 589,
+        "y": 322,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_ENTITY-field2",
+        "value": "nature_of_principal_business",
+        "x": 589,
+        "y": 361,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_REGISTRATION_INCORPORATION",
+        "x": 48,
+        "y": 565,
+        "w": 715,
+        "h": 290,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_REGISTRATION_INCORPORATION-bar",
+        "x": 48,
+        "y": 565,
+        "w": 7,
+        "h": 290,
+        "fill": "#0F766E",
+        "stroke": "#0F766E",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_REGISTRATION_INCORPORATION-label",
+        "value": "L’enregistrement",
+        "x": 70,
+        "y": 582,
+        "w": 675,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_REGISTRATION_INCORPORATION-name",
+        "value": "STR_REGISTRATION_INCORPORATION",
+        "x": 70,
+        "y": 619,
+        "w": 677,
+        "h": 21,
+        "size": 14,
+        "color": "#0F766E",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_REGISTRATION_INCORPORATION-field0",
+        "value": "entity_id",
+        "x": 70,
+        "y": 658,
+        "w": 675,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_REGISTRATION_INCORPORATION-field1",
+        "value": "type_code",
+        "x": 70,
+        "y": 697,
+        "w": 675,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_REGISTRATION_INCORPORATION-field2",
+        "value": "number",
+        "x": 70,
+        "y": 736,
+        "w": 675,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_REGISTRATION_INCORPORATION-field3",
+        "value": "jurisdiction_country_code",
+        "x": 70,
+        "y": 775,
+        "w": 675,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_AUTHORIZED_PERSON",
+        "x": 837,
+        "y": 565,
+        "w": 715,
+        "h": 290,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_AUTHORIZED_PERSON-bar",
+        "x": 837,
+        "y": 565,
+        "w": 7,
+        "h": 290,
+        "fill": "#0F766E",
+        "stroke": "#0F766E",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_AUTHORIZED_PERSON-label",
+        "value": "Les personnes autorisées",
+        "x": 859,
+        "y": 582,
+        "w": 675,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_AUTHORIZED_PERSON-name",
+        "value": "STR_AUTHORIZED_PERSON",
+        "x": 859,
+        "y": 619,
+        "w": 677,
+        "h": 21,
+        "size": 14,
+        "color": "#0F766E",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_AUTHORIZED_PERSON-field0",
+        "value": "entity_id",
+        "x": 859,
+        "y": 658,
+        "w": 675,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_AUTHORIZED_PERSON-field1",
+        "value": "surname",
+        "x": 859,
+        "y": 697,
+        "w": 675,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_AUTHORIZED_PERSON-field2",
+        "value": "given_name",
+        "x": 859,
+        "y": 736,
+        "w": 675,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "authorized",
+        "x": 48,
+        "y": 905,
+        "w": 1504,
+        "h": 140,
+        "fill": "#EAF0F7",
+        "stroke": "#EAF0F7",
+        "radius": 12
+      },
+      {
+        "kind": "text",
+        "id": "authorized-t",
+        "value": "Autorisation et propriété sont deux renseignements différents",
+        "x": 70,
+        "y": 923,
+        "w": 1460,
+        "h": 28,
+        "size": 21,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "authorized-b",
+        "value": "Une personne peut être autorisée à agir pour une entreprise sans en être propriétaire. Les propriétaires et les dirigeants sont présentés dans le domaine suivant.",
+        "x": 70,
+        "y": 959,
+        "w": 1460,
+        "h": 25,
+        "size": 18,
+        "color": "#24364B",
+        "bold": false
+      }
+    ],
+    "edges": [
+      {
+        "a": "STR_ENTITY",
+        "b": "STR_REGISTRATION_INCORPORATION",
+        "points": [
+          [
+            800.0,
+            445
+          ],
+          [
+            800,
+            500
+          ],
+          [
+            405,
+            500
+          ],
+          [
+            405.5,
+            565
+          ]
+        ],
+        "label": "enregistrements · 0..N",
+        "start": "bottom",
+        "end": "top",
+        "label_at": null
+      },
+      {
+        "a": "STR_ENTITY",
+        "b": "STR_AUTHORIZED_PERSON",
+        "points": [
+          [
+            800.0,
+            445
+          ],
+          [
+            800,
+            500
+          ],
+          [
+            1194,
+            500
+          ],
+          [
+            1194.5,
+            565
+          ]
+        ],
+        "label": "personnes autorisées · 0..N",
+        "start": "bottom",
+        "end": "top",
+        "label_at": null
+      }
+    ],
+    "tables": [
+      "STR_ENTITY",
+      "STR_REGISTRATION_INCORPORATION",
+      "STR_AUTHORIZED_PERSON"
+    ]
+  },
+  {
+    "slug": "05-propriete",
+    "title": "Qui dirige ou détient l’entité ?",
+    "width": 1600,
+    "height": 1100,
+    "items": [
+      {
+        "kind": "rect",
+        "id": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1600,
+        "h": 1100,
+        "fill": "#F3F6FA",
+        "stroke": "#F3F6FA",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "kicker",
+        "value": "CANAFE / DOD–STR / MODÈLE DE DONNÉES",
+        "x": 48,
+        "y": 28,
+        "w": 1300,
+        "h": 21,
+        "size": 14,
+        "color": "#5E7185",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "title",
+        "value": "Qui dirige ou détient l’entité ?",
+        "x": 48,
+        "y": 64,
+        "w": 1480,
+        "h": 43,
+        "size": 36,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "subtitle",
+        "value": "Domaine Bénéficiaires effectifs · 7 tables. Ces listes concernent les définitions d’entité de type 6.",
+        "x": 48,
+        "y": 114,
+        "w": 1480,
+        "h": 26,
+        "size": 19,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "footer",
+        "value": "PROJET DOD • Architecture reprise de projet-io | 05",
+        "x": 48,
+        "y": 1068,
+        "w": 1480,
+        "h": 20,
+        "size": 13,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_DIRECTOR",
+        "x": 48,
+        "y": 228,
+        "w": 352,
+        "h": 280,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_DIRECTOR-bar",
+        "x": 48,
+        "y": 228,
+        "w": 7,
+        "h": 280,
+        "fill": "#C24153",
+        "stroke": "#C24153",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_DIRECTOR-label",
+        "value": "Les administrateurs",
+        "x": 70,
+        "y": 245,
+        "w": 312,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_DIRECTOR-name",
+        "value": "STR_DIRECTOR",
+        "x": 70,
+        "y": 282,
+        "w": 314,
+        "h": 21,
+        "size": 14,
+        "color": "#C24153",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_DIRECTOR-field0",
+        "value": "entity_id",
+        "x": 70,
+        "y": 321,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_DIRECTOR-field1",
+        "value": "surname",
+        "x": 70,
+        "y": 360,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_DIRECTOR-field2",
+        "value": "given_name",
+        "x": 70,
+        "y": 399,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_SHARE_OWNER",
+        "x": 432,
+        "y": 228,
+        "w": 352,
+        "h": 280,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_SHARE_OWNER-bar",
+        "x": 432,
+        "y": 228,
+        "w": 7,
+        "h": 280,
+        "fill": "#C24153",
+        "stroke": "#C24153",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_SHARE_OWNER-label",
+        "value": "Les détenteurs d’actions",
+        "x": 454,
+        "y": 245,
+        "w": 312,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_SHARE_OWNER-name",
+        "value": "STR_SHARE_OWNER",
+        "x": 454,
+        "y": 282,
+        "w": 314,
+        "h": 21,
+        "size": 14,
+        "color": "#C24153",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_SHARE_OWNER-field0",
+        "value": "entity_id",
+        "x": 454,
+        "y": 321,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_SHARE_OWNER-field1",
+        "value": "surname",
+        "x": 454,
+        "y": 360,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_SHARE_OWNER-field2",
+        "value": "given_name",
+        "x": 454,
+        "y": 399,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_TRUSTEE",
+        "x": 816,
+        "y": 228,
+        "w": 352,
+        "h": 280,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_TRUSTEE-bar",
+        "x": 816,
+        "y": 228,
+        "w": 7,
+        "h": 280,
+        "fill": "#C24153",
+        "stroke": "#C24153",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUSTEE-label",
+        "value": "Les fiduciaires",
+        "x": 838,
+        "y": 245,
+        "w": 312,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUSTEE-name",
+        "value": "STR_TRUSTEE",
+        "x": 838,
+        "y": 282,
+        "w": 314,
+        "h": 21,
+        "size": 14,
+        "color": "#C24153",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUSTEE-field0",
+        "value": "entity_id",
+        "x": 838,
+        "y": 321,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUSTEE-field1",
+        "value": "surname",
+        "x": 838,
+        "y": 360,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUSTEE-field2",
+        "value": "given_name",
+        "x": 838,
+        "y": 399,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_SETTLOR",
+        "x": 1200,
+        "y": 228,
+        "w": 352,
+        "h": 280,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_SETTLOR-bar",
+        "x": 1200,
+        "y": 228,
+        "w": 7,
+        "h": 280,
+        "fill": "#C24153",
+        "stroke": "#C24153",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_SETTLOR-label",
+        "value": "Les constituants",
+        "x": 1222,
+        "y": 245,
+        "w": 312,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_SETTLOR-name",
+        "value": "STR_SETTLOR",
+        "x": 1222,
+        "y": 282,
+        "w": 314,
+        "h": 21,
+        "size": 14,
+        "color": "#C24153",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_SETTLOR-field0",
+        "value": "entity_id",
+        "x": 1222,
+        "y": 321,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_SETTLOR-field1",
+        "value": "surname",
+        "x": 1222,
+        "y": 360,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_SETTLOR-field2",
+        "value": "given_name",
+        "x": 1222,
+        "y": 399,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_TRUST_UNIT_OWNER",
+        "x": 48,
+        "y": 548,
+        "w": 352,
+        "h": 280,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_TRUST_UNIT_OWNER-bar",
+        "x": 48,
+        "y": 548,
+        "w": 7,
+        "h": 280,
+        "fill": "#C24153",
+        "stroke": "#C24153",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUST_UNIT_OWNER-label",
+        "value": "Les détenteurs d’unités",
+        "x": 70,
+        "y": 565,
+        "w": 312,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUST_UNIT_OWNER-name",
+        "value": "STR_TRUST_UNIT_OWNER",
+        "x": 70,
+        "y": 602,
+        "w": 314,
+        "h": 21,
+        "size": 14,
+        "color": "#C24153",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUST_UNIT_OWNER-field0",
+        "value": "entity_id",
+        "x": 70,
+        "y": 641,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUST_UNIT_OWNER-field1",
+        "value": "surname",
+        "x": 70,
+        "y": 680,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUST_UNIT_OWNER-field2",
+        "value": "given_name",
+        "x": 70,
+        "y": 719,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_TRUST_BENEFICIARY",
+        "x": 432,
+        "y": 548,
+        "w": 352,
+        "h": 280,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_TRUST_BENEFICIARY-bar",
+        "x": 432,
+        "y": 548,
+        "w": 7,
+        "h": 280,
+        "fill": "#C24153",
+        "stroke": "#C24153",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUST_BENEFICIARY-label",
+        "value": "Les bénéficiaires de fiducie",
+        "x": 454,
+        "y": 565,
+        "w": 312,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUST_BENEFICIARY-name",
+        "value": "STR_TRUST_BENEFICIARY",
+        "x": 454,
+        "y": 602,
+        "w": 314,
+        "h": 21,
+        "size": 14,
+        "color": "#C24153",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUST_BENEFICIARY-field0",
+        "value": "entity_id",
+        "x": 454,
+        "y": 641,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUST_BENEFICIARY-field1",
+        "value": "surname",
+        "x": 454,
+        "y": 680,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRUST_BENEFICIARY-field2",
+        "value": "given_name",
+        "x": 454,
+        "y": 719,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_OTHER_ENTITY_OWNER",
+        "x": 816,
+        "y": 548,
+        "w": 352,
+        "h": 280,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_OTHER_ENTITY_OWNER-bar",
+        "x": 816,
+        "y": 548,
+        "w": 7,
+        "h": 280,
+        "fill": "#C24153",
+        "stroke": "#C24153",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_OTHER_ENTITY_OWNER-label",
+        "value": "Les autres propriétaires",
+        "x": 838,
+        "y": 565,
+        "w": 312,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_OTHER_ENTITY_OWNER-name",
+        "value": "STR_OTHER_ENTITY_OWNER",
+        "x": 838,
+        "y": 602,
+        "w": 314,
+        "h": 21,
+        "size": 14,
+        "color": "#C24153",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_OTHER_ENTITY_OWNER-field0",
+        "value": "entity_id",
+        "x": 838,
+        "y": 641,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_OTHER_ENTITY_OWNER-field1",
+        "value": "surname",
+        "x": 838,
+        "y": 680,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_OTHER_ENTITY_OWNER-field2",
+        "value": "given_name",
+        "x": 838,
+        "y": 719,
+        "w": 312,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "same-parent",
+        "x": 1200,
+        "y": 548,
+        "w": 352,
+        "h": 280,
+        "fill": "#EAF0F7",
+        "stroke": "#EAF0F7",
+        "radius": 12
+      },
+      {
+        "kind": "text",
+        "id": "same-parent-t",
+        "value": "Leur point commun",
+        "x": 1222,
+        "y": 566,
+        "w": 308,
+        "h": 28,
+        "size": 21,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "same-parent-b",
+        "value": "Chaque ligne appartient à une seule\nENTITY. Les noms ne sont pas des\nréférences vers DEFINITION dans ces\nlistes.",
+        "x": 1222,
+        "y": 602,
+        "w": 308,
+        "h": 100,
+        "size": 18,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "bo-note",
+        "x": 48,
+        "y": 888,
+        "w": 1504,
+        "h": 150,
+        "fill": "#EAF0F7",
+        "stroke": "#EAF0F7",
+        "radius": 12
+      },
+      {
+        "kind": "text",
+        "id": "bo-note-t",
+        "value": "Ne pas confondre les bénéficiaires",
+        "x": 70,
+        "y": 906,
+        "w": 1460,
+        "h": 28,
+        "size": 21,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "bo-note-b",
+        "value": "TRUST_BENEFICIARY décrit une personne bénéficiaire d’une fiducie. BENEFICIARY, dans le domaine Rôles, décrit le bénéficiaire d’une opération.",
+        "x": 70,
+        "y": 942,
+        "w": 1460,
+        "h": 25,
+        "size": 18,
+        "color": "#24364B",
+        "bold": false
+      }
+    ],
+    "edges": [],
+    "tables": [
+      "STR_DIRECTOR",
+      "STR_SHARE_OWNER",
+      "STR_TRUSTEE",
+      "STR_SETTLOR",
+      "STR_TRUST_UNIT_OWNER",
+      "STR_TRUST_BENEFICIARY",
+      "STR_OTHER_ENTITY_OWNER"
+    ]
+  },
+  {
+    "slug": "06-transactions",
+    "title": "Décrire le mouvement des fonds",
+    "width": 1600,
+    "height": 1100,
+    "items": [
+      {
+        "kind": "rect",
+        "id": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1600,
+        "h": 1100,
+        "fill": "#F3F6FA",
+        "stroke": "#F3F6FA",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "kicker",
+        "value": "CANAFE / DOD–STR / MODÈLE DE DONNÉES",
+        "x": 48,
+        "y": 28,
+        "w": 1300,
+        "h": 21,
+        "size": 14,
+        "color": "#5E7185",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "title",
+        "value": "Décrire le mouvement des fonds",
+        "x": 48,
+        "y": 64,
+        "w": 1480,
+        "h": 43,
+        "size": 36,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "subtitle",
+        "value": "Domaine Transactions · 3 tables. Une opération peut avoir plusieurs actions initiales et plusieurs actions finales.",
+        "x": 48,
+        "y": 114,
+        "w": 1480,
+        "h": 26,
+        "size": 19,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "footer",
+        "value": "PROJET DOD • Architecture reprise de projet-io | 06",
+        "x": 48,
+        "y": 1068,
+        "w": 1480,
+        "h": 20,
+        "size": 13,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_TRANSACTION",
+        "x": 565,
+        "y": 190,
+        "w": 470,
+        "h": 300,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_TRANSACTION-bar",
+        "x": 565,
+        "y": 190,
+        "w": 7,
+        "h": 300,
+        "fill": "#C76C12",
+        "stroke": "#C76C12",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRANSACTION-label",
+        "value": "L’opération",
+        "x": 587,
+        "y": 207,
+        "w": 430,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRANSACTION-name",
+        "value": "STR_TRANSACTION",
+        "x": 587,
+        "y": 244,
+        "w": 432,
+        "h": 21,
+        "size": 14,
+        "color": "#C76C12",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRANSACTION-field0",
+        "value": "transaction_id",
+        "x": 587,
+        "y": 283,
+        "w": 430,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRANSACTION-field1",
+        "value": "re_txn_reference",
+        "x": 587,
+        "y": 322,
+        "w": 430,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRANSACTION-field2",
+        "value": "date_of_transaction",
+        "x": 587,
+        "y": 361,
+        "w": 430,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_TRANSACTION-field3",
+        "value": "attempted_indicator",
+        "x": 587,
+        "y": 400,
+        "w": 430,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_STARTING_ACTION",
+        "x": 48,
+        "y": 610,
+        "w": 675,
+        "h": 325,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_STARTING_ACTION-bar",
+        "x": 48,
+        "y": 610,
+        "w": 7,
+        "h": 325,
+        "fill": "#C76C12",
+        "stroke": "#C76C12",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_STARTING_ACTION-label",
+        "value": "L’action initiale",
+        "x": 70,
+        "y": 627,
+        "w": 635,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_STARTING_ACTION-name",
+        "value": "STR_STARTING_ACTION",
+        "x": 70,
+        "y": 664,
+        "w": 637,
+        "h": 21,
+        "size": 14,
+        "color": "#C76C12",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_STARTING_ACTION-field0",
+        "value": "transaction_id",
+        "x": 70,
+        "y": 703,
+        "w": 635,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_STARTING_ACTION-field1",
+        "value": "direction",
+        "x": 70,
+        "y": 742,
+        "w": 635,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_STARTING_ACTION-field2",
+        "value": "fund_type_code",
+        "x": 70,
+        "y": 781,
+        "w": 635,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_STARTING_ACTION-field3",
+        "value": "amount",
+        "x": 70,
+        "y": 820,
+        "w": 635,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_STARTING_ACTION-field4",
+        "value": "currency_code",
+        "x": 70,
+        "y": 859,
+        "w": 635,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_COMPLETING_ACTION",
+        "x": 877,
+        "y": 610,
+        "w": 675,
+        "h": 325,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_COMPLETING_ACTION-bar",
+        "x": 877,
+        "y": 610,
+        "w": 7,
+        "h": 325,
+        "fill": "#C76C12",
+        "stroke": "#C76C12",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_COMPLETING_ACTION-label",
+        "value": "L’action finale",
+        "x": 899,
+        "y": 627,
+        "w": 635,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_COMPLETING_ACTION-name",
+        "value": "STR_COMPLETING_ACTION",
+        "x": 899,
+        "y": 664,
+        "w": 637,
+        "h": 21,
+        "size": 14,
+        "color": "#C76C12",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_COMPLETING_ACTION-field0",
+        "value": "transaction_id",
+        "x": 899,
+        "y": 703,
+        "w": 635,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_COMPLETING_ACTION-field1",
+        "value": "disposition_code",
+        "x": 899,
+        "y": 742,
+        "w": 635,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_COMPLETING_ACTION-field2",
+        "value": "amount",
+        "x": 899,
+        "y": 781,
+        "w": 635,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_COMPLETING_ACTION-field3",
+        "value": "currency_code",
+        "x": 899,
+        "y": 820,
+        "w": 635,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_COMPLETING_ACTION-field4",
+        "value": "value_in_cad",
+        "x": 899,
+        "y": 859,
+        "w": 635,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "txn-example",
+        "value": "Exemple fictif : une opération de change commence par la remise de fonds et se termine par la remise de la devise achetée.",
+        "x": 48,
+        "y": 995,
+        "w": 1504,
+        "h": 26,
+        "size": 19,
+        "color": "#142B46",
+        "bold": false
+      }
+    ],
+    "edges": [
+      {
+        "a": "STR_TRANSACTION",
+        "b": "STR_STARTING_ACTION",
+        "points": [
+          [
+            800.0,
+            490
+          ],
+          [
+            800,
+            551
+          ],
+          [
+            386,
+            551
+          ],
+          [
+            385.5,
+            610
+          ]
+        ],
+        "label": "actions initiales · 0..N",
+        "start": "bottom",
+        "end": "top",
+        "label_at": null
+      },
+      {
+        "a": "STR_TRANSACTION",
+        "b": "STR_COMPLETING_ACTION",
+        "points": [
+          [
+            800.0,
+            490
+          ],
+          [
+            800,
+            551
+          ],
+          [
+            1214,
+            551
+          ],
+          [
+            1214.5,
+            610
+          ]
+        ],
+        "label": "actions finales · 0..N",
+        "start": "bottom",
+        "end": "top",
+        "label_at": null
+      }
+    ],
+    "tables": [
+      "STR_TRANSACTION",
+      "STR_STARTING_ACTION",
+      "STR_COMPLETING_ACTION"
+    ]
+  },
+  {
+    "slug": "07-roles",
+    "title": "La même personne peut tenir plusieurs rôles",
+    "width": 1600,
+    "height": 1100,
+    "items": [
+      {
+        "kind": "rect",
+        "id": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1600,
+        "h": 1100,
+        "fill": "#F3F6FA",
+        "stroke": "#F3F6FA",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "kicker",
+        "value": "CANAFE / DOD–STR / MODÈLE DE DONNÉES",
+        "x": 48,
+        "y": 28,
+        "w": 1300,
+        "h": 21,
+        "size": 14,
+        "color": "#5E7185",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "title",
+        "value": "La même personne peut tenir plusieurs rôles",
+        "x": 48,
+        "y": 64,
+        "w": 1480,
+        "h": 43,
+        "size": 36,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "subtitle",
+        "value": "Domaine Rôles · 5 tables. Les informations personnelles restent dans les définitions; le rôle décrit la participation.",
+        "x": 48,
+        "y": 114,
+        "w": 1480,
+        "h": 26,
+        "size": 19,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "footer",
+        "value": "PROJET DOD • Architecture reprise de projet-io | 07",
+        "x": 48,
+        "y": 1068,
+        "w": 1480,
+        "h": 20,
+        "size": 13,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_SOURCE_OF_FUNDS",
+        "x": 48,
+        "y": 210,
+        "w": 466,
+        "h": 268,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_SOURCE_OF_FUNDS-bar",
+        "x": 48,
+        "y": 210,
+        "w": 7,
+        "h": 268,
+        "fill": "#7C3AED",
+        "stroke": "#7C3AED",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_SOURCE_OF_FUNDS-label",
+        "value": "La source des fonds",
+        "x": 70,
+        "y": 227,
+        "w": 426,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_SOURCE_OF_FUNDS-name",
+        "value": "STR_SOURCE_OF_FUNDS",
+        "x": 70,
+        "y": 264,
+        "w": 428,
+        "h": 21,
+        "size": 14,
+        "color": "#7C3AED",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_SOURCE_OF_FUNDS-field0",
+        "value": "starting_action_id",
+        "x": 70,
+        "y": 303,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_SOURCE_OF_FUNDS-field1",
+        "value": "type_code",
+        "x": 70,
+        "y": 342,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_SOURCE_OF_FUNDS-field2",
+        "value": "ref_id",
+        "x": 70,
+        "y": 381,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_CONDUCTOR",
+        "x": 566,
+        "y": 210,
+        "w": 466,
+        "h": 268,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_CONDUCTOR-bar",
+        "x": 566,
+        "y": 210,
+        "w": 7,
+        "h": 268,
+        "fill": "#7C3AED",
+        "stroke": "#7C3AED",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_CONDUCTOR-label",
+        "value": "L’exécutant",
+        "x": 588,
+        "y": 227,
+        "w": 426,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_CONDUCTOR-name",
+        "value": "STR_CONDUCTOR",
+        "x": 588,
+        "y": 264,
+        "w": 428,
+        "h": 21,
+        "size": 14,
+        "color": "#7C3AED",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_CONDUCTOR-field0",
+        "value": "starting_action_id",
+        "x": 588,
+        "y": 303,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_CONDUCTOR-field1",
+        "value": "type_code",
+        "x": 588,
+        "y": 342,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_CONDUCTOR-field2",
+        "value": "ref_id",
+        "x": 588,
+        "y": 381,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ON_BEHALF_OF",
+        "x": 1084,
+        "y": 210,
+        "w": 466,
+        "h": 268,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ON_BEHALF_OF-bar",
+        "x": 1084,
+        "y": 210,
+        "w": 7,
+        "h": 268,
+        "fill": "#7C3AED",
+        "stroke": "#7C3AED",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_ON_BEHALF_OF-label",
+        "value": "Le tiers représenté",
+        "x": 1106,
+        "y": 227,
+        "w": 426,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ON_BEHALF_OF-name",
+        "value": "STR_ON_BEHALF_OF",
+        "x": 1106,
+        "y": 264,
+        "w": 428,
+        "h": 21,
+        "size": 14,
+        "color": "#7C3AED",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ON_BEHALF_OF-field0",
+        "value": "conductor_id",
+        "x": 1106,
+        "y": 303,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_ON_BEHALF_OF-field1",
+        "value": "type_code",
+        "x": 1106,
+        "y": 342,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_ON_BEHALF_OF-field2",
+        "value": "ref_id",
+        "x": 1106,
+        "y": 381,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_INVOLVEMENT",
+        "x": 48,
+        "y": 620,
+        "w": 466,
+        "h": 268,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_INVOLVEMENT-bar",
+        "x": 48,
+        "y": 620,
+        "w": 7,
+        "h": 268,
+        "fill": "#7C3AED",
+        "stroke": "#7C3AED",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_INVOLVEMENT-label",
+        "value": "La personne impliquée",
+        "x": 70,
+        "y": 637,
+        "w": 426,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_INVOLVEMENT-name",
+        "value": "STR_INVOLVEMENT",
+        "x": 70,
+        "y": 674,
+        "w": 428,
+        "h": 21,
+        "size": 14,
+        "color": "#7C3AED",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_INVOLVEMENT-field0",
+        "value": "completing_action_id",
+        "x": 70,
+        "y": 713,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_INVOLVEMENT-field1",
+        "value": "type_code",
+        "x": 70,
+        "y": 752,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_INVOLVEMENT-field2",
+        "value": "ref_id",
+        "x": 70,
+        "y": 791,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_BENEFICIARY",
+        "x": 566,
+        "y": 620,
+        "w": 466,
+        "h": 268,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_BENEFICIARY-bar",
+        "x": 566,
+        "y": 620,
+        "w": 7,
+        "h": 268,
+        "fill": "#7C3AED",
+        "stroke": "#7C3AED",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_BENEFICIARY-label",
+        "value": "Le bénéficiaire de l’opération",
+        "x": 588,
+        "y": 637,
+        "w": 426,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_BENEFICIARY-name",
+        "value": "STR_BENEFICIARY",
+        "x": 588,
+        "y": 674,
+        "w": 428,
+        "h": 21,
+        "size": 14,
+        "color": "#7C3AED",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_BENEFICIARY-field0",
+        "value": "completing_action_id",
+        "x": 588,
+        "y": 713,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_BENEFICIARY-field1",
+        "value": "type_code",
+        "x": 588,
+        "y": 752,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_BENEFICIARY-field2",
+        "value": "ref_id",
+        "x": 588,
+        "y": 791,
+        "w": 426,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "role-example",
+        "x": 1084,
+        "y": 620,
+        "w": 466,
+        "h": 268,
+        "fill": "#EAF0F7",
+        "stroke": "#EAF0F7",
+        "radius": 12
+      },
+      {
+        "kind": "text",
+        "id": "role-example-t",
+        "value": "Un exemple pour l’expliquer",
+        "x": 1106,
+        "y": 638,
+        "w": 422,
+        "h": 28,
+        "size": 21,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "role-example-b",
+        "value": "Camille effectue le dépôt pour la société A : Camille\nest l’exécutante; A est le tiers représenté. La source\ndes fonds est une information distincte.",
+        "x": 1106,
+        "y": 674,
+        "w": 422,
+        "h": 75,
+        "size": 18,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "role-line1",
+        "value": "Rattachés à l’action initiale",
+        "x": 48,
+        "y": 177,
+        "w": 1504,
+        "h": 26,
+        "size": 19,
+        "color": "#C76C12",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "role-line2",
+        "value": "Rattachés à l’action finale",
+        "x": 48,
+        "y": 577,
+        "w": 950,
+        "h": 26,
+        "size": 19,
+        "color": "#C76C12",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "role-note",
+        "value": "ref_id retrouve la fiche. type_code précise le niveau de renseignement attendu pour ce rôle.",
+        "x": 48,
+        "y": 974,
+        "w": 1504,
+        "h": 27,
+        "size": 20,
+        "color": "#142B46",
+        "bold": false
+      }
+    ],
+    "edges": [
+      {
+        "a": "STR_CONDUCTOR",
+        "b": "STR_ON_BEHALF_OF",
+        "points": [
+          [
+            799.0,
+            478
+          ],
+          [
+            799,
+            530
+          ],
+          [
+            1317,
+            530
+          ],
+          [
+            1317.0,
+            478
+          ]
+        ],
+        "label": "agit pour · 0..N",
+        "start": "bottom",
+        "end": "bottom",
+        "label_at": null
+      }
+    ],
+    "tables": [
+      "STR_SOURCE_OF_FUNDS",
+      "STR_CONDUCTOR",
+      "STR_ON_BEHALF_OF",
+      "STR_INVOLVEMENT",
+      "STR_BENEFICIARY"
+    ]
+  },
+  {
+    "slug": "08-comptes",
+    "title": "Les comptes et la monnaie virtuelle",
+    "width": 1600,
+    "height": 1100,
+    "items": [
+      {
+        "kind": "rect",
+        "id": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1600,
+        "h": 1100,
+        "fill": "#F3F6FA",
+        "stroke": "#F3F6FA",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "kicker",
+        "value": "CANAFE / DOD–STR / MODÈLE DE DONNÉES",
+        "x": 48,
+        "y": 28,
+        "w": 1300,
+        "h": 21,
+        "size": 14,
+        "color": "#5E7185",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "title",
+        "value": "Les comptes et la monnaie virtuelle",
+        "x": 48,
+        "y": 64,
+        "w": 1480,
+        "h": 43,
+        "size": 36,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "subtitle",
+        "value": "Domaine Comptes · 3 tables. Les données décrivent une action précise, au moment de la déclaration.",
+        "x": 48,
+        "y": 114,
+        "w": 1480,
+        "h": 26,
+        "size": 19,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "footer",
+        "value": "PROJET DOD • Architecture reprise de projet-io | 08",
+        "x": 48,
+        "y": 1068,
+        "w": 1480,
+        "h": 20,
+        "size": 13,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ACCOUNT",
+        "x": 48,
+        "y": 230,
+        "w": 680,
+        "h": 325,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ACCOUNT-bar",
+        "x": 48,
+        "y": 230,
+        "w": 7,
+        "h": 325,
+        "fill": "#059669",
+        "stroke": "#059669",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT-label",
+        "value": "Le compte",
+        "x": 70,
+        "y": 247,
+        "w": 640,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT-name",
+        "value": "STR_ACCOUNT",
+        "x": 70,
+        "y": 284,
+        "w": 642,
+        "h": 21,
+        "size": 14,
+        "color": "#059669",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT-field0",
+        "value": "account_id",
+        "x": 70,
+        "y": 323,
+        "w": 640,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT-field1",
+        "value": "starting_action_id",
+        "x": 70,
+        "y": 362,
+        "w": 640,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT-field2",
+        "value": "completing_action_id",
+        "x": 70,
+        "y": 401,
+        "w": 640,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT-field3",
+        "value": "number",
+        "x": 70,
+        "y": 440,
+        "w": 640,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT-field4",
+        "value": "currency_code",
+        "x": 70,
+        "y": 479,
+        "w": 640,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ACCOUNT_HOLDER",
+        "x": 48,
+        "y": 730,
+        "w": 680,
+        "h": 240,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_ACCOUNT_HOLDER-bar",
+        "x": 48,
+        "y": 730,
+        "w": 7,
+        "h": 240,
+        "fill": "#059669",
+        "stroke": "#059669",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT_HOLDER-label",
+        "value": "Les titulaires",
+        "x": 70,
+        "y": 747,
+        "w": 640,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT_HOLDER-name",
+        "value": "STR_ACCOUNT_HOLDER",
+        "x": 70,
+        "y": 784,
+        "w": 642,
+        "h": 21,
+        "size": 14,
+        "color": "#059669",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT_HOLDER-field0",
+        "value": "account_id",
+        "x": 70,
+        "y": 823,
+        "w": 640,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT_HOLDER-field1",
+        "value": "type_code",
+        "x": 70,
+        "y": 862,
+        "w": 640,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_ACCOUNT_HOLDER-field2",
+        "value": "ref_id",
+        "x": 70,
+        "y": 901,
+        "w": 640,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_VC_DATA",
+        "x": 870,
+        "y": 230,
+        "w": 682,
+        "h": 325,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_VC_DATA-bar",
+        "x": 870,
+        "y": 230,
+        "w": 7,
+        "h": 325,
+        "fill": "#059669",
+        "stroke": "#059669",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_VC_DATA-label",
+        "value": "La monnaie virtuelle",
+        "x": 892,
+        "y": 247,
+        "w": 642,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_VC_DATA-name",
+        "value": "STR_VC_DATA",
+        "x": 892,
+        "y": 284,
+        "w": 644,
+        "h": 21,
+        "size": 14,
+        "color": "#059669",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_VC_DATA-field0",
+        "value": "starting_action_id",
+        "x": 892,
+        "y": 323,
+        "w": 642,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_VC_DATA-field1",
+        "value": "completing_action_id",
+        "x": 892,
+        "y": 362,
+        "w": 642,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_VC_DATA-field2",
+        "value": "data_type",
+        "x": 892,
+        "y": 401,
+        "w": 642,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_VC_DATA-field3",
+        "value": "value",
+        "x": 892,
+        "y": 440,
+        "w": 642,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_VC_DATA-field4",
+        "value": "ordinal",
+        "x": 892,
+        "y": 479,
+        "w": 642,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "xor",
+        "x": 870,
+        "y": 615,
+        "w": 682,
+        "h": 165,
+        "fill": "#EAF0F7",
+        "stroke": "#EAF0F7",
+        "radius": 12
+      },
+      {
+        "kind": "text",
+        "id": "xor-t",
+        "value": "Un rattachement sans ambiguïté",
+        "x": 892,
+        "y": 633,
+        "w": 638,
+        "h": 28,
+        "size": 21,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "xor-b",
+        "value": "Un compte ou une donnée de monnaie virtuelle appartient soit à une action\ninitiale, soit à une action finale. On renseigne une seule des deux clés.",
+        "x": 892,
+        "y": 669,
+        "w": 638,
+        "h": 50,
+        "size": 18,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "vc",
+        "x": 870,
+        "y": 815,
+        "w": 682,
+        "h": 155,
+        "fill": "#EAF0F7",
+        "stroke": "#EAF0F7",
+        "radius": 12
+      },
+      {
+        "kind": "text",
+        "id": "vc-t",
+        "value": "Trois types de données dans VC_DATA",
+        "x": 892,
+        "y": 833,
+        "w": 638,
+        "h": 28,
+        "size": 21,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "vc-b",
+        "value": "Un identifiant de transaction, une adresse émettrice ou une adresse réceptrice.\ndata_type indique quelle liste reconstruire.",
+        "x": 892,
+        "y": 869,
+        "w": 638,
+        "h": 50,
+        "size": 18,
+        "color": "#24364B",
+        "bold": false
+      }
+    ],
+    "edges": [
+      {
+        "a": "STR_ACCOUNT",
+        "b": "STR_ACCOUNT_HOLDER",
+        "points": [
+          [
+            388.0,
+            555
+          ],
+          [
+            388.0,
+            642.5
+          ],
+          [
+            388.0,
+            642.5
+          ],
+          [
+            388.0,
+            730
+          ]
+        ],
+        "label": "titulaires · 0..N",
+        "start": "bottom",
+        "end": "top",
+        "label_at": null
+      }
+    ],
+    "tables": [
+      "STR_ACCOUNT",
+      "STR_ACCOUNT_HOLDER",
+      "STR_VC_DATA"
+    ]
+  },
+  {
+    "slug": "09-audit",
+    "title": "Retrouver ce qui a été envoyé",
+    "width": 1600,
+    "height": 1100,
+    "items": [
+      {
+        "kind": "rect",
+        "id": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1600,
+        "h": 1100,
+        "fill": "#F3F6FA",
+        "stroke": "#F3F6FA",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "kicker",
+        "value": "CANAFE / DOD–STR / MODÈLE DE DONNÉES",
+        "x": 48,
+        "y": 28,
+        "w": 1300,
+        "h": 21,
+        "size": 14,
+        "color": "#5E7185",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "title",
+        "value": "Retrouver ce qui a été envoyé",
+        "x": 48,
+        "y": 64,
+        "w": 1480,
+        "h": 43,
+        "size": 36,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "subtitle",
+        "value": "Domaine Audit · 4 tables. La version du rapport, le contenu transmis et la réponse restent reliés.",
+        "x": 48,
+        "y": 114,
+        "w": 1480,
+        "h": 26,
+        "size": 19,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "footer",
+        "value": "PROJET DOD • Architecture reprise de projet-io | 09",
+        "x": 48,
+        "y": 1068,
+        "w": 1480,
+        "h": 20,
+        "size": 13,
+        "color": "#5E7185",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_API_SUBMISSION",
+        "x": 48,
+        "y": 220,
+        "w": 690,
+        "h": 325,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_API_SUBMISSION-bar",
+        "x": 48,
+        "y": 220,
+        "w": 7,
+        "h": 325,
+        "fill": "#64748B",
+        "stroke": "#64748B",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_API_SUBMISSION-label",
+        "value": "Le suivi de l’envoi",
+        "x": 70,
+        "y": 237,
+        "w": 650,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_API_SUBMISSION-name",
+        "value": "STR_API_SUBMISSION",
+        "x": 70,
+        "y": 274,
+        "w": 652,
+        "h": 21,
+        "size": 14,
+        "color": "#64748B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_API_SUBMISSION-field0",
+        "value": "submission_id",
+        "x": 70,
+        "y": 313,
+        "w": 650,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_API_SUBMISSION-field1",
+        "value": "str_report_id",
+        "x": 70,
+        "y": 352,
+        "w": 650,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_API_SUBMISSION-field2",
+        "value": "operation",
+        "x": 70,
+        "y": 391,
+        "w": 650,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_API_SUBMISSION-field3",
+        "value": "http_status_code",
+        "x": 70,
+        "y": 430,
+        "w": 650,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_API_SUBMISSION-field4",
+        "value": "processing_status",
+        "x": 70,
+        "y": 469,
+        "w": 650,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_SUBMITTED_PAYLOAD",
+        "x": 910,
+        "y": 220,
+        "w": 642,
+        "h": 270,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_SUBMITTED_PAYLOAD-bar",
+        "x": 910,
+        "y": 220,
+        "w": 7,
+        "h": 270,
+        "fill": "#64748B",
+        "stroke": "#64748B",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_SUBMITTED_PAYLOAD-label",
+        "value": "Le contenu transmis",
+        "x": 932,
+        "y": 237,
+        "w": 602,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_SUBMITTED_PAYLOAD-name",
+        "value": "STR_SUBMITTED_PAYLOAD",
+        "x": 932,
+        "y": 274,
+        "w": 604,
+        "h": 21,
+        "size": 14,
+        "color": "#64748B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_SUBMITTED_PAYLOAD-field0",
+        "value": "submission_id",
+        "x": 932,
+        "y": 313,
+        "w": 602,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_SUBMITTED_PAYLOAD-field1",
+        "value": "payload_json",
+        "x": 932,
+        "y": 352,
+        "w": 602,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_SUBMITTED_PAYLOAD-field2",
+        "value": "payload_hash_sha256",
+        "x": 932,
+        "y": 391,
+        "w": 602,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_VALIDATION_ERROR",
+        "x": 48,
+        "y": 705,
+        "w": 690,
+        "h": 275,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_VALIDATION_ERROR-bar",
+        "x": 48,
+        "y": 705,
+        "w": 7,
+        "h": 275,
+        "fill": "#64748B",
+        "stroke": "#64748B",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_VALIDATION_ERROR-label",
+        "value": "Les messages de validation",
+        "x": 70,
+        "y": 722,
+        "w": 650,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_VALIDATION_ERROR-name",
+        "value": "STR_VALIDATION_ERROR",
+        "x": 70,
+        "y": 759,
+        "w": 652,
+        "h": 21,
+        "size": 14,
+        "color": "#64748B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_VALIDATION_ERROR-field0",
+        "value": "submission_id",
+        "x": 70,
+        "y": 798,
+        "w": 650,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_VALIDATION_ERROR-field1",
+        "value": "severity",
+        "x": 70,
+        "y": 837,
+        "w": 650,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_VALIDATION_ERROR-field2",
+        "value": "instance_path",
+        "x": 70,
+        "y": 876,
+        "w": 650,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_VALIDATION_ERROR-field3",
+        "value": "message_fr",
+        "x": 70,
+        "y": 915,
+        "w": 650,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "rect",
+        "id": "STR_AUDIT_EVENT",
+        "x": 910,
+        "y": 705,
+        "w": 642,
+        "h": 275,
+        "fill": "#FFFFFF",
+        "stroke": "#D8E2EC",
+        "radius": 12
+      },
+      {
+        "kind": "rect",
+        "id": "STR_AUDIT_EVENT-bar",
+        "x": 910,
+        "y": 705,
+        "w": 7,
+        "h": 275,
+        "fill": "#64748B",
+        "stroke": "#64748B",
+        "radius": 0
+      },
+      {
+        "kind": "text",
+        "id": "STR_AUDIT_EVENT-label",
+        "value": "Le journal du dossier",
+        "x": 932,
+        "y": 722,
+        "w": 602,
+        "h": 30,
+        "size": 23,
+        "color": "#142B46",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_AUDIT_EVENT-name",
+        "value": "STR_AUDIT_EVENT",
+        "x": 932,
+        "y": 759,
+        "w": 604,
+        "h": 21,
+        "size": 14,
+        "color": "#64748B",
+        "bold": true
+      },
+      {
+        "kind": "text",
+        "id": "STR_AUDIT_EVENT-field0",
+        "value": "str_report_id",
+        "x": 932,
+        "y": 798,
+        "w": 602,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_AUDIT_EVENT-field1",
+        "value": "event_type",
+        "x": 932,
+        "y": 837,
+        "w": 602,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_AUDIT_EVENT-field2",
+        "value": "event_user",
+        "x": 932,
+        "y": 876,
+        "w": 602,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "STR_AUDIT_EVENT-field3",
+        "value": "event_timestamp",
+        "x": 932,
+        "y": 915,
+        "w": 602,
+        "h": 24,
+        "size": 17,
+        "color": "#24364B",
+        "bold": false
+      },
+      {
+        "kind": "text",
+        "id": "audit-note",
+        "value": "Un nouvel essai d’envoi n’est pas une nouvelle version. Une correction du contenu, oui.",
+        "x": 48,
+        "y": 1020,
+        "w": 1504,
+        "h": 27,
+        "size": 20,
+        "color": "#142B46",
+        "bold": false
+      }
+    ],
+    "edges": [
+      {
+        "a": "STR_API_SUBMISSION",
+        "b": "STR_SUBMITTED_PAYLOAD",
+        "points": [
+          [
+            738,
+            382.5
+          ],
+          [
+            824.0,
+            382.5
+          ],
+          [
+            824.0,
+            355.0
+          ],
+          [
+            910,
+            355.0
+          ]
+        ],
+        "label": "contenu · 0..1",
+        "start": "right",
+        "end": "left",
+        "label_at": [
+          824,
+          382
+        ]
+      },
+      {
+        "a": "STR_API_SUBMISSION",
+        "b": "STR_VALIDATION_ERROR",
+        "points": [
+          [
+            393.0,
+            545
+          ],
+          [
+            393.0,
+            625.0
+          ],
+          [
+            393.0,
+            625.0
+          ],
+          [
+            393.0,
+            705
+          ]
+        ],
+        "label": "messages reçus · 0..N",
+        "start": "bottom",
+        "end": "top",
+        "label_at": null
+      }
+    ],
+    "tables": [
+      "STR_API_SUBMISSION",
+      "STR_SUBMITTED_PAYLOAD",
+      "STR_VALIDATION_ERROR",
+      "STR_AUDIT_EVENT"
+    ]
+  }
+]

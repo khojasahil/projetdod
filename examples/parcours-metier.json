@@ -1,0 +1,40 @@
+{
+  "notice": "Extrait fictif de lignes, colonnes non pertinentes omises; pas un jeu à charger directement.",
+  "STR_REPORT": [
+    {
+      "str_report_id": "R-V1",
+      "report_group_id": "DOSSIER-A",
+      "version_number": 1,
+      "previous_report_id": null
+    },
+    {
+      "str_report_id": "R-V2",
+      "report_group_id": "DOSSIER-A",
+      "version_number": 2,
+      "previous_report_id": "R-V1"
+    }
+  ],
+  "STR_API_SUBMISSION": [
+    {
+      "submission_id": "ENVOI-1",
+      "str_report_id": "R-V1",
+      "attempt_number": 1,
+      "operation": "SUBMIT",
+      "initial_submission_id": null
+    },
+    {
+      "submission_id": "CONSULTATION-1",
+      "str_report_id": "R-V1",
+      "attempt_number": 2,
+      "operation": "VALIDATIONS",
+      "initial_submission_id": "ENVOI-1"
+    },
+    {
+      "submission_id": "ENVOI-2",
+      "str_report_id": "R-V2",
+      "attempt_number": 1,
+      "operation": "UPDATE",
+      "initial_submission_id": null
+    }
+  ]
+}

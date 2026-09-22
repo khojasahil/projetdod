@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <title>La même personne peut tenir plusieurs rôles</title>
+  <rect stroke-width="1" x="0" y="0" width="1600" height="1100" rx="0" fill="#F3F6FA" stroke="#F3F6FA" />
+  <path stroke-width="2" d="M 799.0,478 L 799,530 L 1317,530 L 1317.0,478" fill="none" stroke="#8BA0B6" />
+  <polygon points="1317.0,478 1320.8941834230866,487.21060994002886 1313.1058165769134,487.21060994002886" fill="#8BA0B6" />
+  <rect stroke-width="1" x="1003.5" y="516.5" width="109.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1010.5" y="532.5" fill="#5E7185">agit pour · 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="48" y="42" fill="#5E7185">CANAFE / DOD–STR / MODÈLE DE DONNÉES</text>
+  <text font-family="Arial, sans-serif" font-size="36" font-weight="700" x="48" y="100" fill="#142B46">La même personne peut tenir plusieurs rôles</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="48" y="133" fill="#5E7185">Domaine Rôles · 5 tables. Les informations personnelles restent dans les définitions; le rôle décrit la participation.</text>
+  <text font-family="Arial, sans-serif" font-size="13" font-weight="400" x="48" y="1081" fill="#5E7185">PROJET DOD • Architecture reprise de projet-io | 07</text>
+  <rect stroke-width="1" x="48" y="210" width="466" height="268" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="210" width="7" height="268" rx="0" fill="#7C3AED" stroke="#7C3AED" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="70" y="250" fill="#142B46">La source des fonds</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="70" y="278" fill="#7C3AED">STR_SOURCE_OF_FUNDS</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="320" fill="#24364B">starting_action_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="359" fill="#24364B">type_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="398" fill="#24364B">ref_id</text>
+  <rect stroke-width="1" x="566" y="210" width="466" height="268" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="566" y="210" width="7" height="268" rx="0" fill="#7C3AED" stroke="#7C3AED" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="588" y="250" fill="#142B46">L’exécutant</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="588" y="278" fill="#7C3AED">STR_CONDUCTOR</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="588" y="320" fill="#24364B">starting_action_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="588" y="359" fill="#24364B">type_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="588" y="398" fill="#24364B">ref_id</text>
+  <rect stroke-width="1" x="1084" y="210" width="466" height="268" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="1084" y="210" width="7" height="268" rx="0" fill="#7C3AED" stroke="#7C3AED" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="1106" y="250" fill="#142B46">Le tiers représenté</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="1106" y="278" fill="#7C3AED">STR_ON_BEHALF_OF</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1106" y="320" fill="#24364B">conductor_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1106" y="359" fill="#24364B">type_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1106" y="398" fill="#24364B">ref_id</text>
+  <rect stroke-width="1" x="48" y="620" width="466" height="268" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="620" width="7" height="268" rx="0" fill="#7C3AED" stroke="#7C3AED" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="70" y="660" fill="#142B46">La personne impliquée</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="70" y="688" fill="#7C3AED">STR_INVOLVEMENT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="730" fill="#24364B">completing_action_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="769" fill="#24364B">type_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="808" fill="#24364B">ref_id</text>
+  <rect stroke-width="1" x="566" y="620" width="466" height="268" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="566" y="620" width="7" height="268" rx="0" fill="#7C3AED" stroke="#7C3AED" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="588" y="660" fill="#142B46">Le bénéficiaire de l’opération</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="588" y="688" fill="#7C3AED">STR_BENEFICIARY</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="588" y="730" fill="#24364B">completing_action_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="588" y="769" fill="#24364B">type_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="588" y="808" fill="#24364B">ref_id</text>
+  <rect stroke-width="1" x="1084" y="620" width="466" height="268" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="1106" y="659" fill="#142B46">Un exemple pour l’expliquer</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="1106" y="692" fill="#24364B">Camille effectue le dépôt pour la société A : Camille</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="1106" y="717" fill="#24364B">est l’exécutante; A est le tiers représenté. La source</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="1106" y="742" fill="#24364B">des fonds est une information distincte.</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="700" x="48" y="196" fill="#C76C12">Rattachés à l’action initiale</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="700" x="48" y="596" fill="#C76C12">Rattachés à l’action finale</text>
+  <text font-family="Arial, sans-serif" font-size="20" font-weight="400" x="48" y="994" fill="#142B46">ref_id retrouve la fiche. type_code précise le niveau de renseignement attendu pour ce rôle.</text>
+</svg>

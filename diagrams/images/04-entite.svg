@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <title>Ce que l’on sait de l’organisation</title>
+  <rect stroke-width="1" x="0" y="0" width="1600" height="1100" rx="0" fill="#F3F6FA" stroke="#F3F6FA" />
+  <path stroke-width="2" d="M 800.0,445 L 800,500 L 405,500 L 405.5,565" fill="none" stroke="#8BA0B6" />
+  <polygon points="405.5,565 401.53508303472137,555.8196169220208 409.3232194660652,555.7597081802413" fill="#8BA0B6" />
+  <rect stroke-width="1" x="524.5" y="486.5" width="156.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="531.5" y="502.5" fill="#5E7185">enregistrements · 0..N</text>
+  <path stroke-width="2" d="M 800.0,445 L 800,500 L 1194,500 L 1194.5,565" fill="none" stroke="#8BA0B6" />
+  <polygon points="1194.5,565 1190.5350830347213,555.8196169220208 1198.3232194660652,555.7597081802413" fill="#8BA0B6" />
+  <rect stroke-width="1" x="902.0" y="486.5" width="190.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="909.0" y="502.5" fill="#5E7185">personnes autorisées · 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="48" y="42" fill="#5E7185">CANAFE / DOD–STR / MODÈLE DE DONNÉES</text>
+  <text font-family="Arial, sans-serif" font-size="36" font-weight="700" x="48" y="100" fill="#142B46">Ce que l’on sait de l’organisation</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="48" y="133" fill="#5E7185">Domaine Entité · 2 tables, rattachées à ENTITY dans le domaine Définitions.</text>
+  <text font-family="Arial, sans-serif" font-size="13" font-weight="400" x="48" y="1081" fill="#5E7185">PROJET DOD • Architecture reprise de projet-io | 04</text>
+  <rect stroke-width="1" x="567" y="190" width="466" height="255" rx="12" fill="#F5F7FA" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="567" y="190" width="7" height="255" rx="0" fill="#15803D" stroke="#15803D" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="589" y="230" fill="#142B46">L’entité</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="589" y="258" fill="#15803D">STR_ENTITY</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="589" y="300" fill="#24364B">entity_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="589" y="339" fill="#24364B">name_of_entity</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="589" y="378" fill="#24364B">nature_of_principal_business</text>
+  <rect stroke-width="1" x="48" y="565" width="715" height="290" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="565" width="7" height="290" rx="0" fill="#0F766E" stroke="#0F766E" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="70" y="605" fill="#142B46">L’enregistrement</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="70" y="633" fill="#0F766E">STR_REGISTRATION_INCORPORATION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="675" fill="#24364B">entity_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="714" fill="#24364B">type_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="753" fill="#24364B">number</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="792" fill="#24364B">jurisdiction_country_code</text>
+  <rect stroke-width="1" x="837" y="565" width="715" height="290" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="837" y="565" width="7" height="290" rx="0" fill="#0F766E" stroke="#0F766E" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="859" y="605" fill="#142B46">Les personnes autorisées</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="859" y="633" fill="#0F766E">STR_AUTHORIZED_PERSON</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="859" y="675" fill="#24364B">entity_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="859" y="714" fill="#24364B">surname</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="859" y="753" fill="#24364B">given_name</text>
+  <rect stroke-width="1" x="48" y="905" width="1504" height="140" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="70" y="944" fill="#142B46">Autorisation et propriété sont deux renseignements différents</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="70" y="977" fill="#24364B">Une personne peut être autorisée à agir pour une entreprise sans en être propriétaire. Les propriétaires et les dirigeants sont présentés dans le domaine suivant.</text>
+</svg>

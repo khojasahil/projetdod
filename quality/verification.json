@@ -1,21 +1,23 @@
 {
   "date": "2026-09-22",
   "result": "PASS",
-  "tables": 61,
-  "columns": 679,
-  "diagram_pages": 20,
+  "tables": 34,
+  "domains": 9,
+  "columns": 365,
+  "diagram_pages": {
+    "CANAFE_DOD.drawio": 9,
+    "CANAFE_DOD_DETAIL.drawio": 34
+  },
   "named_scalar_occurrences_expected": 486,
   "named_scalar_occurrences_mapped": 486,
   "str_named_scalar_occurrences": 437,
-  "mapping_rows_including_presence": 516,
   "missing_fields": [],
   "source_hash_verified": true,
   "all_relationship_targets_exist": true,
-  "no_column_path_collisions": true,
-  "all_payload_tables_scoped_to_version": true,
-  "drawio_xml_and_connectors_verified": true,
+  "all_children_scoped_to_report_version": true,
+  "drawio_xml_geometry_and_connectors_verified": true,
   "negative_scenarios_detected": [
-    "Montant à une seule décimale",
+    "Montant à une décimale",
     "Définitions requises absentes",
     "Opérations requises sans élément",
     "Liste conductors absente",
@@ -25,15 +27,15 @@
     "Adresse libre sans texte requis",
     "Champ supplémentaire à la racine"
   ],
-  "known_contract_ambiguity_confirmed": [
+  "known_contract_ambiguities_confirmed": [
     "$.acknowledgements[0].validationMessages[0]: oneOf correspond à 2 branches",
-    "ProvinceStateCode: oneOf correspond à 2 branches"
+    "$: oneOf correspond à 2 branches"
   ],
   "limits": [
-    "Validation locale ciblée; pas un moteur complet OpenAPI.",
-    "Aucun appel ni essai d’acceptation métier CANAFE.",
-    "Couverture des propriétés nommées, pas des propriétés additionnelles non décrites.",
-    "Vérification XML et géométrie; voir séparément la vérification visuelle.",
-    "Aucune base de données créée; intégrité décrite dans le modèle logique."
+    "Validation locale ciblée, pas un moteur OpenAPI complet.",
+    "Aucun essai d’acceptation CANAFE.",
+    "Couverture des propriétés nommées et des archives, pas des propriétés additionnelles indéfinies.",
+    "Aucune base créée; contraintes logiques à implanter.",
+    "La vérification de mise en page ne remplace pas la relecture visuelle."
   ]
 }

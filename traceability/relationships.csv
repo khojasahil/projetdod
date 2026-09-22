@@ -1,71 +1,78 @@
-﻿parent,child,fk,parent_key,cardinality,kind,same_version
-STR_REPORT,STR_VERSION,report_id,id,1 → 0..N,historique,False
-STR_SCHEMA_RELEASE,STR_VERSION,schema_release_id,id,1 → 0..N,historique,False
-STR_VERSION,STR_VERSION,previous_version_id,id,1 → 0..N,historique,False
-STR_DISPATCH,STR_DISPATCH_ITEM,parent_id,id,1 → 0..N,composition,False
-STR_VERSION,STR_DISPATCH_ITEM,version_id,id,1 → 0..N,soumission,False
-STR_DISPATCH,STR_API_EXCHANGE,parent_id,id,1 → 0..N,composition,False
-STR_ARTIFACT,STR_API_EXCHANGE,request_artifact_id,id,1 → 0..N,archive,False
-STR_ARTIFACT,STR_API_EXCHANGE,response_artifact_id,id,1 → 0..N,archive,False
-STR_VALIDATION_RESULT_ACK,STR_ACK_LINK,ack_id,id,1 → 0..1,rapprochement,False
-STR_DISPATCH_ITEM,STR_ACK_LINK,dispatch_item_id,id,1 → 0..N,rapprochement,False
-STR_VERSION,STR_AUDIT_EVENT,parent_id,id,1 → 0..N,composition,False
-STR_SCHEMA_RELEASE,STR_CODE_VALUE,parent_id,id,1 → 0..N,composition,False
-STR_VERSION,STR_PPP_PROJECT,parent_id,id,1 → 0..N,composition,True
-STR_VERSION,STR_RELATED_REPORT,parent_id,id,1 → 0..N,composition,True
-STR_RELATED_REPORT,STR_RELATED_TRANSACTION,parent_id,id,1 → 0..N,composition,True
-STR_VERSION,STR_DEFINITION,parent_id,id,1 → 0..N,composition,True
-STR_DEFINITION,STR_PERSON_NAME,id,id,1 → 0..1,composition,True
-STR_DEFINITION,STR_ENTITY_NAME,id,id,1 → 0..1,composition,True
-STR_DEFINITION,STR_PERSON_DETAILS,id,id,1 → 0..1,composition,True
-STR_PERSON_DETAILS,STR_PERSON_DETAILS_IDENTIFICATION,parent_id,id,1 → 0..N,composition,True
-STR_DEFINITION,STR_ENTITY_DETAILS,id,id,1 → 0..1,composition,True
-STR_ENTITY_DETAILS,STR_ENTITY_DETAILS_IDENTIFICATION,parent_id,id,1 → 0..N,composition,True
-STR_ENTITY_DETAILS,STR_ENTITY_DETAILS_AUTHORIZED_PERSON,parent_id,id,1 → 0..N,composition,True
-STR_ENTITY_DETAILS,STR_ENTITY_DETAILS_REGISTRATION,parent_id,id,1 → 0..N,composition,True
-STR_DEFINITION,STR_PERSON_EMPLOYER,id,id,1 → 0..1,composition,True
-STR_PERSON_EMPLOYER,STR_PERSON_EMPLOYER_IDENTIFICATION,parent_id,id,1 → 0..N,composition,True
-STR_DEFINITION,STR_ENTITY_OWNERSHIP,id,id,1 → 0..1,composition,True
-STR_ENTITY_OWNERSHIP,STR_ENTITY_OWNERSHIP_IDENTIFICATION,parent_id,id,1 → 0..N,composition,True
-STR_ENTITY_OWNERSHIP,STR_ENTITY_OWNERSHIP_AUTHORIZED_PERSON,parent_id,id,1 → 0..N,composition,True
-STR_ENTITY_OWNERSHIP,STR_ENTITY_OWNERSHIP_REGISTRATION,parent_id,id,1 → 0..N,composition,True
-STR_ENTITY_OWNERSHIP,STR_DIRECTOR,parent_id,id,1 → 0..N,composition,True
-STR_ENTITY_OWNERSHIP,STR_SHARE_OWNER,parent_id,id,1 → 0..N,composition,True
-STR_ENTITY_OWNERSHIP,STR_TRUSTEE,parent_id,id,1 → 0..N,composition,True
-STR_ENTITY_OWNERSHIP,STR_SETTLOR,parent_id,id,1 → 0..N,composition,True
-STR_ENTITY_OWNERSHIP,STR_TRUST_UNIT_OWNER,parent_id,id,1 → 0..N,composition,True
-STR_ENTITY_OWNERSHIP,STR_TRUST_BENEFICIARY,parent_id,id,1 → 0..N,composition,True
-STR_ENTITY_OWNERSHIP,STR_OTHER_ENTITY_OWNER,parent_id,id,1 → 0..N,composition,True
-STR_VERSION,STR_TRANSACTION,parent_id,id,1 → 0..N,composition,True
-STR_TRANSACTION,STR_STARTING_ACTION,parent_id,id,1 → 0..N,composition,True
-STR_STARTING_ACTION,STR_STARTING_ACTION_VC_TRANSACTION,parent_id,id,1 → 0..N,composition,True
-STR_STARTING_ACTION,STR_STARTING_ACTION_VC_SENDER,parent_id,id,1 → 0..N,composition,True
-STR_STARTING_ACTION,STR_STARTING_ACTION_VC_RECEIVER,parent_id,id,1 → 0..N,composition,True
-STR_STARTING_ACTION,STR_STARTING_ACTION_ACCOUNT,parent_id,id,1 → 0..1,composition,True
-STR_STARTING_ACTION_ACCOUNT,STR_STARTING_ACTION_ACCOUNT_HOLDER,parent_id,id,1 → 0..N,composition,True
-STR_STARTING_ACTION,STR_SOURCE_OF_FUNDS,parent_id,id,1 → 0..N,composition,True
-STR_STARTING_ACTION,STR_CONDUCTOR,parent_id,id,1 → 0..N,composition,True
-STR_CONDUCTOR,STR_ON_BEHALF_OF,parent_id,id,1 → 0..N,composition,True
-STR_TRANSACTION,STR_COMPLETING_ACTION,parent_id,id,1 → 0..N,composition,True
-STR_COMPLETING_ACTION,STR_COMPLETING_ACTION_VC_TRANSACTION,parent_id,id,1 → 0..N,composition,True
-STR_COMPLETING_ACTION,STR_COMPLETING_ACTION_VC_SENDER,parent_id,id,1 → 0..N,composition,True
-STR_COMPLETING_ACTION,STR_COMPLETING_ACTION_VC_RECEIVER,parent_id,id,1 → 0..N,composition,True
-STR_COMPLETING_ACTION,STR_COMPLETING_ACTION_ACCOUNT,parent_id,id,1 → 0..1,composition,True
-STR_COMPLETING_ACTION_ACCOUNT,STR_COMPLETING_ACTION_ACCOUNT_HOLDER,parent_id,id,1 → 0..N,composition,True
-STR_COMPLETING_ACTION,STR_INVOLVEMENT,parent_id,id,1 → 0..N,composition,True
-STR_COMPLETING_ACTION,STR_BENEFICIARY,parent_id,id,1 → 0..N,composition,True
-STR_API_EXCHANGE,STR_SUBMIT_RESPONSE,parent_id,id,1 → 0..1,composition,False
-STR_SUBMIT_RESPONSE,STR_SUBMIT_RESPONSE_MESSAGE,parent_id,id,1 → 0..N,composition,False
-STR_API_EXCHANGE,STR_VALIDATION_RESULT,parent_id,id,1 → 0..1,composition,False
-STR_VALIDATION_RESULT,STR_VALIDATION_RESULT_ACK,parent_id,id,1 → 0..N,composition,False
-STR_VALIDATION_RESULT_ACK,STR_VALIDATION_RESULT_ACK_MESSAGE,parent_id,id,1 → 0..N,composition,False
-STR_API_EXCHANGE,STR_API_ERROR,parent_id,id,1 → 0..1,composition,False
-STR_API_ERROR,STR_API_ERROR_MESSAGE,parent_id,id,1 → 0..N,composition,False
-STR_DISPATCH_ITEM,STR_DELETE_REQUEST,parent_id,id,1 → 0..1,composition,False
-STR_DEFINITION,STR_STARTING_ACTION_ACCOUNT_HOLDER,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
-STR_DEFINITION,STR_SOURCE_OF_FUNDS,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
-STR_DEFINITION,STR_CONDUCTOR,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
-STR_DEFINITION,STR_ON_BEHALF_OF,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
-STR_DEFINITION,STR_COMPLETING_ACTION_ACCOUNT_HOLDER,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
-STR_DEFINITION,STR_INVOLVEMENT,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
-STR_DEFINITION,STR_BENEFICIARY,"version_id, type_code, ref_id","version_id, type_code, ref_id",1 → 0..N,référence typée,True
+﻿parent,child,parent_key,foreign_key,cardinality,meaning,optional_fk,show_in_business
+STR_REPORT,STR_PPP_PROJECT,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,True
+STR_REPORT,STR_RELATED_REPORT,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,True
+STR_REPORT,STR_RELATED_REPORT_TXN_REF,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_DEFINITION,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,True
+STR_REPORT,STR_PERSON,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_ENTITY,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_EMPLOYER_INFO,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_ADDRESS,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_IDENTIFICATION,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_REGISTRATION_INCORPORATION,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_AUTHORIZED_PERSON,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_DIRECTOR,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_SHARE_OWNER,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_TRUSTEE,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_SETTLOR,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_TRUST_UNIT_OWNER,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_TRUST_BENEFICIARY,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_OTHER_ENTITY_OWNER,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_TRANSACTION,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,True
+STR_REPORT,STR_STARTING_ACTION,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_COMPLETING_ACTION,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_CONDUCTOR,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_ON_BEHALF_OF,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_SOURCE_OF_FUNDS,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_INVOLVEMENT,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_BENEFICIARY,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_ACCOUNT,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_ACCOUNT_HOLDER,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_VC_DATA,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_API_SUBMISSION,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,True
+STR_REPORT,STR_SUBMITTED_PAYLOAD,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_VALIDATION_ERROR,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,False
+STR_REPORT,STR_AUDIT_EVENT,str_report_id,str_report_id,0..N,Appartient à cette version de rapport.,False,True
+STR_RELATED_REPORT,STR_RELATED_REPORT_TXN_REF,related_report_id,related_report_id,0..N,Précise une opération de ce rapport lié.,False,True
+STR_DEFINITION,STR_PERSON,definition_id,definition_id,0..1,Décrit la personne citée par ce repère.,False,True
+STR_DEFINITION,STR_ENTITY,definition_id,definition_id,0..1,Décrit l’entité citée par ce repère.,False,True
+STR_PERSON,STR_EMPLOYER_INFO,person_id,person_id,0..1,Décrit l’employeur de cette personne.,False,True
+STR_DEFINITION,STR_IDENTIFICATION,definition_id,definition_id,0..N,Identifie cette personne ou cette entité.,False,True
+STR_ENTITY,STR_REGISTRATION_INCORPORATION,entity_id,entity_id,0..N,Documente la constitution de cette entité.,False,True
+STR_ENTITY,STR_AUTHORIZED_PERSON,entity_id,entity_id,0..N,Désigne une personne autorisée pour cette entité.,False,True
+STR_TRANSACTION,STR_STARTING_ACTION,transaction_id,transaction_id,0..N,Décrit une action au début du mouvement.,False,True
+STR_TRANSACTION,STR_COMPLETING_ACTION,transaction_id,transaction_id,0..N,Décrit une action à la fin du mouvement.,False,True
+STR_STARTING_ACTION,STR_CONDUCTOR,starting_action_id,starting_action_id,0..N,Indique qui réalise cette action.,False,True
+STR_CONDUCTOR,STR_ON_BEHALF_OF,conductor_id,conductor_id,0..N,Indique pour qui agit cet exécutant.,False,True
+STR_STARTING_ACTION,STR_SOURCE_OF_FUNDS,starting_action_id,starting_action_id,0..N,Indique d’où proviennent les fonds.,False,True
+STR_COMPLETING_ACTION,STR_INVOLVEMENT,completing_action_id,completing_action_id,0..N,Indique qui intervient dans cette action.,False,True
+STR_COMPLETING_ACTION,STR_BENEFICIARY,completing_action_id,completing_action_id,0..N,Indique qui bénéficie de cette action.,False,True
+STR_ACCOUNT,STR_ACCOUNT_HOLDER,account_id,account_id,0..N,Désigne un titulaire de ce compte.,False,True
+STR_API_SUBMISSION,STR_SUBMITTED_PAYLOAD,submission_id,submission_id,0..1,Conserve le document transmis lors de cet appel.,False,True
+STR_ENTITY,STR_DIRECTOR,entity_id,entity_id,0..N,Décrit la propriété ou la gouvernance de cette entité.,False,True
+STR_ENTITY,STR_SHARE_OWNER,entity_id,entity_id,0..N,Décrit la propriété ou la gouvernance de cette entité.,False,True
+STR_ENTITY,STR_TRUSTEE,entity_id,entity_id,0..N,Décrit la propriété ou la gouvernance de cette entité.,False,True
+STR_ENTITY,STR_SETTLOR,entity_id,entity_id,0..N,Décrit la propriété ou la gouvernance de cette entité.,False,True
+STR_ENTITY,STR_TRUST_UNIT_OWNER,entity_id,entity_id,0..N,Décrit la propriété ou la gouvernance de cette entité.,False,True
+STR_ENTITY,STR_TRUST_BENEFICIARY,entity_id,entity_id,0..N,Décrit la propriété ou la gouvernance de cette entité.,False,True
+STR_ENTITY,STR_OTHER_ENTITY_OWNER,entity_id,entity_id,0..N,Décrit la propriété ou la gouvernance de cette entité.,False,True
+STR_ADDRESS,STR_PERSON,address_id,address_id,0..1,Adresse de cette personne ou de cette organisation.,True,True
+STR_ADDRESS,STR_ENTITY,address_id,address_id,0..1,Adresse de cette personne ou de cette organisation.,True,True
+STR_ADDRESS,STR_EMPLOYER_INFO,address_id,address_id,0..1,Adresse de cette personne ou de cette organisation.,True,True
+STR_ADDRESS,STR_DIRECTOR,address_id,address_id,0..1,Adresse de cette personne ou de cette organisation.,True,True
+STR_ADDRESS,STR_TRUSTEE,address_id,address_id,0..1,Adresse de cette personne ou de cette organisation.,True,True
+STR_ADDRESS,STR_SETTLOR,address_id,address_id,0..1,Adresse de cette personne ou de cette organisation.,True,True
+STR_ADDRESS,STR_TRUST_UNIT_OWNER,address_id,address_id,0..1,Adresse de cette personne ou de cette organisation.,True,True
+STR_ADDRESS,STR_TRUST_BENEFICIARY,address_id,address_id,0..1,Adresse de cette personne ou de cette organisation.,True,True
+STR_STARTING_ACTION,STR_ACCOUNT,starting_action_id,starting_action_id,0..1,Rattache les données à cette action.,True,True
+STR_COMPLETING_ACTION,STR_ACCOUNT,completing_action_id,completing_action_id,0..1,Rattache les données à cette action.,True,True
+STR_STARTING_ACTION,STR_VC_DATA,starting_action_id,starting_action_id,0..N,Rattache les données à cette action.,True,True
+STR_COMPLETING_ACTION,STR_VC_DATA,completing_action_id,completing_action_id,0..N,Rattache les données à cette action.,True,True
+STR_DEFINITION,STR_CONDUCTOR,"str_report_id, type_code, ref_id","str_report_id, type_code, ref_id",0..N,Retrouve la personne ou l’entité qui tient ce rôle.,False,False
+STR_DEFINITION,STR_ON_BEHALF_OF,"str_report_id, type_code, ref_id","str_report_id, type_code, ref_id",0..N,Retrouve la personne ou l’entité qui tient ce rôle.,False,False
+STR_DEFINITION,STR_SOURCE_OF_FUNDS,"str_report_id, type_code, ref_id","str_report_id, type_code, ref_id",0..N,Retrouve la personne ou l’entité qui tient ce rôle.,False,False
+STR_DEFINITION,STR_INVOLVEMENT,"str_report_id, type_code, ref_id","str_report_id, type_code, ref_id",0..N,Retrouve la personne ou l’entité qui tient ce rôle.,False,False
+STR_DEFINITION,STR_BENEFICIARY,"str_report_id, type_code, ref_id","str_report_id, type_code, ref_id",0..N,Retrouve la personne ou l’entité qui tient ce rôle.,False,False
+STR_DEFINITION,STR_ACCOUNT_HOLDER,"str_report_id, type_code, ref_id","str_report_id, type_code, ref_id",0..N,Retrouve la personne ou l’entité qui tient ce rôle.,False,False
+STR_API_SUBMISSION,STR_VALIDATION_ERROR,submission_id,submission_id,0..N,Message reçu dans cette tentative ou consultation.,True,True
+STR_API_SUBMISSION,STR_API_SUBMISSION,submission_id,initial_submission_id,0..N,Relie une consultation ou une reprise à l’envoi initial.,True,False
+STR_REPORT,STR_REPORT,str_report_id,previous_report_id,0..1,Relie cette version à la précédente.,True,False

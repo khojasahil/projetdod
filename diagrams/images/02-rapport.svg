@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <title>Le rapport donne le contexte</title>
+  <rect stroke-width="1" x="0" y="0" width="1600" height="1100" rx="0" fill="#F3F6FA" stroke="#F3F6FA" />
+  <path stroke-width="2" d="M 588,360.0 L 700,360 L 700,305 L 830,305.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="830,305.0 820.7893900599712,308.89418342308653 820.7893900599712,301.10581657691347" fill="#8BA0B6" />
+  <rect stroke-width="1" x="672.0" y="291.5" width="96.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="679.0" y="307.5" fill="#5E7185">projets · 0..N</text>
+  <path stroke-width="2" d="M 588,360.0 L 670,360 L 670,640 L 830,640.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="830,640.0 820.7893900599712,643.8941834230865 820.7893900599712,636.1058165769135" fill="#8BA0B6" />
+  <rect stroke-width="1" x="638.5" y="486.5" width="131.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="645.5" y="502.5" fill="#5E7185">rapports liés · 0..N</text>
+  <path stroke-width="2" d="M 1165.0,760 L 1165.0,802.5 L 1165.0,802.5 L 1165.0,845" fill="none" stroke="#8BA0B6" />
+  <polygon points="1165.0,845 1161.1058165769134,835.7893900599712 1168.8941834230866,835.7893900599712" fill="#8BA0B6" />
+  <rect stroke-width="1" x="1062.5" y="767.75" width="205.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="1069.5" y="783.75" fill="#5E7185">précise leurs opérations · 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="48" y="42" fill="#5E7185">CANAFE / DOD–STR / MODÈLE DE DONNÉES</text>
+  <text font-family="Arial, sans-serif" font-size="36" font-weight="700" x="48" y="100" fill="#142B46">Le rapport donne le contexte</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="48" y="133" fill="#5E7185">Domaine Rapport · 4 tables. Les liens vers d’autres déclarations ne créent pas de copies de leurs opérations.</text>
+  <text font-family="Arial, sans-serif" font-size="13" font-weight="400" x="48" y="1081" fill="#5E7185">PROJET DOD • Architecture reprise de projet-io | 02</text>
+  <rect stroke-width="1" x="48" y="190" width="540" height="340" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="190" width="7" height="340" rx="0" fill="#2563EB" stroke="#2563EB" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="70" y="230" fill="#142B46">Le rapport</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="70" y="258" fill="#2563EB">STR_REPORT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="70" y="300" fill="#24364B">str_report_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="339" fill="#24364B">report_group_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="378" fill="#24364B">version_number</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="417" fill="#24364B">re_report_reference</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="456" fill="#24364B">suspicious_activity_desc</text>
+  <rect stroke-width="1" x="830" y="185" width="670" height="240" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="830" y="185" width="7" height="240" rx="0" fill="#2563EB" stroke="#2563EB" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="852" y="225" fill="#142B46">Les projets associés</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="852" y="253" fill="#2563EB">STR_PPP_PROJECT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="852" y="295" fill="#24364B">ppp_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="852" y="334" fill="#24364B">str_report_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="852" y="373" fill="#24364B">project_name_code</text>
+  <rect stroke-width="1" x="830" y="520" width="670" height="240" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="830" y="520" width="7" height="240" rx="0" fill="#2563EB" stroke="#2563EB" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="852" y="560" fill="#142B46">Les rapports liés</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="852" y="588" fill="#2563EB">STR_RELATED_REPORT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="852" y="630" fill="#24364B">related_report_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="852" y="669" fill="#24364B">str_report_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="852" y="708" fill="#24364B">re_report_reference</text>
+  <rect stroke-width="1" x="830" y="845" width="670" height="180" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="830" y="845" width="7" height="180" rx="0" fill="#2563EB" stroke="#2563EB" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="852" y="885" fill="#142B46">Les opérations liées</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="852" y="913" fill="#2563EB">STR_RELATED_REPORT_TXN_REF</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="852" y="955" fill="#24364B">related_report_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="852" y="994" fill="#24364B">txn_reference</text>
+  <rect stroke-width="1" x="48" y="620" width="540" height="190" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="70" y="659" fill="#142B46">Une correction ne remplace pas le passé</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="70" y="692" fill="#24364B">Une ligne de STR_REPORT représente une version. La</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="70" y="717" fill="#24364B">version 2 garde le même report_group_id et pointe vers la</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="70" y="742" fill="#24364B">version 1.</text>
+  <rect stroke-width="1" x="48" y="844" width="540" height="180" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="70" y="883" fill="#142B46">À dire en réunion</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="70" y="916" fill="#24364B">« Le rapport rassemble les faits et les raisons du soupçon.</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="70" y="941" fill="#24364B">Les autres domaines viennent préciser ce récit. »</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <title>Les comptes et la monnaie virtuelle</title>
+  <rect stroke-width="1" x="0" y="0" width="1600" height="1100" rx="0" fill="#F3F6FA" stroke="#F3F6FA" />
+  <path stroke-width="2" d="M 388.0,555 L 388.0,642.5 L 388.0,642.5 L 388.0,730" fill="none" stroke="#8BA0B6" />
+  <polygon points="388.0,730 384.10581657691347,720.7893900599712 391.89418342308653,720.7893900599712" fill="#8BA0B6" />
+  <rect stroke-width="1" x="335.0" y="585.25" width="106.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="342.0" y="601.25" fill="#5E7185">titulaires · 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="48" y="42" fill="#5E7185">CANAFE / DOD–STR / MODÈLE DE DONNÉES</text>
+  <text font-family="Arial, sans-serif" font-size="36" font-weight="700" x="48" y="100" fill="#142B46">Les comptes et la monnaie virtuelle</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="48" y="133" fill="#5E7185">Domaine Comptes · 3 tables. Les données décrivent une action précise, au moment de la déclaration.</text>
+  <text font-family="Arial, sans-serif" font-size="13" font-weight="400" x="48" y="1081" fill="#5E7185">PROJET DOD • Architecture reprise de projet-io | 08</text>
+  <rect stroke-width="1" x="48" y="230" width="680" height="325" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="230" width="7" height="325" rx="0" fill="#059669" stroke="#059669" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="70" y="270" fill="#142B46">Le compte</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="70" y="298" fill="#059669">STR_ACCOUNT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="70" y="340" fill="#24364B">account_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="379" fill="#24364B">starting_action_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="418" fill="#24364B">completing_action_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="457" fill="#24364B">number</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="496" fill="#24364B">currency_code</text>
+  <rect stroke-width="1" x="48" y="730" width="680" height="240" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="730" width="7" height="240" rx="0" fill="#059669" stroke="#059669" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="70" y="770" fill="#142B46">Les titulaires</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="70" y="798" fill="#059669">STR_ACCOUNT_HOLDER</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="840" fill="#24364B">account_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="879" fill="#24364B">type_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="918" fill="#24364B">ref_id</text>
+  <rect stroke-width="1" x="870" y="230" width="682" height="325" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="870" y="230" width="7" height="325" rx="0" fill="#059669" stroke="#059669" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="892" y="270" fill="#142B46">La monnaie virtuelle</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="892" y="298" fill="#059669">STR_VC_DATA</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="892" y="340" fill="#24364B">starting_action_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="892" y="379" fill="#24364B">completing_action_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="892" y="418" fill="#24364B">data_type</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="892" y="457" fill="#24364B">value</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="892" y="496" fill="#24364B">ordinal</text>
+  <rect stroke-width="1" x="870" y="615" width="682" height="165" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="892" y="654" fill="#142B46">Un rattachement sans ambiguïté</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="892" y="687" fill="#24364B">Un compte ou une donnée de monnaie virtuelle appartient soit à une action</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="892" y="712" fill="#24364B">initiale, soit à une action finale. On renseigne une seule des deux clés.</text>
+  <rect stroke-width="1" x="870" y="815" width="682" height="155" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="892" y="854" fill="#142B46">Trois types de données dans VC_DATA</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="892" y="887" fill="#24364B">Un identifiant de transaction, une adresse émettrice ou une adresse réceptrice.</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="892" y="912" fill="#24364B">data_type indique quelle liste reconstruire.</text>
+</svg>

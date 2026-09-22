@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <title>Retrouver ce qui a été envoyé</title>
+  <rect stroke-width="1" x="0" y="0" width="1600" height="1100" rx="0" fill="#F3F6FA" stroke="#F3F6FA" />
+  <path stroke-width="2" d="M 738,382.5 L 824.0,382.5 L 824.0,355.0 L 910,355.0" fill="none" stroke="#8BA0B6" />
+  <polygon points="910,355.0 900.7893900599712,358.89418342308653 900.7893900599712,351.10581657691347" fill="#8BA0B6" />
+  <rect stroke-width="1" x="773.0" y="368.5" width="102.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="780.0" y="384.5" fill="#5E7185">contenu · 0..1</text>
+  <path stroke-width="2" d="M 393.0,545 L 393.0,625.0 L 393.0,625.0 L 393.0,705" fill="none" stroke="#8BA0B6" />
+  <polygon points="393.0,705 389.10581657691347,695.7893900599712 396.89418342308653,695.7893900599712" fill="#8BA0B6" />
+  <rect stroke-width="1" x="314.5" y="571.5" width="157.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="321.5" y="587.5" fill="#5E7185">messages reçus · 0..N</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="48" y="42" fill="#5E7185">CANAFE / DOD–STR / MODÈLE DE DONNÉES</text>
+  <text font-family="Arial, sans-serif" font-size="36" font-weight="700" x="48" y="100" fill="#142B46">Retrouver ce qui a été envoyé</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="48" y="133" fill="#5E7185">Domaine Audit · 4 tables. La version du rapport, le contenu transmis et la réponse restent reliés.</text>
+  <text font-family="Arial, sans-serif" font-size="13" font-weight="400" x="48" y="1081" fill="#5E7185">PROJET DOD • Architecture reprise de projet-io | 09</text>
+  <rect stroke-width="1" x="48" y="220" width="690" height="325" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="220" width="7" height="325" rx="0" fill="#64748B" stroke="#64748B" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="70" y="260" fill="#142B46">Le suivi de l’envoi</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="70" y="288" fill="#64748B">STR_API_SUBMISSION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="70" y="330" fill="#24364B">submission_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="369" fill="#24364B">str_report_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="408" fill="#24364B">operation</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="447" fill="#24364B">http_status_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="486" fill="#24364B">processing_status</text>
+  <rect stroke-width="1" x="910" y="220" width="642" height="270" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="910" y="220" width="7" height="270" rx="0" fill="#64748B" stroke="#64748B" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="932" y="260" fill="#142B46">Le contenu transmis</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="932" y="288" fill="#64748B">STR_SUBMITTED_PAYLOAD</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="932" y="330" fill="#24364B">submission_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="932" y="369" fill="#24364B">payload_json</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="932" y="408" fill="#24364B">payload_hash_sha256</text>
+  <rect stroke-width="1" x="48" y="705" width="690" height="275" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="705" width="7" height="275" rx="0" fill="#64748B" stroke="#64748B" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="70" y="745" fill="#142B46">Les messages de validation</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="70" y="773" fill="#64748B">STR_VALIDATION_ERROR</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="815" fill="#24364B">submission_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="854" fill="#24364B">severity</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="893" fill="#24364B">instance_path</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="932" fill="#24364B">message_fr</text>
+  <rect stroke-width="1" x="910" y="705" width="642" height="275" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="910" y="705" width="7" height="275" rx="0" fill="#64748B" stroke="#64748B" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="932" y="745" fill="#142B46">Le journal du dossier</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="932" y="773" fill="#64748B">STR_AUDIT_EVENT</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="932" y="815" fill="#24364B">str_report_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="932" y="854" fill="#24364B">event_type</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="932" y="893" fill="#24364B">event_user</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="932" y="932" fill="#24364B">event_timestamp</text>
+  <text font-family="Arial, sans-serif" font-size="20" font-weight="400" x="48" y="1040" fill="#142B46">Un nouvel essai d’envoi n’est pas une nouvelle version. Une correction du contenu, oui.</text>
+</svg>

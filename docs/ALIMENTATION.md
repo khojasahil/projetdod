@@ -1,78 +1,61 @@
-# Alimenter le modèle et suivre les soumissions
+# Alimenter le modèle et conserver les versions
 
-## 1. Création d’une déclaration
+## 1. Préparer une version
 
-1. Créer `STR_REPORT` pour l’identité durable du dossier déclaratif.
-2. Créer `STR_VERSION` avec `version_number=1`, la référence de déclaration et la copie du contrat utilisée (`schema_release_id`). Les données peuvent rester incomplètes à l’état `DRAFT`.
-3. Renseigner les champs scalaires de `reportDetails` et `detailsOfSuspicion`. Positionner `action_taken_present` selon que `actionTaken` doit être absent ou présent.
-4. Insérer les définitions : une ligne `STR_DEFINITION` puis exactement une ligne du sous-type correspondant. Utiliser le même `id` pour le sous-type. Conserver le `ref_id` qui sera émis dans le JSON.
-5. Insérer les objets répétitifs sous leur parent : identifications, personnes autorisées, enregistrements, listes de propriété effective, projets PPP et rapports connexes. Donner un `ordinal` commençant à 0 dans chaque liste.
-6. Insérer les opérations puis leurs actions initiales et finales. Ajouter les comptes et titulaires, les listes de monnaies virtuelles et les rôles.
-7. Pour chaque rôle, résoudre la référence `(version_id, type_code, ref_id)` vers une définition de la même version. Une définition peut être utilisée par plusieurs rôles compatibles.
-8. Contrôler les obligations structurelles, les références, les domaines de codes et les règles métier retenues. Produire le JSON à partir des correspondances documentées.
-9. Passer la version à `FROZEN`, fixer `frozen_at` et créer un événement d’audit. Les données métier de cette version deviennent immuables. Les événements et états de suivi peuvent continuer à évoluer sans modifier cette photographie.
+Créer STR_REPORT avec un nouveau `str_report_id`, un `report_group_id` et `version_number=1`. Le statut interne commence à BROUILLON. Conserver l’empreinte de la copie Swagger utilisée dans `schema_sha256`.
 
-Une insertion transactionnelle de chaque agrégat évite de laisser un rôle sans définition ou un sous-type sans parent. Aucune donnée réelle n’est fournie dans ce dépôt.
+Ranger les renseignements de `reportDetails`, `detailsOfSuspicion` et `actionTaken` dans REPORT. Ajouter les projets et références liées dans leurs tables. Pour une correction, conserver la référence de déclaration et le numéro d’entité déclarante; une déclaration subséquente distincte reçoit un autre groupe.
 
-## 2. Exemple de placement
+## 2. Décrire les personnes et les entités
 
-Les fichiers [str-v1.json](../examples/str-v1.json) et [str-v2.json](../examples/str-v2.json) sont entièrement fictifs. Ils illustrent les six variantes de définitions, les deux formats d’adresse, un compte, un exécutant, un tiers représenté, des sources de fonds et un bénéficiaire.
+Créer DEFINITION puis PERSON ou ENTITY selon `type_code`. Reprendre `refId` sans le modifier. Ajouter l’employeur, les identifications, les enregistrements, les personnes autorisées et les listes de propriété selon la variante.
 
-| Donnée JSON | Table / colonne | Placement |
-|---|---|---|
-| `reportDetails.reportingEntityReportReference` | `STR_VERSION.report_details__reporting_entity_report_reference` | Même référence pour v1 et sa correction v2. |
-| `definitions[4].refId` | `STR_DEFINITION.ref_id` | `EXEC-P5`, avec `type_code=5`, version propre à v1 ou v2. |
-| `definitions[4].givenName` | `STR_PERSON_EMPLOYER.given_name` | Ligne de sous-type ayant le même `id` que sa définition. |
-| `definitions[4].address.typeCode` | `STR_PERSON_EMPLOYER.address__type_code` | Discriminant intérieur; ne pas confondre avec `address_type_code`. |
-| `transactions[0].startingActions[0].details.amount` | `STR_STARTING_ACTION.details__amount` | Chaîne `1250.00`, conservée sans conversion flottante. |
-| `...startingActions[0].conductors[0].refId` | `STR_CONDUCTOR.ref_id` | Référence à `EXEC-P5` dans la même version. |
-| `...conductors[0].onBehalfOfs[0].refId` | `STR_ON_BEHALF_OF.ref_id` | Référence à `TIERS-E6`, type 6. |
-| `...details.account.holders[0].refId` | `STR_STARTING_ACTION_ACCOUNT_HOLDER.ref_id` | Référence à `NOM-P1`, type 1. |
+Pour une adresse présente, créer ADDRESS et renseigner `address_id` sur son propriétaire. Ne pas confondre `address_type_code` sur le propriétaire avec `type_code` dans ADDRESS : les deux proviennent de propriétés distinctes du JSON.
 
-Les listes obligatoires vides donnent zéro ligne enfant et se reconstruisent comme `[]`. Pour une liste facultative, l’indicateur de présence du parent décide si elle est omise ou émise.
+## 3. Décrire les opérations
 
-## 3. Envoi individuel et nouvelle tentative
+Créer TRANSACTION puis ses STARTING_ACTION et COMPLETING_ACTION. Ajouter les rôles et résoudre leurs références dans les définitions de la même version. Créer le compte et ses titulaires lorsqu’un compte est décrit.
 
-Créer une enveloppe `STR_DISPATCH` en mode `SINGLE`, puis un élément `STR_DISPATCH_ITEM` pointant vers la version gelée. Archiver les octets du document effectivement envoyé dans `STR_ARTIFACT` et leur empreinte SHA-256. L’archive correspond au document déclaratif, pas aux secrets ni aux en-têtes d’authentification du transport.
+Dans ACCOUNT et VC_DATA, renseigner une seule clé d’action. Pour VC_DATA, utiliser TXN_ID, SENDING_ADDR ou RECEIVING_ADDR selon la liste source. Conserver les rangs des listes, à partir de zéro, sans supprimer les doublons automatiquement.
 
-Chaque appel crée une ligne `STR_API_EXCHANGE`, avec sa méthode, son chemin, son numéro d’ordre dans l’envoi, ses dates, son statut HTTP et les références d’archives. Une nouvelle tentative crée un nouvel échange. Elle ne crée pas à elle seule une nouvelle version métier. Une charge utile modifiée requiert une nouvelle version et un nouvel élément d’envoi.
+## 4. Préserver la forme du document
 
-| Usage | Endpoint du Swagger | Conservation |
-|---|---|---|
-| Soumettre | `POST /api/v1/reports`, requête multipart avec `reportFile`; paramètre `reportTypeCode=102` | Version gelée, document exact, échange, `STR_SUBMIT_RESPONSE`. |
-| Corriger | `PUT /api/v1/reports`, requête multipart avec `reportFile` | Nouvelle version avec `submitTypeCode=2`, nouvel envoi, même identité déclarative. |
-| Supprimer | `DELETE /api/v1/reports`, corps JSON `DeleteReport` | `STR_DELETE_REQUEST`, motif, version visée, échange; succès documenté HTTP 204 sans corps obligatoire. |
-| Consulter les résultats | `GET /api/v1/reports/validations` | Un résultat immuable par consultation; accusés et messages enfants. |
-| Rapprocher les références | `GET /api/v1/reports/list` | Réponse brute archivée; projection spécialisée à ajouter si nécessaire. |
+Une liste requise sans ligne devient `[]`. L’absence d’un objet facultatif reste différente d’un objet vide. Une ligne EMPLOYER_INFO vide, par exemple, permet de conserver `employerInformation: {}`. Pour les objets facultatifs fusionnés dans leur parent, les colonnes `action_taken_present` et `details_present` conservent cette distinction.
 
-Le préfixe serveur relatif publié est `/reporting-ingest`. La sélection du serveur réel et des identifiants d’accès appartient à la configuration d’environnement. Aucun appel de ces endpoints n’est exécuté par les outils de ce dépôt.
+Les montants, taux et valeurs en dollars canadiens sont des chaînes dans le contrat. Les conserver exactement; ne pas passer par un nombre à virgule flottante. Les calculs éventuels utilisent une conversion décimale contrôlée, distincte de la valeur à transmettre.
 
-## 4. Lots
+## 5. Contrôler puis geler
 
-Créer une enveloppe `BULK` et un élément pour chaque version DOD. Conserver `bulk_reference` et `file_name`. Obtenir l’URL de transfert via `GET /api/v1/bulkSubmission`, déposer le document de lot sur l’URL retournée, puis consulter `/api/v1/reports/validations`.
+Valider les propriétés requises, les variantes, les codes, les longueurs, les motifs et les règles métier conditionnelles. Contrôler aussi les clés, les rangs, les références de rôles et l’isolation par version. Les anomalies connues du contrat sont décrites dans [REGLES.md](REGLES.md).
 
-Le Swagger décrit le transfert du lot comme un fichier binaire JSON; il n’explicite pas dans cette opération une enveloppe métier complète de lot. Le modèle couvre le suivi et les résultats de lots. La construction exacte du fichier de lot doit être confirmée avec la documentation opérationnelle CANAFE avant implantation. Aucun format d’enveloppe non documenté n’est inventé ici.
+Produire le JSON avec les seuls champs applicables au type de définition. Les identifiants internes, les rangs et les indicateurs de présence ne sont pas envoyés. Une fois le contenu approuvé pour transmission, renseigner `frozen_at` et empêcher sa modification, y compris celle de ses enfants.
 
-L’URL signée temporaire ne doit pas être conservée avec son jeton SAS dans les journaux. Conserver un chemin expurgé et les métadonnées utiles. Les secrets OAuth relèvent du gestionnaire de secrets.
+## 6. Envoyer et conserver les retours
 
-## 5. Réception des résultats
+Créer une ligne API_SUBMISSION pour chaque appel, avec l’opération, l’environnement, le numéro de tentative et les dates. Pour un appel avec corps, conserver les octets UTF-8 exacts dans SUBMITTED_PAYLOAD et leur empreinte SHA-256. Un champ texte logique devra être implanté sans normalisation des fins de ligne ni reformattage; un stockage binaire peut être retenu pour préserver strictement les octets.
 
-1. Archiver les octets de réponse et le statut HTTP.
-2. Projeter les champs connus vers `STR_SUBMIT_RESPONSE`, `STR_VALIDATION_RESULT` ou `STR_API_ERROR`, selon la réponse reçue.
-3. Insérer chaque accusé dans `STR_VALIDATION_RESULT_ACK`, puis ses messages dans la table enfant. `message_type_code` précise si le contenu est une validation de schéma ou métier.
-4. Rechercher l’élément d’envoi dans le même contexte de soumission à partir de la référence de déclaration. Créer `STR_ACK_LINK` seulement si la correspondance est certaine. Conserver sans lien les accusés encore non rapprochés.
-5. Présenter à l’utilisateur un état dérivé du dernier résultat pertinent. Le modèle ne stocke pas un simple booléen « accepté » qui écraserait les états intermédiaires ou les avertissements.
+Conserver le statut HTTP, l’erreur réseau éventuelle, la réponse exacte et son empreinte. Projeter l’identifiant externe et les messages utiles. Ne jamais déduire l’acceptation du seul statut HTTP. Pour une consultation, créer une nouvelle ligne reliée à l’appel initial par `initial_submission_id`; conserver chaque réponse, même si elle ne change pas le résultat.
 
-Exemples fictifs : [réponse individuelle](../examples/submit-response.json) et [résultat de validation](../examples/validation-result.json). Le second illustre l’ambiguïté `oneOf` du contrat décrite dans [REGLES.md](REGLES.md); il sert à vérifier la conservation des messages, pas à attester une réponse certifiée par CANAFE.
+VALIDATION_ERROR porte `origin=CANAFE` ou LOCAL. Les valeurs API de gravité sont `warning` et `reject`; `unknown` est un état interne lorsque la gravité n’est pas déterminée. `message_type` distingue SCHEMA et METIER, en s’appuyant notamment sur `messageTypeCode` des accusés lorsqu’il est présent. Le chemin, la règle, le code et les messages bilingues restent traçables.
 
-## 6. Correction et suppression
+Une réponse doit être rattachée à la bonne déclaration et au bon environnement. En cas de délai réseau dépassé, conserver un résultat inconnu et rechercher le résultat de l’appel avant de retransmettre. Une nouvelle tentative ne garantit pas à elle seule l’absence de doublon.
 
-Pour une correction, copier la photographie v1 dans v2 avec de nouveaux identifiants internes, y compris les définitions et leurs dépendances. Conserver les `refId` si les mêmes liens logiques restent utiles; les clés composites incluent la nouvelle version. Modifier uniquement v2, lier `previous_version_id` à v1, valider puis geler v2. L’archive v1 reste intacte.
+## 7. Corriger le contenu
 
-Une suppression CANAFE ne supprime aucune ligne historique locale. Elle crée une demande `DeleteReport`, liée à l’élément d’envoi et à la version visée. Le motif `3` indique un duplicata et `4` une soumission par erreur. Le [fichier fictif de suppression](../examples/delete-request.json) utilise le code de déclaration `102` et `submitTypeCode=5`.
+Créer une nouvelle ligne REPORT avec le même `report_group_id`, le numéro de version suivant et `previous_report_id`. Copier les lignes métier dans la nouvelle version en attribuant de nouvelles clés internes et en reconstruisant leurs liens. Ne pas faire pointer les enfants de la version 2 vers les lignes de la version 1.
 
-## 7. Mesures d’exploitation à prévoir lors de l’implantation
+La référence déclarative reste stable. La correction individuelle utilise le code de soumission prévu par le contrat. Les anciens envois, archives et résultats restent liés à leur version d’origine. Consigner la raison de la correction dans AUDIT_EVENT.
 
-Limiter l’accès aux données nominatives et aux récits; chiffrer les données et archives selon les standards de l’organisation; journaliser les consultations et modifications utiles. Définir avec les responsables métier les durées de conservation, le traitement des demandes de correction et la gestion des droits. Ces mécanismes ne sont pas fournis par un diagramme de données.
+Une suppression CANAFE utilise un document DeleteReport archivé avec l’appel DELETE. Elle ne supprime pas l’historique local du rapport.
 
-Un pilote doit notamment vérifier les réponses réelles de CANAFE, le comportement de reprise après interruption et les règles conditionnelles métier. Les outils de ce dépôt contrôlent le modèle localement et ne remplacent pas ces essais d’intégration.
+## Cas des lots
+
+Les mêmes quatre tables d’Audit peuvent conserver un appel de lot, sans ajouter de table. Chaque version concernée possède une ligne de suivi. Les lignes du même appel partagent `correlation_id`; `bulk_reference` et `file_name` facilitent le rapprochement. Le même corps exact et la même réponse peuvent être archivés pour chaque version : cette duplication est assumée dans ce modèle compact.
+
+Les compteurs de lot restent des compteurs de lot. L’accusé individuel est recherché par sa référence déclarative et son contexte d’appel. `ack_report_reference` et `ack_ordinal` permettent de situer un message dans la réponse. Un accusé sans message reste dans la réponse archivée. Un accusé non rapproché reste conservé sans attribuer arbitrairement son résultat à une version.
+
+Le Swagger décrit le chargement d’un fichier binaire JSON, mais ne suffit pas à préciser complètement l’enveloppe métier du fichier. Sa production et les scénarios de réponse de lot restent à confirmer avec la documentation d’intégration et les essais autorisés.
+
+## Exemple à lire
+
+[str-v1.json](../examples/str-v1.json) et [str-v2.json](../examples/str-v2.json) montrent un rapport fictif et sa correction. Les codes et références servent à illustrer le stockage; ces fichiers n’ont pas été envoyés à CANAFE. [parcours-metier.json](../examples/parcours-metier.json) montre un extrait de lignes pour comprendre le lien entre version et tentative.

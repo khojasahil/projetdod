@@ -1,67 +1,60 @@
-# Règles, cardinalités et limites du contrat
+# Règles du modèle et limites du contrat
 
-## 1. Trois niveaux de règles
+## Trois origines de règles
 
-| Niveau | Origine | Application |
-|---|---|---|
-| Structure | `required`, `enum`, `pattern`, `oneOf`, cardinalités et autres mots-clés du Swagger | Valider le document produit contre la copie de contrat liée à la version. |
-| Règle décrite | Texte descriptif du Swagger, parfois non encodé dans les mots-clés | Ajouter un contrôle métier explicite et traçable. |
-| Conception interne | Historique, clés, intégrité, audit, gel | Maintenir un stockage cohérent et une preuve des transmissions. |
+Le Swagger décrit la structure du document : propriétés requises, variantes, listes, codes, formats et longueurs. Ses descriptions contiennent aussi certaines règles conditionnelles. Le modèle ajoute les règles internes nécessaires aux versions, aux clés et à l’audit. Ces trois origines restent distinctes dans la documentation.
 
-Les exigences de conformité au-delà du contrat technique doivent être validées par les responsables métier. Les champs facultatifs dans OpenAPI ne sont pas une preuve qu’ils sont facultatifs dans toute situation réglementaire.
+Un champ facultatif dans le schéma ne démontre pas qu’il est facultatif dans toutes les situations réglementaires. Le présent livrable analyse le contrat technique; les obligations de déclaration applicables sont à valider avec les responsables métier.
 
-## 2. Cardinalités avant gel
+## Cardinalités et présence avant envoi
 
-| Relation | Cardinalité par parent | Source / justification |
-|---|---|---|
-| Déclaration → versions | 1..N pour un dossier initialisé | Interne |
-| Version → `reportDetails` | 1 | `STRReport.required` |
-| Version → `detailsOfSuspicion` | 1 | `STRReport.required` |
-| Version → `actionTaken` | 0..1 | Absent de `STRReport.required` |
-| Version → opérations | 1..N | `transactions.required` au niveau racine et `minItems: 1` |
-| Version → définitions | 0..N, propriété présente | `definitions` est requis, sans `minItems` |
-| Version → rapports connexes | 0..N, propriété présente | `relatedReports` est requis, sans `minItems` |
-| Soupçon → projets PPP | 0..N, propriété présente | `publicPrivatePartnershipProjectNameCodes` requis |
-| Opération → détails de l’opération douteuse | 1 | Objet requis |
-| Opération → actions initiales / finales | 0..N pour chacune, propriétés présentes | Listes requises sans minimum d’éléments |
-| Action initiale → détails / sources / exécutants | 1 objet; 0..N sources; 0..N exécutants | Trois propriétés requises |
-| Exécutant → détails / tiers représentés | 1 objet; 0..N tiers | Propriétés requises |
-| Action finale → détails / implications / bénéficiaires | 1 objet; 0..N pour chaque liste | Trois propriétés requises |
-| Action → compte | 0..1 | `details.account` facultatif |
-| Compte → titulaires | 0..N, propriété présente | `strAccount.required` contient `holders` |
-| Définition → sous-type | Exactement 1 des six | `oneOf`; choix de stockage supertype / sous-type |
-| Définition de type 6 → sept listes de propriété effective | 0..N chacune, propriétés présentes | Sept listes requises, sans minimum d’éléments |
-| Objet propriétaire → adresse | 0..1 | Adresse facultative, deux variantes exclusives |
-| Envoi → éléments | 1..N; exactement 1 en mode SINGLE | Interne |
-| Envoi → appels | 0..N | Interne; l’envoi peut être préparé avant le premier appel |
-| Appel → chaque projection de réponse | 0..1 | Interne; choisir la projection correspondant à la réponse réelle |
+| Relation ou propriété | Règle du contrat ou du modèle |
+|---|---|
+| Groupe de rapport → versions REPORT | Une ou plusieurs versions; numéros uniques, chaîne sans branche ni cycle. |
+| Rapport → reportDetails et detailsOfSuspicion | Deux objets requis, fusionnés dans REPORT. |
+| Rapport → actionTaken | Objet facultatif; présence conservée par `action_taken_present`. |
+| Rapport → transactions | Liste requise avec au moins un élément. |
+| Rapport → definitions et relatedReports | Listes requises; peuvent être vides dans le schéma. |
+| Soupçon → projets PPP | Liste requise, sans minimum d’éléments. |
+| Transaction → suspiciousTransactionDetails | Objet requis, fusionné dans TRANSACTION. |
+| Transaction → actions initiales et finales | Deux listes requises; pas de minimum d’éléments dans le schéma. |
+| Action initiale → details, sources, conductors | Objet details requis; les deux listes sont requises mais peuvent être vides. |
+| Conductor → details et onBehalfOfs | Objet et liste requis; liste pouvant être vide. |
+| Action finale → details, involvements, beneficiaries | Objet details requis; les deux listes sont requises mais peuvent être vides. |
+| Action → compte | Zéro ou un compte. |
+| Compte → titulaires | Liste requise, sans minimum d’éléments. |
+| Définition → PERSON ou ENTITY | Une seule ligne, selon le type : personne 1/3/5, entité 2/4/6. |
+| Personne de type 5 → employeur | Zéro ou une ligne. |
+| Entité de type 6 → sept listes de propriété et direction | Sept listes requises; peuvent être vides dans le schéma. |
+| Propriétaire d’adresse → adresse | Zéro ou une adresse; variante structurée ou libre. |
+| Appel → document transmis | Zéro ou un document; obligatoire en interne pour un appel contenant un corps. |
+| Appel → messages projetés | Zéro ou plusieurs; la réponse entière reste archivée même sans message. |
 
-Dans le diagramme, `1 → 0..N` décrit la possibilité de stockage, y compris les brouillons. Les minimums requis au gel sont indiqués ici et dans `structures.csv`. Une flèche va toujours du parent vers l’enfant.
+Ces règles détaillent les exigences avant gel. Les vues métier utilisent des cardinalités de stockage qui autorisent la préparation progressive des brouillons. [structures.csv](../traceability/structures.csv) donne les autres objets et listes, leurs variantes et leur présence requise.
 
-## 3. Intégrité relationnelle
+## Intégrité à implanter
 
-1. Chaque ligne de données DOD dépend d’une seule `STR_VERSION`. Les liens enfant-parent transportent aussi `version_id`; un simple identifiant de parent ne suffit pas à documenter l’isolation entre versions.
-2. Lorsque le parent est `STR_VERSION`, `parent_id=version_id`. Lorsque le parent est un sous-objet, la clé étrangère logique porte sur `(version_id, parent_id)` vers `(version_id, id)` du parent.
-3. Un sous-type a `id=STR_DEFINITION.id` et le même `version_id`. Une définition de type 5 possède une ligne `STR_PERSON_EMPLOYER`, aucune ligne des cinq autres sous-types.
-4. Les références de rôles utilisent `(version_id, type_code, ref_id)`. Domaines : sources, implications et titulaires `{1,2}`; bénéficiaires `{3,4}`; exécutants et tiers `{5,6}`.
-5. Chaque liste a un `ordinal >= 0`, unique dans le parent. Les ordinalités sont contiguës à partir de 0 au gel. Ne pas rendre la valeur métier unique : le Swagger n’impose généralement pas `uniqueItems`.
-6. Une table enfant d’un objet singulier a `UNIQUE(parent_id)`. Les identifiants de sous-types ont déjà une clé primaire partagée.
-7. Un indicateur de présence faux interdit toutes les valeurs ou lignes du sous-objet. Un indicateur vrai avec aucune ligne autorise `[]` seulement si le minimum le permet.
-8. Aucune suppression en cascade n’efface une version gelée, son envoi, ses archives ou ses résultats. Les règles de conservation physiques restent à définir par l’organisation.
-9. `previous_version_id` doit viser le même `report_id` et une version antérieure. Numéros uniques par déclaration; aucun cycle. Une correction conserve l’identité déclarative; un nouveau rapport subséquent possède une nouvelle identité et peut utiliser `relatedReports`.
-10. La référence de déclaration, avec le numéro d’entité déclarante, doit identifier sans ambiguïté la déclaration durable dans l’organisation. La recherche des résultats ajoute le contexte d’environnement et d’envoi. Les versions d’une correction conservent la même référence; un nouvel identifiant CANAFE reçu n’est jamais inventé.
+1. Chaque enfant porte le même `str_report_id` que son parent. Une clé d’enfant vers un sous-objet se contrôle avec `(str_report_id, clé_du_parent)`. Prévoir les contraintes d’unicité correspondantes sur les parents.
+2. Dans un groupe de rapport, `version_number` est unique. Le prédécesseur est la version précédente du même groupe; un prédécesseur n’a qu’un successeur. Le groupe conserve l’identité déclarative. Aucune suppression en cascade ne détruit une version gelée et ses archives.
+3. Dans DEFINITION, `(str_report_id, ref_id)` est unique; le triplet avec `type_code` l’est aussi pour les références de rôles. PERSON et ENTITY sont uniques par `definition_id`. Une seule des deux existe selon le code.
+4. Les sources des fonds, implications et titulaires référencent les types 1 ou 2; les bénéficiaires les types 3 ou 4; les exécutants et tiers représentés les types 5 ou 6.
+5. Chaque rang commence à zéro et est unique et contigu dans sa liste au gel. Pour VC_DATA, la liste est identifiée par l’action et `data_type`. Pour les messages, elle inclut le contexte d’accusé. Ne pas rendre les valeurs métier uniques sans règle source.
+6. ACCOUNT et VC_DATA ont exactement une clé d’action renseignée. Chaque action a au plus un ACCOUNT. Une adresse appartient à un seul propriétaire dans la version, y compris entre les différentes tables propriétaires.
+7. Une colonne de présence fausse interdit les valeurs du sous-objet. Une valeur vraie permet un objet vide si le contrat le permet. Les objets matérialisés par une table enfant utilisent l’existence de la ligne comme présence.
+8. Une erreur d’origine CANAFE possède un `submission_id` de la même version. Une erreur locale peut exister avant tout appel. Les consultations et reprises pointent vers l’appel initial de la même version.
 
-## 4. Règles de sérialisation
+## Reconstruire le JSON
 
-- Le code de déclaration DOD est `102`; pour un envoi individuel initial, `submitTypeCode=1`; pour une correction, `2`. `5` concerne la suppression, émise avec `DeleteReport`.
-- La version contient un `STRReport` complet; une demande `DeleteReport` est liée séparément à l’élément d’envoi et reprend les identifiants de la version visée.
-- Les clés internes, `ordinal`, `version_id` et indicateurs `*_present` ne sont jamais transmis.
-- Toute liste requise sans élément produit `[]`. Une liste facultative sans présence produit une propriété absente.
-- Les montants restent des chaînes. Par exemple `"10.00"` est autorisé par le motif de `currencyAmount`, `"10.0"` ne l’est pas. Le contrôle de dates doit aussi vérifier une date de calendrier réelle; la seule expression régulière n’écarte pas tous les jours impossibles.
-- Choisir les propriétés de la variante d’adresse active; distinguer les deux `typeCode` intérieur et extérieur. Conserver le `refId` exact, y compris casse et caractères permis.
-- `additionalProperties:false` s’applique uniquement aux objets où il est déclaré. Plusieurs schémas réutilisables, par exemple `PersonName` et `StructuredAddress`, ne le précisent pas. Le modèle projette leurs propriétés nommées; l’archive exacte peut conserver un document reçu contenant d’autres propriétés. La génération proposée utilise une liste explicite des champs connus.
+Le code de rapport DOD est 102. Pour l’envoi individuel, `submitTypeCode=1` désigne l’initial et 2 la correction; 5 concerne DeleteReport. Les clés internes, les rangs et les indicateurs de présence ne sont jamais transmis. Les objets et listes requis sont émis même lorsqu’ils sont vides si le contrat l’autorise.
 
-## 5. Règles décrites et anomalies à ne pas masquer
+Les montants sont des chaînes : `"10.00"` respecte le motif de currencyAmount, `"10.0"` ne le respecte pas. Les dates doivent aussi être des dates de calendrier valides; une expression régulière ne suffit pas toujours.
+
+Les deux codes d’adresse, sur le propriétaire et à l’intérieur de l’adresse, sont conservés séparément. Les propriétés transmises dépendent de la variante active. La casse de refId et des autres valeurs est préservée.
+
+`additionalProperties:false` s’applique seulement là où le Swagger le déclare. Le modèle couvre les propriétés nommées. Des propriétés additionnelles non décrites ne sont pas promises comme colonnes relationnelles; le document transmis et les réponses conservent leur forme exacte dans les archives.
+
+## Règles décrites et anomalies à ne pas masquer
+
 
 | Référence | Observation | Traitement proposé |
 |---|---|---|
@@ -76,12 +69,11 @@ Dans le diagramme, `1 → 0..N` décrit la possibilité de stockage, y compris l
 
 Ces observations sont tirées du [YAML archivé](../source/swaggerExternal.yaml). Les JSON Pointers et lignes détaillés sont dans les fichiers de traçabilité.
 
-## 6. Interprétation des réponses
 
-Le statut HTTP, le code de traitement d’un lot et le résultat individuel sont trois informations différentes. Un dépôt de lot réussi au transport ne prouve pas l’acceptation de ses déclarations. Les avertissements ne sont pas des rejets.
+## Lire les résultats
 
-Chaque consultation des validations crée un nouvel échange et un nouveau résultat. Ne jamais remplacer la réponse précédente. `STR_ACK_LINK` rattache chaque accusé au bon élément du même envoi. Un accusé sans correspondance reste conservé et non rapproché; il ne doit pas être assigné arbitrairement.
+Le statut HTTP, le résultat global d’un lot et le résultat d’une déclaration sont différents. Un avertissement n’est pas un rejet. Les valeurs reçues restent dans la réponse archivée; `processing_status` est une interprétation interne traçable, pas une colonne directement fournie par tous les endpoints.
 
-Pour `STR_VALIDATION_RESULT_ACK_MESSAGE`, la variante active est déterminée par `STR_VALIDATION_RESULT_ACK.message_type_code` : 1 = schéma; 2 = métier. Les champs non applicables restent absents. Le modèle conserve toutes les propriétés nommées des deux variantes malgré l’ambiguïté OpenAPI signalée ci-dessus.
+Pour un lot, rapprocher l’accusé par la référence de déclaration dans le contexte d’appel et d’environnement. Un accusé non rapproché reste dans l’archive sans attribution arbitraire. Chaque consultation crée une nouvelle ligne API_SUBMISSION : aucune réponse précédente n’est écrasée.
 
-Après un délai réseau dépassé, le résultat est inconnu. Consulter les rapports ou validations avant de retransmettre; le Swagger ne déclare pas ici une clé d’idempotence qui garantirait à elle seule l’absence de doublon.
+Le Swagger ne définit pas ici de clé d’idempotence garantissant l’absence de doublon. Après une interruption réseau, rechercher le résultat avant une nouvelle tentative.

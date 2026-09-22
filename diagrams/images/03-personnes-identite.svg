@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <title>Une identité, plusieurs usages</title>
+  <rect stroke-width="1" x="0" y="0" width="1600" height="1100" rx="0" fill="#F3F6FA" stroke="#F3F6FA" />
+  <path stroke-width="2" d="M 800.5,418 L 800,452 L 280,452 L 280.5,492" fill="none" stroke="#8BA0B6" />
+  <polygon points="280.5,492 276.49099714377775,482.8387830448787 284.27875559508624,482.74143606423735" fill="#8BA0B6" />
+  <rect stroke-width="1" x="449.5" y="438.5" width="181.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="456.5" y="454.5" fill="#5E7185">personne · types 1, 3 ou 5</text>
+  <path stroke-width="2" d="M 800.5,418 L 800,452 L 1318,452 L 1318.5,492" fill="none" stroke="#8BA0B6" />
+  <polygon points="1318.5,492 1314.4909971437778,482.8387830448787 1322.2787555950863,482.74143606423735" fill="#8BA0B6" />
+  <rect stroke-width="1" x="981.0" y="438.5" width="156.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="988.0" y="454.5" fill="#5E7185">entité · types 2, 4 ou 6</text>
+  <path stroke-width="2" d="M 280.5,757 L 280.5,793.5 L 280.5,793.5 L 280.5,830" fill="none" stroke="#8BA0B6" />
+  <polygon points="280.5,830 276.60581657691347,820.7893900599712 284.39418342308653,820.7893900599712" fill="#8BA0B6" />
+  <rect stroke-width="1" x="179.0" y="761.75" width="203.0" height="27" rx="3" fill="#F3F6FA" stroke="#F3F6FA" />
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="400" x="186.0" y="777.75" fill="#5E7185">employeur · type 5 seulement</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="48" y="42" fill="#5E7185">CANAFE / DOD–STR / MODÈLE DE DONNÉES</text>
+  <text font-family="Arial, sans-serif" font-size="36" font-weight="700" x="48" y="100" fill="#142B46">Une identité, plusieurs usages</text>
+  <text font-family="Arial, sans-serif" font-size="19" font-weight="400" x="48" y="133" fill="#5E7185">Domaines Définitions et Identité · 6 tables. Un rôle cite une définition; il ne recopie pas toute la fiche.</text>
+  <text font-family="Arial, sans-serif" font-size="13" font-weight="400" x="48" y="1081" fill="#5E7185">PROJET DOD • Architecture reprise de projet-io | 03</text>
+  <rect stroke-width="1" x="568" y="180" width="465" height="238" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="568" y="180" width="7" height="238" rx="0" fill="#15803D" stroke="#15803D" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="590" y="220" fill="#142B46">Le point de référence</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="590" y="248" fill="#15803D">STR_DEFINITION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="590" y="290" fill="#24364B">definition_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="590" y="329" fill="#24364B">ref_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="590" y="368" fill="#24364B">type_code</text>
+  <rect stroke-width="1" x="48" y="492" width="465" height="265" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="492" width="7" height="265" rx="0" fill="#15803D" stroke="#15803D" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="70" y="532" fill="#142B46">La personne</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="70" y="560" fill="#15803D">STR_PERSON</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="70" y="602" fill="#24364B">person_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="641" fill="#24364B">definition_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="680" fill="#24364B">surname</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="719" fill="#24364B">given_name</text>
+  <rect stroke-width="1" x="1086" y="492" width="465" height="265" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="1086" y="492" width="7" height="265" rx="0" fill="#15803D" stroke="#15803D" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="1108" y="532" fill="#142B46">L’entité</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="1108" y="560" fill="#15803D">STR_ENTITY</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="1108" y="602" fill="#24364B">entity_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1108" y="641" fill="#24364B">definition_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1108" y="680" fill="#24364B">name_of_entity</text>
+  <rect stroke-width="1" x="48" y="830" width="465" height="180" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="48" y="830" width="7" height="180" rx="0" fill="#15803D" stroke="#15803D" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="70" y="870" fill="#142B46">L’employeur</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="70" y="898" fill="#15803D">STR_EMPLOYER_INFO</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="940" fill="#24364B">person_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="70" y="979" fill="#24364B">name</text>
+  <rect stroke-width="1" x="568" y="492" width="465" height="265" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="568" y="492" width="7" height="265" rx="0" fill="#B7791F" stroke="#B7791F" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="590" y="532" fill="#142B46">L’adresse</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="590" y="560" fill="#B7791F">STR_ADDRESS</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="700" x="590" y="602" fill="#24364B">address_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="590" y="641" fill="#24364B">type_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="590" y="680" fill="#24364B">city</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="590" y="719" fill="#24364B">country_code</text>
+  <rect stroke-width="1" x="1086" y="830" width="465" height="200" rx="12" fill="#FFFFFF" stroke="#D8E2EC" />
+  <rect stroke-width="1" x="1086" y="830" width="7" height="200" rx="0" fill="#B7791F" stroke="#B7791F" />
+  <text font-family="Arial, sans-serif" font-size="23" font-weight="700" x="1108" y="870" fill="#142B46">Les pièces d’identité</text>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="700" x="1108" y="898" fill="#B7791F">STR_IDENTIFICATION</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1108" y="940" fill="#24364B">definition_id</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1108" y="979" fill="#24364B">identifier_type_code</text>
+  <text font-family="Arial, sans-serif" font-size="17" font-weight="400" x="1108" y="1018" fill="#24364B">number</text>
+  <rect stroke-width="1" x="568" y="815" width="465" height="215" rx="12" fill="#EAF0F7" stroke="#EAF0F7" />
+  <text font-family="Arial, sans-serif" font-size="21" font-weight="700" x="590" y="854" fill="#142B46">Comment lire les deux tables d’identité</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="590" y="887" fill="#24364B">ADDRESS porte une adresse liée à son propriétaire.</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="590" y="912" fill="#24364B">IDENTIFICATION porte une pièce liée à la définition.</text>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="400" x="590" y="937" fill="#24364B">Les liens détaillés figurent dans le dictionnaire.</text>
+</svg>
