@@ -2,7 +2,7 @@
 
 [Ouvrir CANAFE_DOD_EDITION_SIMPLE.drawio](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio)
 
-Ce second fichier contient treize pages : les dix pages du modèle, la page relationnelle initiale et deux nouvelles vues plus aérées. Les couleurs des domaines, les notes et les connecteurs sont conservés. Le fichier original **CANAFE_DOD.drawio est conservé sans modification**.
+Ce second fichier contient quatorze pages : les dix pages du modèle, la page relationnelle initiale, deux vues plus aérées et une carte de haut niveau regroupée par domaine. Les couleurs des domaines, les notes et les connecteurs sont conservés. Le fichier original **CANAFE_DOD.drawio est conservé sans modification**.
 
 ## Ce qui change pour vous
 
@@ -51,6 +51,16 @@ Le champ `str_report_id` reste visible dans toutes les tables, même quand son c
 Chaque table reste une seule forme éditable. Les clés sont placées en tête et portent les repères PK/FK; la page complète conserve ensuite tous les autres attributs et leurs types. Les traits évitent les tables. La vue d’ensemble sert à se repérer, puis le zoom permet de lire les champs. Les vues métier des premières pages restent utiles pour projeter un sujet à la fois.
 
 [Aperçu complet](../diagrams/images/12-modele-aere.png) · [Aperçu PK/FK](../diagrams/images/13-relations-pk-fk.png). Ces images reproduisent l’état initial avec les 37 liens visibles. Les cardinalités y sont écrites; draw.io utilise les symboles ER aux extrémités des connecteurs.
+
+## Page 14 — comprendre le modèle d’un coup d’œil
+
+La [page 14 — Vue d’ensemble : comprendre le modèle](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio#%7B%22pageId%22%3A%22page13%22%7D) sert à présenter l’architecture avant de parler des clés. Les 34 tables figurent chacune une fois dans leur domaine. Les neuf domaines reprennent les couleurs du modèle; le domaine Entité est affiché explicitement.
+
+Commencez par le rapport, puis suivez ses trois branches : les personnes décrites, les opérations et le suivi des envois. Sous les opérations, les rôles expliquent qui intervient, et les comptes décrivent les moyens utilisés. Le trait violet pointillé rappelle que les rôles réutilisent les fiches du domaine Définitions.
+
+Les **neuf flèches entre domaines** sont des liens de lecture métier, sans cardinalité. Les **douze flèches entre tables** sont une sélection de relations vérifiées dans le modèle. Cette vue ne prétend pas montrer les 77 relations ni remplacer la page des PK/FK. Les domaines sont des conteneurs : déplacer le cadre entraîne ses tables.
+
+[Voir l’aperçu de la carte](../diagrams/images/14-vue-ensemble.png). La disposition s’inspire de la [carte des domaines de l’ancien projet](https://github.com/khojasahil/projet-io/blob/main/SCHEMAS_EXPLICATIFS.md#1-vue-densemble--carte-des-domaines), avec les tables et les relations du catalogue actuel.
 
 ## Vérifications
 

@@ -77,7 +77,7 @@
       7100
     ]
   },
-  "total_pages": 13,
+  "total_pages": 14,
   "all_365_columns_and_77_references_preserved": true,
   "one_editable_shape_per_table": true,
   "connectors_preserved": true,
@@ -111,5 +111,19 @@
       ]
     }
   ],
-  "first_11_pages_preserved": true
+  "first_11_pages_preserved": true,
+  "overview_page": {
+    "page_id": "page13",
+    "domains": 9,
+    "tables": 34,
+    "main_domain_links": 9,
+    "selected_table_relations": 12,
+    "all_table_relations_match_model": true,
+    "no_connector_crosses_a_table": true,
+    "canvas": [
+      2480,
+      2120
+    ]
+  },
+  "first_13_pages_preserved": true
 }

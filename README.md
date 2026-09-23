@@ -6,6 +6,12 @@ Le fil conducteur est simple : **on décrit un rapport, les personnes concernée
 
 ## Commencer ici
 
+**[➡️ Commencer par la vue d’ensemble — comprendre le modèle](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio#%7B%22pageId%22%3A%22page13%22%7D)**
+
+La **page 14** reprend l’esprit de la [carte des domaines de projet-io](https://github.com/khojasahil/projet-io/blob/main/SCHEMAS_EXPLICATIFS.md#1-vue-densemble--carte-des-domaines) : les 34 tables dans neuf groupes colorés, des noms métier et les liens principaux. Partez du rapport, puis suivez les personnes, les opérations et les envois. Cette page de présentation ne montre pas les colonnes; les vues détaillées restent disponibles ci-dessous.
+
+![Vue d’ensemble — les neuf domaines et les liens principaux](diagrams/images/14-vue-ensemble.png)
+
 **[➡️ Ouvrir la version simple directement dans draw.io](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio)**
 
 Cette version permet de modifier chaque table dans un seul bloc de texte, avec un champ par ligne.
@@ -93,7 +99,7 @@ Cette planche est faite pour être parcourue en zoomant. Les vues métier préc�
 
 ## Reproduire le modèle
 
-- **[Version facile à modifier — CANAFE_DOD_EDITION_SIMPLE.drawio](diagrams/CANAFE_DOD_EDITION_SIMPLE.drawio)** : treize pages, dont une vue complète aérée et une vue limitée aux clés. Une seule forme et un texte multiligne par table. Un champ par ligne; les notes sont aussi des blocs uniques. [Mode d’emploi](docs/EDITION_SIMPLE.md).
+- **[Version facile à modifier — CANAFE_DOD_EDITION_SIMPLE.drawio](diagrams/CANAFE_DOD_EDITION_SIMPLE.drawio)** : quatorze pages, dont une vue d’ensemble par domaine, une vue complète aérée et une vue limitée aux clés. Une seule forme et un texte multiligne par table. Un champ par ligne; les notes sont aussi des blocs uniques. [Mode d’emploi](docs/EDITION_SIMPLE.md).
 - [Guide draw.io](docs/GUIDE_DRAWIO.md) : ouvrir, modifier ou redessiner les vues.
 - [Fichier principal — neuf vues métier et une vue complète](diagrams/CANAFE_DOD.drawio).
 - [Annexe draw.io — les 34 tables avec toutes leurs colonnes](diagrams/CANAFE_DOD_DETAIL.drawio).

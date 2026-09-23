@@ -4384,4 +4384,335 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="page13" name="Vue d’ensemble — comprendre le modèle">
+    <mxGraphModel grid="0" page="0" pageWidth="2480" pageHeight="2120" background="#F3F6FA" connect="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Le modèle DOD / STR en un coup d’œil" style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=40;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="40" width="2340" height="54" />
+        </mxCell>
+        <mxCell id="subtitle" value="9 domaines · 34 tables · Les liens principaux pour comprendre et expliquer le dossier." style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#142B46;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="102" width="2340" height="38" />
+        </mxCell>
+        <mxCell id="domain0" value="&lt;b&gt;Rapport · 4&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:18px;color:#506378&quot;&gt;Quel dossier transmet-on ?&lt;/span&gt;" style="rounded=1;arcSize=5;html=1;container=1;collapsible=0;recursiveResize=0;align=left;verticalAlign=top;spacing=0;spacingTop=18;spacingLeft=20;fillColor=#F0F4FE;strokeColor=#2563EB;strokeWidth=2;fontFamily=Arial;fontSize=25;fontColor=#2563EB;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="930" y="185" width="620" height="390" />
+        </mxCell>
+        <mxCell id="domain1" value="&lt;b&gt;Définitions · 4&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:18px;color:#506378&quot;&gt;De qui parle-t-on ?&lt;/span&gt;" style="rounded=1;arcSize=5;html=1;container=1;collapsible=0;recursiveResize=0;align=left;verticalAlign=top;spacing=0;spacingTop=18;spacingLeft=20;fillColor=#EFF6F1;strokeColor=#15803D;strokeWidth=2;fontFamily=Arial;fontSize=25;fontColor=#15803D;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="700" width="680" height="400" />
+        </mxCell>
+        <mxCell id="domain2" value="&lt;b&gt;Transactions · 3&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:18px;color:#506378&quot;&gt;Que s’est-il passé ?&lt;/span&gt;" style="rounded=1;arcSize=5;html=1;container=1;collapsible=0;recursiveResize=0;align=left;verticalAlign=top;spacing=0;spacingTop=18;spacingLeft=20;fillColor=#FBF5EE;strokeColor=#C76C12;strokeWidth=2;fontFamily=Arial;fontSize=25;fontColor=#C76C12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="900" y="700" width="680" height="300" />
+        </mxCell>
+        <mxCell id="domain3" value="&lt;b&gt;Audit · 4&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:18px;color:#506378&quot;&gt;Qu’a-t-on envoyé et reçu ?&lt;/span&gt;" style="rounded=1;arcSize=5;html=1;container=1;collapsible=0;recursiveResize=0;align=left;verticalAlign=top;spacing=0;spacingTop=18;spacingLeft=20;fillColor=#F4F5F7;strokeColor=#64748B;strokeWidth=2;fontFamily=Arial;fontSize=25;fontColor=#64748B;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1720" y="700" width="680" height="400" />
+        </mxCell>
+        <mxCell id="domain4" value="&lt;b&gt;Identité · 2&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:18px;color:#506378&quot;&gt;Comment les identifier ?&lt;/span&gt;" style="rounded=1;arcSize=5;html=1;container=1;collapsible=0;recursiveResize=0;align=left;verticalAlign=top;spacing=0;spacingTop=18;spacingLeft=20;fillColor=#FAF6EF;strokeColor=#B7791F;strokeWidth=2;fontFamily=Arial;fontSize=25;fontColor=#B7791F;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1220" width="350" height="280" />
+        </mxCell>
+        <mxCell id="domain5" value="&lt;b&gt;Entité · 2&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:18px;color:#506378&quot;&gt;Comment est-elle constituée ?&lt;/span&gt;" style="rounded=1;arcSize=5;html=1;container=1;collapsible=0;recursiveResize=0;align=left;verticalAlign=top;spacing=0;spacingTop=18;spacingLeft=20;fillColor=#EEF5F5;strokeColor=#0F766E;strokeWidth=2;fontFamily=Arial;fontSize=25;fontColor=#0F766E;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="470" y="1220" width="350" height="280" />
+        </mxCell>
+        <mxCell id="domain6" value="&lt;b&gt;Bénéficiaires effectifs · 7&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:18px;color:#506378&quot;&gt;Qui dirige ou détient l’entité ?&lt;/span&gt;" style="rounded=1;arcSize=5;html=1;container=1;collapsible=0;recursiveResize=0;align=left;verticalAlign=top;spacing=0;spacingTop=18;spacingLeft=20;fillColor=#FBF2F3;strokeColor=#C24153;strokeWidth=2;fontFamily=Arial;fontSize=25;fontColor=#C24153;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1600" width="780" height="405" />
+        </mxCell>
+        <mxCell id="domain7" value="&lt;b&gt;Rôles · 5&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:18px;color:#506378&quot;&gt;Qui fait quoi dans l’opération ?&lt;/span&gt;" style="rounded=1;arcSize=5;html=1;container=1;collapsible=0;recursiveResize=0;align=left;verticalAlign=top;spacing=0;spacingTop=18;spacingLeft=20;fillColor=#F6F1FE;strokeColor=#7C3AED;strokeWidth=2;fontFamily=Arial;fontSize=25;fontColor=#7C3AED;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="900" y="1140" width="680" height="420" />
+        </mxCell>
+        <mxCell id="domain8" value="&lt;b&gt;Comptes · 3&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:18px;color:#506378&quot;&gt;Par quels comptes ou adresses passent les fonds ?&lt;/span&gt;" style="rounded=1;arcSize=5;html=1;container=1;collapsible=0;recursiveResize=0;align=left;verticalAlign=top;spacing=0;spacingTop=18;spacingLeft=20;fillColor=#EEF8F4;strokeColor=#059669;strokeWidth=2;fontFamily=Arial;fontSize=25;fontColor=#059669;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1720" y="1220" width="680" height="300" />
+        </mxCell>
+        <mxCell id="flow1" style="edgeStyle=none;rounded=0;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="domain0" target="domain1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="420" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow1label" value="Décrit les personnes et les entités" style="rounded=0;html=1;align=center;spacing=0;fillColor=#F3F6FA;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#2563EB;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="82" y="598" width="325.0" height="31" />
+        </mxCell>
+        <mxCell id="flow2" style="edgeStyle=none;rounded=0;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="domain0" target="domain2">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow2label" value="Décrit les opérations" style="rounded=0;html=1;align=center;spacing=0;fillColor=#F3F6FA;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#2563EB;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1262" y="618" width="206.0" height="31" />
+        </mxCell>
+        <mxCell id="flow3" style="edgeStyle=none;rounded=0;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=1.0;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="domain0" target="domain3">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="2060" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow3label" value="Garde la trace des envois" style="rounded=0;html=1;align=center;spacing=0;fillColor=#F3F6FA;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#2563EB;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="2102" y="598" width="253.0" height="31" />
+        </mxCell>
+        <mxCell id="flow4" style="edgeStyle=none;rounded=0;html=1;strokeColor=#15803D;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.19852941176470587;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="domain1" target="domain4">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow5" style="edgeStyle=none;rounded=0;html=1;strokeColor=#15803D;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.8308823529411765;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="domain1" target="domain5">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow6" style="edgeStyle=none;rounded=0;html=1;strokeColor=#15803D;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=1.0;exitY=0.6;exitPerimeter=0;entryX=1.0;entryY=0.345679012345679;entryPerimeter=0;" edge="1" parent="1" source="domain1" target="domain6">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="850" y="940" />
+              <mxPoint x="850" y="1740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow7" style="edgeStyle=none;rounded=0;html=1;strokeColor=#C76C12;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="domain2" target="domain7">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow7label" value="Les intervenants" style="rounded=0;html=1;align=center;spacing=0;fillColor=#F3F6FA;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#C76C12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1262" y="1048" width="171.0" height="31" />
+        </mxCell>
+        <mxCell id="flow8" style="edgeStyle=none;rounded=0;html=1;strokeColor=#C76C12;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=1.0;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="domain2" target="domain8">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1640" y="850" />
+              <mxPoint x="1640" y="1175" />
+              <mxPoint x="2060" y="1175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow8label" value="Les moyens utilisés" style="rounded=0;html=1;align=center;spacing=0;fillColor=#F3F6FA;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#C76C12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1762" y="1138" width="198.0" height="31" />
+        </mxCell>
+        <mxCell id="flow9" style="edgeStyle=none;rounded=0;html=1;strokeColor=#7C3AED;strokeWidth=2;endArrow=block;endFill=1;endSize=10;exitX=0.0;exitY=0.5238095238095238;exitPerimeter=0;entryX=1.0;entryY=0.9;entryPerimeter=0;dashed=1;dashPattern=6 5;" edge="1" parent="1" source="domain7" target="domain1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="875" y="1360" />
+              <mxPoint x="875" y="1130" />
+              <mxPoint x="790" y="1130" />
+              <mxPoint x="790" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink0" style="edgeStyle=none;rounded=0;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_REPORT" target="STR_PPP_PROJECT">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1090" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink1" style="edgeStyle=none;rounded=0;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=1.0;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_REPORT" target="STR_RELATED_REPORT">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1390" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink2" style="edgeStyle=none;rounded=0;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_RELATED_REPORT" target="STR_RELATED_REPORT_TXN_REF">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink3" style="edgeStyle=none;rounded=0;html=1;strokeColor=#15803D;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.25;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_DEFINITION" target="STR_PERSON">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="350" y="875" />
+              <mxPoint x="250" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink4" style="edgeStyle=none;rounded=0;html=1;strokeColor=#15803D;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.75;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_DEFINITION" target="STR_ENTITY">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="490" y="875" />
+              <mxPoint x="590" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink5" style="edgeStyle=none;rounded=0;html=1;strokeColor=#15803D;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_PERSON" target="STR_EMPLOYER_INFO">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink6" style="edgeStyle=none;rounded=0;html=1;strokeColor=#C76C12;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.25;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_TRANSACTION" target="STR_STARTING_ACTION">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1170" y="885" />
+              <mxPoint x="1070" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink7" style="edgeStyle=none;rounded=0;html=1;strokeColor=#C76C12;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.75;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_TRANSACTION" target="STR_COMPLETING_ACTION">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1310" y="885" />
+              <mxPoint x="1400" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink8" style="edgeStyle=none;rounded=0;html=1;strokeColor=#64748B;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.25;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_API_SUBMISSION" target="STR_SUBMITTED_PAYLOAD">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1990" y="880" />
+              <mxPoint x="1890" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink9" style="edgeStyle=none;rounded=0;html=1;strokeColor=#64748B;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.75;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_API_SUBMISSION" target="STR_VALIDATION_ERROR">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="2130" y="880" />
+              <mxPoint x="2220" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink10" style="edgeStyle=none;rounded=0;html=1;strokeColor=#7C3AED;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_CONDUCTOR" target="STR_ON_BEHALF_OF">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tablelink11" style="edgeStyle=none;rounded=0;html=1;strokeColor=#059669;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="STR_ACCOUNT" target="STR_ACCOUNT_HOLDER">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STR_REPORT" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Le rapport&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#2563EB&quot;&gt;STR_REPORT&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#2563EB;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain0">
+          <mxGeometry as="geometry" x="170" y="90" width="280" height="60" />
+        </mxCell>
+        <mxCell id="STR_PPP_PROJECT" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les projets associés&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#2563EB&quot;&gt;STR_PPP_PROJECT&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#2563EB;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain0">
+          <mxGeometry as="geometry" x="20" y="195" width="280" height="60" />
+        </mxCell>
+        <mxCell id="STR_RELATED_REPORT" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les rapports liés&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#2563EB&quot;&gt;STR_RELATED_REPORT&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#2563EB;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain0">
+          <mxGeometry as="geometry" x="320" y="195" width="280" height="60" />
+        </mxCell>
+        <mxCell id="STR_RELATED_REPORT_TXN_REF" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les opérations liées&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#2563EB&quot;&gt;STR_RELATED_REPORT_TXN_REF&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#2563EB;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain0">
+          <mxGeometry as="geometry" x="320" y="300" width="280" height="60" />
+        </mxCell>
+        <mxCell id="STR_DEFINITION" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Le point de référence&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#15803D&quot;&gt;STR_DEFINITION&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#15803D;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain1">
+          <mxGeometry as="geometry" x="200" y="90" width="280" height="60" />
+        </mxCell>
+        <mxCell id="STR_PERSON" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;La personne&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#15803D&quot;&gt;STR_PERSON&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#15803D;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain1">
+          <mxGeometry as="geometry" x="20" y="200" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_ENTITY" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;L’entité&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#15803D&quot;&gt;STR_ENTITY&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#15803D;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain1">
+          <mxGeometry as="geometry" x="360" y="200" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_EMPLOYER_INFO" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;L’employeur&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#15803D&quot;&gt;STR_EMPLOYER_INFO&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#15803D;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain1">
+          <mxGeometry as="geometry" x="20" y="315" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_TRANSACTION" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;L’opération&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#C76C12&quot;&gt;STR_TRANSACTION&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#C76C12;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain2">
+          <mxGeometry as="geometry" x="200" y="90" width="280" height="60" />
+        </mxCell>
+        <mxCell id="STR_STARTING_ACTION" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;L’action initiale&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#C76C12&quot;&gt;STR_STARTING_ACTION&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#C76C12;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain2">
+          <mxGeometry as="geometry" x="20" y="215" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_COMPLETING_ACTION" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;L’action finale&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#C76C12&quot;&gt;STR_COMPLETING_ACTION&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#C76C12;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain2">
+          <mxGeometry as="geometry" x="350" y="215" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_API_SUBMISSION" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Le suivi de l’envoi&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#64748B&quot;&gt;STR_API_SUBMISSION&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#64748B;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain3">
+          <mxGeometry as="geometry" x="200" y="90" width="280" height="60" />
+        </mxCell>
+        <mxCell id="STR_SUBMITTED_PAYLOAD" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Le contenu transmis&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#64748B&quot;&gt;STR_SUBMITTED_PAYLOAD&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#64748B;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain3">
+          <mxGeometry as="geometry" x="20" y="210" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_VALIDATION_ERROR" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les messages de validation&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#64748B&quot;&gt;STR_VALIDATION_ERROR&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#64748B;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain3">
+          <mxGeometry as="geometry" x="350" y="210" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_AUDIT_EVENT" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Le journal du dossier&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#64748B&quot;&gt;STR_AUDIT_EVENT&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#64748B;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain3">
+          <mxGeometry as="geometry" x="20" y="315" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_ADDRESS" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;L’adresse&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#B7791F&quot;&gt;STR_ADDRESS&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#B7791F;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain4">
+          <mxGeometry as="geometry" x="20" y="95" width="310" height="60" />
+        </mxCell>
+        <mxCell id="STR_IDENTIFICATION" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les pièces d’identité&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#B7791F&quot;&gt;STR_IDENTIFICATION&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#B7791F;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain4">
+          <mxGeometry as="geometry" x="20" y="200" width="310" height="60" />
+        </mxCell>
+        <mxCell id="STR_REGISTRATION_INCORPORATION" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;L’enregistrement&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#0F766E&quot;&gt;STR_REGISTRATION_INCORPORATION&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#0F766E;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain5">
+          <mxGeometry as="geometry" x="20" y="95" width="310" height="60" />
+        </mxCell>
+        <mxCell id="STR_AUTHORIZED_PERSON" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les personnes autorisées&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#0F766E&quot;&gt;STR_AUTHORIZED_PERSON&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#0F766E;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain5">
+          <mxGeometry as="geometry" x="20" y="200" width="310" height="60" />
+        </mxCell>
+        <mxCell id="STR_CONDUCTOR" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;L’exécutant&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#7C3AED&quot;&gt;STR_CONDUCTOR&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#7C3AED;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain7">
+          <mxGeometry as="geometry" x="20" y="100" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_ON_BEHALF_OF" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Le tiers représenté&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#7C3AED&quot;&gt;STR_ON_BEHALF_OF&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#7C3AED;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain7">
+          <mxGeometry as="geometry" x="20" y="205" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_SOURCE_OF_FUNDS" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;La source des fonds&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#7C3AED&quot;&gt;STR_SOURCE_OF_FUNDS&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#7C3AED;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain7">
+          <mxGeometry as="geometry" x="20" y="330" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_INVOLVEMENT" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;La personne impliquée&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#7C3AED&quot;&gt;STR_INVOLVEMENT&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#7C3AED;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain7">
+          <mxGeometry as="geometry" x="350" y="100" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_BENEFICIARY" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Le bénéficiaire de l’opération&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#7C3AED&quot;&gt;STR_BENEFICIARY&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#7C3AED;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain7">
+          <mxGeometry as="geometry" x="350" y="205" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_ACCOUNT" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Le compte&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#059669&quot;&gt;STR_ACCOUNT&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#059669;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain8">
+          <mxGeometry as="geometry" x="20" y="95" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_ACCOUNT_HOLDER" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les titulaires&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#059669&quot;&gt;STR_ACCOUNT_HOLDER&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#059669;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain8">
+          <mxGeometry as="geometry" x="20" y="200" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_VC_DATA" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;La monnaie virtuelle&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#059669&quot;&gt;STR_VC_DATA&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#059669;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain8">
+          <mxGeometry as="geometry" x="350" y="95" width="300" height="60" />
+        </mxCell>
+        <mxCell id="STR_DIRECTOR" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les administrateurs&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#C24153&quot;&gt;STR_DIRECTOR&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#C24153;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain6">
+          <mxGeometry as="geometry" x="20" y="95" width="355" height="60" />
+        </mxCell>
+        <mxCell id="STR_SHARE_OWNER" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les détenteurs d’actions&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#C24153&quot;&gt;STR_SHARE_OWNER&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#C24153;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain6">
+          <mxGeometry as="geometry" x="405" y="95" width="355" height="60" />
+        </mxCell>
+        <mxCell id="STR_TRUSTEE" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les fiduciaires&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#C24153&quot;&gt;STR_TRUSTEE&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#C24153;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain6">
+          <mxGeometry as="geometry" x="20" y="170" width="355" height="60" />
+        </mxCell>
+        <mxCell id="STR_SETTLOR" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les constituants&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#C24153&quot;&gt;STR_SETTLOR&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#C24153;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain6">
+          <mxGeometry as="geometry" x="405" y="170" width="355" height="60" />
+        </mxCell>
+        <mxCell id="STR_TRUST_UNIT_OWNER" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les détenteurs d’unités&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#C24153&quot;&gt;STR_TRUST_UNIT_OWNER&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#C24153;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain6">
+          <mxGeometry as="geometry" x="20" y="245" width="355" height="60" />
+        </mxCell>
+        <mxCell id="STR_TRUST_BENEFICIARY" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les bénéficiaires de fiducie&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#C24153&quot;&gt;STR_TRUST_BENEFICIARY&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#C24153;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain6">
+          <mxGeometry as="geometry" x="405" y="245" width="355" height="60" />
+        </mxCell>
+        <mxCell id="STR_OTHER_ENTITY_OWNER" value="&lt;b style=&quot;font-size:18px;line-height:25px&quot;&gt;Les autres propriétaires&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;line-height:20px;color:#C24153&quot;&gt;STR_OTHER_ENTITY_OWNER&lt;/span&gt;" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;fillColor=#FFFFFF;strokeColor=#C24153;strokeWidth=1;fontFamily=Arial;fontColor=#142B46;" vertex="1" parent="domain6">
+          <mxGeometry as="geometry" x="20" y="320" width="355" height="60" />
+        </mxCell>
+        <mxCell id="reading-note" value="" style="rounded=1;arcSize=5;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="920" y="1660" width="1480" height="345" />
+        </mxCell>
+        <mxCell id="note-title0" value="La fiche et le rôle sont deux choses différentes." style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="945" y="1680" width="1410" height="36" />
+        </mxCell>
+        <mxCell id="note-body0" value="On décrit une personne une fois dans Définitions. Elle peut ensuite avoir plusieurs rôles dans les opérations." style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#506378;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="945" y="1711" width="1410" height="33" />
+        </mxCell>
+        <mxCell id="note-title1" value="Une correction et un nouvel essai d’envoi sont différents." style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="945" y="1759" width="1410" height="36" />
+        </mxCell>
+        <mxCell id="note-body1" value="Le rapport porte la version. Audit conserve les tentatives d’envoi et les réponses reçues." style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#506378;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="945" y="1790" width="1410" height="33" />
+        </mxCell>
+        <mxCell id="note-title2" value="Cette page montre le chemin, pas toutes les clés." style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="945" y="1838" width="1410" height="36" />
+        </mxCell>
+        <mxCell id="note-body2" value="Les flèches entre domaines guident la lecture. Les liens entre tables sont une sélection du modèle." style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#506378;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="945" y="1869" width="1410" height="33" />
+        </mxCell>
+        <mxCell id="note-title3" value="Pour passer au détail" style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#142B46;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="945" y="1917" width="1410" height="36" />
+        </mxCell>
+        <mxCell id="note-body3" value="Page 13 : les PK/FK et les cardinalités. Page 12 : toutes les colonnes. Les 77 relations y sont disponibles." style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#506378;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="945" y="1948" width="1410" height="33" />
+        </mxCell>
+        <mxCell id="foot" value="Lecture : partir du rapport, puis suivre les branches. Le trait violet pointillé rappelle que les rôles réutilisent les fiches." style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#506378;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="2050" width="2340" height="35" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>

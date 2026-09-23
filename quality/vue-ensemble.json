@@ -1,0 +1,13 @@
+{
+  "page_id": "page13",
+  "domains": 9,
+  "tables": 34,
+  "main_domain_links": 9,
+  "selected_table_relations": 12,
+  "all_table_relations_match_model": true,
+  "no_connector_crosses_a_table": true,
+  "canvas": [
+    2480,
+    2120
+  ]
+}
