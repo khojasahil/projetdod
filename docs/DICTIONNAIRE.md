@@ -1,5 +1,7 @@
 # Dictionnaire des 34 tables
 
+**Édition avec référentiels :** ce dictionnaire conserve les 365 colonnes du modèle initial. Le [complément référentiels](REFERENTIELS_CANAFE.md) décrit les 24 colonnes internes ajoutées aux tables métier et les 23 nouvelles tables de référence/version. Le [registre champ → domaine de valeurs](../traceability/reference-fields.csv) indique, pour chaque champ concerné, la liste, la variante, les valeurs permises et la source Swagger.
+
 Ce document sert à construire le modèle. Pour le présenter à des collègues, commencer par le [guide métier](GUIDE_METIER.md).
 
 Les neuf domaines et les noms de tables reprennent le projet précédent. Une ligne de `STR_REPORT` représente une version; tous ses enfants portent le même `str_report_id`. Les règles de saisie et les obligations au moment d’envoyer sont distinguées dans [REGLES.md](REGLES.md).

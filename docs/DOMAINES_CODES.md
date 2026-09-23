@@ -2,6 +2,8 @@
 
 Les domaines sont ceux de la copie Swagger archivée. Ils ne constituent pas des tables supplémentaires.
 
+**Nouvelle édition avec référentiels :** les listes fermées applicables aux champs DOD sont désormais représentées dans un [modèle distinct avec 22 tables de codes et une table de version](REFERENTIELS_CANAFE.md). Le présent document conserve l’inventaire source; toutes les enums ne deviennent pas une FK, notamment les réponses brutes et les branches ouvertes.
+
 ## #/components/schemas/reportTypeCode
 
 [Source, ligne 5616](../source/swaggerExternal.yaml#L5616)

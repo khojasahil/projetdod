@@ -1,0 +1,121 @@
+{
+  "file": "CANAFE_DOD_AVEC_REFERENTIELS.drawio",
+  "pages": 15,
+  "business_tables": 34,
+  "reference_tables": 22,
+  "schema_tables": 1,
+  "total_tables": 57,
+  "original_columns": 365,
+  "added_business_columns": 24,
+  "field_reference_links": 45,
+  "enum_occurrences_classified": 159,
+  "catalog_values": 1223,
+  "old_drawio_sha256": {
+    "CANAFE_DOD.drawio": "9288621ac31c7b640b90d8182e53363db444699c0405d93db4dc42b9af685f41",
+    "CANAFE_DOD_DETAIL.drawio": "e13cdcdfbd74328139070044d16d17e25e336ea6d14c929905d049db15dc0803",
+    "CANAFE_DOD_EDITION_SIMPLE.drawio": "d1dcc5aaa0f196b763b467326969f13fc6cec3fb59871527bc17cf70d656bca1"
+  },
+  "all_original_columns_preserved": true,
+  "all_edges_have_endpoints": true,
+  "pages_without_overlap": [
+    {
+      "id": "ref-intro",
+      "name": "Comprendre les référentiels",
+      "blocks": 6,
+      "edges": 1,
+      "height": 1258
+    },
+    {
+      "id": "ref-version",
+      "name": "Version du Swagger et clés",
+      "blocks": 7,
+      "edges": 2,
+      "height": 1556
+    },
+    {
+      "id": "ref-domain-0",
+      "name": "Rapport — champs et listes",
+      "blocks": 14,
+      "edges": 6,
+      "height": 3807
+    },
+    {
+      "id": "ref-domain-1",
+      "name": "Définitions — champs et listes",
+      "blocks": 12,
+      "edges": 6,
+      "height": 2810
+    },
+    {
+      "id": "ref-domain-2",
+      "name": "Identité — champs et listes",
+      "blocks": 9,
+      "edges": 4,
+      "height": 2107
+    },
+    {
+      "id": "ref-domain-3",
+      "name": "Entité — champs et listes",
+      "blocks": 6,
+      "edges": 2,
+      "height": 1559
+    },
+    {
+      "id": "ref-domain-4",
+      "name": "Bénéficiaires effectifs — champs et listes",
+      "blocks": 8,
+      "edges": 5,
+      "height": 1482
+    },
+    {
+      "id": "ref-domain-5",
+      "name": "Transactions — champs et listes",
+      "blocks": 19,
+      "edges": 10,
+      "height": 4411
+    },
+    {
+      "id": "ref-domain-6",
+      "name": "Rôles — champs et listes",
+      "blocks": 12,
+      "edges": 7,
+      "height": 2774
+    },
+    {
+      "id": "ref-domain-7",
+      "name": "Comptes — champs et listes",
+      "blocks": 10,
+      "edges": 4,
+      "height": 2711
+    },
+    {
+      "id": "ref-catalog-0",
+      "name": "Catalogue des listes · 1",
+      "blocks": 7,
+      "edges": 0,
+      "height": 1789
+    },
+    {
+      "id": "ref-catalog-1",
+      "name": "Catalogue des listes · 2",
+      "blocks": 7,
+      "edges": 0,
+      "height": 1789
+    },
+    {
+      "id": "ref-catalog-2",
+      "name": "Catalogue des listes · 3",
+      "blocks": 7,
+      "edges": 0,
+      "height": 1789
+    },
+    {
+      "id": "ref-catalog-3",
+      "name": "Catalogue des listes · 4",
+      "blocks": 5,
+      "edges": 0,
+      "height": 1266
+    }
+  ],
+  "source_sha256": "78a49aa716180d4b0a3049e76af3ae3b06a188c2bafb789b11d31ddc9edf17f0"
+}

@@ -6,6 +6,16 @@ Le fil conducteur est simple : **on décrit un rapport, les personnes concernée
 
 ## Commencer ici
 
+**[➡️ Nouveau : ouvrir le modèle DOD avec les référentiels CANAFE dans draw.io](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_AVEC_REFERENTIELS.drawio)**
+
+Cette édition distincte conserve les **34 tables métier** et ajoute **22 listes de codes et une table de version du Swagger**, soit **57 tables au total**. Ses **15 pages** expliquent les liens avec les champs, donnent des exemples de valeurs et présentent le modèle complet. Comme dans la version simple, chaque table se modifie dans un seul bloc de texte. Les fichiers précédents sont conservés.
+
+Commencez par la première page pour comprendre l’utilité des listes, puis choisissez un thème : rapport, personnes, identité, transactions, rôles ou comptes. La dernière page rassemble toutes les tables; les liens vers les référentiels s’affichent au besoin dans **Vue > Calques**.
+
+[Guide, dictionnaire des ajouts et listes complètes](docs/REFERENTIELS_CANAFE.md) · [Valeurs et sources — CSV](traceability/reference-values.csv) · [Champs vers leurs listes — CSV](traceability/reference-fields.csv) · [Télécharger le nouveau fichier](diagrams/CANAFE_DOD_AVEC_REFERENTIELS.drawio)
+
+![Un champ contient un code; le référentiel explique sa signification](diagrams/images/referentiels-01-comprendre.png)
+
 **[📖 Comprendre le modèle avec des schémas et des exemples](SCHEMAS_EXPLICATIFS.md)**
 
 Ce guide explique les références de fiches, les six types de définition, les rôles, les adresses, les comptes, la propriété, les versions et les envois. Il reprend l’approche pédagogique de l’ancien projet : **tableaux des champs par typeCode, arbres de décision, exemples de lignes et comparaison des choix de clés**. Les propriétés disponibles sont distinguées des propriétés requises, avec des liens vers le Swagger archivé.
