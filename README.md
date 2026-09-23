@@ -129,6 +129,10 @@ Source : [Swagger CANAFE](https://www148.fintrac-canafe.canada.ca/swagger), copi
 
 Ce dépôt contient un modèle logique et sa documentation, **sans script de création de tables**.
 
+## Étude d’évolution vers les DTV
+
+L’[analyse de faisabilité d’un modèle commun DOD + DTV](docs/ANALYSE_DOD_DTV.md) compare les contrats, les variantes de fiches, les rôles et les comptes. Elle propose un socle partagé avec des extensions par déclaration. **Il s’agit d’une proposition d’évolution; les diagrammes et le dictionnaire livrés restent ceux de la DOD.**
+
 <details>
 <summary>Regénérer les livrables et vérifier leur cohérence</summary>
 
