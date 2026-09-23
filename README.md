@@ -10,6 +10,16 @@ Le fil conducteur est simple : **on décrit un rapport, les personnes concernée
 
 Cette version permet de modifier chaque table dans un seul bloc de texte, avec un champ par ligne.
 
+**[➡️ Vue conseillée pour expliquer les relations — PK et FK seulement](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio#%7B%22pageId%22%3A%22page12%22%7D)**
+
+La **page 13** montre les 34 tables avec leurs clés, sans les autres attributs. La **[page 12 — modèle complet aéré](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio#%7B%22pageId%22%3A%22page11%22%7D)** reprend les 365 colonnes dans la même disposition. Les tables sont réparties en trois parcours : le dossier et les envois, les personnes et les organisations, puis les opérations.
+
+Ces deux vues affichent d’abord les **37 relations métier**. Dans **Vue > Calques**, on peut afficher les **34 liens vers le rapport** et les **6 liens des rôles vers les fiches DEFINITION**. Les 77 relations restent présentes; ce choix évite de superposer tous les traits pendant une présentation. Les onze pages précédentes sont conservées.
+
+[Guide des deux nouvelles vues](docs/EDITION_SIMPLE.md#pages-12-et-13--une-lecture-plus-aérée) · [Aperçu de la vue complète](diagrams/images/12-modele-aere.png)
+
+![Vue des relations avec les clés seulement — ouvrir l’image pour zoomer](diagrams/images/13-relations-pk-fk.png)
+
 **[➡️ Ouvrir la page relationnelle complète — toutes les tables, PK/FK et relations](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio#%7B%22pageId%22%3A%22page10%22%7D)**
 
 La page 11 de la version simple affiche les 34 tables, les 365 colonnes et les 77 connecteurs, y compris entre domaines. [Guide de lecture](docs/EDITION_SIMPLE.md#page-11--les-relations-entre-toutes-les-tables) · [Aperçu](diagrams/images/11-relations-completes.png).
@@ -83,7 +93,7 @@ Cette planche est faite pour être parcourue en zoomant. Les vues métier préc�
 
 ## Reproduire le modèle
 
-- **[Version facile à modifier — CANAFE_DOD_EDITION_SIMPLE.drawio](diagrams/CANAFE_DOD_EDITION_SIMPLE.drawio)** : les dix pages du modèle et une page relationnelle complète, avec une seule forme et un texte multiligne par table. Un champ par ligne; les notes sont aussi des blocs uniques. [Mode d’emploi](docs/EDITION_SIMPLE.md).
+- **[Version facile à modifier — CANAFE_DOD_EDITION_SIMPLE.drawio](diagrams/CANAFE_DOD_EDITION_SIMPLE.drawio)** : treize pages, dont une vue complète aérée et une vue limitée aux clés. Une seule forme et un texte multiligne par table. Un champ par ligne; les notes sont aussi des blocs uniques. [Mode d’emploi](docs/EDITION_SIMPLE.md).
 - [Guide draw.io](docs/GUIDE_DRAWIO.md) : ouvrir, modifier ou redessiner les vues.
 - [Fichier principal — neuf vues métier et une vue complète](diagrams/CANAFE_DOD.drawio).
 - [Annexe draw.io — les 34 tables avec toutes leurs colonnes](diagrams/CANAFE_DOD_DETAIL.drawio).

@@ -77,8 +77,39 @@
       7100
     ]
   },
-  "total_pages": 11,
+  "total_pages": 13,
   "all_365_columns_and_77_references_preserved": true,
   "one_editable_shape_per_table": true,
-  "connectors_preserved": true
+  "connectors_preserved": true,
+  "readable_pages": [
+    {
+      "page_id": "page11",
+      "tables": 34,
+      "columns": 365,
+      "connectors": 77,
+      "visible_connectors": 37,
+      "report_links_in_optional_layer": 34,
+      "role_links_in_optional_layer": 6,
+      "no_connector_crosses_a_table": true,
+      "canvas": [
+        4000,
+        8017
+      ]
+    },
+    {
+      "page_id": "page12",
+      "tables": 34,
+      "columns": 119,
+      "connectors": 77,
+      "visible_connectors": 37,
+      "report_links_in_optional_layer": 34,
+      "role_links_in_optional_layer": 6,
+      "no_connector_crosses_a_table": true,
+      "canvas": [
+        3080,
+        6029
+      ]
+    }
+  ],
+  "first_11_pages_preserved": true
 }

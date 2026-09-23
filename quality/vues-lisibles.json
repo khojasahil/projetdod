@@ -1,0 +1,30 @@
+[
+  {
+    "page_id": "page11",
+    "tables": 34,
+    "columns": 365,
+    "connectors": 77,
+    "visible_connectors": 37,
+    "report_links_in_optional_layer": 34,
+    "role_links_in_optional_layer": 6,
+    "no_connector_crosses_a_table": true,
+    "canvas": [
+      4000,
+      8017
+    ]
+  },
+  {
+    "page_id": "page12",
+    "tables": 34,
+    "columns": 119,
+    "connectors": 77,
+    "visible_connectors": 37,
+    "report_links_in_optional_layer": 34,
+    "role_links_in_optional_layer": 6,
+    "no_connector_crosses_a_table": true,
+    "canvas": [
+      3080,
+      6029
+    ]
+  }
+]

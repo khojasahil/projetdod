@@ -2,7 +2,7 @@
 
 [Ouvrir CANAFE_DOD_EDITION_SIMPLE.drawio](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio)
 
-Ce second fichier reprend les dix pages du modèle et ajoute une onzième page relationnelle. Les couleurs des domaines, les notes et les connecteurs sont conservés. Le fichier original **CANAFE_DOD.drawio est conservé sans modification**.
+Ce second fichier contient treize pages : les dix pages du modèle, la page relationnelle initiale et deux nouvelles vues plus aérées. Les couleurs des domaines, les notes et les connecteurs sont conservés. Le fichier original **CANAFE_DOD.drawio est conservé sans modification**.
 
 ## Ce qui change pour vous
 
@@ -37,6 +37,20 @@ Les références de rôles vers DEFINITION utilisent la clé unique composite `(
 [Voir l’aperçu PNG](../diagrams/images/11-relations-completes.png). L’image montre le parcours des liens; les symboles de cardinalité ER sont affichés dans le fichier draw.io.
 
 Les modifications faites dans votre copie draw.io ne changent pas automatiquement le dictionnaire ni le catalogue du dépôt. Si une colonne ou une relation change réellement dans le modèle, mettre aussi à jour sa documentation.
+
+## Pages 12 et 13 — une lecture plus aérée
+
+La [page 12 — modèle complet aéré](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio#%7B%22pageId%22%3A%22page11%22%7D) contient toutes les colonnes. La [page 13 — PK et FK seulement](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio#%7B%22pageId%22%3A%22page12%22%7D) retire les attributs descriptifs pour concentrer la lecture sur les relations. La disposition et les couleurs restent les mêmes entre ces deux pages.
+
+Pour présenter le modèle, commencez par le dossier et les envois, puis les personnes et les organisations. Terminez par une opération, ses actions, ses rôles et ses comptes. Les neuf domaines sont toujours indiqués dans les en-têtes des tables; les trois sections sont seulement un ordre de lecture.
+
+Les **37 relations métier** sont visibles à l’ouverture. Les **34 liens vers STR_REPORT** et les **6 références des rôles et titulaires de compte vers STR_DEFINITION** sont conservés dans deux calques masqués au départ. Pour les voir, ouvrez **Vue > Calques**, puis activez l’œil du calque souhaité. Cette présentation ne change aucune relation ni règle du modèle.
+
+Le champ `str_report_id` reste visible dans toutes les tables, même quand son connecteur est masqué. Sur la page des clés, les composants de la clé unique référencée de `STR_DEFINITION` sont aussi présents : `(str_report_id, type_code, ref_id)`. Le repère **UK*** concerne cet ensemble, jamais une colonne seule. Un trait composite est attaché à une de ses lignes; le [registre R01 à R77](RELATIONS_PAGE11.md) donne la clé complète.
+
+Chaque table reste une seule forme éditable. Les clés sont placées en tête et portent les repères PK/FK; la page complète conserve ensuite tous les autres attributs et leurs types. Les traits évitent les tables. La vue d’ensemble sert à se repérer, puis le zoom permet de lire les champs. Les vues métier des premières pages restent utiles pour projeter un sujet à la fois.
+
+[Aperçu complet](../diagrams/images/12-modele-aere.png) · [Aperçu PK/FK](../diagrams/images/13-relations-pk-fk.png). Ces images reproduisent l’état initial avec les 37 liens visibles. Les cardinalités y sont écrites; draw.io utilise les symboles ER aux extrémités des connecteurs.
 
 ## Vérifications
 
