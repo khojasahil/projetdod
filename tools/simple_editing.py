@@ -97,9 +97,11 @@ def main():
     readable_stats=add_pages(doc)
     from overview_page import add_overview
     overview_stats=add_overview(doc)
+    from explanation_page import add_explanation
+    explanation_stats=add_explanation(doc)
     ET.indent(doc);doc.write(TARGET,encoding='utf-8',xml_declaration=False)
     assert hashlib.sha256(SOURCE.read_bytes()).hexdigest()==before
-    results={'original_unchanged':True,'original_sha256':before,'file':TARGET.name,'pages':stats,'relational_page':relational_stats,'readable_pages':readable_stats,'overview_page':overview_stats,'total_pages':14,'all_365_columns_and_77_references_preserved':True,'one_editable_shape_per_table':True,'connectors_preserved':True}
+    results={'original_unchanged':True,'original_sha256':before,'file':TARGET.name,'pages':stats,'relational_page':relational_stats,'readable_pages':readable_stats,'overview_page':overview_stats,'explanation_page':explanation_stats,'total_pages':15,'all_365_columns_and_77_references_preserved':True,'one_editable_shape_per_table':True,'connectors_preserved':True}
     (ROOT/'quality/edition-simple.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(results,ensure_ascii=True,indent=2))
 

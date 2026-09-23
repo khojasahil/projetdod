@@ -77,7 +77,7 @@
       7100
     ]
   },
-  "total_pages": 14,
+  "total_pages": 15,
   "all_365_columns_and_77_references_preserved": true,
   "one_editable_shape_per_table": true,
   "connectors_preserved": true,
@@ -125,5 +125,18 @@
       2120
     ]
   },
-  "first_13_pages_preserved": true
+  "first_13_pages_preserved": true,
+  "explanation_page": {
+    "page_id": "page14",
+    "teaching_panels": 4,
+    "example_cards": 16,
+    "teaching_connectors": 12,
+    "model_fields_checked": true,
+    "no_connector_crosses_a_card": true,
+    "canvas": [
+      2480,
+      1950
+    ]
+  },
+  "first_14_pages_preserved": true
 }

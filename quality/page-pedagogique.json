@@ -1,0 +1,12 @@
+{
+  "page_id": "page14",
+  "teaching_panels": 4,
+  "example_cards": 16,
+  "teaching_connectors": 12,
+  "model_fields_checked": true,
+  "no_connector_crosses_a_card": true,
+  "canvas": [
+    2480,
+    1950
+  ]
+}

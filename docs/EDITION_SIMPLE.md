@@ -2,7 +2,7 @@
 
 [Ouvrir CANAFE_DOD_EDITION_SIMPLE.drawio](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio)
 
-Ce second fichier contient quatorze pages : les dix pages du modèle, la page relationnelle initiale, deux vues plus aérées et une carte de haut niveau regroupée par domaine. Les couleurs des domaines, les notes et les connecteurs sont conservés. Le fichier original **CANAFE_DOD.drawio est conservé sans modification**.
+Ce second fichier contient quinze pages : les dix pages du modèle, la page relationnelle initiale, deux vues plus aérées, une carte de haut niveau regroupée par domaine et une page pédagogique. Les couleurs des domaines, les notes et les connecteurs sont conservés. Le fichier original **CANAFE_DOD.drawio est conservé sans modification**.
 
 ## Ce qui change pour vous
 
@@ -61,6 +61,16 @@ Commencez par le rapport, puis suivez ses trois branches : les personnes décrit
 Les **neuf flèches entre domaines** sont des liens de lecture métier, sans cardinalité. Les **douze flèches entre tables** sont une sélection de relations vérifiées dans le modèle. Cette vue ne prétend pas montrer les 77 relations ni remplacer la page des PK/FK. Les domaines sont des conteneurs : déplacer le cadre entraîne ses tables.
 
 [Voir l’aperçu de la carte](../diagrams/images/14-vue-ensemble.png). La disposition s’inspire de la [carte des domaines de l’ancien projet](https://github.com/khojasahil/projet-io/blob/main/SCHEMAS_EXPLICATIFS.md#1-vue-densemble--carte-des-domaines), avec les tables et les relations du catalogue actuel.
+
+## Page 15 — comprendre les liens avec des exemples
+
+La [page 15 — Comprendre les liens : quatre exemples](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio#%7B%22pageId%22%3A%22page14%22%7D) est un support d’explication, avec des extraits fictifs. Ses quatre panneaux montrent comment réutiliser une fiche dans deux rôles compatibles, suivre une opération, choisir l’action d’un compte et distinguer une version d’un appel.
+
+Les cartes sont des exemples, pas de nouvelles tables. Les flèches servent à lire l’histoire : « cite la fiche », « appartient à l’opération », « choisit une action » ou « conserve un appel ». Les détails de clés et de cardinalités restent dans les pages du modèle. Les quatorze pages précédentes sont conservées.
+
+Le [guide illustré SCHEMAS_EXPLICATIFS.md](../SCHEMAS_EXPLICATIFS.md) complète cette page avec les six types de définition, les adresses, les listes de propriété et la traçabilité des colonnes vers le Swagger. Il explique aussi les différences de clés avec l’ancien projet.
+
+[Voir l’image de la page pédagogique](../diagrams/images/15-comprendre-les-liens.png).
 
 ## Vérifications
 
