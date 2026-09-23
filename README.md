@@ -8,7 +8,7 @@ Le fil conducteur est simple : **on décrit un rapport, les personnes concernée
 
 **[📖 Comprendre le modèle avec des schémas et des exemples](SCHEMAS_EXPLICATIFS.md)**
 
-Ce guide explique les références de fiches, les six types de définition, les rôles, les adresses, les comptes, la propriété, les versions et les envois. Il reprend l’approche pédagogique de l’ancien projet et précise les choix du modèle actuel.
+Ce guide explique les références de fiches, les six types de définition, les rôles, les adresses, les comptes, la propriété, les versions et les envois. Il reprend l’approche pédagogique de l’ancien projet : **tableaux des champs par typeCode, arbres de décision, exemples de lignes et comparaison des choix de clés**. Les propriétés disponibles sont distinguées des propriétés requises, avec des liens vers le Swagger archivé.
 
 **[➡️ Ouvrir la page pédagogique dans draw.io — quatre exemples](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio#%7B%22pageId%22%3A%22page14%22%7D)**
 
