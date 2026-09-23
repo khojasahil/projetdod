@@ -1,0 +1,13 @@
+{
+  "page_id": "page10",
+  "tables": 34,
+  "columns": 365,
+  "connectors": 77,
+  "all_relations_visible": true,
+  "one_shape_per_table": true,
+  "no_connector_crosses_a_table": true,
+  "canvas": [
+    8700,
+    7100
+  ]
+}

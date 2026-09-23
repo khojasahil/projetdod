@@ -10,6 +10,10 @@ Le fil conducteur est simple : **on décrit un rapport, les personnes concernée
 
 Cette version permet de modifier chaque table dans un seul bloc de texte, avec un champ par ligne.
 
+**[➡️ Ouvrir la page relationnelle complète — toutes les tables, PK/FK et relations](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio#%7B%22pageId%22%3A%22page10%22%7D)**
+
+La page 11 de la version simple affiche les 34 tables, les 365 colonnes et les 77 connecteurs, y compris entre domaines. [Guide de lecture](docs/EDITION_SIMPLE.md#page-11--les-relations-entre-toutes-les-tables) · [Aperçu](diagrams/images/11-relations-completes.png).
+
 1. Parcourir les images ci-dessous pour retrouver l’architecture déjà présentée.
 2. Lire le [guide métier](docs/GUIDE_METIER.md) : une question, une explication et un exemple par domaine.
 3. Utiliser les [notes de présentation](docs/PRESENTER_AUX_COLLEGUES.md) pour préparer une réunion d’une dizaine de minutes.
@@ -79,7 +83,7 @@ Cette planche est faite pour être parcourue en zoomant. Les vues métier préc�
 
 ## Reproduire le modèle
 
-- **[Version facile à modifier — CANAFE_DOD_EDITION_SIMPLE.drawio](diagrams/CANAFE_DOD_EDITION_SIMPLE.drawio)** : les mêmes dix pages, avec une seule forme et un texte multiligne par table. Un champ par ligne; les notes sont aussi des blocs uniques. [Mode d’emploi](docs/EDITION_SIMPLE.md).
+- **[Version facile à modifier — CANAFE_DOD_EDITION_SIMPLE.drawio](diagrams/CANAFE_DOD_EDITION_SIMPLE.drawio)** : les dix pages du modèle et une page relationnelle complète, avec une seule forme et un texte multiligne par table. Un champ par ligne; les notes sont aussi des blocs uniques. [Mode d’emploi](docs/EDITION_SIMPLE.md).
 - [Guide draw.io](docs/GUIDE_DRAWIO.md) : ouvrir, modifier ou redessiner les vues.
 - [Fichier principal — neuf vues métier et une vue complète](diagrams/CANAFE_DOD.drawio).
 - [Annexe draw.io — les 34 tables avec toutes leurs colonnes](diagrams/CANAFE_DOD_DETAIL.drawio).

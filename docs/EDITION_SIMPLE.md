@@ -2,7 +2,7 @@
 
 [Ouvrir CANAFE_DOD_EDITION_SIMPLE.drawio](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio)
 
-Ce second fichier reprend les dix pages du modèle, les couleurs des domaines, les notes et les connecteurs. Le fichier original **CANAFE_DOD.drawio est conservé sans modification**.
+Ce second fichier reprend les dix pages du modèle et ajoute une onzième page relationnelle. Les couleurs des domaines, les notes et les connecteurs sont conservés. Le fichier original **CANAFE_DOD.drawio est conservé sans modification**.
 
 ## Ce qui change pour vous
 
@@ -20,7 +20,21 @@ Les contours colorés reprennent la couleur du domaine. Les tables conservent le
 
 Pour déplacer la table, cliquer une fois sur son contour et la faire glisser. Son contenu suit, ainsi que les connecteurs. Pour modifier une note, double-cliquer dans son rectangle.
 
-Le dernier onglet conserve les **34 tables, les 365 colonnes et les 77 références** sur une même page. Zoomer sur le domaine à modifier.
+Le dixième onglet conserve les **34 tables, les 365 colonnes et les 77 références** sur une même page. Zoomer sur le domaine à modifier.
+
+## Page 11 — les relations entre toutes les tables
+
+[Ouvrir directement la page relationnelle](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio#%7B%22pageId%22%3A%22page10%22%7D)
+
+L’onglet **« Relations complètes — PK, FK et cardinalités »** montre les 34 tables et leurs 365 colonnes avec les **77 connecteurs réels**, y compris les liens entre domaines. Les repères PK et FK identifient les clés. Chaque trait part de la clé du parent et arrive sur la clé étrangère correspondante de l’enfant.
+
+Les symboles aux extrémités se lisent ainsi : côté parent, une ligne enfant a un parent requis (1) ou facultatif (0..1); côté enfant, un parent peut avoir zéro ou une ligne (0..1), ou plusieurs lignes (0..N). Le numéro R01 à R77 permet de retrouver la clé complète dans le [registre de cette page](RELATIONS_PAGE11.md), notamment lorsqu’elle contient plusieurs colonnes.
+
+Les liens bleus pointillés rattachent chaque table à la version du rapport. Les autres liens reprennent la couleur du domaine parent. Tous sont visibles à l’ouverture. Le panneau des calques permet de masquer temporairement « Liens vers la version du rapport » si vous voulez suivre plus facilement les relations métier. Les tables restent des blocs de texte uniques et modifiables.
+
+Les références de rôles vers DEFINITION utilisent la clé unique composite `(str_report_id, type_code, ref_id)`. Le trait est attaché à une ligne de cette clé; il ne signifie pas que `type_code` est unique à lui seul. Les autres références à des sous-objets sont également contrôlées dans la même version du rapport. Les règles d’exclusivité des comptes et les obligations avant envoi restent celles du dictionnaire.
+
+[Voir l’aperçu PNG](../diagrams/images/11-relations-completes.png). L’image montre le parcours des liens; les symboles de cardinalité ER sont affichés dans le fichier draw.io.
 
 Les modifications faites dans votre copie draw.io ne changent pas automatiquement le dictionnaire ni le catalogue du dépôt. Si une colonne ou une relation change réellement dans le modèle, mettre aussi à jour sa documentation.
 

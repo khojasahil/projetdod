@@ -91,9 +91,11 @@ def main():
     for r in model['relationships']:
         value=html.unescape(full[r['child']].get('value'))
         assert r['foreign_key']+' → '+r['parent'].removeprefix('STR_')+'.'+r['parent_key']+' | '+r['cardinality'] in value
+    from relational_page import add_page
+    relational_stats=add_page(doc)
     ET.indent(doc);doc.write(TARGET,encoding='utf-8',xml_declaration=False)
     assert hashlib.sha256(SOURCE.read_bytes()).hexdigest()==before
-    results={'original_unchanged':True,'original_sha256':before,'file':TARGET.name,'pages':stats,'all_365_columns_and_77_references_preserved':True,'one_editable_shape_per_table':True,'connectors_preserved':True}
+    results={'original_unchanged':True,'original_sha256':before,'file':TARGET.name,'pages':stats,'relational_page':relational_stats,'total_pages':11,'all_365_columns_and_77_references_preserved':True,'one_editable_shape_per_table':True,'connectors_preserved':True}
     (ROOT/'quality/edition-simple.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(results,ensure_ascii=True,indent=2))
 

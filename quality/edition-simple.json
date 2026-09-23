@@ -64,6 +64,20 @@
       "objects_after": 98
     }
   ],
+  "relational_page": {
+    "page_id": "page10",
+    "tables": 34,
+    "columns": 365,
+    "connectors": 77,
+    "all_relations_visible": true,
+    "one_shape_per_table": true,
+    "no_connector_crosses_a_table": true,
+    "canvas": [
+      8700,
+      7100
+    ]
+  },
+  "total_pages": 11,
   "all_365_columns_and_77_references_preserved": true,
   "one_editable_shape_per_table": true,
   "connectors_preserved": true
