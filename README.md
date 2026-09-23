@@ -6,6 +6,10 @@ Le fil conducteur est simple : **on décrit un rapport, les personnes concernée
 
 ## Commencer ici
 
+**[➡️ Ouvrir la version simple directement dans draw.io](https://app.diagrams.net/?splash=0#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fkhojasahil%2Fprojetdod%2Fmain%2Fdiagrams%2FCANAFE_DOD_EDITION_SIMPLE.drawio)**
+
+Cette version permet de modifier chaque table dans un seul bloc de texte, avec un champ par ligne.
+
 1. Parcourir les images ci-dessous pour retrouver l’architecture déjà présentée.
 2. Lire le [guide métier](docs/GUIDE_METIER.md) : une question, une explication et un exemple par domaine.
 3. Utiliser les [notes de présentation](docs/PRESENTER_AUX_COLLEGUES.md) pour préparer une réunion d’une dizaine de minutes.
